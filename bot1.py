@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-بوت أسئلة شامل - نسخة نهائية تعمل على Render عبر Webhook مع مسار /health
-يتطلب تثبيت aiohttp (أضفها إلى requirements.txt)
-"""
 
 import os
 import re
@@ -25,7 +21,6 @@ from telegram.ext import (
     MessageHandler,
     filters,
     ConversationHandler,
-    WebhookServer,
 )
 from telegram.constants import ParseMode
 
@@ -1259,7 +1254,7 @@ async def admin_import_json(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # ======================== دوال التشغيل ========================
 async def run_webhook_async(application):
-    """تشغيل البوت باستخدام webhook مع خادم aiohttp مخصص"""
+    """تشغيل البوت باستخدام webhook مع خادم aiohttp مخصص وتهيئة يدوية"""
     WEBHOOK_URL = os.getenv("WEBHOOK_URL")
     if not WEBHOOK_URL:
         logger.error("WEBHOOK_URL غير معرف في متغيرات البيئة.")
@@ -1271,25 +1266,42 @@ async def run_webhook_async(application):
         logger.error("مكتبة aiohttp غير مثبتة. الرجاء إضافتها إلى requirements.txt")
         return
 
-    # إضافة مسار الصحة
+    # تهيئة التطبيق يدوياً
+    await application.initialize()
+    await application.start()
+
+    # تعريف معالج webhook
+    async def telegram_webhook(request):
+        try:
+            data = await request.json()
+            await application.process_update(data)
+            return web.Response(text="OK", status=200)
+        except Exception as e:
+            logger.error(f"خطأ في معالجة webhook: {e}")
+            return web.Response(text="Error", status=500)
+
     async def health_check(request):
         return web.Response(text="OK", status=200)
 
+    # إنشاء تطبيق aiohttp
     app_web = web.Application()
     app_web.router.add_get("/health", health_check)
+    app_web.router.add_post(f"/{TOKEN}", telegram_webhook)
 
-    # إنشاء خادم webhook مع تمرير التطبيق المخصص
-    webhook_server = WebhookServer(
-        app=app_web,
-        listen="0.0.0.0",
-        port=int(os.getenv("PORT", 10000)),
-        url_path=TOKEN,
-        webhook_url=WEBHOOK_URL,
-    )
+    # تشغيل الخادم
+    runner = web.AppRunner(app_web)
+    await runner.setup()
+    port = int(os.getenv("PORT", 10000))
+    site = web.TCPSite(runner, "0.0.0.0", port)
+    await site.start()
+    logger.info(f"خادم webhook يعمل على المنفذ {port}")
 
-    logger.info(f"تشغيل خادم webhook على المنفذ {os.getenv('PORT', 10000)}")
-    # run_webhook ستقوم بتهيئة التطبيق وبدء الخادم
-    await application.run_webhook(webhook_server=webhook_server)
+    # تعيين webhook في Telegram
+    await application.bot.set_webhook(f"{WEBHOOK_URL}/{TOKEN}")
+    logger.info(f"تم تعيين webhook إلى {WEBHOOK_URL}/{TOKEN}")
+
+    # الانتظار إلى الأبد
+    await asyncio.Event().wait()
 
 def main():
     # تهيئة قاعدة البيانات والتحميل الأولي
