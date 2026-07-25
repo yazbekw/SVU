@@ -473,7 +473,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     loader = context.bot_data['loader']
     get_user_state(user_id, loader)
     await update.message.reply_text(
-        f"👋 أهلاً بك في بوت الأسئلة الشامل!\nعدد الأسئلة: {len(loader.get_all())}\nاستخدم الأزرار للتنقل.",
+        f" أهلاً بك في بنك الأسئلة الخاص باختبار اللغة الانكليزية الشامل!\nعدد الأسئلة: {len(loader.get_all())}\nاستخدم الأزرار للتنقل.",
         reply_markup=build_main_menu()
     )
 
