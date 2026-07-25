@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 
+"""
+
 import os
 import re
 import json
@@ -404,6 +406,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         parse_mode=ParseMode.HTML,
         reply_markup=build_main_menu(user_id)
     )
+    logger.info(f"تم الرد على /start من المستخدم {user_id}")
 
 async def menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
@@ -1254,7 +1257,7 @@ async def admin_import_json(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # ======================== دوال التشغيل ========================
 async def run_webhook_async(application):
-    """تشغيل البوت باستخدام webhook مع خادم aiohttp مخصص وتهيئة يدوية"""
+    """تشغيل البوت باستخدام webhook مع خادم aiohttp مخصص مع تهيئة صحيحة"""
     WEBHOOK_URL = os.getenv("WEBHOOK_URL")
     if not WEBHOOK_URL:
         logger.error("WEBHOOK_URL غير معرف في متغيرات البيئة.")
@@ -1267,24 +1270,36 @@ async def run_webhook_async(application):
         return
 
     # تهيئة التطبيق يدوياً
+    logger.info("جاري تهيئة التطبيق...")
     await application.initialize()
     await application.start()
+    logger.info("تم تهيئة التطبيق بنجاح")
 
     # تعريف معالج webhook
     async def telegram_webhook(request):
         try:
             data = await request.json()
+            # التأكد من وجود التحديث
+            if not data:
+                logger.warning("بيانات فارغة مستلمة")
+                return web.Response(text="Empty data", status=400)
+            
+            logger.info(f"استلام تحديث: {data.get('update_id', 'unknown')}")
             await application.process_update(data)
             return web.Response(text="OK", status=200)
         except Exception as e:
-            logger.error(f"خطأ في معالجة webhook: {e}")
-            return web.Response(text="Error", status=500)
+            logger.error(f"خطأ في معالجة webhook: {e}", exc_info=True)
+            return web.Response(text=f"Error: {str(e)}", status=500)
 
     async def health_check(request):
         return web.Response(text="OK", status=200)
 
+    async def root_handler(request):
+        return web.Response(text="Bot is running 🚀", status=200)
+
     # إنشاء تطبيق aiohttp
     app_web = web.Application()
+    app_web.router.add_get("/", root_handler)
     app_web.router.add_get("/health", health_check)
     app_web.router.add_post(f"/{TOKEN}", telegram_webhook)
 
@@ -1297,8 +1312,13 @@ async def run_webhook_async(application):
     logger.info(f"خادم webhook يعمل على المنفذ {port}")
 
     # تعيين webhook في Telegram
-    await application.bot.set_webhook(f"{WEBHOOK_URL}/{TOKEN}")
-    logger.info(f"تم تعيين webhook إلى {WEBHOOK_URL}/{TOKEN}")
+    webhook_url = f"{WEBHOOK_URL}/{TOKEN}"
+    await application.bot.set_webhook(webhook_url)
+    logger.info(f"تم تعيين webhook إلى {webhook_url}")
+
+    # التحقق من webhook
+    webhook_info = await application.bot.get_webhook_info()
+    logger.info(f"معلومات webhook: {webhook_info}")
 
     # الانتظار إلى الأبد
     await asyncio.Event().wait()
