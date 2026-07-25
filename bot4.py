@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-بوت أسئلة شامل - حل نهائي لمشكلة اختبار مخصص باستخدام حالة بسيطة في context.user_data
+بوت أسئلة شامل - حل نهائي يعمل مع اختبار مخصص وأزرار تفاعلية
 """
 
 import os
@@ -292,6 +292,7 @@ def build_back_button():
     return InlineKeyboardMarkup([[InlineKeyboardButton("🔙 رجوع للقائمة", callback_data="menu")]])
 
 def build_question_keyboard(qid, idx, total, state, time_left=None):
+    """أزرار التنقل والإضافية (بدون أزرار الخيارات)"""
     buttons = []
     nav = []
     if idx > 0:
@@ -312,6 +313,7 @@ def build_question_keyboard(qid, idx, total, state, time_left=None):
     return InlineKeyboardMarkup(buttons)
 
 def build_option_buttons(q, state):
+    """إنشاء أزرار الخيارات مع حالة الإجابة"""
     qid, question, options, answer, explanation, category = q
     buttons = []
     ans = state.get('answers', {})
@@ -325,11 +327,13 @@ def build_option_buttons(q, state):
                 text = "✅ " + text
             elif i == selected:
                 text = "❌ " + text
+        # المفتاح: نحن نستخدم "ans_" متبوعة بـ qid ثم _ ثم i
         callback = f"ans_{qid}_{i}" if not answered else "noop"
         buttons.append([InlineKeyboardButton(text, callback_data=callback)])
     return InlineKeyboardMarkup(buttons)
 
 def format_question_header(q, idx, total, time_left=None):
+    """تنسيق رأس السؤال مع الوقت المتبقي"""
     qid, question, options, answer, explanation, category = q
     cat = escape_html(category or "غير مصنف")
     q_text = escape_html(question)
@@ -403,7 +407,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         parse_mode=ParseMode.HTML
     )
 
-# ======================== اختبار مخصص (باستخدام حالة بسيطة) ========================
+# ======================== اختبار مخصص ========================
 async def custom_quiz_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """طلب عدد الأسئلة والمدة من المستخدم"""
     query = update.callback_query
@@ -416,10 +420,10 @@ async def custom_quiz_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "مثال: <code>10 5</code> (يعني 10 أسئلة و 5 دقائق)\n\n"
         "ملاحظة: سيتم اختيار الأسئلة من الأسئلة التي لم تجب عليها مسبقاً.",
         parse_mode=ParseMode.HTML
-    )بل ننتظر الرسالة النصية
+    )
 
 async def handle_quiz_input(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """معالجة إدخال المستخدم للاختبار المخصص - إرسال السؤال الأول باستخدام update.message"""
+    """معالجة إدخال المستخدم للاختبار المخصص"""
     if not context.user_data.get('awaiting_custom_quiz'):
         return
     
@@ -461,7 +465,6 @@ async def handle_quiz_input(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(f"⚠️ العدد المطلوب أكبر من المتاح، سيتم استخدام {count} سؤال.")
     
     selected_qids = random.sample(available_qids, count)
-    selected_questions = [get_question_by_id(qid) for qid in selected_qids]
     
     # تجهيز حالة المستخدم
     state = get_user_state(user_id)
@@ -488,10 +491,9 @@ async def handle_quiz_input(update: Update, context: ContextTypes.DEFAULT_TYPE):
         parse_mode=ParseMode.HTML
     )
     
-    # عرض السؤال الأول باستخدام update.message.reply_text (نفس السياق)
-    # نمرر user_id إلى show_current_question التي ستتعامل مع update المناسب
+    # عرض السؤال الأول
     await show_current_question(update, context, user_id)
-    
+
 # ======================== وظائف الاختبار ========================
 async def start_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE, mode='normal'):
     query = update.callback_query
@@ -563,14 +565,12 @@ async def show_current_question(update: Update, context: ContextTypes.DEFAULT_TY
     
     try:
         if update.callback_query:
-            # تعديل الرسالة الحالية (من زر)
             await update.callback_query.edit_message_text(
                 header_text,
                 parse_mode=ParseMode.HTML,
                 reply_markup=combined_keyboard
             )
         else:
-            # إرسال رسالة جديدة (من أمر /start أو اختبار مخصص)
             await update.message.reply_text(
                 header_text,
                 parse_mode=ParseMode.HTML,
@@ -592,14 +592,6 @@ async def show_current_question(update: Update, context: ContextTypes.DEFAULT_TY
                 reply_markup=combined_keyboard
             )
 
-async def back_from_explain(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """العودة من عرض الشرح إلى السؤال"""
-    query = update.callback_query
-    await query.answer()
-    user_id = query.from_user.id
-    # نمرر نفس update (وهو callback_query) إلى show_current_question
-    await show_current_question(update, context, user_id)
-    
 async def send_quiz_complete(update, context, user_id):
     state = get_user_state(user_id)
     total = len(state['current_ids'])
@@ -630,31 +622,54 @@ async def send_quiz_complete(update, context, user_id):
             reply_markup=build_main_menu(user_id)
         )
 
+# ======================== معالجات الأزرار ========================
 async def answer_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """معالجة اختيار إجابة من المستخدم"""
     query = update.callback_query
     await query.answer()
     user_id = query.from_user.id
     data = query.data
-    if data.startswith("ans_"):
-        _, qid_str, opt_str = data.split("_")
-        qid = int(qid_str)
-        opt = int(opt_str)
-        state = get_user_state(user_id)
-        if qid not in state['current_ids']:
-            await query.answer("السؤال ليس في القائمة الحالية!")
+    
+    if not data.startswith("ans_"):
+        return
+    
+    try:
+        # استخراج qid و opt من البيانات
+        parts = data.split("_")
+        if len(parts) != 3:
+            logger.error(f"بيانات غير صحيحة: {data}")
             return
-        q = get_question_by_id(qid)
-        if not q:
-            await query.answer("السؤال غير موجود!")
-            return
-        if str(qid) in state.get('answers', {}):
-            await query.answer("لقد أجبت بالفعل!")
-            return
-        correct = (opt == q[3])
-        state['answers'][str(qid)] = opt
-        log_answer(user_id, qid, correct)
-        save_user_state(user_id, state)
-        await show_current_question(update, context, user_id)
+        qid = int(parts[1])
+        opt = int(parts[2])
+    except (ValueError, IndexError) as e:
+        logger.error(f"خطأ في تحليل البيانات: {e}")
+        return
+    
+    state = get_user_state(user_id)
+    
+    # التحقق من أن السؤال في القائمة الحالية
+    if qid not in state['current_ids']:
+        await query.answer("السؤال ليس في القائمة الحالية!")
+        return
+    
+    q = get_question_by_id(qid)
+    if not q:
+        await query.answer("السؤال غير موجود!")
+        return
+    
+    # التحقق من عدم الإجابة مسبقاً
+    if str(qid) in state.get('answers', {}):
+        await query.answer("لقد أجبت بالفعل!")
+        return
+    
+    # تسجيل الإجابة
+    correct = (opt == q[3])
+    state['answers'][str(qid)] = opt
+    log_answer(user_id, qid, correct)
+    save_user_state(user_id, state)
+    
+    # إعادة عرض السؤال مع الإجابة المحددة
+    await show_current_question(update, context, user_id)
 
 async def nav_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
@@ -696,9 +711,11 @@ async def explain_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
             )
 
 async def back_from_explain(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """العودة من عرض الشرح إلى السؤال"""
     query = update.callback_query
     await query.answer()
     user_id = query.from_user.id
+    # نمرر نفس update (وهو callback_query) إلى show_current_question
     await show_current_question(update, context, user_id)
 
 async def bookmark_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -1397,7 +1414,7 @@ def main():
     application.add_handler(CommandHandler("list_questions", list_questions_command))
     application.add_handler(CommandHandler("stats", lambda u, c: stats(u, c)))
 
-    # اختبار مخصص - باستخدام معالجين مستقلين
+    # معالجات الاختبار المخصص
     application.add_handler(CallbackQueryHandler(custom_quiz_start, pattern="^custom_quiz$"))
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_quiz_input))
 
@@ -1442,6 +1459,7 @@ def main():
     )
     application.add_handler(admin_edit_conv)
 
+    # معالجات الأزرار
     application.add_handler(CallbackQueryHandler(menu, pattern="^menu$"))
     application.add_handler(CallbackQueryHandler(start_quiz, pattern="^start_quiz$"))
     application.add_handler(CallbackQueryHandler(study_mode, pattern="^study_mode$"))
@@ -1457,6 +1475,8 @@ def main():
     application.add_handler(CallbackQueryHandler(admin_panel, pattern="^admin_panel$"))
     application.add_handler(CallbackQueryHandler(admin_import_json, pattern="^admin_import_json$"))
     application.add_handler(CallbackQueryHandler(admin_list, pattern="^admin_list$"))
+    
+    # معالجات الأزرار الأساسية
     application.add_handler(CallbackQueryHandler(answer_callback, pattern="^ans_"))
     application.add_handler(CallbackQueryHandler(nav_callback, pattern="^nav_"))
     application.add_handler(CallbackQueryHandler(explain_callback, pattern="^show_explain_"))
