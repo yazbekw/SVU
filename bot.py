@@ -10,6 +10,7 @@
 - مراجعة الأخطاء
 - إحصائيات وتصدير النتائج
 - واجهة تفاعلية بالأزرار
+- استخدام HTML للتنسيق (آمن ولا يحتاج هروب خاص)
 """
 
 import os
@@ -17,7 +18,6 @@ import json
 import glob
 import random
 import csv
-import re
 from datetime import datetime
 from collections import defaultdict
 from typing import List, Dict, Any, Optional
@@ -37,6 +37,12 @@ from telegram.ext import (
 # ======================== التهيئة ========================
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+def escape_html(text: str) -> str:
+    """هروب الأحرف الخاصة بـ HTML"""
+    if not text:
+        return ""
+    return text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 
 # ======================== إدارة الأسئلة ========================
 class Question:
@@ -190,15 +196,7 @@ def build_option_buttons(q: Question, user_data: dict, idx: int):
     buttons.append([InlineKeyboardButton("🏠 القائمة", callback_data="menu")])
     return InlineKeyboardMarkup(buttons)
 
-# ======================== عرض السؤال (باستخدام HTML) ========================
-def format_text_html(text: str) -> str:
-    """تحويل النص إلى HTML مع استبدال بعض العلامات"""
-    # استبدال * النص * ب <b>النص</b>
-    import re
-    text = re.sub(r'\*(.+?)\*', r'<b>\1</b>', text)
-    # نضمن عدم وجود أحرف خاصة أخرى
-    return text
-
+# ======================== عرض السؤال ========================
 async def show_question(update: Update, context: ContextTypes.DEFAULT_TYPE, user_data: dict, loader: DataLoader, show_explanation: bool = False):
     q = get_current_question(user_data, loader)
     if q is None:
@@ -207,12 +205,11 @@ async def show_question(update: Update, context: ContextTypes.DEFAULT_TYPE, user
     idx = user_data['current_index']
     total = len(user_data['current_ids'])
     
-    # نستخدم HTML
-    question_text = q.question
-    category_text = q.category
-    explanation_text = q.explanation if q.explanation else "لا يوجد شرح."
+    # هروب النصوص
+    question_text = escape_html(q.question)
+    category_text = escape_html(q.category)
+    explanation_text = escape_html(q.explanation) if q.explanation else "لا يوجد شرح."
     
-    # نضع علامات HTML للخط العريض
     text = f"📌 <b>السؤال {idx+1}/{total}</b>\n📂 <b>الفئة:</b> {category_text}\n\n{question_text}\n\n"
     if show_explanation:
         text += f"📖 <b>الشرح:</b>\n{explanation_text}"
@@ -231,7 +228,10 @@ async def show_question_message(update: Update, context: ContextTypes.DEFAULT_TY
     idx = user_data['current_index']
     total = len(user_data['current_ids'])
     
-    text = f"📌 <b>السؤال {idx+1}/{total}</b>\n📂 <b>الفئة:</b> {q.category}\n\n{q.question}"
+    question_text = escape_html(q.question)
+    category_text = escape_html(q.category)
+    
+    text = f"📌 <b>السؤال {idx+1}/{total}</b>\n📂 <b>الفئة:</b> {category_text}\n\n{question_text}"
     reply_markup = build_option_buttons(q, user_data, idx)
     await update.message.reply_text(text, parse_mode='HTML', reply_markup=reply_markup)
 
@@ -255,7 +255,7 @@ def get_stats(user_data: dict, loader: DataLoader) -> str:
             c, w = vals['correct'], vals['wrong']
             if c + w > 0:
                 result += f"  {cat}: {c}/{c+w} ({c/(c+w)*100:.0f}%)\n"
-    return result
+    return escape_html(result)
 
 def export_user_results(user_id: int, user_data: dict, loader: DataLoader) -> str:
     path = os.path.join(USER_DATA_DIR, f"{user_id}_export.csv")
@@ -325,6 +325,7 @@ async def custom_quiz_receive(update: Update, context: ContextTypes.DEFAULT_TYPE
     context.user_data['mock_start'] = datetime.now()
     context.user_data['user_id'] = user_id
     
+    # جدولة إيقاف الاختبار بعد انتهاء الوقت
     job = context.job_queue.run_once(mock_timeout, minutes * 60, user_id=user_id, name=f"mock_{user_id}")
     context.user_data['job'] = job
     
@@ -533,6 +534,7 @@ def main():
     application = Application.builder().token(TOKEN).build()
     application.bot_data['loader'] = loader
 
+    # محادثة الاختبار المخصص
     conv_handler = ConversationHandler(
         entry_points=[CallbackQueryHandler(custom_quiz_start, pattern="^custom_quiz$")],
         states={
@@ -542,6 +544,7 @@ def main():
     )
     application.add_handler(conv_handler)
 
+    # الأوامر
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("help", help_command))
     application.add_handler(CommandHandler("shuffle", shuffle_command))
