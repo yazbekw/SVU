@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-بوت أسئلة شامل - نسخة متطورة مع دعم UptimeRobot
-- تنسيق MarkdownV2 محسّن
+بوت أسئلة شامل - نسخة HTML مع دعم UptimeRobot
+- تنسيق HTML (آمن وسهل)
 - أزرار تفاعلية
 - وضع التعلم (Study Mode)
 - مؤقت مع عرض الوقت المتبقي
@@ -49,15 +49,12 @@ TOKEN = os.getenv("BOT_TOKEN")
 if not TOKEN:
     raise ValueError("BOT_TOKEN not set in environment")
 
-# ======================== دوال مساعدة للهروب من MarkdownV2 ========================
-def escape_md(text: str) -> str:
-    """هروب النص لـ MarkdownV2"""
+# ======================== دوال مساعدة للهروب من HTML ========================
+def escape_html(text: str) -> str:
+    """هروب النص لـ HTML (تهرب &, <, >)"""
     if not text:
         return ""
-    chars = r'_*[]()~`>#+-=|{}.!'
-    for ch in chars:
-        text = text.replace(ch, '\\' + ch)
-    return text
+    return text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 
 # ======================== قاعدة البيانات ========================
 def init_db():
@@ -311,7 +308,7 @@ def get_weak_categories(user_id):
             weak.append(cat)
     return weak
 
-# ======================== دوال واجهة المستخدم ========================
+# ======================== دوال واجهة المستخدم (HTML) ========================
 def build_main_menu(user_id=None):
     buttons = [
         [InlineKeyboardButton("📝 اختبار عادي", callback_data="start_quiz")],
@@ -353,19 +350,19 @@ def build_question_keyboard(qid, idx, total, state, time_left=None):
 
 def format_question_text(q, idx, total, user_state=None, show_explanation=False, time_left=None):
     qid, question, options, answer, explanation, category = q
-    cat = escape_md(category or "غير مصنف")
-    q_text = escape_md(question)
+    cat = escape_html(category or "غير مصنف")
+    q_text = escape_html(question)
     opts = []
     for i, opt in enumerate(options):
-        opt_text = escape_md(opt)
+        opt_text = escape_html(opt)
         if user_state:
             ans = user_state.get('answers', {})
             selected = ans.get(str(qid))
             if selected is not None:
                 if i == answer:
-                    opt_text = f"✅ *{opt_text}*"
+                    opt_text = f"✅ <b>{opt_text}</b>"
                 elif i == selected and selected != answer:
-                    opt_text = f"❌ *{opt_text}*"
+                    opt_text = f"❌ <b>{opt_text}</b>"
                 else:
                     opt_text = f"▫️ {opt_text}"
             else:
@@ -376,20 +373,20 @@ def format_question_text(q, idx, total, user_state=None, show_explanation=False,
     options_text = "\n".join(opts)
     progress = int((idx / total) * 20) if total else 0
     bar = "█" * progress + "░" * (20 - progress)
-    progress_text = f"`[{bar}] {int((idx/total)*100) if total else 0}%`"
+    progress_text = f"<code>[{bar}] {int((idx/total)*100) if total else 0}%</code>"
     time_str = ""
     if time_left is not None and time_left > 0:
         mins, secs = divmod(time_left, 60)
-        time_str = f"⏳ *الوقت المتبقي:* `{mins:02d}:{secs:02d}`"
+        time_str = f"⏳ <b>الوقت المتبقي:</b> <code>{mins:02d}:{secs:02d}</code>"
     expl = ""
     if show_explanation and explanation:
-        expl = f"\n📖 *الشرح:*\n{escape_md(explanation)}"
+        expl = f"\n📖 <b>الشرح:</b>\n{escape_html(explanation)}"
     text = (
-        f"📌 *السؤال {idx+1}/{total}*\n"
-        f"📂 *الفئة:* {cat}\n"
+        f"📌 <b>السؤال {idx+1}/{total}</b>\n"
+        f"📂 <b>الفئة:</b> {cat}\n"
         f"{progress_text}\n"
         f"{time_str}\n\n"
-        f"*{q_text}*\n\n"
+        f"<b>{q_text}</b>\n\n"
         f"{options_text}"
         f"{expl}"
     )
@@ -402,8 +399,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     state = get_user_state(user_id)
     save_user_state(user_id, state)
     welcome_text = (
-        f"👋 *أهلاً بك {escape_md(user.first_name)} في بوت الأسئلة الشامل!*\n\n"
-        "✨ *مزايا البوت:*\n"
+        f"👋 <b>أهلاً بك {escape_html(user.first_name)} في بوت الأسئلة الشامل!</b>\n\n"
+        "✨ <b>مزايا البوت:</b>\n"
         "• اختبارات عشوائية أو حسب الفئة\n"
         "• وضع التعلم لعرض السؤال مع الإجابة والشرح فوراً\n"
         "• مؤقت زمني في الاختبارات\n"
@@ -415,7 +412,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
     await update.message.reply_text(
         welcome_text,
-        parse_mode=ParseMode.MARKDOWN_V2,
+        parse_mode=ParseMode.HTML,
         reply_markup=build_main_menu(user_id)
     )
 
@@ -424,14 +421,14 @@ async def menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await query.answer()
     user_id = query.from_user.id
     await query.edit_message_text(
-        "🏠 *القائمة الرئيسية*",
-        parse_mode=ParseMode.MARKDOWN_V2,
+        "🏠 <b>القائمة الرئيسية</b>",
+        parse_mode=ParseMode.HTML,
         reply_markup=build_main_menu(user_id)
     )
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "📚 *الأوامر المتاحة:*\n"
+        "📚 <b>الأوامر المتاحة:</b>\n"
         "/start - عرض القائمة الرئيسية\n"
         "/stats - عرض إحصائياتي\n"
         "/reset - إعادة تعيين التقدم\n"
@@ -440,7 +437,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "/study - تفعيل وضع التعلم\n"
         "/normal - العودة للوضع العادي\n"
         "استخدم الأزرار للتفاعل.",
-        parse_mode=ParseMode.MARKDOWN_V2
+        parse_mode=ParseMode.HTML
     )
 
 # ======================== وظائف الاختبار ========================
@@ -512,13 +509,13 @@ async def show_current_question(update: Update, context: ContextTypes.DEFAULT_TY
     if update.callback_query:
         await update.callback_query.edit_message_text(
             text,
-            parse_mode=ParseMode.MARKDOWN_V2,
+            parse_mode=ParseMode.HTML,
             reply_markup=keyboard
         )
     else:
         await update.message.reply_text(
             text,
-            parse_mode=ParseMode.MARKDOWN_V2,
+            parse_mode=ParseMode.HTML,
             reply_markup=keyboard
         )
 
@@ -533,8 +530,8 @@ async def send_quiz_complete(update, context, user_id):
         if q and q[3] == opt:
             correct += 1
     text = (
-        f"🎉 *انتهى الاختبار!*\n"
-        f"📊 *النتيجة:*\n"
+        f"🎉 <b>انتهى الاختبار!</b>\n"
+        f"📊 <b>النتيجة:</b>\n"
         f"✅ صحيح: {correct}\n"
         f"❌ خطأ: {answered - correct}\n"
         f"📝 تم الإجابة على {answered}/{total}"
@@ -542,13 +539,13 @@ async def send_quiz_complete(update, context, user_id):
     if update.callback_query:
         await update.callback_query.edit_message_text(
             text,
-            parse_mode=ParseMode.MARKDOWN_V2,
+            parse_mode=ParseMode.HTML,
             reply_markup=build_main_menu(user_id)
         )
     else:
         await update.message.reply_text(
             text,
-            parse_mode=ParseMode.MARKDOWN_V2,
+            parse_mode=ParseMode.HTML,
             reply_markup=build_main_menu(user_id)
         )
 
@@ -606,11 +603,11 @@ async def explain_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         qid = int(data.split("_")[2])
         q = get_question_by_id(qid)
         if q:
-            expl = escape_md(q[4]) if q[4] else "لا يوجد شرح."
-            text = f"📖 *الشرح:*\n{expl}"
+            expl = escape_html(q[4]) if q[4] else "لا يوجد شرح."
+            text = f"📖 <b>الشرح:</b>\n{expl}"
             await query.edit_message_text(
                 text,
-                parse_mode=ParseMode.MARKDOWN_V2,
+                parse_mode=ParseMode.HTML,
                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔙 رجوع", callback_data=f"back_from_explain_{qid}")]])
             )
 
@@ -670,8 +667,8 @@ async def suggest_questions(update: Update, context: ContextTypes.DEFAULT_TYPE):
     weak_cats = get_weak_categories(user_id)
     if not weak_cats:
         await query.edit_message_text(
-            "🎉 *ممتاز!* ليس لديك نقاط ضعف واضحة. استمر في التدريب.",
-            parse_mode=ParseMode.MARKDOWN_V2,
+            "🎉 <b>ممتاز!</b> ليس لديك نقاط ضعف واضحة. استمر في التدريب.",
+            parse_mode=ParseMode.HTML,
             reply_markup=build_back_button()
         )
         return
@@ -682,7 +679,7 @@ async def suggest_questions(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not suggested:
         await query.edit_message_text(
             "⚠️ لا توجد أسئلة في الفئات التي تحتاج تحسيناً.",
-            parse_mode=ParseMode.MARKDOWN_V2,
+            parse_mode=ParseMode.HTML,
             reply_markup=build_back_button()
         )
         return
@@ -710,8 +707,8 @@ async def quiz_timeout(context: ContextTypes.DEFAULT_TYPE, user_id=None):
         if q and q[3] == opt:
             correct += 1
     text = (
-        f"⏰ *انتهى الوقت!*\n"
-        f"📊 *النتيجة:*\n"
+        f"⏰ <b>انتهى الوقت!</b>\n"
+        f"📊 <b>النتيجة:</b>\n"
         f"✅ صحيح: {correct}\n"
         f"❌ خطأ: {answered - correct}\n"
         f"📝 تم الإجابة على {answered}/{total}"
@@ -719,7 +716,7 @@ async def quiz_timeout(context: ContextTypes.DEFAULT_TYPE, user_id=None):
     await context.bot.send_message(
         user_id,
         text,
-        parse_mode=ParseMode.MARKDOWN_V2,
+        parse_mode=ParseMode.HTML,
         reply_markup=build_main_menu(user_id)
     )
     state['quiz_time'] = None
@@ -748,24 +745,24 @@ async def stats(update: Update, context: ContextTypes.DEFAULT_TYPE):
             else:
                 cat_stats[cat]['wrong'] += 1
     lines = [
-        f"📊 *إحصائياتي*",
+        f"📊 <b>إحصائياتي</b>",
         f"📝 الإجمالي: {total}",
         f"✅ صحيح: {correct}",
         f"❌ خطأ: {wrong}",
         f"🎯 النسبة: {pct:.1f}%",
         "",
-        "📂 *حسب الفئة:*"
+        "📂 <b>حسب الفئة:</b>"
     ]
     for cat, vals in cat_stats.items():
         c = vals['correct']
         w = vals['wrong']
         if c + w > 0:
             ratio = c / (c + w) * 100
-            lines.append(f"• {escape_md(cat)}: {c}/{c+w} ({ratio:.0f}%)")
+            lines.append(f"• {escape_html(cat)}: {c}/{c+w} ({ratio:.0f}%)")
     text = "\n".join(lines)
     await query.edit_message_text(
         text,
-        parse_mode=ParseMode.MARKDOWN_V2,
+        parse_mode=ParseMode.HTML,
         reply_markup=build_back_button()
     )
 
@@ -801,11 +798,11 @@ async def export_results(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await query.message.reply_document(
         document=output.getvalue().encode('utf-8-sig'),
         filename=f"results_{user_id}.csv",
-        caption="📥 *نتائجك*"
+        caption="📥 <b>نتائجك</b>"
     )
     await query.edit_message_text(
         "✅ تم التصدير بنجاح.",
-        parse_mode=ParseMode.MARKDOWN_V2,
+        parse_mode=ParseMode.HTML,
         reply_markup=build_back_button()
     )
 
@@ -832,8 +829,8 @@ async def reset(update: Update, context: ContextTypes.DEFAULT_TYPE):
     }
     save_user_state(user_id, state)
     await query.edit_message_text(
-        "🔄 *تمت إعادة التعيين بنجاح.*",
-        parse_mode=ParseMode.MARKDOWN_V2,
+        "🔄 <b>تمت إعادة التعيين بنجاح.</b>",
+        parse_mode=ParseMode.HTML,
         reply_markup=build_main_menu(user_id)
     )
 
@@ -853,8 +850,8 @@ async def categories(update: Update, context: ContextTypes.DEFAULT_TYPE):
         buttons.append(row)
     buttons.append([InlineKeyboardButton("🔙 رجوع", callback_data="menu")])
     await query.edit_message_text(
-        "📂 *اختر فئة:*",
-        parse_mode=ParseMode.MARKDOWN_V2,
+        "📂 <b>اختر فئة:</b>",
+        parse_mode=ParseMode.HTML,
         reply_markup=InlineKeyboardMarkup(buttons)
     )
 
@@ -884,7 +881,7 @@ async def bookmarks(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not bookmarks:
         await query.edit_message_text(
             "⭐ لا توجد إشارات مرجعية.",
-            parse_mode=ParseMode.MARKDOWN_V2,
+            parse_mode=ParseMode.HTML,
             reply_markup=build_back_button()
         )
         return
@@ -896,7 +893,7 @@ async def bookmarks(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not qs:
         await query.edit_message_text(
             "⚠️ بعض الإشارات غير صالحة.",
-            parse_mode=ParseMode.MARKDOWN_V2,
+            parse_mode=ParseMode.HTML,
             reply_markup=build_back_button()
         )
         return
@@ -916,8 +913,8 @@ async def wrong_only(update: Update, context: ContextTypes.DEFAULT_TYPE):
     wrong_ids = get_wrong_questions(user_id)
     if not wrong_ids:
         await query.edit_message_text(
-            "🥳 *لا توجد أخطاء! أحسنت!*",
-            parse_mode=ParseMode.MARKDOWN_V2,
+            "🥳 <b>لا توجد أخطاء! أحسنت!</b>",
+            parse_mode=ParseMode.HTML,
             reply_markup=build_back_button()
         )
         return
@@ -929,7 +926,7 @@ async def wrong_only(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not qs:
         await query.edit_message_text(
             "⚠️ لا توجد أسئلة خاطئة صالحة.",
-            parse_mode=ParseMode.MARKDOWN_V2,
+            parse_mode=ParseMode.HTML,
             reply_markup=build_back_button()
         )
         return
@@ -951,7 +948,7 @@ async def shuffle_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     state['current_index'] = 0
     state['answers'] = {}
     save_user_state(user_id, state)
-    await update.message.reply_text("🔀 *تم خلط الأسئلة.*", parse_mode=ParseMode.MARKDOWN_V2)
+    await update.message.reply_text("🔀 <b>تم خلط الأسئلة.</b>", parse_mode=ParseMode.HTML)
     await show_current_question(update, context, user_id)
 
 # ======================== لوحة تحكم المشرف ========================
@@ -968,7 +965,7 @@ async def admin_panel(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await query.answer()
     user_id = query.from_user.id
     if user_id not in ADMIN_IDS:
-        await query.edit_message_text("⛔ *غير مصرح لك.*", parse_mode=ParseMode.MARKDOWN_V2)
+        await query.edit_message_text("⛔ <b>غير مصرح لك.</b>", parse_mode=ParseMode.HTML)
         return
     buttons = [
         [InlineKeyboardButton("➕ إضافة سؤال", callback_data="admin_add")],
@@ -979,8 +976,8 @@ async def admin_panel(update: Update, context: ContextTypes.DEFAULT_TYPE):
         [InlineKeyboardButton("🔙 رجوع", callback_data="menu")],
     ]
     await query.edit_message_text(
-        "⚙️ *لوحة تحكم المشرف*",
-        parse_mode=ParseMode.MARKDOWN_V2,
+        "⚙️ <b>لوحة تحكم المشرف</b>",
+        parse_mode=ParseMode.HTML,
         reply_markup=InlineKeyboardMarkup(buttons)
     )
 
@@ -992,8 +989,8 @@ async def admin_add_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.edit_message_text("⛔ غير مصرح.")
         return
     await query.edit_message_text(
-        "📝 *إضافة سؤال جديد*\nأدخل نص السؤال:",
-        parse_mode=ParseMode.MARKDOWN_V2
+        "📝 <b>إضافة سؤال جديد</b>\nأدخل نص السؤال:",
+        parse_mode=ParseMode.HTML
     )
     return ADD_QUESTION_STATE
 
@@ -1001,8 +998,8 @@ async def admin_add_question_text(update: Update, context: ContextTypes.DEFAULT_
     text = update.message.text.strip()
     context.user_data['new_question'] = text
     await update.message.reply_text(
-        "📋 *أدخل الخيارات مفصولة بفواصل*\nمثال: `خيار1, خيار2, خيار3, خيار4`",
-        parse_mode=ParseMode.MARKDOWN_V2
+        "📋 <b>أدخل الخيارات مفصولة بفواصل</b>\nمثال: <code>خيار1, خيار2, خيار3, خيار4</code>",
+        parse_mode=ParseMode.HTML
     )
     return ADD_QUESTION_OPTIONS
 
@@ -1012,14 +1009,14 @@ async def admin_add_options(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if len(options) < 2:
         await update.message.reply_text(
             "⚠️ يجب أن يكون هناك خياران على الأقل. حاول مرة أخرى:",
-            parse_mode=ParseMode.MARKDOWN_V2
+            parse_mode=ParseMode.HTML
         )
         return ADD_QUESTION_OPTIONS
     context.user_data['new_options'] = options
     opts = "\n".join([f"{i+1}. {opt}" for i, opt in enumerate(options)])
     await update.message.reply_text(
         f"✅ الخيارات:\n{opts}\n\nأدخل رقم الإجابة الصحيحة (1-{len(options)}):",
-        parse_mode=ParseMode.MARKDOWN_V2
+        parse_mode=ParseMode.HTML
     )
     return ADD_QUESTION_ANSWER
 
@@ -1032,13 +1029,13 @@ async def admin_add_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
     except:
         await update.message.reply_text(
             f"⚠️ رقم غير صحيح. أدخل رقم بين 1 و {len(options)}:",
-            parse_mode=ParseMode.MARKDOWN_V2
+            parse_mode=ParseMode.HTML
         )
         return ADD_QUESTION_ANSWER
     context.user_data['new_answer'] = ans - 1
     await update.message.reply_text(
-        "📖 *أدخل شرح السؤال* (أو أرسل `-` لتخطي):",
-        parse_mode=ParseMode.MARKDOWN_V2
+        "📖 <b>أدخل شرح السؤال</b> (أو أرسل <code>-</code> لتخطي):",
+        parse_mode=ParseMode.HTML
     )
     return ADD_QUESTION_EXPLANATION
 
@@ -1048,8 +1045,8 @@ async def admin_add_explanation(update: Update, context: ContextTypes.DEFAULT_TY
         expl = ''
     context.user_data['new_explanation'] = expl
     await update.message.reply_text(
-        "📂 *أدخل الفئة* (أو أرسل `-` للفئة الافتراضية 'غير مصنف'):",
-        parse_mode=ParseMode.MARKDOWN_V2
+        "📂 <b>أدخل الفئة</b> (أو أرسل <code>-</code> للفئة الافتراضية 'غير مصنف'):",
+        parse_mode=ParseMode.HTML
     )
     return ADD_QUESTION_CATEGORY
 
@@ -1063,8 +1060,8 @@ async def admin_add_category(update: Update, context: ContextTypes.DEFAULT_TYPE)
     explanation = context.user_data['new_explanation']
     qid = add_question(question, options, answer, explanation, cat)
     await update.message.reply_text(
-        f"✅ *تمت الإضافة بنجاح!*\nرقم السؤال: `{qid}`",
-        parse_mode=ParseMode.MARKDOWN_V2,
+        f"✅ <b>تمت الإضافة بنجاح!</b>\nرقم السؤال: <code>{qid}</code>",
+        parse_mode=ParseMode.HTML,
         reply_markup=build_main_menu(update.effective_user.id)
     )
     for key in ['new_question', 'new_options', 'new_answer', 'new_explanation']:
@@ -1079,8 +1076,8 @@ async def admin_delete_start(update: Update, context: ContextTypes.DEFAULT_TYPE)
         await query.edit_message_text("⛔ غير مصرح.")
         return
     await query.edit_message_text(
-        "🗑 *حذف سؤال*\nأدخل رقم السؤال المراد حذفه:",
-        parse_mode=ParseMode.MARKDOWN_V2
+        "🗑 <b>حذف سؤال</b>\nأدخل رقم السؤال المراد حذفه:",
+        parse_mode=ParseMode.HTML
     )
     return DELETE_QUESTION_STATE
 
@@ -1093,14 +1090,14 @@ async def admin_delete_confirm(update: Update, context: ContextTypes.DEFAULT_TYP
     affected = delete_question(qid)
     if affected:
         await update.message.reply_text(
-            f"✅ *تم حذف السؤال رقم {qid} بنجاح.*",
-            parse_mode=ParseMode.MARKDOWN_V2,
+            f"✅ <b>تم حذف السؤال رقم {qid} بنجاح.</b>",
+            parse_mode=ParseMode.HTML,
             reply_markup=build_main_menu(update.effective_user.id)
         )
     else:
         await update.message.reply_text(
             f"⚠️ السؤال رقم {qid} غير موجود.",
-            parse_mode=ParseMode.MARKDOWN_V2,
+            parse_mode=ParseMode.HTML,
             reply_markup=build_main_menu(update.effective_user.id)
         )
     return ConversationHandler.END
@@ -1113,8 +1110,8 @@ async def admin_edit_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.edit_message_text("⛔ غير مصرح.")
         return
     await query.edit_message_text(
-        "✏️ *تعديل سؤال*\nأدخل رقم السؤال المراد تعديله:",
-        parse_mode=ParseMode.MARKDOWN_V2
+        "✏️ <b>تعديل سؤال</b>\nأدخل رقم السؤال المراد تعديله:",
+        parse_mode=ParseMode.HTML
     )
     return EDIT_QUESTION_STATE
 
@@ -1130,17 +1127,17 @@ async def admin_edit_get(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return ConversationHandler.END
     context.user_data['edit_qid'] = qid
     text = (
-        f"📌 *السؤال الحالي (ID: {qid})*\n"
-        f"السؤال: {escape_md(q[1])}\n"
-        f"الخيارات: {', '.join(escape_md(opt) for opt in q[2])}\n"
-        f"الإجابة الصحيحة: {q[3]+1} - {escape_md(q[2][q[3]])}\n"
-        f"الشرح: {escape_md(q[4]) if q[4] else 'لا يوجد'}\n"
-        f"الفئة: {escape_md(q[5])}\n\n"
+        f"📌 <b>السؤال الحالي (ID: {qid})</b>\n"
+        f"السؤال: {escape_html(q[1])}\n"
+        f"الخيارات: {', '.join(escape_html(opt) for opt in q[2])}\n"
+        f"الإجابة الصحيحة: {q[3]+1} - {escape_html(q[2][q[3]])}\n"
+        f"الشرح: {escape_html(q[4]) if q[4] else 'لا يوجد'}\n"
+        f"الفئة: {escape_html(q[5])}\n\n"
         "أدخل البيانات الجديدة بالصيغة:\n"
-        "`السؤال | الخيار1,خيار2,خيار3,خيار4 | رقم_الإجابة | الشرح | الفئة`\n"
-        "(استخدم `-` لتخطي حقل معين)"
+        "<code>السؤال | الخيار1,خيار2,خيار3,خيار4 | رقم_الإجابة | الشرح | الفئة</code>\n"
+        "(استخدم <code>-</code> لتخطي حقل معين)"
     )
-    await update.message.reply_text(text, parse_mode=ParseMode.MARKDOWN_V2)
+    await update.message.reply_text(text, parse_mode=ParseMode.HTML)
     return EDIT_QUESTION_STATE
 
 async def admin_edit_save(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -1148,8 +1145,8 @@ async def admin_edit_save(update: Update, context: ContextTypes.DEFAULT_TYPE):
     parts = text.split('|')
     if len(parts) != 5:
         await update.message.reply_text(
-            "⚠️ الصيغة غير صحيحة. يجب أن تحتوي على 5 حقول مفصولة بـ `|`.",
-            parse_mode=ParseMode.MARKDOWN_V2
+            "⚠️ الصيغة غير صحيحة. يجب أن تحتوي على 5 حقول مفصولة بـ <code>|</code>.",
+            parse_mode=ParseMode.HTML
         )
         return EDIT_QUESTION_STATE
     qid = context.user_data['edit_qid']
@@ -1182,8 +1179,8 @@ async def admin_edit_save(update: Update, context: ContextTypes.DEFAULT_TYPE):
     affected = update_question(qid, question, options, answer, explanation, category)
     if affected:
         await update.message.reply_text(
-            f"✅ *تم تعديل السؤال رقم {qid} بنجاح.*",
-            parse_mode=ParseMode.MARKDOWN_V2,
+            f"✅ <b>تم تعديل السؤال رقم {qid} بنجاح.</b>",
+            parse_mode=ParseMode.HTML,
             reply_markup=build_main_menu(update.effective_user.id)
         )
     else:
@@ -1203,8 +1200,8 @@ async def admin_list(update: Update, context: ContextTypes.DEFAULT_TYPE):
     count = c.fetchone()[0]
     conn.close()
     await query.edit_message_text(
-        f"📋 *إجمالي الأسئلة:* {count}\nاستخدم الأمر `/list_questions` لعرضها مع ترقيم.",
-        parse_mode=ParseMode.MARKDOWN_V2,
+        f"📋 <b>إجمالي الأسئلة:</b> {count}\nاستخدم الأمر <code>/list_questions</code> لعرضها مع ترقيم.",
+        parse_mode=ParseMode.HTML,
         reply_markup=build_back_button()
     )
 
@@ -1221,14 +1218,14 @@ async def list_questions_command(update: Update, context: ContextTypes.DEFAULT_T
     if not rows:
         await update.message.reply_text("لا توجد أسئلة.")
         return
-    text = "📋 *قائمة الأسئلة:*\n"
+    text = "📋 <b>قائمة الأسئلة:</b>\n"
     for qid, q in rows:
-        text += f"`{qid}`: {escape_md(q[:50])}...\n"
+        text += f"<code>{qid}</code>: {escape_html(q[:50])}...\n"
     if len(text) > 4000:
         for i in range(0, len(text), 4000):
-            await update.message.reply_text(text[i:i+4000], parse_mode=ParseMode.MARKDOWN_V2)
+            await update.message.reply_text(text[i:i+4000], parse_mode=ParseMode.HTML)
     else:
-        await update.message.reply_text(text, parse_mode=ParseMode.MARKDOWN_V2)
+        await update.message.reply_text(text, parse_mode=ParseMode.HTML)
 
 async def admin_import_json(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
@@ -1239,8 +1236,8 @@ async def admin_import_json(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
     count = load_questions_from_json()
     await query.edit_message_text(
-        f"✅ *تم استيراد {count} سؤال من ملفات JSON.*",
-        parse_mode=ParseMode.MARKDOWN_V2,
+        f"✅ <b>تم استيراد {count} سؤال من ملفات JSON.</b>",
+        parse_mode=ParseMode.HTML,
         reply_markup=build_main_menu(user_id)
     )
 
