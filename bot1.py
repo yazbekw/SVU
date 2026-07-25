@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-بوت أسئلة شامل - نسخة نهائية تعمل على Render عبر Webhook مع مسار /health
-يتطلب تثبيت aiohttp (أضفها إلى requirements.txt)
+
 """
 
 import os
