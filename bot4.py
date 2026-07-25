@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-بوت أسئلة شامل - حل نهائي متكامل يعمل بشكل مضمون
+بوت أسئلة شامل - الحل النهائي المتكامل
 جميع الأزرار تعمل، والاختبار المخصص يظهر السؤال الأول فوراً
 """
 
@@ -308,7 +308,7 @@ def build_question_keyboard(qid, idx, total, state, time_left=None):
     if state.get('mode') == 'study':
         buttons.append([InlineKeyboardButton("🔄 إنهاء وضع التعلم", callback_data="exit_study")])
     if time_left is not None:
-        mins, secs = divmod(time_left, 60)
+        mins, secs = divmod(int(time_left), 60)  # تحويل إلى int لتجنب خطأ التنسيق
         buttons.append([InlineKeyboardButton(f"⏱ {mins:02d}:{secs:02d}", callback_data="noop")])
     return InlineKeyboardMarkup(buttons)
 
@@ -341,7 +341,7 @@ def format_question_header(q, idx, total, time_left=None):
     time_str = ""
     if time_left is not None:
         if time_left > 0:
-            mins, secs = divmod(time_left, 60)
+            mins, secs = divmod(int(time_left), 60)  # تحويل إلى int
             time_str = f"⏳ <b>الوقت المتبقي:</b> <code>{mins:02d}:{secs:02d}</code>"
         else:
             time_str = "⏰ <b>انتهى الوقت!</b>"
