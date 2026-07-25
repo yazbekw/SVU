@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-بوت أسئلة شامل - نسخة مبسطة مع اختبار مخصص يعمل بشكل مؤكد
+بوت أسئلة شامل - حل نهائي لمشكلة اختبار مخصص باستخدام حالة بسيطة في context.user_data
 """
 
 import os
@@ -41,7 +41,7 @@ TOKEN = os.getenv("BOT_TOKEN")
 if not TOKEN:
     raise ValueError("BOT_TOKEN not set in environment")
 
-# ======================== دوال مساعدة للهروب من HTML ========================
+# ======================== دوال مساعدة ========================
 def escape_html(text: str) -> str:
     if not text:
         return ""
@@ -403,12 +403,13 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         parse_mode=ParseMode.HTML
     )
 
-# ======================== اختبار مخصص (طريقة مبسطة) ========================
-CUSTOM_QUIZ_STATE = 1
-
+# ======================== اختبار مخصص (باستخدام حالة بسيطة) ========================
 async def custom_quiz_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """طلب عدد الأسئلة والمدة من المستخدم"""
     query = update.callback_query
     await query.answer()
+    # تخزين حالة انتظار الإدخال
+    context.user_data['awaiting_custom_quiz'] = True
     await query.edit_message_text(
         "📝 <b>اختبار مخصص</b>\n"
         "أدخل عدد الأسئلة و المدة (بالدقائق) بالصيغة:\n\n"
@@ -417,9 +418,14 @@ async def custom_quiz_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "ملاحظة: سيتم اختيار الأسئلة من الأسئلة التي لم تجب عليها مسبقاً.",
         parse_mode=ParseMode.HTML
     )
-    return CUSTOM_QUIZ_STATE
+    # لا نستخدم ConversationHandler، بل ننتظر الرسالة النصية
 
-async def custom_quiz_receive(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def handle_quiz_input(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """معالجة إدخال المستخدم للاختبار المخصص"""
+    # التأكد من أن المستخدم في حالة انتظار
+    if not context.user_data.get('awaiting_custom_quiz'):
+        return
+    
     user_id = update.effective_user.id
     text = update.message.text.strip()
     parts = text.split()
@@ -428,18 +434,21 @@ async def custom_quiz_receive(update: Update, context: ContextTypes.DEFAULT_TYPE
             "❌ الصيغة غير صحيحة. استخدم: <code>10 5</code>",
             parse_mode=ParseMode.HTML
         )
-        return CUSTOM_QUIZ_STATE
+        return
     
     try:
         count = int(parts[0])
         minutes = int(parts[1])
     except ValueError:
         await update.message.reply_text("❌ أرقام فقط. حاول مرة أخرى.")
-        return CUSTOM_QUIZ_STATE
+        return
     
     if count <= 0 or minutes <= 0:
         await update.message.reply_text("❌ يجب أن تكون الأرقام أكبر من صفر.")
-        return CUSTOM_QUIZ_STATE
+        return
+    
+    # إلغاء حالة الانتظار
+    context.user_data['awaiting_custom_quiz'] = False
     
     # الحصول على الأسئلة المتاحة
     available_qids = get_unanswered_questions(user_id)
@@ -448,7 +457,7 @@ async def custom_quiz_receive(update: Update, context: ContextTypes.DEFAULT_TYPE
             "⚠️ لا توجد أسئلة متاحة للإجابة عليها. حاول بعد الإجابة على بعض الأسئلة أو إعادة تعيين التقدم.",
             reply_markup=build_main_menu(user_id)
         )
-        return ConversationHandler.END
+        return
     
     if count > len(available_qids):
         count = len(available_qids)
@@ -482,17 +491,8 @@ async def custom_quiz_receive(update: Update, context: ContextTypes.DEFAULT_TYPE
         parse_mode=ParseMode.HTML
     )
     
-    # عرض السؤال الأول - نستخدم update.message لأنه من نوع Message
+    # عرض السؤال الأول
     await show_current_question(update, context, user_id)
-    
-    return ConversationHandler.END
-
-async def cancel_conversation(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text(
-        "❌ تم الإلغاء.",
-        reply_markup=build_main_menu(update.effective_user.id)
-    )
-    return ConversationHandler.END
 
 # ======================== وظائف الاختبار ========================
 async def start_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE, mode='normal'):
@@ -1387,18 +1387,9 @@ def main():
     application.add_handler(CommandHandler("list_questions", list_questions_command))
     application.add_handler(CommandHandler("stats", lambda u, c: stats(u, c)))
 
-    # محادثة الاختبار المخصص (تعمل بشكل مؤكد)
-    custom_quiz_conv = ConversationHandler(
-        entry_points=[CallbackQueryHandler(custom_quiz_start, pattern="^custom_quiz$")],
-        states={
-            CUSTOM_QUIZ_STATE: [MessageHandler(filters.TEXT & ~filters.COMMAND, custom_quiz_receive)],
-        },
-        fallbacks=[CommandHandler("cancel", cancel_conversation)],
-        per_user=True,
-        per_chat=False,
-        per_message=False,
-    )
-    application.add_handler(custom_quiz_conv)
+    # اختبار مخصص - باستخدام معالجين مستقلين
+    application.add_handler(CallbackQueryHandler(custom_quiz_start, pattern="^custom_quiz$"))
+    application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_quiz_input))
 
     # ConversationHandlers للإدارة
     admin_add_conv = ConversationHandler(
