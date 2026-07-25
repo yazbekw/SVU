@@ -1257,7 +1257,6 @@ async def admin_import_json(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # ======================== دوال التشغيل ========================
 async def run_webhook_async(application):
-    """تشغيل البوت باستخدام webhook مع خادم aiohttp مخصص مع تهيئة صحيحة"""
     WEBHOOK_URL = os.getenv("WEBHOOK_URL")
     if not WEBHOOK_URL:
         logger.error("WEBHOOK_URL غير معرف في متغيرات البيئة.")
