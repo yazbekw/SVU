@@ -2,16 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-بوت أسئلة شامل - نسخة HTML مع دعم Webhook و UptimeRobot
-- تنسيق HTML (آمن وسهل)
-- أزرار خيارات تفاعلية
-- وضع التعلم (Study Mode)
-- مؤقت مع عرض الوقت المتبقي
-- اقتراح أسئلة حسب نقاط الضعف
-- لوحة تحكم للمشرفين
-- قاعدة بيانات SQLite
-- مسار /health لـ UptimeRobot
-- يعمل على Render عبر Webhook على المنفذ 10000
+بوت أسئلة شامل - نسخة نهائية تعمل على Render عبر Webhook مع مسار /health
+يتطلب تثبيت aiohttp (أضفها إلى requirements.txt)
 """
 
 import os
@@ -33,6 +25,7 @@ from telegram.ext import (
     MessageHandler,
     filters,
     ConversationHandler,
+    WebhookServer,
 )
 from telegram.constants import ParseMode
 
@@ -1266,37 +1259,37 @@ async def admin_import_json(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # ======================== دوال التشغيل ========================
 async def run_webhook_async(application):
-    """تشغيل البوت باستخدام webhook وخادم aiohttp مع مسار /health"""
+    """تشغيل البوت باستخدام webhook مع خادم aiohttp مخصص"""
     WEBHOOK_URL = os.getenv("WEBHOOK_URL")
     if not WEBHOOK_URL:
         logger.error("WEBHOOK_URL غير معرف في متغيرات البيئة.")
         return
 
-    from aiohttp import web
+    try:
+        from aiohttp import web
+    except ImportError:
+        logger.error("مكتبة aiohttp غير مثبتة. الرجاء إضافتها إلى requirements.txt")
+        return
 
+    # إضافة مسار الصحة
     async def health_check(request):
         return web.Response(text="OK", status=200)
 
-    async def telegram_webhook(request):
-        data = await request.json()
-        await application.process_update(data)
-        return web.Response(text="OK")
-
     app_web = web.Application()
     app_web.router.add_get("/health", health_check)
-    app_web.router.add_post(f"/{TOKEN}", telegram_webhook)
 
-    runner = web.AppRunner(app_web)
-    await runner.setup()
-    port = int(os.getenv("PORT", 10000))  # استخدام المنفذ الافتراضي 10000
-    site = web.TCPSite(runner, "0.0.0.0", port)
-    await site.start()
+    # إنشاء خادم webhook مع تمرير التطبيق المخصص
+    webhook_server = WebhookServer(
+        app=app_web,
+        listen="0.0.0.0",
+        port=int(os.getenv("PORT", 10000)),
+        url_path=TOKEN,
+        webhook_url=WEBHOOK_URL,
+    )
 
-    await application.bot.set_webhook(f"{WEBHOOK_URL}/{TOKEN}")
-    logger.info(f"Webhook set to {WEBHOOK_URL}/{TOKEN}")
-
-    # الانتظار إلى الأبد
-    await asyncio.Event().wait()
+    logger.info(f"تشغيل خادم webhook على المنفذ {os.getenv('PORT', 10000)}")
+    # run_webhook ستقوم بتهيئة التطبيق وبدء الخادم
+    await application.run_webhook(webhook_server=webhook_server)
 
 def main():
     # تهيئة قاعدة البيانات والتحميل الأولي
