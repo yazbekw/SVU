@@ -38,14 +38,6 @@ from telegram.ext import (
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# دالة هروب الأحرف الخاصة بـ MarkdownV2
-def escape_md(text: str) -> str:
-    """هروب الأحرف الخاصة بـ MarkdownV2"""
-    if not text:
-        return ""
-    chars_to_escape = r'_*[]()~`>#+-=|{}.!'
-    return re.sub(r'([{}])'.format(re.escape(chars_to_escape)), r'\\\1', text)
-
 # ======================== إدارة الأسئلة ========================
 class Question:
     __slots__ = ['id', 'question', 'options', 'answer', 'explanation', 'category', 'bookmarked']
@@ -198,7 +190,15 @@ def build_option_buttons(q: Question, user_data: dict, idx: int):
     buttons.append([InlineKeyboardButton("🏠 القائمة", callback_data="menu")])
     return InlineKeyboardMarkup(buttons)
 
-# ======================== عرض السؤال ========================
+# ======================== عرض السؤال (باستخدام HTML) ========================
+def format_text_html(text: str) -> str:
+    """تحويل النص إلى HTML مع استبدال بعض العلامات"""
+    # استبدال * النص * ب <b>النص</b>
+    import re
+    text = re.sub(r'\*(.+?)\*', r'<b>\1</b>', text)
+    # نضمن عدم وجود أحرف خاصة أخرى
+    return text
+
 async def show_question(update: Update, context: ContextTypes.DEFAULT_TYPE, user_data: dict, loader: DataLoader, show_explanation: bool = False):
     q = get_current_question(user_data, loader)
     if q is None:
@@ -207,20 +207,21 @@ async def show_question(update: Update, context: ContextTypes.DEFAULT_TYPE, user
     idx = user_data['current_index']
     total = len(user_data['current_ids'])
     
-    # هروب النصوص الخاصة بـ MarkdownV2
-    question_text = escape_md(q.question)
-    category_text = escape_md(q.category)
-    explanation_text = escape_md(q.explanation) if q.explanation else "لا يوجد شرح."
+    # نستخدم HTML
+    question_text = q.question
+    category_text = q.category
+    explanation_text = q.explanation if q.explanation else "لا يوجد شرح."
     
-    text = f"📌 *السؤال {idx+1}/{total}*\n📂 *الفئة:* {category_text}\n\n{question_text}\n\n"
+    # نضع علامات HTML للخط العريض
+    text = f"📌 <b>السؤال {idx+1}/{total}</b>\n📂 <b>الفئة:</b> {category_text}\n\n{question_text}\n\n"
     if show_explanation:
-        text += f"📖 *الشرح:*\n{explanation_text}"
+        text += f"📖 <b>الشرح:</b>\n{explanation_text}"
     
     reply_markup = build_option_buttons(q, user_data, idx)
     if update.callback_query:
-        await update.callback_query.edit_message_text(text, parse_mode='MarkdownV2', reply_markup=reply_markup)
+        await update.callback_query.edit_message_text(text, parse_mode='HTML', reply_markup=reply_markup)
     else:
-        await update.message.reply_text(text, parse_mode='MarkdownV2', reply_markup=reply_markup)
+        await update.message.reply_text(text, parse_mode='HTML', reply_markup=reply_markup)
 
 async def show_question_message(update: Update, context: ContextTypes.DEFAULT_TYPE, user_data: dict, loader: DataLoader):
     q = get_current_question(user_data, loader)
@@ -230,12 +231,9 @@ async def show_question_message(update: Update, context: ContextTypes.DEFAULT_TY
     idx = user_data['current_index']
     total = len(user_data['current_ids'])
     
-    question_text = escape_md(q.question)
-    category_text = escape_md(q.category)
-    
-    text = f"📌 *السؤال {idx+1}/{total}*\n📂 *الفئة:* {category_text}\n\n{question_text}"
+    text = f"📌 <b>السؤال {idx+1}/{total}</b>\n📂 <b>الفئة:</b> {q.category}\n\n{q.question}"
     reply_markup = build_option_buttons(q, user_data, idx)
-    await update.message.reply_text(text, parse_mode='MarkdownV2', reply_markup=reply_markup)
+    await update.message.reply_text(text, parse_mode='HTML', reply_markup=reply_markup)
 
 # ======================== دوال مساعدة ========================
 def get_stats(user_data: dict, loader: DataLoader) -> str:
@@ -243,7 +241,7 @@ def get_stats(user_data: dict, loader: DataLoader) -> str:
     correct = sum(1 for v in user_data['answer_log'].values() if v)
     wrong = total - correct
     pct = (correct / total * 100) if total > 0 else 0
-    result = f"📊 *الإحصائيات*\nإجمالي: {total}\n✅ صحيح: {correct}\n❌ خطأ: {wrong}\n🎯 النسبة: {pct:.1f}%\n"
+    result = f"📊 <b>الإحصائيات</b>\nإجمالي: {total}\n✅ صحيح: {correct}\n❌ خطأ: {wrong}\n🎯 النسبة: {pct:.1f}%\n"
     cat_stats = defaultdict(lambda: {'correct': 0, 'wrong': 0})
     for qid, status in user_data['answer_log'].items():
         q = get_question_by_id(qid, loader)
@@ -252,12 +250,12 @@ def get_stats(user_data: dict, loader: DataLoader) -> str:
             if status: cat_stats[cat]['correct'] += 1
             else: cat_stats[cat]['wrong'] += 1
     if cat_stats:
-        result += "\n📂 *حسب الفئة:*\n"
+        result += "\n📂 <b>حسب الفئة:</b>\n"
         for cat, vals in cat_stats.items():
             c, w = vals['correct'], vals['wrong']
             if c + w > 0:
                 result += f"  {cat}: {c}/{c+w} ({c/(c+w)*100:.0f}%)\n"
-    return escape_md(result)  # هروب النص لأننا سنستخدم MarkdownV2
+    return result
 
 def export_user_results(user_id: int, user_data: dict, loader: DataLoader) -> str:
     path = os.path.join(USER_DATA_DIR, f"{user_id}_export.csv")
@@ -289,8 +287,8 @@ async def custom_quiz_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
     await query.edit_message_text(
-        "📝 *اختبار مخصص*\nأدخل عدد الأسئلة و المدة (بالدقائق) بالصيغة:\n\n`عدد_الأسئلة المدة`\nمثال: `20 5`\n(يعني 20 سؤالاً و 5 دقائق)",
-        parse_mode='MarkdownV2'
+        "📝 <b>اختبار مخصص</b>\nأدخل عدد الأسئلة و المدة (بالدقائق) بالصيغة:\n\n<code>عدد_الأسئلة المدة</code>\nمثال: <code>20 5</code>\n(يعني 20 سؤالاً و 5 دقائق)",
+        parse_mode='HTML'
     )
     return CUSTOM_QUIZ_STATE
 
@@ -300,7 +298,7 @@ async def custom_quiz_receive(update: Update, context: ContextTypes.DEFAULT_TYPE
     text = update.message.text.strip()
     parts = text.split()
     if len(parts) != 2:
-        await update.message.reply_text("❌ الصيغة غير صحيحة. استخدم: `20 5`", parse_mode='MarkdownV2')
+        await update.message.reply_text("❌ الصيغة غير صحيحة. استخدم: <code>20 5</code>", parse_mode='HTML')
         return CUSTOM_QUIZ_STATE
     
     try:
@@ -327,7 +325,6 @@ async def custom_quiz_receive(update: Update, context: ContextTypes.DEFAULT_TYPE
     context.user_data['mock_start'] = datetime.now()
     context.user_data['user_id'] = user_id
     
-    # جدولة إيقاف الاختبار بعد انتهاء الوقت
     job = context.job_queue.run_once(mock_timeout, minutes * 60, user_id=user_id, name=f"mock_{user_id}")
     context.user_data['job'] = job
     
@@ -340,7 +337,7 @@ async def mock_timeout(context: ContextTypes.DEFAULT_TYPE):
     loader = context.bot_data['loader']
     user_data = get_user_state(user_id, loader)
     stats = get_stats(user_data, loader)
-    await context.bot.send_message(user_id, f"⏰ *انتهى الوقت\!*\n{stats}", parse_mode='MarkdownV2')
+    await context.bot.send_message(user_id, f"⏰ <b>انتهى الوقت!</b>\n{stats}", parse_mode='HTML')
     user_data['mode'] = 'normal'
     update_user_state(user_id, user_data)
 
@@ -407,7 +404,7 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
     
     if data == "menu":
-        await query.edit_message_text("🏠 *القائمة الرئيسية*", parse_mode='MarkdownV2', reply_markup=build_main_menu())
+        await query.edit_message_text("🏠 <b>القائمة الرئيسية</b>", parse_mode='HTML', reply_markup=build_main_menu())
         return
     
     if data == "custom_quiz":
@@ -419,8 +416,6 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         buttons = []
         row = []
         for i, c in enumerate(cats):
-            # نستخدم escape للفئة لأنها قد تحتوي على أحرف خاصة
-            safe_c = escape_md(c)
             row.append(InlineKeyboardButton(c, callback_data=f"cat_{c}"))
             if len(row) == 2:
                 buttons.append(row)
@@ -428,7 +423,7 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if row:
             buttons.append(row)
         buttons.append([InlineKeyboardButton("🔙 رجوع", callback_data="menu")])
-        await query.edit_message_text("📂 *اختر فئة:*", parse_mode='MarkdownV2', reply_markup=InlineKeyboardMarkup(buttons))
+        await query.edit_message_text("📂 <b>اختر فئة:</b>", parse_mode='HTML', reply_markup=InlineKeyboardMarkup(buttons))
         return
     
     if data.startswith("cat_"):
@@ -466,14 +461,14 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
     
     if data == "stats":
         stats_text = get_stats(user_data, loader)
-        await query.edit_message_text(stats_text, parse_mode='MarkdownV2', reply_markup=build_back_button())
+        await query.edit_message_text(stats_text, parse_mode='HTML', reply_markup=build_back_button())
         return
     
     if data == "export":
         path = export_user_results(user_id, user_data, loader)
         with open(path, 'rb') as f:
             await query.message.reply_document(f, filename=os.path.basename(path))
-        await query.edit_message_text("✅ *تم التصدير بنجاح\!*", parse_mode='MarkdownV2', reply_markup=build_back_button())
+        await query.edit_message_text("✅ <b>تم التصدير بنجاح!</b>", parse_mode='HTML', reply_markup=build_back_button())
         return
     
     if data == "reset":
@@ -486,7 +481,7 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         user_data['bookmarks'] = [False] * len(all_ids)
         user_data['answer_log'] = {}
         update_user_state(user_id, user_data)
-        await query.edit_message_text("🔄 *تمت إعادة التعيين بنجاح.*", parse_mode='MarkdownV2', reply_markup=build_back_button())
+        await query.edit_message_text("🔄 <b>تمت إعادة التعيين بنجاح.</b>", parse_mode='HTML', reply_markup=build_back_button())
         return
 
 # ======================== الأوامر النصية ========================
@@ -496,21 +491,20 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     get_user_state(user_id, loader)
     total = len(loader.get_all())
     await update.message.reply_text(
-        f"👋 أهلاً بك في بوت الأسئلة الشامل\!\nعدد الأسئلة: {total}\nاستخدم الأزرار للتنقل.",
-        parse_mode='MarkdownV2',
+        f"👋 أهلاً بك في بوت الأسئلة الشامل!\nعدد الأسئلة: {total}\nاستخدم الأزرار للتنقل.",
         reply_markup=build_main_menu()
     )
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "📚 *الأوامر المتاحة:*\n"
-        "/start \- القائمة الرئيسية\n"
-        "/stats \- عرض الإحصائيات\n"
-        "/reset \- إعادة تعيين التقدم\n"
-        "/export \- تصدير النتائج\n"
-        "/shuffle \- خلط الأسئلة الحالية\n"
+        "📚 <b>الأوامر المتاحة:</b>\n"
+        "/start - القائمة الرئيسية\n"
+        "/stats - عرض الإحصائيات\n"
+        "/reset - إعادة تعيين التقدم\n"
+        "/export - تصدير النتائج\n"
+        "/shuffle - خلط الأسئلة الحالية\n"
         "استخدم الأزرار للتفاعل.",
-        parse_mode='MarkdownV2'
+        parse_mode='HTML'
     )
 
 async def shuffle_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -539,7 +533,6 @@ def main():
     application = Application.builder().token(TOKEN).build()
     application.bot_data['loader'] = loader
 
-    # محادثة الاختبار المخصص
     conv_handler = ConversationHandler(
         entry_points=[CallbackQueryHandler(custom_quiz_start, pattern="^custom_quiz$")],
         states={
@@ -549,7 +542,6 @@ def main():
     )
     application.add_handler(conv_handler)
 
-    # الأوامر
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("help", help_command))
     application.add_handler(CommandHandler("shuffle", shuffle_command))
