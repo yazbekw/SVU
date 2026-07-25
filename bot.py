@@ -1,12 +1,24 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""
+بوت تلغرام لبنك الأسئلة الشامل (1000 سؤال)
+المميزات:
+- اختبار مخصص (عدد الأسئلة والزمن)
+- تصفية حسب الفئة
+- إشارات مرجعية
+- مراجعة الأخطاء
+- إحصائيات وتصدير النتائج
+- واجهة تفاعلية بالأزرار
+"""
+
 import os
 import json
 import glob
 import random
 import csv
-from datetime import datetime, timedelta
+import re
+from datetime import datetime
 from collections import defaultdict
 from typing import List, Dict, Any, Optional
 import logging
@@ -25,6 +37,14 @@ from telegram.ext import (
 # ======================== التهيئة ========================
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# دالة هروب الأحرف الخاصة بـ MarkdownV2
+def escape_md(text: str) -> str:
+    """هروب الأحرف الخاصة بـ MarkdownV2"""
+    if not text:
+        return ""
+    chars_to_escape = r'_*[]()~`>#+-=|{}.!'
+    return re.sub(r'([{}])'.format(re.escape(chars_to_escape)), r'\\\1', text)
 
 # ======================== إدارة الأسئلة ========================
 class Question:
@@ -186,17 +206,36 @@ async def show_question(update: Update, context: ContextTypes.DEFAULT_TYPE, user
         return
     idx = user_data['current_index']
     total = len(user_data['current_ids'])
-    text = f"📌 *السؤال {idx+1}/{total}*\n📂 *الفئة:* {q.category}\n\n{q.question}\n\n"
-    if show_explanation and q.explanation:
-        text += f"📖 *الشرح:*\n{q.explanation}"
-    elif show_explanation and not q.explanation:
-        text += "📖 *لا يوجد شرح لهذا السؤال.*"
+    
+    # هروب النصوص الخاصة بـ MarkdownV2
+    question_text = escape_md(q.question)
+    category_text = escape_md(q.category)
+    explanation_text = escape_md(q.explanation) if q.explanation else "لا يوجد شرح."
+    
+    text = f"📌 *السؤال {idx+1}/{total}*\n📂 *الفئة:* {category_text}\n\n{question_text}\n\n"
+    if show_explanation:
+        text += f"📖 *الشرح:*\n{explanation_text}"
     
     reply_markup = build_option_buttons(q, user_data, idx)
     if update.callback_query:
-        await update.callback_query.edit_message_text(text, parse_mode='Markdown', reply_markup=reply_markup)
+        await update.callback_query.edit_message_text(text, parse_mode='MarkdownV2', reply_markup=reply_markup)
     else:
-        await update.message.reply_text(text, parse_mode='Markdown', reply_markup=reply_markup)
+        await update.message.reply_text(text, parse_mode='MarkdownV2', reply_markup=reply_markup)
+
+async def show_question_message(update: Update, context: ContextTypes.DEFAULT_TYPE, user_data: dict, loader: DataLoader):
+    q = get_current_question(user_data, loader)
+    if q is None:
+        await update.message.reply_text("لا يوجد سؤال!")
+        return
+    idx = user_data['current_index']
+    total = len(user_data['current_ids'])
+    
+    question_text = escape_md(q.question)
+    category_text = escape_md(q.category)
+    
+    text = f"📌 *السؤال {idx+1}/{total}*\n📂 *الفئة:* {category_text}\n\n{question_text}"
+    reply_markup = build_option_buttons(q, user_data, idx)
+    await update.message.reply_text(text, parse_mode='MarkdownV2', reply_markup=reply_markup)
 
 # ======================== دوال مساعدة ========================
 def get_stats(user_data: dict, loader: DataLoader) -> str:
@@ -218,7 +257,7 @@ def get_stats(user_data: dict, loader: DataLoader) -> str:
             c, w = vals['correct'], vals['wrong']
             if c + w > 0:
                 result += f"  {cat}: {c}/{c+w} ({c/(c+w)*100:.0f}%)\n"
-    return result
+    return escape_md(result)  # هروب النص لأننا سنستخدم MarkdownV2
 
 def export_user_results(user_id: int, user_data: dict, loader: DataLoader) -> str:
     path = os.path.join(USER_DATA_DIR, f"{user_id}_export.csv")
@@ -247,23 +286,21 @@ def prepare_quiz(user_data: dict, selected_questions: List[Question]):
 CUSTOM_QUIZ_STATE = 1
 
 async def custom_quiz_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """بداية طلب اختبار مخصص"""
     query = update.callback_query
     await query.answer()
     await query.edit_message_text(
         "📝 *اختبار مخصص*\nأدخل عدد الأسئلة و المدة (بالدقائق) بالصيغة:\n\n`عدد_الأسئلة المدة`\nمثال: `20 5`\n(يعني 20 سؤالاً و 5 دقائق)",
-        parse_mode='Markdown'
+        parse_mode='MarkdownV2'
     )
     return CUSTOM_QUIZ_STATE
 
 async def custom_quiz_receive(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """استقبال بيانات الاختبار المخصص"""
     user_id = update.effective_user.id
     loader = context.bot_data['loader']
     text = update.message.text.strip()
     parts = text.split()
     if len(parts) != 2:
-        await update.message.reply_text("❌ الصيغة غير صحيحة. استخدم: `20 5`", parse_mode='Markdown')
+        await update.message.reply_text("❌ الصيغة غير صحيحة. استخدم: `20 5`", parse_mode='MarkdownV2')
         return CUSTOM_QUIZ_STATE
     
     try:
@@ -286,7 +323,6 @@ async def custom_quiz_receive(update: Update, context: ContextTypes.DEFAULT_TYPE
     prepare_quiz(user_data, selected)
     update_user_state(user_id, user_data)
     
-    # حفظ بيانات الاختبار للجدولة
     context.user_data['mock_time'] = minutes * 60
     context.user_data['mock_start'] = datetime.now()
     context.user_data['user_id'] = user_id
@@ -296,36 +332,19 @@ async def custom_quiz_receive(update: Update, context: ContextTypes.DEFAULT_TYPE
     context.user_data['job'] = job
     
     await update.message.reply_text(f"⏱ بدء الاختبار: {count} سؤالاً، {minutes} دقيقة. حظاً موفقاً!")
-    # عرض أول سؤال
-    # نحتاج لتمرير الـ update بشكل مناسب، نستخدم show_question مع Message
     await show_question_message(update, context, user_data, loader)
     return ConversationHandler.END
 
-async def show_question_message(update: Update, context: ContextTypes.DEFAULT_TYPE, user_data: dict, loader: DataLoader):
-    """عرض السؤال في رسالة جديدة (للاستخدام مع Message)"""
-    q = get_current_question(user_data, loader)
-    if q is None:
-        await update.message.reply_text("لا يوجد سؤال!")
-        return
-    idx = user_data['current_index']
-    total = len(user_data['current_ids'])
-    text = f"📌 *السؤال {idx+1}/{total}*\n📂 *الفئة:* {q.category}\n\n{q.question}"
-    reply_markup = build_option_buttons(q, user_data, idx)
-    await update.message.reply_text(text, parse_mode='Markdown', reply_markup=reply_markup)
-
 async def mock_timeout(context: ContextTypes.DEFAULT_TYPE):
-    """انتهاء وقت الاختبار المحاكي"""
     user_id = context.job.user_id
     loader = context.bot_data['loader']
     user_data = get_user_state(user_id, loader)
     stats = get_stats(user_data, loader)
-    await context.bot.send_message(user_id, f"⏰ *انتهى الوقت!*\n{stats}", parse_mode='Markdown')
-    # إعادة تعيين الوضع إلى طبيعي
+    await context.bot.send_message(user_id, f"⏰ *انتهى الوقت\!*\n{stats}", parse_mode='MarkdownV2')
     user_data['mode'] = 'normal'
     update_user_state(user_id, user_data)
 
 async def cancel_conversation(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """إلغاء المحادثة"""
     await update.message.reply_text("❌ تم الإلغاء.", reply_markup=build_main_menu())
     return ConversationHandler.END
 
@@ -388,11 +407,10 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
     
     if data == "menu":
-        await query.edit_message_text("🏠 *القائمة الرئيسية*", parse_mode='Markdown', reply_markup=build_main_menu())
+        await query.edit_message_text("🏠 *القائمة الرئيسية*", parse_mode='MarkdownV2', reply_markup=build_main_menu())
         return
     
     if data == "custom_quiz":
-        # بدء محادثة الاختبار المخصص
         await custom_quiz_start(update, context)
         return
     
@@ -401,6 +419,8 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         buttons = []
         row = []
         for i, c in enumerate(cats):
+            # نستخدم escape للفئة لأنها قد تحتوي على أحرف خاصة
+            safe_c = escape_md(c)
             row.append(InlineKeyboardButton(c, callback_data=f"cat_{c}"))
             if len(row) == 2:
                 buttons.append(row)
@@ -408,7 +428,7 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if row:
             buttons.append(row)
         buttons.append([InlineKeyboardButton("🔙 رجوع", callback_data="menu")])
-        await query.edit_message_text("📂 *اختر فئة:*", parse_mode='Markdown', reply_markup=InlineKeyboardMarkup(buttons))
+        await query.edit_message_text("📂 *اختر فئة:*", parse_mode='MarkdownV2', reply_markup=InlineKeyboardMarkup(buttons))
         return
     
     if data.startswith("cat_"):
@@ -427,7 +447,8 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if not bm_ids:
             await query.answer("لا توجد إشارات مرجعية.", show_alert=True)
             return
-        prepare_quiz(user_data, [get_question_by_id(qid, loader) for qid in bm_ids])
+        bm_qs = [get_question_by_id(qid, loader) for qid in bm_ids if get_question_by_id(qid, loader)]
+        prepare_quiz(user_data, bm_qs)
         update_user_state(user_id, user_data)
         await show_question(update, context, user_data, loader)
         return
@@ -437,21 +458,22 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if not wrong_ids:
             await query.answer("🥳 لا توجد أخطاء! أحسنت!", show_alert=True)
             return
-        prepare_quiz(user_data, [get_question_by_id(qid, loader) for qid in wrong_ids])
+        wrong_qs = [get_question_by_id(qid, loader) for qid in wrong_ids if get_question_by_id(qid, loader)]
+        prepare_quiz(user_data, wrong_qs)
         update_user_state(user_id, user_data)
         await show_question(update, context, user_data, loader)
         return
     
     if data == "stats":
         stats_text = get_stats(user_data, loader)
-        await query.edit_message_text(stats_text, parse_mode='Markdown', reply_markup=build_back_button())
+        await query.edit_message_text(stats_text, parse_mode='MarkdownV2', reply_markup=build_back_button())
         return
     
     if data == "export":
         path = export_user_results(user_id, user_data, loader)
         with open(path, 'rb') as f:
             await query.message.reply_document(f, filename=os.path.basename(path))
-        await query.edit_message_text("✅ *تم التصدير بنجاح!*", parse_mode='Markdown', reply_markup=build_back_button())
+        await query.edit_message_text("✅ *تم التصدير بنجاح\!*", parse_mode='MarkdownV2', reply_markup=build_back_button())
         return
     
     if data == "reset":
@@ -464,7 +486,7 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         user_data['bookmarks'] = [False] * len(all_ids)
         user_data['answer_log'] = {}
         update_user_state(user_id, user_data)
-        await query.edit_message_text("🔄 *تمت إعادة التعيين بنجاح.*", parse_mode='Markdown', reply_markup=build_back_button())
+        await query.edit_message_text("🔄 *تمت إعادة التعيين بنجاح.*", parse_mode='MarkdownV2', reply_markup=build_back_button())
         return
 
 # ======================== الأوامر النصية ========================
@@ -472,28 +494,30 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
     loader = context.bot_data['loader']
     get_user_state(user_id, loader)
+    total = len(loader.get_all())
     await update.message.reply_text(
-        f" أهلاً بك في بنك الأسئلة الخاص باختبار اللغة الانكليزية الشامل!\nعدد الأسئلة: {len(loader.get_all())}\nاستخدم الأزرار للتنقل.",
+        f"👋 أهلاً بك في بوت الأسئلة الشامل\!\nعدد الأسئلة: {total}\nاستخدم الأزرار للتنقل.",
+        parse_mode='MarkdownV2',
         reply_markup=build_main_menu()
     )
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "📚 *الأوامر المتاحة:*\n"
-        "/start - القائمة الرئيسية\n"
-        "/stats - عرض الإحصائيات\n"
-        "/reset - إعادة تعيين التقدم\n"
-        "/export - تصدير النتائج\n"
-        "/shuffle - خلط الأسئلة الحالية\n"
+        "/start \- القائمة الرئيسية\n"
+        "/stats \- عرض الإحصائيات\n"
+        "/reset \- إعادة تعيين التقدم\n"
+        "/export \- تصدير النتائج\n"
+        "/shuffle \- خلط الأسئلة الحالية\n"
         "استخدم الأزرار للتفاعل.",
-        parse_mode='Markdown'
+        parse_mode='MarkdownV2'
     )
 
 async def shuffle_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
     loader = context.bot_data['loader']
     user_data = get_user_state(user_id, loader)
-    current_qs = [get_question_by_id(qid, loader) for qid in user_data['current_ids']]
+    current_qs = [get_question_by_id(qid, loader) for qid in user_data['current_ids'] if get_question_by_id(qid, loader)]
     random.shuffle(current_qs)
     prepare_quiz(user_data, current_qs)
     update_user_state(user_id, user_data)
@@ -512,11 +536,10 @@ def main():
         print("خطأ: لم يتم العثور على BOT_TOKEN في متغيرات البيئة.")
         return
 
-    # إنشاء التطبيق مع دعم JobQueue
     application = Application.builder().token(TOKEN).build()
     application.bot_data['loader'] = loader
 
-    # إضافة معالج المحادثة للاختبار المخصص
+    # محادثة الاختبار المخصص
     conv_handler = ConversationHandler(
         entry_points=[CallbackQueryHandler(custom_quiz_start, pattern="^custom_quiz$")],
         states={
