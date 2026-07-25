@@ -2,8 +2,15 @@
 # -*- coding: utf-8 -*-
 
 """
-بوت أسئلة شامل - نسخة معدلة للعمل مع UptimeRobot
-مع إضافة مسار /health وإصلاح أخطاء الهروب والاستيراد
+بوت أسئلة شامل - نسخة متطورة مع دعم UptimeRobot
+- تنسيق MarkdownV2 محسّن
+- أزرار تفاعلية
+- وضع التعلم (Study Mode)
+- مؤقت مع عرض الوقت المتبقي
+- اقتراح أسئلة حسب نقاط الضعف
+- لوحة تحكم للمشرفين
+- قاعدة بيانات SQLite
+- مسار /health لـ UptimeRobot
 """
 
 import os
@@ -26,7 +33,7 @@ from telegram.ext import (
     filters,
     ConversationHandler,
 )
-from telegram.constants import ParseMode  # استيراد ParseMode من هنا
+from telegram.constants import ParseMode
 
 # ======================== التهيئة ========================
 logging.basicConfig(
@@ -47,7 +54,6 @@ def escape_md(text: str) -> str:
     """هروب النص لـ MarkdownV2"""
     if not text:
         return ""
-    # الأحرف التي يجب هروبها: _ * [ ] ( ) ~ ` > # + - = | { } . !
     chars = r'_*[]()~`>#+-=|{}.!'
     for ch in chars:
         text = text.replace(ch, '\\' + ch)
@@ -1238,36 +1244,42 @@ async def admin_import_json(update: Update, context: ContextTypes.DEFAULT_TYPE):
         reply_markup=build_main_menu(user_id)
     )
 
-admin_add_conv = ConversationHandler(
-    entry_points=[CallbackQueryHandler(admin_add_start, pattern="^admin_add$")],
-    states={
-        ADD_QUESTION_STATE: [MessageHandler(filters.TEXT & ~filters.COMMAND, admin_add_question_text)],
-        ADD_QUESTION_OPTIONS: [MessageHandler(filters.TEXT & ~filters.COMMAND, admin_add_options)],
-        ADD_QUESTION_ANSWER: [MessageHandler(filters.TEXT & ~filters.COMMAND, admin_add_answer)],
-        ADD_QUESTION_EXPLANATION: [MessageHandler(filters.TEXT & ~filters.COMMAND, admin_add_explanation)],
-        ADD_QUESTION_CATEGORY: [MessageHandler(filters.TEXT & ~filters.COMMAND, admin_add_category)],
-    },
-    fallbacks=[CommandHandler("cancel", lambda u,c: ConversationHandler.END)],
-)
+# ======================== دوال التشغيل ========================
+async def run_webhook_async(application):
+    """تشغيل البوت باستخدام webhook وخادم aiohttp مع مسار /health"""
+    WEBHOOK_URL = os.getenv("WEBHOOK_URL")
+    if not WEBHOOK_URL:
+        logger.error("WEBHOOK_URL غير معرف في متغيرات البيئة.")
+        return
 
-admin_delete_conv = ConversationHandler(
-    entry_points=[CallbackQueryHandler(admin_delete_start, pattern="^admin_delete$")],
-    states={
-        DELETE_QUESTION_STATE: [MessageHandler(filters.TEXT & ~filters.COMMAND, admin_delete_confirm)],
-    },
-    fallbacks=[CommandHandler("cancel", lambda u,c: ConversationHandler.END)],
-)
+    from aiohttp import web
 
-admin_edit_conv = ConversationHandler(
-    entry_points=[CallbackQueryHandler(admin_edit_start, pattern="^admin_edit$")],
-    states={
-        EDIT_QUESTION_STATE: [MessageHandler(filters.TEXT & ~filters.COMMAND, admin_edit_get)],
-    },
-    fallbacks=[CommandHandler("cancel", lambda u,c: ConversationHandler.END)],
-)
+    async def health_check(request):
+        return web.Response(text="OK", status=200)
 
-# ======================== التشغيل الرئيسي مع دعم UptimeRobot ========================
-async def main():
+    async def telegram_webhook(request):
+        data = await request.json()
+        await application.process_update(data)
+        return web.Response(text="OK")
+
+    app_web = web.Application()
+    app_web.router.add_get("/health", health_check)
+    app_web.router.add_post(f"/{TOKEN}", telegram_webhook)
+
+    runner = web.AppRunner(app_web)
+    await runner.setup()
+    port = int(os.getenv("PORT", 8443))
+    site = web.TCPSite(runner, "0.0.0.0", port)
+    await site.start()
+
+    await application.bot.set_webhook(f"{WEBHOOK_URL}/{TOKEN}")
+    logger.info(f"Webhook set to {WEBHOOK_URL}/{TOKEN}")
+
+    # الانتظار إلى الأبد
+    await asyncio.Event().wait()
+
+def main():
+    # تهيئة قاعدة البيانات والتحميل الأولي
     init_db()
     conn = get_db_connection()
     c = conn.cursor()
@@ -1278,14 +1290,52 @@ async def main():
 
     application = Application.builder().token(TOKEN).build()
 
+    # إضافة المعالجات
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("help", help_command))
     application.add_handler(CommandHandler("shuffle", shuffle_command))
     application.add_handler(CommandHandler("list_questions", list_questions_command))
-    application.add_handler(CommandHandler("stats", lambda u,c: stats(u,c)))
+    application.add_handler(CommandHandler("stats", lambda u, c: stats(u, c)))
 
+    # ConversationHandlers مع إعدادات صريحة لتجنب التحذيرات
+    admin_add_conv = ConversationHandler(
+        entry_points=[CallbackQueryHandler(admin_add_start, pattern="^admin_add$")],
+        states={
+            ADD_QUESTION_STATE: [MessageHandler(filters.TEXT & ~filters.COMMAND, admin_add_question_text)],
+            ADD_QUESTION_OPTIONS: [MessageHandler(filters.TEXT & ~filters.COMMAND, admin_add_options)],
+            ADD_QUESTION_ANSWER: [MessageHandler(filters.TEXT & ~filters.COMMAND, admin_add_answer)],
+            ADD_QUESTION_EXPLANATION: [MessageHandler(filters.TEXT & ~filters.COMMAND, admin_add_explanation)],
+            ADD_QUESTION_CATEGORY: [MessageHandler(filters.TEXT & ~filters.COMMAND, admin_add_category)],
+        },
+        fallbacks=[CommandHandler("cancel", lambda u, c: ConversationHandler.END)],
+        per_user=True,
+        per_chat=False,
+        per_message=False,
+    )
     application.add_handler(admin_add_conv)
+
+    admin_delete_conv = ConversationHandler(
+        entry_points=[CallbackQueryHandler(admin_delete_start, pattern="^admin_delete$")],
+        states={
+            DELETE_QUESTION_STATE: [MessageHandler(filters.TEXT & ~filters.COMMAND, admin_delete_confirm)],
+        },
+        fallbacks=[CommandHandler("cancel", lambda u, c: ConversationHandler.END)],
+        per_user=True,
+        per_chat=False,
+        per_message=False,
+    )
     application.add_handler(admin_delete_conv)
+
+    admin_edit_conv = ConversationHandler(
+        entry_points=[CallbackQueryHandler(admin_edit_start, pattern="^admin_edit$")],
+        states={
+            EDIT_QUESTION_STATE: [MessageHandler(filters.TEXT & ~filters.COMMAND, admin_edit_get)],
+        },
+        fallbacks=[CommandHandler("cancel", lambda u, c: ConversationHandler.END)],
+        per_user=True,
+        per_chat=False,
+        per_message=False,
+    )
     application.add_handler(admin_edit_conv)
 
     application.add_handler(CallbackQueryHandler(menu, pattern="^menu$"))
@@ -1308,40 +1358,15 @@ async def main():
     application.add_handler(CallbackQueryHandler(explain_callback, pattern="^show_explain_"))
     application.add_handler(CallbackQueryHandler(back_from_explain, pattern="^back_from_explain_"))
     application.add_handler(CallbackQueryHandler(bookmark_callback, pattern="^bookmark_"))
-    application.add_handler(CallbackQueryHandler(lambda u,c: u.callback_query.answer(), pattern="^noop$"))
+    application.add_handler(CallbackQueryHandler(lambda u, c: u.callback_query.answer(), pattern="^noop$"))
 
     USE_WEBHOOK = os.getenv("USE_WEBHOOK", "false").lower() == "true"
-    WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 
     if USE_WEBHOOK:
-        if not WEBHOOK_URL:
-            logger.error("WEBHOOK_URL غير معرف.")
-            return
-        # إعداد خادم aiohttp مع مسار /health
-        from aiohttp import web
-        async def health_check(request):
-            return web.Response(text="OK", status=200)
-        async def telegram_webhook(request):
-            data = await request.json()
-            await application.process_update(data)
-            return web.Response(text="OK")
-        # إنشاء تطبيق ويب
-        app_web = web.Application()
-        app_web.router.add_get("/health", health_check)
-        app_web.router.add_post(f"/{TOKEN}", telegram_webhook)
-        # تشغيل الخادم
-        runner = web.AppRunner(app_web)
-        await runner.setup()
-        site = web.TCPSite(runner, "0.0.0.0", int(os.getenv("PORT", 8443)))
-        await site.start()
-        # تعيين webhook
-        await application.bot.set_webhook(f"{WEBHOOK_URL}/{TOKEN}")
-        logger.info(f"تم تعيين webhook إلى {WEBHOOK_URL}/{TOKEN}")
-        # الانتظار إلى الأبد (يبقي البوت شغالاً)
-        await asyncio.Event().wait()
+        asyncio.run(run_webhook_async(application))
     else:
         logger.info("تشغيل البوت باستخدام Polling")
-        await application.run_polling(drop_pending_updates=True)
+        application.run_polling(drop_pending_updates=True)
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
