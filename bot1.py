@@ -2,15 +2,16 @@
 # -*- coding: utf-8 -*-
 
 """
-بوت أسئلة شامل - نسخة HTML مع دعم UptimeRobot
+بوت أسئلة شامل - نسخة HTML مع دعم Webhook و UptimeRobot
 - تنسيق HTML (آمن وسهل)
-- أزرار تفاعلية
+- أزرار خيارات تفاعلية
 - وضع التعلم (Study Mode)
 - مؤقت مع عرض الوقت المتبقي
 - اقتراح أسئلة حسب نقاط الضعف
 - لوحة تحكم للمشرفين
 - قاعدة بيانات SQLite
 - مسار /health لـ UptimeRobot
+- يعمل على Render عبر Webhook على المنفذ 10000
 """
 
 import os
@@ -329,6 +330,7 @@ def build_back_button():
     return InlineKeyboardMarkup([[InlineKeyboardButton("🔙 رجوع للقائمة", callback_data="menu")]])
 
 def build_question_keyboard(qid, idx, total, state, time_left=None):
+    """أزرار التنقل والإضافية (بدون أزرار الخيارات)"""
     buttons = []
     nav = []
     if idx > 0:
@@ -348,29 +350,32 @@ def build_question_keyboard(qid, idx, total, state, time_left=None):
         buttons.append([InlineKeyboardButton(f"⏱ {mins:02d}:{secs:02d}", callback_data="noop")])
     return InlineKeyboardMarkup(buttons)
 
-def format_question_text(q, idx, total, user_state=None, show_explanation=False, time_left=None):
+def build_option_buttons(q, state):
+    """إنشاء أزرار الخيارات مع حالة الإجابة"""
+    qid, question, options, answer, explanation, category = q
+    buttons = []
+    ans = state.get('answers', {})
+    selected = ans.get(str(qid))
+    answered = selected is not None
+    
+    for i, opt in enumerate(options):
+        text = escape_html(opt)
+        # تحديد حالة الزر
+        if answered:
+            if i == answer:
+                text = "✅ " + text
+            elif i == selected:
+                text = "❌ " + text
+        callback = f"ans_{qid}_{i}" if not answered else "noop"
+        buttons.append([InlineKeyboardButton(text, callback_data=callback)])
+    return InlineKeyboardMarkup(buttons)
+
+def format_question_header(q, idx, total, time_left=None):
+    """تنسيق رأس السؤال بدون الخيارات"""
     qid, question, options, answer, explanation, category = q
     cat = escape_html(category or "غير مصنف")
     q_text = escape_html(question)
-    opts = []
-    for i, opt in enumerate(options):
-        opt_text = escape_html(opt)
-        if user_state:
-            ans = user_state.get('answers', {})
-            selected = ans.get(str(qid))
-            if selected is not None:
-                if i == answer:
-                    opt_text = f"✅ <b>{opt_text}</b>"
-                elif i == selected and selected != answer:
-                    opt_text = f"❌ <b>{opt_text}</b>"
-                else:
-                    opt_text = f"▫️ {opt_text}"
-            else:
-                opt_text = f"{i+1}️⃣ {opt_text}"
-        else:
-            opt_text = f"{i+1}️⃣ {opt_text}"
-        opts.append(opt_text)
-    options_text = "\n".join(opts)
+    
     progress = int((idx / total) * 20) if total else 0
     bar = "█" * progress + "░" * (20 - progress)
     progress_text = f"<code>[{bar}] {int((idx/total)*100) if total else 0}%</code>"
@@ -378,17 +383,13 @@ def format_question_text(q, idx, total, user_state=None, show_explanation=False,
     if time_left is not None and time_left > 0:
         mins, secs = divmod(time_left, 60)
         time_str = f"⏳ <b>الوقت المتبقي:</b> <code>{mins:02d}:{secs:02d}</code>"
-    expl = ""
-    if show_explanation and explanation:
-        expl = f"\n📖 <b>الشرح:</b>\n{escape_html(explanation)}"
+    
     text = (
         f"📌 <b>السؤال {idx+1}/{total}</b>\n"
         f"📂 <b>الفئة:</b> {cat}\n"
         f"{progress_text}\n"
         f"{time_str}\n\n"
-        f"<b>{q_text}</b>\n\n"
-        f"{options_text}"
-        f"{expl}"
+        f"<b>{q_text}</b>\n"
     )
     return text
 
@@ -500,23 +501,39 @@ async def show_current_question(update: Update, context: ContextTypes.DEFAULT_TY
             return
     show_explanation = (state.get('mode') == 'study')
     if show_explanation:
-        temp_state = {'answers': {str(qid): q[3]}}
-    else:
-        temp_state = {'answers': state.get('answers', {})}
+        # في وضع التعلم نضع الإجابة الصحيحة تلقائياً في حالة المستخدم لتمييزها
+        state['answers'][str(qid)] = q[3]
+        save_user_state(user_id, state)
+    
     total = len(qids)
-    text = format_question_text(q, idx, total, temp_state, show_explanation, time_left)
-    keyboard = build_question_keyboard(qid, idx, total, state, time_left)
+    # بناء رأس السؤال
+    header_text = format_question_header(q, idx, total, time_left)
+    
+    # إضافة الشرح إذا كان مطلوباً
+    if show_explanation and q[4]:
+        header_text += f"\n📖 <b>الشرح:</b>\n{escape_html(q[4])}"
+    
+    # أزرار الخيارات
+    option_keyboard = build_option_buttons(q, state)
+    # أزرار التنقل والإضافية
+    nav_keyboard = build_question_keyboard(qid, idx, total, state, time_left)
+    
+    # دمج الأزرار (صفوف الخيارات أولاً ثم صفوف التنقل)
+    combined_keyboard = InlineKeyboardMarkup(
+        option_keyboard.inline_keyboard + nav_keyboard.inline_keyboard
+    )
+    
     if update.callback_query:
         await update.callback_query.edit_message_text(
-            text,
+            header_text,
             parse_mode=ParseMode.HTML,
-            reply_markup=keyboard
+            reply_markup=combined_keyboard
         )
     else:
         await update.message.reply_text(
-            text,
+            header_text,
             parse_mode=ParseMode.HTML,
-            reply_markup=keyboard
+            reply_markup=combined_keyboard
         )
 
 async def send_quiz_complete(update, context, user_id):
@@ -559,6 +576,7 @@ async def answer_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         qid = int(qid_str)
         opt = int(opt_str)
         state = get_user_state(user_id)
+        # التأكد من أن السؤال في القائمة الحالية
         if qid not in state['current_ids']:
             await query.answer("السؤال ليس في القائمة الحالية!")
             return
@@ -566,10 +584,15 @@ async def answer_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if not q:
             await query.answer("السؤال غير موجود!")
             return
+        # التأكد من عدم الإجابة مسبقاً
+        if str(qid) in state.get('answers', {}):
+            await query.answer("لقد أجبت بالفعل!")
+            return
         correct = (opt == q[3])
         state['answers'][str(qid)] = opt
         log_answer(user_id, qid, correct)
         save_user_state(user_id, state)
+        # إعادة عرض السؤال مع الإجابة المحددة
         await show_current_question(update, context, user_id)
 
 async def nav_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -1265,7 +1288,7 @@ async def run_webhook_async(application):
 
     runner = web.AppRunner(app_web)
     await runner.setup()
-    port = int(os.getenv("PORT", 8443))
+    port = int(os.getenv("PORT", 10000))  # استخدام المنفذ الافتراضي 10000
     site = web.TCPSite(runner, "0.0.0.0", port)
     await site.start()
 
