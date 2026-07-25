@@ -1,0 +1,1316 @@
+{
+  "exam": {
+    "title": "بنك الأسئلة الشامل للغة الإنجليزية - الجامعة الافتراضية (الجزء الرابع)",
+    "description": "الأسئلة من 301 إلى 400 - مع شرح مفصل لكل إجابة",
+    "totalQuestions": 100,
+    "categories": {
+      "Grammar": 43,
+      "Vocabulary": 35,
+      "Phrasal Verbs": 9,
+      "Prepositions": 7,
+      "Idioms": 4,
+      "Structure": 2
+    },
+    "questions": [
+      {
+        "id": 301,
+        "category": "Grammar - Tenses",
+        "question": "Murdoch's daughter ______ at the finish line when he completes his first marathon.",
+        "options": [
+          "will have waited",
+          "will wait",
+          "will be waiting",
+          "is waiting"
+        ],
+        "answer": 2,
+        "explanation": "🔍 Future continuous (will be waiting) للحدث المستمر في المستقبل عند نقطة زمنية محددة. 'when he completes' تشير إلى وقت محدد في المستقبل، وابنة موردوخ ستكون في انتظاره في ذلك الوقت."
+      },
+      {
+        "id": 302,
+        "category": "Grammar - Tenses",
+        "question": "I'd rather he ______ with us, but he's already made a decision and is leaving at the end of the season.",
+        "options": [
+          "stay",
+          "stayed",
+          "would stay",
+          "had stayed"
+        ],
+        "answer": 1,
+        "explanation": "🔍 بعد 'would rather + subject' نستخدم الماضي البسيط للرغبة في الحاضر. 'I'd rather he stayed' = أفضل أن يبقى (ولكنه لن يبقى). 'would stay' خطأ لأن 'would rather' لا تتبعها 'would'."
+      },
+      {
+        "id": 303,
+        "category": "Grammar - Tenses",
+        "question": "David denied ______ part in the robbery.",
+        "options": [
+          "having taken",
+          "to take",
+          "take",
+          "to have taken"
+        ],
+        "answer": 0,
+        "explanation": "🔍 بعد 'deny' نستخدم V-ing، و 'having taken' للدلالة على الماضي. 'denied having taken' = أنكر أنه أخذ. 'to take' خطأ لأن 'deny' لا تتبعها 'to'."
+      },
+      {
+        "id": 304,
+        "category": "Grammar - Tenses",
+        "question": "I wish I ______ a normal life, but my life now is a real nightmare.",
+        "options": [
+          "could have",
+          "had had",
+          "have had",
+          "have"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Could have' للتعبير عن أمنية في الحاضر تتعلق بالمستقبل. 'I wish I could have a normal life' = أتمنى لو كان بإمكاني أن أحيا حياة طبيعية. 'had had' تستخدم للندم على الماضي."
+      },
+      {
+        "id": 305,
+        "category": "Grammar - Tenses",
+        "question": "______ I am with you, I can't stop smiling.",
+        "options": [
+          "Whatever",
+          "However",
+          "Wherever",
+          "Whenever"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Whenever' تعني 'كلما'، للدلالة على التكرار. 'Whenever I am with you' = كلما كنت معك. 'Wherever' تعني 'أينما'، و'However' تعني 'ومع ذلك'، و'Whatever' تعني 'أياً كان'."
+      },
+      {
+        "id": 306,
+        "category": "Grammar - Tenses",
+        "question": "Do you have any idea of ______?",
+        "options": [
+          "what is he talking about",
+          "about what he's talking",
+          "what is he talking",
+          "what he's talking about"
+        ],
+        "answer": 3,
+        "explanation": "🔍 في السؤال غير المباشر، نضع الفاعل قبل الفعل، وتحافظ على حرف الجر. السؤال المباشر: 'What is he talking about؟' يصبح 'what he's talking about'."
+      },
+      {
+        "id": 307,
+        "category": "Grammar - Tenses",
+        "question": "A: 'Why didn't you go to the training session?' B: 'I ______ to the training. John saw me there. Ask him.'",
+        "options": [
+          "didn't go",
+          "did go",
+          "did went",
+          "sure go"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Did go' للتوكيد على حدوث الفعل في الماضي. المتحدث يؤكد أنه ذهب بالفعل إلى التدريب، بدليل أن جون رآه هناك. 'didn't go' تنفي الذهاب."
+      },
+      {
+        "id": 308,
+        "category": "Grammar - Tenses",
+        "question": "It was awesome to get ______ good response from the audience.",
+        "options": [
+          "so much",
+          "such",
+          "such a",
+          "so"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Such a' مع اسم مفرد معدود (response). 'such a good response' = استجابة جيدة كهذه. 'so much' تستخدم مع غير المعدود، و'such' تستخدم مع الجمع."
+      },
+      {
+        "id": 309,
+        "category": "Grammar - Tenses",
+        "question": "______ a hammer to kill his neighbour.",
+        "options": [
+          "He is believed to use",
+          "He is believed to have used",
+          "It is believed to have used",
+          "He is believed that he used"
+        ],
+        "answer": 1,
+        "explanation": "🔍 المبني للمجهول مع 'to have V3' للإشارة إلى حدث ماضٍ. 'He is believed to have used a hammer' = يُعتقد أنه استخدم مطرقة. 'to use' تشير إلى الحاضر أو المستقبل، وليس الماضي."
+      },
+      {
+        "id": 310,
+        "category": "Grammar - Tenses",
+        "question": "I ______. I've hired a very good decorator.",
+        "options": [
+          "'m redecorating my kitchen",
+          "will be redecorating my kitchen",
+          "will have my kitchen redecorate",
+          "'m having my kitchen redecorated"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Having something done' للدلالة على أن شخصاً آخر يقوم بالعمل. 'I'm having my kitchen redecorated' = أقوم بتجديد مطبخي (بواسطة مصمم الديكور). 'I'm redecorating' تعني أنا من يقوم بالتجديد."
+      },
+      {
+        "id": 311,
+        "category": "Grammar - Tenses",
+        "question": "How many ______ the exam?",
+        "options": [
+          "students passed",
+          "students did pass",
+          "did pass",
+          "did students pass"
+        ],
+        "answer": 0,
+        "explanation": "🔍 عندما يكون السؤال عن الفاعل، لا نحتاج إلى 'did'. 'How many students passed the exam؟' = كم طالباً نجح في الامتحان؟ 'students' هو الفاعل."
+      },
+      {
+        "id": 312,
+        "category": "Grammar - Tenses",
+        "question": "A: 'I won't finish on time.' B: '______.'",
+        "options": [
+          "So won't I",
+          "Neither do I",
+          "Neither won't I",
+          "Neither will I"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Neither will I' للتعبير عن الموافقة على الجملة المنفية. 'I won't finish' منفية، والموافقة تكون 'Neither will I' (أنا أيضاً لن أنهي). 'So won't I' خطأ لأن 'So' تستخدم مع المثبت."
+      },
+      {
+        "id": 313,
+        "category": "Grammar - Tenses",
+        "question": "The longer you practice every day, ______.",
+        "options": [
+          "the best you will get",
+          "better you'll get",
+          "the better you'll get",
+          "you'll get better"
+        ],
+        "answer": 2,
+        "explanation": "🔍 صيغة المقارنة المزدوجة: 'the + comparative, the + comparative'. 'The longer you practice, the better you'll get' = كلما تدربت أكثر، كلما أصبحت أفضل."
+      },
+      {
+        "id": 314,
+        "category": "Grammar - Tenses",
+        "question": "She is ______ woman.",
+        "options": [
+          "an American young intelligent",
+          "a young intelligent American",
+          "an intelligent young American",
+          "an intelligent American young"
+        ],
+        "answer": 2,
+        "explanation": "🔍 ترتيب الصفات: الرأي → العمر → الأصل. 'intelligent' (رأي) → 'young' (عمر) → 'American' (أصل). 'an intelligent young American woman' = امرأة أمريكية شابة ذكية."
+      },
+      {
+        "id": 315,
+        "category": "Grammar - Tenses",
+        "question": "I'm lucky to be surrounded by ______ fascinating people.",
+        "options": [
+          "such a",
+          "so",
+          "so much",
+          "such"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Such' مع الأسماء الجمع (fascinating people). 'such fascinating people' = أناس رائعون كهؤلاء. 'Such a' تستخدم مع المفرد، و'So' تستخدم مع الصفات."
+      },
+      {
+        "id": 316,
+        "category": "Grammar - Tenses",
+        "question": "Alex ______.",
+        "options": [
+          "was waiting at the station very anxiously last night",
+          "was waiting very anxiously at the station last night",
+          "was very anxiously waiting at the station last night",
+          "was waiting very anxiously last night at the station"
+        ],
+        "answer": 1,
+        "explanation": "🔍 ترتيب الظروف: الفعل → الحال → المكان → الزمان. 'was waiting very anxiously at the station last night' = كان ينتظر بقلق شديد في المحطة الليلة الماضية."
+      },
+      {
+        "id": 317,
+        "category": "Grammar - Tenses",
+        "question": "If they beat Manchester next weekend, they ______ ten successive games.",
+        "options": [
+          "are winning",
+          "have won",
+          "will have won",
+          "will win"
+        ],
+        "answer": 2,
+        "explanation": "🔍 Future perfect للحدث المكتمل في المستقبل بحلول وقت معين. 'will have won ten successive games' = سيكونون قد فازوا بعشر مباريات متتالية. 'next weekend' هو وقت إكمال الفوز."
+      },
+      {
+        "id": 318,
+        "category": "Grammar - Tenses",
+        "question": "You can play outside when you ______ your lunch.",
+        "options": [
+          "will have eaten",
+          "have eaten",
+          "are eating",
+          "eat"
+        ],
+        "answer": 1,
+        "explanation": "🔍 في جمل الزمان المستقبلية، نستخدم المضارع التام بدل المستقبل. 'when you have eaten your lunch' = عندما تكون قد تناولت غداءك. لا نستخدم 'will have eaten' في جملة 'when'."
+      },
+      {
+        "id": 319,
+        "category": "Grammar - Tenses",
+        "question": "______ the answer if she hadn't helped you?",
+        "options": [
+          "Could you find",
+          "Had you found",
+          "Would you have found",
+          "Would you find"
+        ],
+        "answer": 2,
+        "explanation": "🔍 Third conditional: 'Would you have found' = هل كنت ستجد؟ 'if she hadn't helped you' = لو لم تكن ساعدتك. 'Would you find' تستخدم في الشرط الثاني، و'Had you found' غير مكتملة."
+      },
+      {
+        "id": 320,
+        "category": "Grammar - Tenses",
+        "question": "I wish he ______ treating us like idiots. Who does he think he is?",
+        "options": [
+          "would stop",
+          "stopped",
+          "had stopped",
+          "stops"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Would stop' للتعبير عن رغبة في تغيير سلوك مزعج في الحاضر/المستقبل. 'I wish he would stop treating us like idiots' = أتمنى لو يتوقف عن معاملتنا كأغبياء."
+      },
+      {
+        "id": 321,
+        "category": "Grammar - Tenses",
+        "question": "I love cheese now, but I ______ like it as a child.",
+        "options": [
+          "didn't used to",
+          "didn't use to",
+          "wasn't used to",
+          "usedn't to"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Didn't use to' للنفي مع 'used to'. 'I didn't use to like it' = لم أكن أحبه (في الماضي). 'Didn't used to' خطأ شائع، و'Wasn't used to' تعني 'لم أكن معتاداً'."
+      },
+      {
+        "id": 322,
+        "category": "Grammar - Tenses",
+        "question": "It ______ easy to win the tournament. All the teams were really good.",
+        "options": [
+          "mustn't have been",
+          "shouldn't have been",
+          "might not be",
+          "can't have been"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Can't have been' للتعبير عن استحالة حدوث شيء في الماضي. 'It can't have been easy' = لا يمكن أن يكون الأمر سهلاً (بسبب قوة الفرق). 'Mustn't have been' غير صحيحة لأن 'mustn't' تستخدم للمنع."
+      },
+      {
+        "id": 323,
+        "category": "Grammar - Tenses",
+        "question": "The attacker is thought ______ from the second floor of the building.",
+        "options": [
+          "to escaped",
+          "that he escaped",
+          "to have escaped",
+          "he has escaped"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'To have escaped' للدلالة على حدث ماضٍ في المبني للمجهول. 'is thought to have escaped' = يُعتقد أنه هرب. 'to escaped' خطأ (بعد 'to' نستخدم المصدر)."
+      },
+      {
+        "id": 324,
+        "category": "Grammar - Tenses",
+        "question": "______ said that is totally crazy.",
+        "options": [
+          "Whoever",
+          "Whatever",
+          "However",
+          "Whenever"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Whoever' تعني 'أي شخص'. 'Whoever said that is totally crazy' = أي شخص قال ذلك فهو مجنون تماماً. 'Whatever' تعني 'أياً كان'، و'However' تعني 'ومع ذلك'."
+      },
+      {
+        "id": 325,
+        "category": "Grammar - Tenses",
+        "question": "The new model comes in red or white but I don't like ______ of those colours.",
+        "options": [
+          "either",
+          "neither",
+          "none",
+          "both"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Either' في النفي تعني 'أي منهما'. 'I don't like either of those colours' = لا أحب أي من هذين اللونين. 'Neither' تعني 'لا هذا ولا ذاك' ولكنها تستخدم مع المثبت."
+      },
+      {
+        "id": 326,
+        "category": "Grammar - Tenses",
+        "question": "We ______ Steve for dinner at 7:00.",
+        "options": [
+          "will meet",
+          "are meeting",
+          "meet",
+          "meeting"
+        ],
+        "answer": 1,
+        "explanation": "🔍 Present continuous للخطط المستقبلية المحددة. 'We are meeting Steve for dinner at 7:00' = سنلتقي ستيف لتناول العشاء الساعة 7:00 (خطة محددة)."
+      },
+      {
+        "id": 327,
+        "category": "Grammar - Tenses",
+        "question": "Football ______ all over the world.",
+        "options": [
+          "plays",
+          "was played",
+          "is played",
+          "has been played"
+        ],
+        "answer": 2,
+        "explanation": "🔍 Present simple passive للحقائق العامة. 'Football is played all over the world' = تُلعب كرة القدم في جميع أنحاء العالم. هذه حقيقة عامة، لذا نستخدم المضارع البسيط المجهول."
+      },
+      {
+        "id": 328,
+        "category": "Grammar - Tenses",
+        "question": "______ hard I try, I never seem to lose any weight.",
+        "options": [
+          "Whoever",
+          "No matter how",
+          "So much",
+          "Although"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'No matter how' تعني 'مهما'. 'No matter how hard I try' = مهما حاولت بجد. 'Whoever' تعني 'أياً كان من'، و'So much' تستخدم مع الكميات."
+      },
+      {
+        "id": 329,
+        "category": "Grammar - Tenses",
+        "question": "Ever since I stopped working, I ______ to save money by ______ at home.",
+        "options": [
+          "have tried / having being cooked",
+          "am trying / cooking",
+          "have tried / cook",
+          "have been trying / cooking"
+        ],
+        "answer": 3,
+        "explanation": "🔍 Present perfect continuous للاستمرارية، و 'by' + V-ing. 'have been trying to save money by cooking at home' = أحاول توفير المال من خلال الطهي في المنزل."
+      },
+      {
+        "id": 330,
+        "category": "Grammar - Tenses",
+        "question": "People in England usually talk about ______.",
+        "options": [
+          "weather",
+          "a weather",
+          "the weather",
+          "weathers"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'The weather' لأنه شيء محدد ومعروف. الإنجليز يشتهرون بالحديث عن الطقس. 'weather' غير معدود، لذا لا نستخدم 'a' ولا 'weathers'."
+      },
+      {
+        "id": 331,
+        "category": "Grammar - Tenses",
+        "question": "Hundreds of antiques ______ to one of the sultans by the end of this year.",
+        "options": [
+          "were belonging / will be selling",
+          "belonged / will have been sold",
+          "are belonged / will be sold",
+          "have been belonged / are going to be sold"
+        ],
+        "answer": 1,
+        "explanation": "🔍 Past simple + future perfect passive. 'belonged' (ماضٍ) و'will have been sold' (مستقبل تام مجهول). 'by the end of this year' تشير إلى وقت اكتمال البيع."
+      },
+      {
+        "id": 332,
+        "category": "Vocabulary",
+        "question": "I'm exhausted. I need to ______ for a while.",
+        "options": [
+          "keep up",
+          "hold up",
+          "lie down",
+          "hang up"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Lie down' تعني 'يستلقي'، وهو ما يحتاجه الشخص المتعب. 'Keep up' تعني 'يواصل'، و'Hold up' تعني 'يرفع'، و'Hang up' تعني 'يغلق الهاتف'."
+      },
+      {
+        "id": 333,
+        "category": "Prepositions",
+        "question": "He came to class ______.",
+        "options": [
+          "last morning",
+          "yesterday morning",
+          "at the morning",
+          "in morning"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Yesterday morning' هي الصيغة الصحيحة. 'Last morning' غير صحيحة (نقول 'yesterday morning' أو 'last night'). 'At the morning' خطأ (الصحيح 'in the morning')."
+      },
+      {
+        "id": 334,
+        "category": "Vocabulary",
+        "question": "Hospitals that ignore the regulations will not be ______ by insurance.",
+        "options": [
+          "satisfied",
+          "reimbursed",
+          "paid",
+          "estimated"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Reimbursed' تعني 'تعويض مالي'، أي أن شركات التأمين لن تعوّض هذه المستشفيات. 'Satisfied' تعني 'راضية'، و'Paid' تعني 'مدفوعة'، و'Estimated' تعني 'مقدرة'."
+      },
+      {
+        "id": 335,
+        "category": "Grammar - Tenses",
+        "question": "They were all on the platform, waiting ______ arrive.",
+        "options": [
+          "for the train",
+          "the train to",
+          "the train's",
+          "for the train to"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Waiting for the train to arrive' = ينتظرون وصول القطار. 'wait for + object + to + V1' هي الصيغة الصحيحة. 'for the train' غير مكتملة."
+      },
+      {
+        "id": 336,
+        "category": "Grammar - Tenses",
+        "question": "If I continue reading 50 pages every day, by the end of the month I ______ 8,000 pages.",
+        "options": [
+          "will read",
+          "am going to read",
+          "will be reading",
+          "will have read"
+        ],
+        "answer": 3,
+        "explanation": "🔍 Future perfect مع 'by the end of'. 'will have read 8,000 pages' = سأكون قد قرأت 8,000 صفحة. يشير إلى إكمال الفعل بحلول وقت محدد في المستقبل."
+      },
+      {
+        "id": 337,
+        "category": "Grammar - Tenses",
+        "question": "She wouldn't be helping you if she ______ your sister.",
+        "options": [
+          "wouldn't be",
+          "wouldn't have been",
+          "isn't",
+          "weren't"
+        ],
+        "answer": 3,
+        "explanation": "🔍 Second conditional مع 'were'. 'If she weren't your sister' = لو لم تكن أختك. 'wouldn't be helping' تدل على الحاضر، لذا نستخدم 'were' في الشرط."
+      },
+      {
+        "id": 338,
+        "category": "Grammar - Tenses",
+        "question": "Do you know what time ______?",
+        "options": [
+          "is it",
+          "does it",
+          "has it",
+          "it is"
+        ],
+        "answer": 3,
+        "explanation": "🔍 في السؤال غير المباشر، نضع الفعل بعد الفاعل. 'what time it is' = كم الساعة؟ السؤال المباشر 'What time is it؟' يصبح في غير المباشر 'what time it is'."
+      },
+      {
+        "id": 339,
+        "category": "Vocabulary",
+        "question": "Fleming discovered penicillin ______.",
+        "options": [
+          "accidentally",
+          "accidental",
+          "accident",
+          "on accident"
+        ],
+        "answer": 0,
+        "explanation": "🔍 نحتاج حال (adverb) لوصف الفعل 'discovered'. 'accidentally' = بالصدفة. 'accidental' صفة، و'accident' اسم، و'on accident' أقل شيوعاً."
+      },
+      {
+        "id": 340,
+        "category": "Grammar - Tenses",
+        "question": "I am waiting ______ ask you about something.",
+        "options": [
+          "for",
+          "in order to",
+          "because",
+          "because of"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'In order to' تعني 'لكي' وتستخدم للتعبير عن الغرض. 'I am waiting in order to ask you' = أنا أنتظر لكي أسألك. 'for' تستخدم مع الاسم، و'because' تتبعها جملة."
+      },
+      {
+        "id": 341,
+        "category": "Vocabulary",
+        "question": "The house was completely ______ by tall trees.",
+        "options": [
+          "supported",
+          "surrendered",
+          "suspended",
+          "surrounded"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Surrounded' تعني 'محاط'، والمنزل محاط بالأشجار الطويلة. 'Supported' تعني 'مدعوم'، و'Surrendered' تعني 'استسلم'، و'Suspended' تعني 'معلق'."
+      },
+      {
+        "id": 342,
+        "category": "Grammar - Tenses",
+        "question": "The United States and Canada have many trade agreements that benefit ______.",
+        "options": [
+          "one the other",
+          "other",
+          "other one",
+          "each other"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Each other' للدلالة على الفعل المتبادل بين طرفين. 'benefit each other' = يفيد كل منهما الآخر. 'One the other' و'Other one' غير صحيحتين."
+      },
+      {
+        "id": 343,
+        "category": "Phrasal Verbs",
+        "question": "This is going to be my chance to ______ any difficulties.",
+        "options": [
+          "solve",
+          "sort out",
+          "find out",
+          "do"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Solve' تعني 'يحل'، وهي الأنسب مع 'difficulties' (الصعوبات). 'Sort out' تعني 'يفرز' أو 'يحل' أيضاً، ولكن 'solve' أكثر شيوعاً مع المشاكل. 'Find out' تعني 'يكتشف'."
+      },
+      {
+        "id": 344,
+        "category": "Vocabulary",
+        "question": "There are many more television ______ today than there used to be twenty years ago.",
+        "options": [
+          "passers-by",
+          "spectators",
+          "viewers",
+          "sight-seers"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Viewers' هم 'مشاهدو التلفاز'. 'Passers-by' هم 'المارة'، و'Spectators' هم 'المتفرجون' (في الأحداث الرياضية)، و'Sight-seers' هم 'السياح'."
+      },
+      {
+        "id": 345,
+        "category": "Grammar - Tenses",
+        "question": "His sisters told him ______ old to watch cartoons.",
+        "options": [
+          "he was getting too",
+          "he is getting to",
+          "he is getting so",
+          "he gets so"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Too + adjective + to' تعني 'كبير جداً لـ'. 'he was getting too old to watch cartoons' = أصبح كبيراً جداً لمشاهدة الرسوم المتحركة. 'so' تستخدم مع 'that'."
+      },
+      {
+        "id": 346,
+        "category": "Vocabulary",
+        "question": "A more detailed examination will be needed to ______ the exact nature of the tumour, said the doctor.",
+        "options": [
+          "regulate",
+          "restore",
+          "determine",
+          "develop"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Determine' تعني 'يحدد'، وهي الأنسب لتحديد طبيعة الورم. 'Regulate' تعني 'ينظم'، و'Restore' تعني 'يستعيد'، و'Develop' تعني 'يطوّر'."
+      },
+      {
+        "id": 347,
+        "category": "Grammar - Tenses",
+        "question": "If we get up in time, we ______ the train.",
+        "options": [
+          "will catch",
+          "caught",
+          "would catch",
+          "catch"
+        ],
+        "answer": 0,
+        "explanation": "🔍 First conditional: 'if + present, will + V1'. 'If we get up in time, we will catch the train' = إذا استيقظنا في الوقت المناسب، سنلحق القطار."
+      },
+      {
+        "id": 348,
+        "category": "Prepositions",
+        "question": "I went to Brazil ______ business.",
+        "options": [
+          "in",
+          "about",
+          "on",
+          "for"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'On business' هي العبارة الصحيحة بمعنى 'لأعمال' (سفر عمل). 'in business' تعني 'في مجال الأعمال'، و'for business' تستخدم أيضاً ولكن 'on business' أكثر شيوعاً."
+      },
+      {
+        "id": 349,
+        "category": "Vocabulary",
+        "question": "People with no previous ______ need not apply.",
+        "options": [
+          "experiment",
+          "experience",
+          "inexperience",
+          "experiments"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Experience' تعني 'خبرة'. 'no previous experience' = لا خبرة سابقة. 'Experiment' تعني 'تجربة علمية'، و'Inexperience' تعني 'قلة الخبرة'."
+      },
+      {
+        "id": 350,
+        "category": "Vocabulary",
+        "question": "How much do I ______ you?",
+        "options": [
+          "owe",
+          "own to",
+          "owing",
+          "owing to"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Owe' تعني 'يدين'. 'How much do I owe you؟' = كم أدين لك؟ 'Own to' خطأ، و'Owing' و'Owing to' تعني 'بسبب'."
+      },
+      {
+        "id": 351,
+        "category": "Vocabulary",
+        "question": "A hand grenade ______ just a few meters from where he was lying.",
+        "options": [
+          "zoomed",
+          "exploded",
+          "knocked",
+          "exposed"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Exploded' تعني 'انفجر'، وهي ما تفعله القنبلة اليدوية. 'Zoomed' تعني 'انطلق بسرعة'، و'Knocked' تعني 'طرق'، و'Exposed' تعني 'كشف'."
+      },
+      {
+        "id": 352,
+        "category": "Prepositions",
+        "question": "The cat is waiting ______ the door.",
+        "options": [
+          "on",
+          "at",
+          "in"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'At the door' تعني 'عند الباب'. 'On the door' تعني 'على الباب'، و'In the door' تعني 'في الباب' (غير صحيحة)."
+      },
+      {
+        "id": 353,
+        "category": "Grammar - Tenses",
+        "question": "He still doesn't believe I won the track and field yesterday, ______?",
+        "options": [
+          "is he",
+          "does he",
+          "didn't I",
+          "doesn't he"
+        ],
+        "answer": 1,
+        "explanation": "🔍 المذيل للجملة المنفية 'doesn't believe' هو 'does he'. الجملة الرئيسية منفية، لذا المذيل مثبت. 'doesn't he' خطأ لأن المذيل يجب أن يكون معاكساً للجملة."
+      },
+      {
+        "id": 354,
+        "category": "Grammar - Tenses",
+        "question": "Would you believe it was no other than our poor old postman ______.",
+        "options": [
+          "Someone",
+          "It",
+          "Somebody",
+          "Man"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'It' تستخدم للتعبير عن هوية الشخص. 'It was no other than...' = لم يكن سوى... 'Someone' و'Somebody' تعنيان 'شخص ما'، و'Man' تعني 'رجل'."
+      },
+      {
+        "id": 355,
+        "category": "Grammar - Tenses",
+        "question": "You can play outside when you ______ your lunch.",
+        "options": [
+          "will have eaten",
+          "have eaten",
+          "are eating",
+          "eat"
+        ],
+        "answer": 1,
+        "explanation": "🔍 في جمل الزمان المستقبلية، نستخدم المضارع التام. 'when you have eaten your lunch' = عندما تكون قد تناولت غداءك. لا نستخدم 'will' في جملة 'when'."
+      },
+      {
+        "id": 356,
+        "category": "Grammar - Tenses",
+        "question": "It seems to me they never gave thought to future problems when the plans ______ five years ago.",
+        "options": [
+          "they laid down",
+          "being laid down",
+          "were laid down",
+          "to be laid down"
+        ],
+        "answer": 2,
+        "explanation": "🔍 Past simple passive: 'were laid down' = وُضعت. 'when the plans were laid down' = عندما وُضعت الخطط. 'they laid down' غير صحيحة لأن الفاعل غير محدد."
+      },
+      {
+        "id": 357,
+        "category": "Grammar - Tenses",
+        "question": "I'm ______ when I'm with you.",
+        "options": [
+          "happier",
+          "happily",
+          "happier than",
+          "the happy"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Happier' للمقارنة بين شخصين. 'I'm happier when I'm with you' = أنا أكثر سعادة عندما أكون معك. 'happily' حال، و'happier than' تحتاج إلى مفعول به للمقارنة."
+      },
+      {
+        "id": 358,
+        "category": "Grammar - Tenses",
+        "question": "Have you heard the great news, Mark? The man ______ refused your proposal last year, has been arrested for embezzlement of government funds.",
+        "options": [
+          "whose daughter",
+          "whom",
+          "who have repeatedly",
+          "that"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Whose daughter' = التي رفضت ابنتها (اقتراحك). 'whose' للدلالة على الملكية. 'who have repeatedly' خطأ لأن 'who' تستخدم للفاعل، و'that' تستخدم للأشياء."
+      },
+      {
+        "id": 359,
+        "category": "Grammar - Tenses",
+        "question": "The incident has been witnessed by a number of ______.",
+        "options": [
+          "passer-by",
+          "passers-bys",
+          "passers-by",
+          "passers-bys"
+        ],
+        "answer": 2,
+        "explanation": "🔍 جمع 'passer-by' هو 'passers-by'. القاعدة: نضيف 's' للكلمة الأولى (الاسم)، وليس للكلمة الثانية (حرف الجر)."
+      },
+      {
+        "id": 360,
+        "category": "Vocabulary",
+        "question": "I'm simply surprised at your lack of authority over him. Why can't you ______ him eat his dinner?",
+        "options": [
+          "force",
+          "make",
+          "ask",
+          "tell"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Make + object + V1' تعني 'يجعل' (إجبار). 'make him eat' = تجعله يأكل. 'force' تحتاج إلى 'to'، و'ask' و'tell' تحتاجان إلى 'to'."
+      },
+      {
+        "id": 361,
+        "category": "Grammar - Tenses",
+        "question": "He is so talented, ______?",
+        "options": [
+          "is not he",
+          "is he",
+          "has not he",
+          "does not he"
+        ],
+        "answer": 0,
+        "explanation": "🔍 المذيل مع 'is' هو 'isn't he'. الجملة مثبتة، لذا المذيل منفي. 'is not he' هي الصيغة الطويلة، والصيغة المختصرة 'isn't he' هي الأكثر شيوعاً."
+      },
+      {
+        "id": 362,
+        "category": "Grammar - Tenses",
+        "question": "He looked ______ a ghost.",
+        "options": [
+          "as though he had seen",
+          "as if a",
+          "as he had seen",
+          "like seeing"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'As though' تتبعها جملة كاملة. 'as though he had seen a ghost' = كأنه رأى شبحاً. 'as if a' غير مكتملة، و'like seeing' غير صحيحة مع 'looked'."
+      },
+      {
+        "id": 363,
+        "category": "Vocabulary",
+        "question": "The poet had written several ______ before completing the final version.",
+        "options": [
+          "originals",
+          "drafts",
+          "poems",
+          "novels"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Drafts' هي 'مسودات'، وهي النسخ الأولية التي يكتبها الشاعر قبل النسخة النهائية. 'poems' هي 'قصائد'، و'novels' هي 'روايات'."
+      },
+      {
+        "id": 364,
+        "category": "Grammar - Tenses",
+        "question": "A: 'Why didn't you go to the training session?' B: 'I ______ to the training. John saw me there. Ask him.'",
+        "options": [
+          "didn't go",
+          "did go",
+          "did went",
+          "sure go"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Did go' للتوكيد. المتحدث يؤكد أنه ذهب بالفعل إلى التدريب. 'didn't go' تنفي الذهاب، و'did went' خطأ لأن بعد 'did' نستخدم المصدر."
+      },
+      {
+        "id": 365,
+        "category": "Grammar - Tenses",
+        "question": "I ______. I've hired a very good decorator.",
+        "options": [
+          "'m redecorating my kitchen",
+          "will be redecorating my kitchen",
+          "will have my kitchen redecorate",
+          "'m having my kitchen redecorated"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Having something done' بواسطة شخص آخر. 'I'm having my kitchen redecorated' = أقوم بتجديد مطبخي (بواسطة مصمم الديكور)."
+      },
+      {
+        "id": 366,
+        "category": "Grammar - Tenses",
+        "question": "He wishes he ______ the exam.",
+        "options": [
+          "will pass",
+          "had passed",
+          "has passed",
+          "can pass"
+        ],
+        "answer": 1,
+        "explanation": "🔍 للندم على الماضي نستخدم 'had passed'. 'He wishes he had passed the exam' = يتمنى لو كان قد نجح في الامتحان. 'will pass' و'can pass' للحاضر/المستقبل."
+      },
+      {
+        "id": 367,
+        "category": "Vocabulary",
+        "question": "You could ______ being a little bit more friendly, couldn't you?",
+        "options": [
+          "effort",
+          "comfort",
+          "support",
+          "afford"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Afford' تعني 'تستطيع' أو 'تتحمل' في هذا السياق. 'you could afford being more friendly' = يمكنك أن تكون أكثر ودية. 'effort' و'comfort' و'support' لا تتناسب مع المعنى."
+      },
+      {
+        "id": 368,
+        "category": "Vocabulary",
+        "question": "In the medical profession, men ______ women by two to one.",
+        "options": [
+          "outlive",
+          "outdo",
+          "outshine",
+          "outnumber"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Outnumber' تعني 'يفوق عدداً'. 'men outnumber women by two to one' = الرجال يفوقون النساء عدديًا بنسبة 2:1. 'outlive' تعني 'يعيش أطول'، و'outdo' تعني 'يتفوق'، و'outshine' تعني 'يلمع أكثر'."
+      },
+      {
+        "id": 369,
+        "category": "Vocabulary",
+        "question": "I wonder how he can ______ a luxurious car like this.",
+        "options": [
+          "afford",
+          "ride",
+          "apply",
+          "fly"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Afford' تعني 'يستطيع شراء'، وهي الأنسب مع سيارة فاخرة. 'Ride' تعني 'يركب'، و'Apply' تعني 'يتقدم'، و'Fly' تعني 'يطير'."
+      },
+      {
+        "id": 370,
+        "category": "Vocabulary",
+        "question": "I've listened to your argument. It's neither here nor there. In other words, it's quite ______.",
+        "options": [
+          "irrelevant",
+          "resentful",
+          "rebellious",
+          "scornful"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Irrelevant' تعني 'غير ذي صلة'. 'neither here nor there' تعني 'لا علاقة له بالموضوع'، أي 'irrelevant'. 'Resentful' تعني 'مستاء'، و'Rebellious' تعني 'متمرد'."
+      },
+      {
+        "id": 371,
+        "category": "Grammar - Tenses",
+        "question": "I've got too ______ problems.",
+        "options": [
+          "much",
+          "many",
+          "such",
+          "enough"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Many' مع الأسماء المعدودة الجمع (problems). 'Much' تستخدم مع غير المعدود، و'Such' و'Enough' لا تتناسب مع 'too' هنا."
+      },
+      {
+        "id": 372,
+        "category": "Vocabulary",
+        "question": "His uncle owns four computer companies and lives in a big ______ out in the country.",
+        "options": [
+          "hut",
+          "mansion",
+          "apartment",
+          "bungalow"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Mansion' هي 'قصر' أو 'فيلا كبيرة'، وهي تليق بشخص ثري يملك أربع شركات. 'Hut' هو 'كوخ'، و'Apartment' هو 'شقة'، و'Bungalow' هو 'بيت صغير'."
+      },
+      {
+        "id": 373,
+        "category": "Grammar - Tenses",
+        "question": "She's been very kind, ______?",
+        "options": [
+          "is not she",
+          "has not she",
+          "does not she",
+          "was not she"
+        ],
+        "answer": 1,
+        "explanation": "🔍 المذيل مع المضارع التام هو 'hasn't she'. الجملة 'She's been' = She has been، لذا المذيل 'hasn't she'."
+      },
+      {
+        "id": 374,
+        "category": "Grammar - Tenses",
+        "question": "He's come here, ______?",
+        "options": [
+          "is not he",
+          "does not he",
+          "has not he",
+          "has he"
+        ],
+        "answer": 2,
+        "explanation": "🔍 المذيل مع 'has come' هو 'hasn't he'. 'He's come' = He has come، لذا المذيل 'hasn't he'. 'has not he' هي الصيغة الطويلة."
+      },
+      {
+        "id": 375,
+        "category": "Grammar - Tenses",
+        "question": "He feels ______ than before.",
+        "options": [
+          "badder",
+          "bad",
+          "worse",
+          "the worst"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Worse' هي المقارنة لـ 'bad'. 'feels worse than before' = يشعر بأسوأ من قبل. 'Badder' غير صحيحة، و'Bad' صفة عادية، و'The worst' للتفضيل."
+      },
+      {
+        "id": 376,
+        "category": "Vocabulary",
+        "question": "It is highly unlikely to raise ______ income in an election year, according to an official in the parliament.",
+        "options": [
+          "price",
+          "payment",
+          "salary",
+          "tax"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Income tax' هي 'ضريبة الدخل'. رفع الضرائب في سنة انتخابية أمر غير مرجح. 'Salary' هو 'راتب'، و'Price' هو 'سعر'."
+      },
+      {
+        "id": 377,
+        "category": "Vocabulary",
+        "question": "You'd be wise to accept my ______.",
+        "options": [
+          "apologize",
+          "advice",
+          "advise",
+          "device"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Advice' هي اسم بمعنى 'نصيحة'. 'Accept my advice' = اقبل نصيحتي. 'Apologize' هو فعل بمعنى 'يعتذر'، و'Advise' هو فعل بمعنى 'ينصح'، و'Device' هو 'جهاز'."
+      },
+      {
+        "id": 378,
+        "category": "Vocabulary",
+        "question": "The noise of the gunshot rang through the trees and the birds flew off in ______ directions.",
+        "options": [
+          "each",
+          "either",
+          "every",
+          "all"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'All directions' تعني 'كل الاتجاهات'. الطيور طارت في كل الاتجاهات. 'Every direction' صحيحة أيضاً ولكن 'all directions' أكثر شيوعاً للجمع."
+      },
+      {
+        "id": 379,
+        "category": "Grammar - Tenses",
+        "question": "I wish I ______ have an exam tomorrow.",
+        "options": [
+          "don't",
+          "didn't",
+          "won't",
+          "am not"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'I wish I didn't' تعني 'أتمنى لو لم'. 'I wish I didn't have an exam tomorrow' = أتمنى لو لم يكن لدي امتحان غداً. 'Don't' للحاضر، و'Won't' للمستقبل."
+      },
+      {
+        "id": 380,
+        "category": "Grammar - Tenses",
+        "question": "They won't come, ______ they?",
+        "options": [
+          "would",
+          "are",
+          "will",
+          "do"
+        ],
+        "answer": 2,
+        "explanation": "🔍 المذيل مع 'won't' هو 'will'. الجملة منفية، لذا المذيل مثبت. 'They won't come, will they؟' = لن يأتوا، أليس كذلك؟"
+      },
+      {
+        "id": 381,
+        "category": "Vocabulary",
+        "question": "Oh I am so ______! Let's go and rent a video or something.",
+        "options": [
+          "happiness",
+          "tiring",
+          "fed-up",
+          "boring"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Fed up' تعني 'سئمت'، وهي الأنسب للرغبة في تغيير النشاط. 'Tiring' تعني 'مُتعب'، و'Boring' تعني 'ممل' (تصف الشيء)، و'Happiness' اسم."
+      },
+      {
+        "id": 382,
+        "category": "Vocabulary",
+        "question": "The new job will provide you with ______ experience. It is so helpful for your future as a programmer.",
+        "options": [
+          "praiseworthy",
+          "invaluable",
+          "admirable",
+          "merit"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Invaluable' تعني 'لا يُقدر بثمن'، وهي الأنسب لوصف خبرة مفيدة جداً. 'Praiseworthy' تعني 'جدير بالثناء'، و'Admirable' تعني 'مميز'، و'Merit' اسم."
+      },
+      {
+        "id": 383,
+        "category": "Grammar - Tenses",
+        "question": "John doesn't drink beer, ______ wine.",
+        "options": [
+          "or",
+          "neither wine nor",
+          "or wine or",
+          "neither wine or"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Or' في النفي تعني 'ولا'. 'John doesn't drink beer or wine' = جون لا يشرب بيرة ولا نبيذاً. 'neither...nor' تستخدم مع المثبت."
+      },
+      {
+        "id": 384,
+        "category": "Vocabulary",
+        "question": "The company ______ gourmet olive oil.",
+        "options": [
+          "consumes",
+          "tastes",
+          "discovers",
+          "produces"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Produces' تعني 'ينتج'، وهي الأنسب لشركة تنتج زيت الزيتون. 'Consumes' تعني 'يستهلك'، و'Tastes' تعني 'يتذوق'، و'Discovers' تعني 'يكتشف'."
+      },
+      {
+        "id": 385,
+        "category": "Vocabulary",
+        "question": "The company didn't have any ______ opening shops in Paris and Marseilles so they closed after only three months.",
+        "options": [
+          "success",
+          "winnings",
+          "profit",
+          "victory"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Profit' تعني 'ربح'، وعدم وجود ربح هو سبب إغلاق المتاجر. 'Success' تعني 'نجاح'، و'Winnings' تعني 'أرباح' (من قمار)، و'Victory' تعني 'نصر'."
+      },
+      {
+        "id": 386,
+        "category": "Grammar - Tenses",
+        "question": "A: The doorbell is ringing. B: ______.",
+        "options": [
+          "I am going to open the door",
+          "I will open the door",
+          "I will be opening the door",
+          "Both A & B"
+        ],
+        "answer": 3,
+        "explanation": "🔍 كلاً من 'will' و 'going to' صحيحان للقرار الفوري. 'I will open' و'I am going to open' كلاهما صحيحان للرد على رنين الجرس."
+      },
+      {
+        "id": 387,
+        "category": "Grammar - Tenses",
+        "question": "I am sorry, but I don't know where he lives. I wish I ______.",
+        "options": [
+          "did",
+          "had known",
+          "were",
+          "will know"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'I wish I did' للرغبة في معرفة ذلك حالياً. 'did' هنا تعني 'knew'. 'Had known' تستخدم للندم على الماضي، و'Were' تستخدم مع الصفات."
+      },
+      {
+        "id": 388,
+        "category": "Vocabulary",
+        "question": "If the fire alarm sounds, all residents are required to ______ in the courtyard.",
+        "options": [
+          "combine",
+          "mobilise",
+          "unite",
+          "assemble"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Assemble' تعني 'يتجمعون'، وهي الأنسب عندما يُطلب من السكان التجمع في مكان محدد. 'Unite' تعني 'يتحدون'، و'Combine' تعني 'يدمجون'."
+      },
+      {
+        "id": 389,
+        "category": "Vocabulary",
+        "question": "The new line of trains ______ all the suburbs to the city centre.",
+        "options": [
+          "conduct",
+          "conclude",
+          "refer",
+          "connect"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Connect' تعني 'يربط'، وهي الأنسب لخط قطار يربط الضواحي بمركز المدينة. 'Conduct' تعني 'يقود'، و'Conclude' تعني 'يستنتج'."
+      },
+      {
+        "id": 390,
+        "category": "Grammar - Tenses",
+        "question": "______ time in England is February.",
+        "options": [
+          "A cold",
+          "Colder",
+          "The coldest",
+          "The colder"
+        ],
+        "answer": 2,
+        "explanation": "🔍 Superlative: 'The coldest'. 'The coldest time in England is February' = أبرد وقت في إنجلترا هو فبراير. 'colder' للمقارنة بين شيئين."
+      },
+      {
+        "id": 391,
+        "category": "Grammar - Tenses",
+        "question": "I must go to the doctor and ______ before I go on holiday.",
+        "options": [
+          "test my blood pressure",
+          "have my blood pressure tested",
+          "have tested my blood pressure",
+          "get to test my blood pressure"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Have something done' = يقوم به شخص آخر. 'have my blood pressure tested' = أقيس ضغط دمي (بواسطة الطبيب)."
+      },
+      {
+        "id": 392,
+        "category": "Grammar - Tenses",
+        "question": "Some actions that are habits for ______ may look weird to people from other nationalities.",
+        "options": [
+          "the Japanese",
+          "the Japanese people",
+          "the Japanese",
+          "Japanese"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'The Japanese' للإشارة إلى الشعب الياباني بأكمله. 'the Japanese people' صحيحة أيضاً ولكنها أقل شيوعاً، و'Japanese' بدون 'the' تشير إلى اللغة أو الصفة."
+      },
+      {
+        "id": 393,
+        "category": "Grammar - Tenses",
+        "question": "You ______ it. I was going to do it anyway.",
+        "options": [
+          "must not do",
+          "would have done",
+          "ought to have done",
+          "need not have done"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Need not have done' تعني 'لم يكن من الضروري أن تفعل' (ولكنك فعلت). 'You need not have done it' = لم يكن من الضروري أن تفعلها، كنت سأفعلها على أي حال."
+      },
+      {
+        "id": 394,
+        "category": "Grammar - Tenses",
+        "question": "The weather was very hot the whole time. We ______ a month later when it's cooler.",
+        "options": [
+          "shouldn't have gone",
+          "should have gone",
+          "must have gone",
+          "can't have gone"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Should have gone' = كان من الأفضل أن نذهب (ولكننا لم نفعل). هذه نصيحة على شيء مضى. الجو كان حاراً، وكان من الأفضل الذهاب لاحقاً."
+      },
+      {
+        "id": 395,
+        "category": "Vocabulary",
+        "question": "The bridge ______ into the river without any warning. Lots of people were injured.",
+        "options": [
+          "degenerated",
+          "submerged",
+          "relapsed",
+          "collapsed"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Collapsed' تعني 'انهار'، وهو ما يحدث للجسر فجأة. 'Submerged' تعني 'غمر'، و'Relapsed' تعني 'انتكس'، و'Degenerated' تعني 'تدهور'."
+      },
+      {
+        "id": 396,
+        "category": "Vocabulary",
+        "question": "The students visited the museum and spent several hours with the ______ who was very helpful.",
+        "options": [
+          "bursar",
+          "steward",
+          "curator",
+          "commissioner"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Curator' هو 'أمين المتحف'، وهو الشخص الذي يساعد الزوار في المتحف. 'Bursar' هو 'أمين الصندوق'، و'Steward' هو 'مضيف'، و'Commissioner' هو 'مفوض'."
+      },
+      {
+        "id": 397,
+        "category": "Grammar - Tenses",
+        "question": "A little boy would rather ______.",
+        "options": [
+          "plays than studies",
+          "play than study",
+          "to play than to study",
+          "to play than studying"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Would rather' يتبعه مصدر مجرد. 'play than study' = يلعب بدلاً من أن يدرس. 'plays' و'studies' صيغة مفرد، و'to play' خطأ."
+      },
+      {
+        "id": 398,
+        "category": "Grammar - Tenses",
+        "question": "We wouldn't have missed the bus if you ______ to chat with Mary!",
+        "options": [
+          "didn't stop",
+          "hadn't stopped",
+          "don't stop",
+          "wouldn't have stopped"
+        ],
+        "answer": 1,
+        "explanation": "🔍 Third conditional: 'hadn't stopped'. 'if you hadn't stopped to chat' = لو لم تتوقف للدردشة. 'didn't stop' تستخدم في الشرط الثاني، و'don't stop' في الشرط الأول."
+      },
+      {
+        "id": 399,
+        "category": "Prepositions",
+        "question": "I'm not sure if you're aware ______ the risk.",
+        "options": [
+          "of",
+          "to",
+          "at",
+          "in"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Aware of' تعني 'مدرك لـ'. 'aware of the risk' = مدرك للمخاطرة. 'to' و'at' و'in' لا تستخدم مع 'aware'."
+      },
+      {
+        "id": 400,
+        "category": "Grammar - Tenses",
+        "question": "I wouldn't move to one of our overseas offices ______ this meant losing my job.",
+        "options": [
+          "even if",
+          "whether",
+          "as soon as",
+          "so"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Even if' تعني 'حتى لو'. 'I wouldn't move... even if this meant losing my job' = لن أنتقل... حتى لو كان هذا يعني فقدان وظيفتي. 'whether' تعني 'سواء'، و'as soon as' تعني 'حالما'."
+      }
+    ]
+  }
+}

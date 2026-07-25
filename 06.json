@@ -1,0 +1,1309 @@
+{
+  "exam": {
+    "title": "بنك الأسئلة الشامل للغة الإنجليزية - الجامعة الافتراضية (الجزء السادس)",
+    "description": "الأسئلة من 501 إلى 600 - مع شرح مفصل لكل إجابة",
+    "totalQuestions": 100,
+    "categories": {
+      "Grammar": 38,
+      "Vocabulary": 40,
+      "Phrasal Verbs": 10,
+      "Prepositions": 6,
+      "Idioms": 4,
+      "Structure": 2
+    },
+    "questions": [
+      {
+        "id": 501,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT sentence.",
+        "options": [
+          "I like a bit of cheese after my main course.",
+          "The reason he's so bogged down at work is that he's had a heavy cold for the last fortnight.",
+          "His death came as a terrible shock to his colleagues.",
+          "They've always dreamed of living in a countryside."
+        ],
+        "answer": 3,
+        "explanation": "🔍 'a countryside' غير صحيحة. نقول 'the countryside' أو 'in the country'. 'countryside' هو اسم غير معدود عادةً ولا نستخدم معه 'a'. الجملة الصحيحة: 'They've always dreamed of living in the countryside.'"
+      },
+      {
+        "id": 502,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT sentence.",
+        "options": [
+          "Rents in Tokyo are high compared to those in other cities.",
+          "The cost of living is as high as in Tokyo than in Bucharest.",
+          "The population of Tokyo proper is nearly the same as that of New York City.",
+          "Tokyo's problems are similar to those of other large cities."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'as high as in Tokyo than' خطأ. الصحيح: 'higher in Tokyo than' أو 'as high as in Bucharest'. الجملة تخلط بين صيغة المقارنة 'than' وصيغة المساواة 'as...as'."
+      },
+      {
+        "id": 503,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "Cleveland is now one of the most cleanest cities in North America.",
+          "In Buenos Aires, foreign bankers are as common than coffee house poets.",
+          "The London Underground is worst than the Tokyo Underground system.",
+          "Their prices are very high in compassion to ours."
+        ],
+        "answer": 3,
+        "explanation": "🔍 'in compassion to' تعني 'بالمقارنة مع'، وهي قريبة من 'in comparison to'. الخيارات الأخرى بها أخطاء: 'most cleanest' مزدوجة، 'as common than' خطأ، و'worst than' يجب أن تكون 'worse than'."
+      },
+      {
+        "id": 504,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "All questionnaires received by January 22 will being entered in a luxury vacation sweepstakes.",
+          "The winner will to enjoy a free trip to Hong Kong.",
+          "Winners will be flying First Class to Honolulu.",
+          "The CEO's plane will have landing by 4:00 p.m."
+        ],
+        "answer": 2,
+        "explanation": "🔍 'will be flying' = future continuous صحيح. الخيارات الأخرى: 'will being' خطأ، 'will to enjoy' خطأ، و'will have landing' خطأ (الصحيح 'will have landed')."
+      },
+      {
+        "id": 505,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT sentence.",
+        "options": [
+          "The hotel is in a lovely location overlooking the lake.",
+          "A couple of victories would improve a general morale.",
+          "A new rail network is being installed this month.",
+          "The winner will enjoy a week-long stay in an accommodation of their choice in Las Vegas."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'a general morale' خطأ. 'morale' هو اسم غير معدود (معنويات)، لذا نقول 'general morale' بدون 'a'. الجملة الصحيحة: 'A couple of victories would improve general morale.'"
+      },
+      {
+        "id": 506,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "We won't be able to start construction unif you train our personnel.",
+          "If this deal went well, we will make another agreement in the fall.",
+          "We can reach agreement on a joint venture provides that our firm has a representative on your board.",
+          "Unless you correct the design flaw, we will face a recall down the line."
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Unless you correct... we will face' = جملة شرطية صحيحة. 'Unless' تعني 'إذا لم'. الخيارات الأخرى: 'unif' خطأ إملائي، 'went' مع 'will' غير صحيحة، و'provides' يجب أن تكون 'provided'."
+      },
+      {
+        "id": 507,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT question.",
+        "options": [
+          "Do you have a small or a large family?",
+          "Does all of the people in your family live here?",
+          "Do you often call or email your friends?",
+          "Do your relatives speak English fluently?"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Does all of the people' خطأ. 'people' جمع، لذا نستخدم 'Do all of the people'. الصحيح: 'Do all of the people in your family live here?'"
+      },
+      {
+        "id": 508,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "His wife said, 'You need to see a doctor.'",
+          "The doctors wasn't said his problem was funny.",
+          "We don't think his problem was serious.",
+          "The doctors thanked Sam had sleep apnea."
+        ],
+        "answer": 0,
+        "explanation": "🔍 جملة منقولة بشكل صحيح. الخيارات الأخرى: 'wasn't said' خطأ، 'was' يجب أن تكون 'is'، و'thanked Sam had' يجب أن تكون 'thanked Sam for having'."
+      },
+      {
+        "id": 509,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT sentence.",
+        "options": [
+          "Joan saw a commercial for a special travel store on TV.",
+          "She didn't see a commercial for pet food last time.",
+          "Sue has made a list of all of the reasons to enjoy flying.",
+          "She didn't make a list of reasons to avoid flying."
+        ],
+        "answer": 2,
+        "explanation": "🔍 'has made' مع 'all of the reasons' فيها خطأ في الصياغة. الأصح استخدام الماضي البسيط 'made' لأن الفعل حدث وانتهى. 'Sue made a list of all the reasons...'"
+      },
+      {
+        "id": 510,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT sentence.",
+        "options": [
+          "Charlie used to sits in a high chair.",
+          "Charlie used to sleep in a crib.",
+          "Charlie used to play with toys all day.",
+          "Charlie used to sleep with a teddy bear."
+        ],
+        "answer": 0,
+        "explanation": "🔍 'used to sits' خطأ. بعد 'used to' نستخدم المصدر (V1). الصحيح: 'Charlie used to sit in a high chair.'"
+      },
+      {
+        "id": 511,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT question.",
+        "options": [
+          "How much water do you drink when you exercise?",
+          "How much times a week do you eat in fast food restaurants?",
+          "How many pieces of cake do you have for dessert?",
+          "How much bread do you have with dinner?"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'How much times' خطأ. 'times' معدودة، لذا نستخدم 'How many times'. الصحيح: 'How many times a week do you eat in fast food restaurants?'"
+      },
+      {
+        "id": 512,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "Reiko is 19 years old and likes music a lot.",
+          "Reiko is 19 years old, she likes music a lot.",
+          "Reiko is 19 years old, and likes music a lot.",
+          "And Reiko is 19 years old, she like music a lot."
+        ],
+        "answer": 0,
+        "explanation": "🔍 جملة صحيحة برابط 'and' بين جملتين. الخيار الثاني به فاصلة (comma splice)، والثالث 'likes' بدون فاعل، والرابع 'she like' خطأ."
+      },
+      {
+        "id": 513,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "Salma is married, and a student.",
+          "Salma is married and a student.",
+          "Salma is married, and Salma is a student.",
+          "Salma is married and Salma a student."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Salma is married and a student' = جملة صحيحة بدون فاصلة غير ضرورية. الخيار الثالث صحيح ولكن به تكرار غير ضروري لـ 'Salma'."
+      },
+      {
+        "id": 514,
+        "category": "Grammar - Tenses",
+        "question": "Ms. Lee is my English teacher. Choose the CORRECT question.",
+        "options": [
+          "Who is your English teacher?",
+          "How is your English teacher?",
+          "Whom does your English teacher?",
+          "Whom your English teacher is?"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Who is your English teacher?' = سؤال عن الفاعل. 'How' يسأل عن الحال، و'Whom' يجب أن يتبعه فعل مع مفعول به."
+      },
+      {
+        "id": 515,
+        "category": "Grammar - Tenses",
+        "question": "Cold water is always in the refrigerator. Choose the CORRECT question.",
+        "options": [
+          "Where is the cold water?",
+          "Where does the cold water?",
+          "Where has cold watered?",
+          "What is cold water in?"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Where is the cold water?' = سؤال عن المكان. 'Where does' يحتاج إلى فعل، و'has watered' تعني 'سقى'، و'What is cold water in' غير صحيحة."
+      },
+      {
+        "id": 516,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT order.",
+        "options": [
+          "After my father died my mother went to work.",
+          "After my father died, my mother went to work.",
+          "My mother went to work after my father died.",
+          "After, my mother went to work, my father died."
+        ],
+        "answer": 1,
+        "explanation": "🔍 الفاصلة بعد جملة الزمان ضرورية. 'After my father died, my mother went to work.' الخيار الثالث صحيح أيضاً ولكن بدون فاصلة. الخيار الرابع يغير المعنى."
+      },
+      {
+        "id": 517,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "It's making a birthday cake is to fun.",
+          "To making a birthday cake is fun.",
+          "Making a birthday cake is fun.",
+          "You are fun to make a birthday cake."
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Making a birthday cake is fun.' = Gerund كفاعل. الخيارات الأخرى: 'It's making...is to fun' خطأ، 'To making' خطأ، و'You are fun' تغير المعنى."
+      },
+      {
+        "id": 518,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT sentence.",
+        "options": [
+          "Ali may open a savings account.",
+          "Ali might sell his Persian rug.",
+          "Perhaps Michael maybe take Finance 101.",
+          "Michael might look for a job."
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Perhaps Michael maybe take' خطأ. 'Perhaps' و'maybe' كلاهما ظرفان ولا نستخدمهما معاً. الصحيح: 'Perhaps Michael might take Finance 101.'"
+      },
+      {
+        "id": 519,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "Ali might has the opportunity to buy a used bike.",
+          "Michael might to have a chance to vacation in Mexico.",
+          "Ali may go along on the trip.",
+          "Michael may be buy a new car."
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Ali may go along on the trip.' = جملة صحيحة. 'may' + V1. الخيارات الأخرى: 'might has' خطأ، 'might to have' خطأ، و'may be buy' خطأ."
+      },
+      {
+        "id": 520,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "The music was so loud then I couldn't hear anything.",
+          "The music was so loud that I couldn't hear anything.",
+          "The music was so loudly that I couldn't hear anything.",
+          "The music was very loud that I couldn't hear anything."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'so + adjective + that' = الصيغة الصحيحة. 'so loud that I couldn't hear' = عالٍ لدرجة أنني لم أستطع السماع. 'then' خطأ، و'loudly' حال وليس صفة."
+      },
+      {
+        "id": 521,
+        "category": "Grammar - Passive Voice",
+        "question": "Astronomers have discovered new stars. Choose the CORRECT passive sentence.",
+        "options": [
+          "New stars were discovered by astronomers.",
+          "New stars have been discovered by astronomers.",
+          "New stars are discovered by astronomers.",
+          "New stars will be discovered by astronomers."
+        ],
+        "answer": 1,
+        "explanation": "🔍 المضارع التام في المجهول: have/has + been + V3. 'have been discovered' = تم اكتشافها. 'were' للماضي البسيط، و'are' للحاضر، و'will' للمستقبل."
+      },
+      {
+        "id": 522,
+        "category": "Grammar - Passive Voice",
+        "question": "Several countries are developing joint research projects. Choose the CORRECT passive sentence.",
+        "options": [
+          "Joint research projects are developed.",
+          "Joint research projects were developed.",
+          "Joint research projects are being developed.",
+          "Joint research projects have been developed."
+        ],
+        "answer": 2,
+        "explanation": "🔍 المضارع المستمر في المجهول: am/is/are + being + V3. 'are being developed' = يتم تطويرها حالياً. 'are developed' للحقائق العامة."
+      },
+      {
+        "id": 523,
+        "category": "Grammar - Passive Voice",
+        "question": "Then, humans must find other places to live. Choose the CORRECT passive sentence.",
+        "options": [
+          "Then, other places to live should be finding.",
+          "Then, other places to live should be found."
+        ],
+        "answer": 1,
+        "explanation": "🔍 مع أفعال المودال في المجهول: modal + be + V3. 'should be found' = يجب أن يتم إيجادها. 'should be finding' خطأ لأن 'finding' ليس V3."
+      },
+      {
+        "id": 524,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT sentence.",
+        "options": [
+          "There are many medical myths whose educated people believe them.",
+          "There are many medical myths whom educated people believe.",
+          "There are many medical myths in which educated people believe.",
+          "There are many medical myths that educated people believe."
+        ],
+        "answer": 0,
+        "explanation": "🔍 'whose educated people believe them' خطأ. 'whose' تستخدم للملكية. الصحيح: 'that educated people believe' أو 'in which educated people believe'."
+      },
+      {
+        "id": 525,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT sentence.",
+        "options": [
+          "A friend encouraged me to buying a new camera.",
+          "I except to learn a great deal about early films.",
+          "I was able to find several good film classes last time.",
+          "I decided to take several classes last semester."
+        ],
+        "answer": 0,
+        "explanation": "🔍 'encouraged me to buying' خطأ. بعد 'encouraged me to' نستخدم المصدر (V1). الصحيح: 'A friend encouraged me to buy a new camera.'"
+      },
+      {
+        "id": 526,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "When we communicate, each of we speak two distinct languages.",
+          "We express ourselves with our bodies as well as with our words.",
+          "People's movements often communicate more than them words.",
+          "Each culture has it's own body language."
+        ],
+        "answer": 1,
+        "explanation": "🔍 جملة صحيحة. الخيارات الأخرى: 'each of we' يجب أن تكون 'each of us'، 'them words' يجب أن تكون 'their words'، و'it's' يجب أن تكون 'its' (ملكية)."
+      },
+      {
+        "id": 527,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT question.",
+        "options": [
+          "Have you studied until late last night?",
+          "Study until late last night?",
+          "Did you studied until late last night?",
+          "Did you study until late last night?"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Did you study' = past simple سؤال صحيح. 'Have you studied' للمضارع التام، و'last night' مع الماضي البسيط. 'Did you studied' خطأ لأن بعد 'did' نستخدم المصدر."
+      },
+      {
+        "id": 528,
+        "category": "Grammar - Tenses",
+        "question": "I usually study there once or twice a week. Choose the CORRECT question.",
+        "options": [
+          "How often do you study at the library?",
+          "When do you study here?",
+          "What do you study here?",
+          "How long do you study here?"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'How often' = السؤال عن التكرار. الجواب 'once or twice a week' يدل على التكرار. 'When' يسأل عن الوقت، و'What' عن الشيء، و'How long' عن المدة."
+      },
+      {
+        "id": 529,
+        "category": "Grammar - Tenses",
+        "question": "A: Oh, you have an apartment. ______? B: About five blocks from here.",
+        "options": [
+          "How long do you live from the library?",
+          "How far do you live from the library?",
+          "Who lives about five blocks from here?",
+          "Where are you living?"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'How far' = السؤال عن المسافة. الجواب 'About five blocks from here' يدل على المسافة. 'How long' يسأل عن المدة، و'Who' عن الشخص."
+      },
+      {
+        "id": 530,
+        "category": "Grammar - Tenses",
+        "question": "A: ______ B: Oh, it's my watch. Sorry!",
+        "options": [
+          "How is beeping?",
+          "What beeping?",
+          "Which is watch beeping?",
+          "Whose watch is beeping?"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Whose watch is beeping?' = سؤال عن الملكية. الجواب 'it's my watch' يحدد المالك. 'What beeping' غير صحيحة، و'Which' يسأل عن الاختيار."
+      },
+      {
+        "id": 531,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT sentence.",
+        "options": [
+          "Could you hold my hat, darling?",
+          "Would you mind moving a little?",
+          "Would you mind not giving me orders?",
+          "Would you going to another section?"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Would you going' خطأ. الصحيح: 'Would you go' أو 'Would you mind going'. 'Would you going' يخلط بين صيغتين مختلفتين."
+      },
+      {
+        "id": 532,
+        "category": "Grammar - Tenses",
+        "question": "A: ______ B: Of course. What name shall I put it under?",
+        "options": [
+          "May you to give me a six o'clock reservation?",
+          "Can you give me a six o'clock reservation?",
+          "Would you mind give me a six o'clock reservation?",
+          "Should you give me a six o'clock reservation?"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Can you give me...' = طلب مهذب. 'May you to' خطأ، و'Would you mind' تتبعها V-ing، و'Should' تعني 'ينبغي'."
+      },
+      {
+        "id": 533,
+        "category": "Grammar - Tenses",
+        "question": "A: ______ B: No, I wouldn't. I forgot to take it off. Sorry.",
+        "options": [
+          "Would you minding remove your hat?",
+          "Can you removing your hat?",
+          "Would you mind removing your hat?",
+          "Would you removing your hat?"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Would you mind + V-ing' = طلب مهذب. 'Would you mind removing your hat?' = هل تمانع في خلع قبعتك؟ 'minding' خطأ، و'Can you removing' خطأ."
+      },
+      {
+        "id": 534,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "I'd like to compete in the Olympics.",
+          "I'd really rather to hire my own private chef.",
+          "I don't rather move to Paris.",
+          "I'd prefer not run a marathon."
+        ],
+        "answer": 0,
+        "explanation": "🔍 'I'd like to compete' = جملة صحيحة. 'would rather' تتبعها V1 بدون 'to'، و'prefer' تتبعها 'to + V1' أو 'V-ing'."
+      },
+      {
+        "id": 535,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT question.",
+        "options": [
+          "Would you to like a Ph.D.?",
+          "Wouldn't you rather a Ph.D.?",
+          "Would you to rather a Ph.D.?",
+          "Wouldn't you like a Ph.D.?"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Wouldn't you like a Ph.D.?' = سؤال مهذب. 'Would you to like' خطأ، و'Rather' تحتاج إلى V1 بعدها."
+      },
+      {
+        "id": 536,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT question.",
+        "options": [
+          "Should Nancy take Vitamin C every morning?",
+          "Should Carlos have spent several hours reading his health insurance policy?",
+          "Shouldn't Ted check his blood pressure every morning?",
+          "Ought Ali have to studied for his anatomy exam last night?"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Ought Ali have to studied' خطأ. الصحيح: 'Ought Ali to have studied' أو 'Should Ali have studied'. 'Ought' تتبعها 'to + V1'."
+      },
+      {
+        "id": 537,
+        "category": "Grammar - Passive Voice",
+        "question": "Choose the INCORRECT PASSIVE sentence.",
+        "options": [
+          "Mr. Jones will be given the results of the test to the students within the next week.",
+          "Mr. Jones will give the results of the test to the students within the next week.",
+          "The results of the test will be given to the students within the next week.",
+          "The students will be given the results of the test by Mr. Jones within the next week."
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Mr. Jones will be given the results... to the students' خطأ في الصياغة. الصحيح: 'The results will be given to the students' أو 'The students will be given the results'."
+      },
+      {
+        "id": 538,
+        "category": "Grammar - Passive Voice",
+        "question": "Choose the INCORRECT PASSIVE sentence.",
+        "options": [
+          "Mr. Sanchez was shown some computer software by the salesman.",
+          "Some computer software was shown to Mr. Sanchez by the sales person.",
+          "The salesman showed Mr. Sanchez some computer software.",
+          "The salesman was showed Mr. Sanchez some computer software."
+        ],
+        "answer": 3,
+        "explanation": "🔍 'was showed' خطأ. التصريف الثالث لـ 'show' هو 'shown'. الصحيح: 'The salesman showed Mr. Sanchez...' (معلوم) أو 'Mr. Sanchez was shown...' (مجهول)."
+      },
+      {
+        "id": 539,
+        "category": "Grammar - Passive Voice",
+        "question": "Choose the INCORRECT PASSIVE sentence.",
+        "options": [
+          "Every year, a rich businesswoman gives our town $100,000 to spend on the schools.",
+          "Every year, $100,000 is given by a rich businesswoman to be spent on the schools.",
+          "Every year, our town is given $100,000 to be spent on the schools by a businesswoman.",
+          "Every year, a rich business is given our town $100,000 to spend on the schools."
+        ],
+        "answer": 3,
+        "explanation": "🔍 'a rich business is given our town' خطأ في الصياغة. الصحيح: 'a rich businesswoman gives our town $100,000' أو 'our town is given $100,000 by a rich businesswoman'."
+      },
+      {
+        "id": 540,
+        "category": "Grammar - Passive Voice",
+        "question": "Choose the sentence that CAN be changed to Passive.",
+        "options": [
+          "The U.S. patent office received Bell's application two hours before Gray's.",
+          "One was a schoolteacher named Alexander Graham Bell.",
+          "The other was a professional inventor named Elisha Gray.",
+          "Gray finished first."
+        ],
+        "answer": 0,
+        "explanation": "🔍 فقط الجمل التي تحتوي على مفعول به يمكن تحويلها للمبني للمجهول. 'received' لها مفعول به (Bell's application). الجمل الأخرى لا تحتوي على مفعول به."
+      },
+      {
+        "id": 541,
+        "category": "Grammar - Passive Voice",
+        "question": "Robots might replace human workers in dangerous areas. Choose the CORRECT passive sentence.",
+        "options": [
+          "Human workers might be replaced by robots.",
+          "Human workers might be replaced by robots.",
+          "Human workers might be replacing by robots.",
+          "Human workers might being replaced by robots."
+        ],
+        "answer": 0,
+        "explanation": "🔍 مع 'might' في المجهول: might + be + V3. 'might be replaced' = قد يتم استبدالهم. 'replacing' و'being' غير صحيحتين."
+      },
+      {
+        "id": 542,
+        "category": "Grammar - Passive Voice",
+        "question": "In the future, people will use artificial intelligence. Choose the CORRECT passive sentence.",
+        "options": [
+          "Artificial intelligence would be used to create robots.",
+          "Artificial intelligence will be using to create robots.",
+          "Artificial intelligence will be used to create robots.",
+          "Artificial intelligence will be to used to create robots."
+        ],
+        "answer": 2,
+        "explanation": "🔍 مع 'will' في المجهول: will + be + V3. 'will be used' = سيتم استخدامها. 'would' للماضي، و'using' و'to used' غير صحيحتين."
+      },
+      {
+        "id": 543,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT answer. (Personnel + Policy)",
+        "options": [
+          "A policy's of personnel",
+          "A personnel policy",
+          "A policy of personnel",
+          "A personnel's policy"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'A policy of personnel' = سياسة الموظفين. هذه هي الصيغة الصحيحة باستخدام 'of' للملكية. 'personnel policy' تستخدم أيضاً ولكنها أقل شيوعاً."
+      },
+      {
+        "id": 544,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT answer. (Salary + Increase)",
+        "options": [
+          "A salary increase",
+          "An increase of salary",
+          "A salaries increase",
+          "A salary's increase's"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'A salary increase' = زيادة في الراتب. هذه هي الصيغة الأكثر شيوعاً. 'An increase of salary' صحيحة أيضاً ولكن 'salary increase' أكثر استخداماً."
+      },
+      {
+        "id": 545,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT answer. (Breach + Contract)",
+        "options": [
+          "A contract breach",
+          "A contract's breach",
+          "A breach's contact",
+          "A breach of contract"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'A breach of contract' = خرق العقد. هذه هي الصيغة الصحيحة باستخدام 'of'. 'contract breach' تستخدم أيضاً ولكن 'breach of contract' أكثر شيوعاً في السياقات القانونية."
+      },
+      {
+        "id": 546,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT answer. (Unemployment + Figures)",
+        "options": [
+          "Unemployment figures",
+          "figures of unemployment",
+          "Unemployment's figures",
+          "figures' unemployment"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Unemployment figures' = أرقام البطالة. هذه هي الصيغة الأكثر شيوعاً (اسم + اسم). 'figures of unemployment' صحيحة أيضاً ولكنها أقل شيوعاً."
+      },
+      {
+        "id": 547,
+        "category": "Grammar - Indirect Questions",
+        "question": "What are your strengths? Choose the CORRECT indirect question.",
+        "options": [
+          "Could you tell me what your strengths are?",
+          "Could you tell me what are your strengths?",
+          "Could you tell me if your strengths are?",
+          "Could you tell me what do your strengths are?"
+        ],
+        "answer": 0,
+        "explanation": "🔍 في السؤال غير المباشر نضع الفاعل قبل الفعل. 'what your strengths are' = ما هي نقاط قوتك. 'what are' خطأ في غير المباشر، و'if' غير صحيحة."
+      },
+      {
+        "id": 548,
+        "category": "Grammar - Indirect Questions",
+        "question": "What would your colleagues say about you? Choose the CORRECT indirect question.",
+        "options": [
+          "I would like to know what do your colleagues say about you?",
+          "I'd like to know what would your colleagues say about you.",
+          "I would like to know would your colleagues say about you?",
+          "I'd like to know what your colleagues would say about you."
+        ],
+        "answer": 3,
+        "explanation": "🔍 في السؤال غير المباشر: فاعل + فعل. 'what your colleagues would say about you' = ماذا سيقول زملاؤك عنك. 'would' بعد الفاعل وليس قبله."
+      },
+      {
+        "id": 549,
+        "category": "Grammar - Indirect Questions",
+        "question": "How have you changed in the last five years? Choose the CORRECT indirect question.",
+        "options": [
+          "Could you tell me if have you changed in the last five years?",
+          "Could you tell me how you have changed in the last five years?",
+          "Could you tell me have you changed in the last five years?",
+          "Could you tell me how have you changed in the last five years?"
+        ],
+        "answer": 1,
+        "explanation": "🔍 في السؤال غير المباشر: فاعل + فعل. 'how you have changed' = كيف تغيرت. 'have you' خطأ في غير المباشر، و'if' غير صحيحة."
+      },
+      {
+        "id": 550,
+        "category": "Grammar - Indirect Questions",
+        "question": "Where did you work last year? Choose the CORRECT indirect question.",
+        "options": [
+          "Can I know where you worked last year?",
+          "Can I know where did you work last year?",
+          "Can I know where did you worked last year?",
+          "Can I know if you work last year?"
+        ],
+        "answer": 0,
+        "explanation": "🔍 في السؤال غير المباشر: فاعل + فعل. 'where you worked last year' = أين عملت السنة الماضية. 'did you' خطأ، و'if you work' تغير المعنى."
+      },
+      {
+        "id": 551,
+        "category": "Vocabulary",
+        "question": "He has a dependency on alcohol. What does 'dependency' mean?",
+        "options": [
+          "a place of misfortune",
+          "fulfilled my sentence in prison",
+          "attacking or beating up someone",
+          "condition of needing and being controlled by"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Dependency' = حالة من الاعتماد والإدمان. 'dependency on alcohol' = إدمان الكحول. الخيارات الأخرى: مكان تعيس، قضاء فترة في السجن، اعتداء جسدي."
+      },
+      {
+        "id": 552,
+        "category": "Vocabulary",
+        "question": "It's in the city's hard-luck Downtown Eastside. What does 'hard-luck' mean?",
+        "options": [
+          "a place of misfortune",
+          "attacking or beating up someone",
+          "fulfilled my sentence in prison",
+          "condition of needing and being controlled by"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Hard-luck' = مكان تعيس يعيش فيه أشخاص في ظروف صعبة. 'hard-luck area' = منطقة تعيسة. الخيارات الأخرى لا تناسب المعنى."
+      },
+      {
+        "id": 553,
+        "category": "Vocabulary",
+        "question": "Her mind is addled by crack cocaine. What does 'addled' mean?",
+        "options": [
+          "without drugs or alcohol",
+          "theft; stealing things",
+          "confused; mixed up mentally",
+          "relapse; go back to old ways"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Addled' = مشوش عقلياً. 'Her mind is addled' = عقلها مشوش. الخيارات الأخرى: بدون مخدرات، سرقة، انتكاسة."
+      },
+      {
+        "id": 554,
+        "category": "Vocabulary",
+        "question": "They have been ground down by homelessness. What does 'ground down' mean?",
+        "options": [
+          "fixing the wrong that was done",
+          "before, when there was money",
+          "scaring people into paying money",
+          "living on the streets"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Ground down' = أنهكوا بسبب ظروف صعبة. 'ground down by homelessness' = أنهكهم التشرد. الخيارات الأخرى: إصلاح الخطأ، قبل وجود المال، إخافة الناس."
+      },
+      {
+        "id": 555,
+        "category": "Vocabulary",
+        "question": "He was in jail for robberies. What does 'robberies' mean?",
+        "options": [
+          "without drugs or alcohol",
+          "confused; mixed up mentally",
+          "theft; stealing things",
+          "relapse; go back to old ways"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Robberies' = سرقات. 'robbery' هي جريمة السرقة. الخيارات الأخرى: بدون مخدرات، مشوش عقلياً، انتكاسة."
+      },
+      {
+        "id": 556,
+        "category": "Vocabulary",
+        "question": "He was in jail for extortion. What does 'extortion' mean?",
+        "options": [
+          "fixing the wrong that was done",
+          "scaring people into paying money",
+          "before, when there was money",
+          "living on the streets"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Extortion' = ابتزاز، إخافة الناس ليدفعوا المال. 'extortion' هي جريمة الابتزاز. الخيارات الأخرى لا تناسب المعنى."
+      },
+      {
+        "id": 557,
+        "category": "Vocabulary",
+        "question": "He was in jail for assault. What does 'assault' mean?",
+        "options": [
+          "a place of misfortune",
+          "attacking or beating up someone",
+          "fulfilled my sentence in prison",
+          "condition of needing and being controlled by"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Assault' = اعتداء جسدي. 'assault' هي جريمة الاعتداء بالضرب. الخيارات الأخرى: مكان تعيس، قضاء فترة في السجن، إدمان."
+      },
+      {
+        "id": 558,
+        "category": "Vocabulary",
+        "question": "He was in jail for trafficking. What does 'trafficking' mean?",
+        "options": [
+          "tricks to cheat people",
+          "buying and selling drugs",
+          "an addictive drug",
+          "theft; stealing things"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Trafficking' = الاتجار (بالمخدرات). 'drug trafficking' = الاتجار بالمخدرات. الخيارات الأخرى: خداع، مادة مخدرة، سرقة."
+      },
+      {
+        "id": 559,
+        "category": "Vocabulary",
+        "question": "He was in jail for small-time cons. What does 'cons' mean?",
+        "options": [
+          "tricks to cheat people",
+          "an addictive drug",
+          "buying and selling drugs",
+          "theft; stealing things"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Cons' = خداع. 'con' هي اختصار لـ 'confidence trick' أي خدعة. 'small-time cons' = خدع صغيرة. الخيارات الأخرى لا تناسب."
+      },
+      {
+        "id": 560,
+        "category": "Vocabulary",
+        "question": "Back when things were flush, they bought many things. What does 'flush' mean?",
+        "options": [
+          "fixing the wrong that was done",
+          "scaring people into paying money",
+          "before, when there was money",
+          "living on the streets"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Flush' = وفرة في المال. 'when things were flush' = عندما كانت الأمور مزدهرة (مالياً). الخيارات الأخرى: إصلاح الخطأ، إخافة الناس، التشرد."
+      },
+      {
+        "id": 561,
+        "category": "Vocabulary",
+        "question": "It is very hard to leave heroin alone. What does 'heroin' mean?",
+        "options": [
+          "tricks to cheat people",
+          "an addictive drug",
+          "buying and selling drugs",
+          "theft; stealing things"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Heroin' = مادة مخدرة (الهيروين). هي مادة تسبب الإدمان. الخيارات الأخرى: خداع، الاتجار، سرقة."
+      },
+      {
+        "id": 562,
+        "category": "Vocabulary",
+        "question": "He's been clean for four months. What does 'clean' mean?",
+        "options": [
+          "without drugs or alcohol",
+          "confused; mixed up mentally",
+          "theft; stealing things",
+          "relapse; go back to old ways"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Clean' = بعيد عن الإدمان. 'clean for four months' = نظيف (من المخدرات) لأربعة أشهر. الخيارات الأخرى: مشوش، سرقة، انتكاسة."
+      },
+      {
+        "id": 563,
+        "category": "Vocabulary",
+        "question": "I did my time. What does 'did my time' mean?",
+        "options": [
+          "a place of misfortune",
+          "attacking or beating up someone",
+          "fulfilled my sentence in prison",
+          "condition of needing and being controlled by"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Did my time' = قضيت فترة حكمي في السجن. 'time' هنا تعني مدة السجن. الخيارات الأخرى: مكان تعيس، اعتداء، إدمان."
+      },
+      {
+        "id": 564,
+        "category": "Vocabulary",
+        "question": "That's not making amends. What does 'making amends' mean?",
+        "options": [
+          "fixing the wrong that was done",
+          "scaring people into paying money",
+          "before, when there was money",
+          "living on the streets"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Making amends' = إصلاح الخطأ الذي تم. 'make amends' = تعويض أو تصحيح خطأ. الخيارات الأخرى: إخافة الناس، وفرة مالية، التشرد."
+      },
+      {
+        "id": 565,
+        "category": "Vocabulary",
+        "question": "He knows some members will backslide. What does 'backslide' mean?",
+        "options": [
+          "without drugs or alcohol",
+          "confused; mixed up mentally",
+          "theft; stealing things",
+          "relapse; go back to old ways"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Backslide' = انتكاسة، العودة للعادات القديمة. 'backslide' تعني الرجوع إلى السلوك السيء بعد التحسن. الخيارات الأخرى لا تناسب."
+      },
+      {
+        "id": 566,
+        "category": "Vocabulary",
+        "question": "Some of the men at the meeting are clean-cut. What does 'clean-cut' mean?",
+        "options": [
+          "rough looking and menacing",
+          "shaven and well groomed",
+          "old and unhealthy"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Clean-cut' = محلوق الذقن وحسن الهندام. يوصف الشخص الذي يبدو مرتباً وأنيقاً. الخيارات الأخرى: خشن المظهر، قديم وغير صحي."
+      },
+      {
+        "id": 567,
+        "category": "Vocabulary",
+        "question": "Some of the men at the meeting are jailhouse hard. What does 'jailhouse hard' mean?",
+        "options": [
+          "rough looking and menacing",
+          "shaven and well groomed",
+          "old and unhealthy"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Jailhouse hard' = مظهر خشن ومهدد كالمجرمين. يوصف الشخص الذي يبدو قاسياً وخطيراً. الخيارات الأخرى: حسن الهندام، قديم."
+      },
+      {
+        "id": 568,
+        "category": "Vocabulary",
+        "question": "The organization is dedicated to the contentious premise. What does 'contentious' mean?",
+        "options": [
+          "true",
+          "debatable",
+          "ridiculous"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Contentious' = مثير للجدل. 'contentious premise' = فرضية مثيرة للجدل. الخيارات الأخرى: صحيحة، سخيفة."
+      },
+      {
+        "id": 569,
+        "category": "Vocabulary",
+        "question": "The evenings' wrenching hour of confession. What does 'wrenching' mean?",
+        "options": [
+          "unfair",
+          "final",
+          "difficult"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Wrenching' = مؤلم وصعب. 'wrenching hour' = ساعة مؤلمة. الخيارات الأخرى: غير عادلة، نهائية."
+      },
+      {
+        "id": 570,
+        "category": "Vocabulary",
+        "question": "The group's modest coffers. What does 'modest' mean?",
+        "options": [
+          "fairly small",
+          "substantial",
+          "empty"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Modest' = متواضع، صغير نسبياً. 'modest coffers' = خزينة متواضعة. الخيارات الأخرى: كبيرة، فارغة."
+      },
+      {
+        "id": 571,
+        "category": "Vocabulary",
+        "question": "He jabs a meaty finger. What does 'meaty' mean?",
+        "options": [
+          "tiny",
+          "dirty",
+          "large"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Meaty' = سمين، كبير. 'meaty finger' = إصبع سمين. الخيارات الأخرى: صغير، وسخ."
+      },
+      {
+        "id": 572,
+        "category": "Vocabulary",
+        "question": "His fingers (with tension) exploring the brim. Replace 'with tension'.",
+        "options": [
+          "nervously",
+          "personally",
+          "quickly",
+          "warily"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'With tension' = nervously = بتوتر. الحال المناسب لوصف التوتر هو 'nervously'. الخيارات الأخرى: شخصياً، بسرعة، بحذر."
+      },
+      {
+        "id": 573,
+        "category": "Vocabulary",
+        "question": "His trousers (with care) raised. Replace 'with care'.",
+        "options": [
+          "abruptly",
+          "carefully",
+          "wearily",
+          "suspiciously"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'With care' = carefully = بعناية. الحال المناسب لوصف العناية هو 'carefully'. الخيارات الأخرى: فجأة، بملل، بارتياب."
+      },
+      {
+        "id": 574,
+        "category": "Vocabulary",
+        "question": "Would like to see him (in person)? Replace 'in person'.",
+        "options": [
+          "nervously",
+          "personally",
+          "quickly",
+          "warily"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'In person' = personally = شخصياً. تعني أن ترى الشخص بنفسك وليس عبر وسيط. الخيارات الأخرى: بتوتر، بسرعة، بحذر."
+      },
+      {
+        "id": 575,
+        "category": "Vocabulary",
+        "question": "He said (with caution). Replace 'with caution'.",
+        "options": [
+          "nervously",
+          "personally",
+          "quickly",
+          "warily"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'With caution' = warily = بحذر. الحال المناسب لوصف الحذر هو 'warily'. الخيارات الأخرى: بتوتر، شخصياً، بسرعة."
+      },
+      {
+        "id": 576,
+        "category": "Vocabulary",
+        "question": "He looked around him (with doubt and mistrust). Replace 'with doubt and mistrust'.",
+        "options": [
+          "abruptly",
+          "carefully",
+          "wearily",
+          "suspiciously"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'With doubt and mistrust' = suspiciously = بريبة. 'suspiciously' تعني بشك وريبة. الخيارات الأخرى: فجأة، بعناية، بملل."
+      },
+      {
+        "id": 577,
+        "category": "Vocabulary",
+        "question": "He stood up (in a sudden, rough manner). Replace the expression.",
+        "options": [
+          "abruptly",
+          "carefully",
+          "wearily",
+          "suspiciously"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'In a sudden, rough manner' = abruptly = فجأة. 'abruptly' تعني بشكل مفاجئ وخشن. الخيارات الأخرى: بعناية، بملل، بريبة."
+      },
+      {
+        "id": 578,
+        "category": "Vocabulary",
+        "question": "He ran out (with a fast movement). Replace 'with a fast movement'.",
+        "options": [
+          "nervously",
+          "personally",
+          "quickly",
+          "warily"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'With a fast movement' = quickly = بسرعة. 'quickly' تعني بسرعة. الخيارات الأخرى: بتوتر، شخصياً، بحذر."
+      },
+      {
+        "id": 579,
+        "category": "Vocabulary",
+        "question": "Lieutenant Anderson shrugged (in a tired way). Replace 'in a tired way'.",
+        "options": [
+          "abruptly",
+          "carefully",
+          "wearily",
+          "suspiciously"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'In a tired way' = wearily = بملل. 'wearily' تعني بتعب وملل. الخيارات الأخرى: فجأة، بعناية، بريبة."
+      },
+      {
+        "id": 580,
+        "category": "Vocabulary",
+        "question": "He developed a ______ when he was nervous.",
+        "options": [
+          "lieutenant",
+          "tic",
+          "taxpayer",
+          "accessory"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Tic' = تشنج عصبي. 'tic' هي حركة لا إرادية تحدث عند التوتر. الخيارات الأخرى: ملازم، دافع ضرائب، مشارك في جريمة."
+      },
+      {
+        "id": 581,
+        "category": "Vocabulary",
+        "question": "He surrounded himself with a group of ______.",
+        "options": [
+          "tics",
+          "accessories",
+          "taxpayers",
+          "underlings"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Underlings' = تابعون، أشخاص ضئيلو الشأن. 'underlings' هم الأشخاص الأقل مرتبة. الخيارات الأخرى: تشنجات، مشاركون، دافعو ضرائب."
+      },
+      {
+        "id": 582,
+        "category": "Vocabulary",
+        "question": "They said the sculpture was a waste of ______ money.",
+        "options": [
+          "tics'",
+          "accessories'",
+          "taxpayers'",
+          "underlings'"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Taxpayers' money' = أموال دافعي الضرائب. 'taxpayers'' هي صيغة الملكية الجمع. الخيارات الأخرى: تشنجات، مشاركون، تابعون."
+      },
+      {
+        "id": 583,
+        "category": "Vocabulary",
+        "question": "He has been promoted to the rank of a ______.",
+        "options": [
+          "lieutenant",
+          "tic",
+          "taxpayer",
+          "accessory"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Lieutenant' = رتبة ملازم. هي رتبة عسكرية. الخيارات الأخرى: تشنج عصبي، دافع ضرائب، مشارك في جريمة."
+      },
+      {
+        "id": 584,
+        "category": "Vocabulary",
+        "question": "His colleagues find his ______ difficult to deal with.",
+        "options": [
+          "accessory",
+          "stubbornness",
+          "deliberate",
+          "taxpayer"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Stubbornness' = عناد. 'stubbornness' هي صفة العناد والصلابة. الخيارات الأخرى: مشارك، متعمد، دافع ضرائب."
+      },
+      {
+        "id": 585,
+        "category": "Vocabulary",
+        "question": "The jury took five days to ______ on the case.",
+        "options": [
+          "accessory",
+          "stubbornness",
+          "deliberate",
+          "taxpayer"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Deliberate' = يتشاور، يفكر. 'deliberate on the case' = يتشاور في القضية. الخيارات الأخرى: مشارك، عناد، دافع ضرائب."
+      },
+      {
+        "id": 586,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "I wish I can swim.",
+          "I wish I could swim.",
+          "I wish I will swim.",
+          "I wish I swim."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'I wish I could swim' = أتمنى لو أستطيع السباحة (رغبة في الحاضر). 'can' و'will' و'swim' غير صحيحة مع 'wish'."
+      },
+      {
+        "id": 587,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "If I was you, I would accept the offer.",
+          "If I were you, I would accept the offer.",
+          "If I am you, I will accept the offer.",
+          "If I had been you, I would accept the offer."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'If I were you' = الشرطية الثانية مع 'were' للافتراض. 'were' تستخدم مع 'I' في الحالات غير الحقيقية. 'was' و'am' و'had been' غير صحيحة."
+      },
+      {
+        "id": 588,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "He suggested to go to the cinema.",
+          "He suggested going to the cinema.",
+          "He suggested go to the cinema.",
+          "He suggested that going to the cinema."
+        ],
+        "answer": 1,
+        "explanation": "🔍 بعد 'suggest' نستخدم V-ing أو 'that + clause'. 'suggest going' = اقترح الذهاب. 'to go' و'go' و'that going' غير صحيحة."
+      },
+      {
+        "id": 589,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "I am looking forward to see you.",
+          "I am looking forward to seeing you.",
+          "I look forward to see you.",
+          "I am looking forward for seeing you."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Looking forward to + V-ing' = حرف الجر 'to' يتبعه V-ing. 'to see' و'for seeing' و'look forward' (بدون 'am') غير صحيحة."
+      },
+      {
+        "id": 590,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "She is used to get up early.",
+          "She is used to getting up early.",
+          "She used to getting up early.",
+          "She is used for getting up early."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Be used to + V-ing' = معتاد على. 'She is used to getting up early' = معتادة على الاستيقاظ باكراً. 'get up' و'used to getting' (بدون 'is') و'used for' غير صحيحة."
+      },
+      {
+        "id": 591,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "I would rather to stay home.",
+          "I would rather stay home.",
+          "I would rather staying home.",
+          "I would rather stayed home."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Would rather + V1' = يفضل. 'I would rather stay home' = أفضل البقاء في المنزل. 'to stay' و'staying' و'stayed' غير صحيحة."
+      },
+      {
+        "id": 592,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "I have lived here since 5 years.",
+          "I have lived here for 5 years.",
+          "I have lived here from 5 years.",
+          "I have lived here during 5 years."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'For + فترة' و 'Since + نقطة بداية'. 'for 5 years' = لمدة 5 سنوات. 'since' تتبعها نقطة زمنية، و'from' و'during' غير صحيحة مع المدة."
+      },
+      {
+        "id": 593,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "The police is investigating the crime.",
+          "The police are investigating the crime.",
+          "The police was investigating the crime.",
+          "The police has investigating the crime."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Police' تعامل معاملة الجمع. 'The police are investigating' = الشرطة تحقق. 'is' و'was' و'has investigating' غير صحيحة."
+      },
+      {
+        "id": 594,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "The news are good.",
+          "The news is good.",
+          "The news were good.",
+          "The news have been good."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'News' مفرد رغم وجود 's'. 'The news is good' = الأخبار جيدة. 'are' و'were' و'have been' (جمع) غير صحيحة."
+      },
+      {
+        "id": 595,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "Hardly I had arrived when it started to rain.",
+          "Hardly had I arrived when it started to rain.",
+          "Hardly I arrived when it started to rain.",
+          "Hardly had I arrived than it started to rain."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Hardly had I... when' = inversion مع الماضي التام. 'Hardly had I arrived when' = بالكاد كنت قد وصلت عندما. 'than' خطأ (تستخدم مع 'no sooner')."
+      },
+      {
+        "id": 596,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "She told me to wait.",
+          "She said me to wait.",
+          "She told that I should wait.",
+          "She said that I should wait."
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Told me to wait' = الصيغة الصحيحة مع 'tell'. 'tell' تأتي مع مفعول به مباشر (شخص). 'say' لا تأتي مع مفعول به مباشر."
+      },
+      {
+        "id": 597,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "I don't know what is his name.",
+          "I don't know what his name is.",
+          "I don't know what his name.",
+          "I don't know what is name."
+        ],
+        "answer": 1,
+        "explanation": "🔍 في السؤال غير المباشر: فاعل + فعل. 'what his name is' = ما اسمه. 'what is' خطأ في غير المباشر."
+      },
+      {
+        "id": 598,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "Neither the manager nor the employees is happy.",
+          "Neither the manager nor the employees are happy.",
+          "Neither the manager nor the employees was happy.",
+          "Neither the manager nor the employees be happy."
+        ],
+        "answer": 1,
+        "explanation": "🔍 في 'neither...nor' يتفق الفعل مع أقرب فاعل. 'employees' جمع، لذا 'are happy'. 'is' و'was' و'be' غير صحيحة."
+      },
+      {
+        "id": 599,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "The number of students are increasing.",
+          "The number of students is increasing.",
+          "A number of students is increasing.",
+          "A number of students are increasing."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'The number...' مفرد، 'A number...' جمع. 'The number of students is increasing' = عدد الطلاب يتزايد. 'A number of students are' = عدد من الطلاب."
+      },
+      {
+        "id": 600,
+        "category": "Grammar - Passive Voice",
+        "question": "Choose the CORRECT passive sentence.",
+        "options": [
+          "The car is repaired by the mechanic.",
+          "The car was repaired by the mechanic.",
+          "The car is repairing by the mechanic.",
+          "The car has been repaired by the mechanic."
+        ],
+        "answer": 0,
+        "explanation": "🔍 Present simple passive: is + V3. 'The car is repaired by the mechanic' = يتم إصلاح السيارة بواسطة الميكانيكي. 'was' للماضي، و'repairing' خطأ."
+      }
+    ]
+  }
+}

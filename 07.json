@@ -1,0 +1,1317 @@
+{
+  "exam": {
+    "title": "بنك الأسئلة الشامل للغة الإنجليزية - الجامعة الافتراضية (الجزء السابع)",
+    "description": "الأسئلة من 601 إلى 700 - مع شرح مفصل لكل إجابة",
+    "totalQuestions": 100,
+    "categories": {
+      "Grammar": 40,
+      "Vocabulary": 38,
+      "Phrasal Verbs": 10,
+      "Prepositions": 6,
+      "Idioms": 4,
+      "Structure": 2
+    },
+    "questions": [
+      {
+        "id": 601,
+        "category": "Grammar - Passive Voice",
+        "question": "Choose the CORRECT passive sentence. (A new hospital will build.)",
+        "options": [
+          "A new hospital will build.",
+          "A new hospital will be built.",
+          "A new hospital is built.",
+          "A new hospital was built."
+        ],
+        "answer": 1,
+        "explanation": "🔍 مع 'will' في المجهول: will + be + V3. 'A new hospital will be built' = سيتم بناء مستشفى جديد. 'will build' (معلوم) و'is built' و'was built' لا تعبر عن المستقبل بشكل صحيح."
+      },
+      {
+        "id": 602,
+        "category": "Grammar - Passive Voice",
+        "question": "Choose the CORRECT passive sentence. (Someone has stolen my car.)",
+        "options": [
+          "My car has been stolen.",
+          "My car was stolen.",
+          "My car is stolen.",
+          "My car had been stolen."
+        ],
+        "answer": 0,
+        "explanation": "🔍 المضارع التام في المجهول: has/have + been + V3. 'has been stolen' = تمت سرقتها. 'was stolen' للماضي البسيط، و'is stolen' للحاضر، و'had been stolen' للماضي التام."
+      },
+      {
+        "id": 603,
+        "category": "Grammar - Passive Voice",
+        "question": "Choose the CORRECT passive sentence. (People speak English.)",
+        "options": [
+          "English is spoken.",
+          "English was spoken.",
+          "English has been spoken.",
+          "English is being spoken."
+        ],
+        "answer": 0,
+        "explanation": "🔍 المضارع البسيط في المجهول: is/am/are + V3. 'English is spoken' = يتم التحدث بالإنجليزية (حقيقة عامة). 'was' للماضي، و'has been' للتمام، و'is being' للمستمر."
+      },
+      {
+        "id": 604,
+        "category": "Grammar - Passive Voice",
+        "question": "Choose the CORRECT passive sentence. (They have built a new bridge.)",
+        "options": [
+          "A new bridge has been built.",
+          "A new bridge was built.",
+          "A new bridge is built.",
+          "A new bridge had been built."
+        ],
+        "answer": 0,
+        "explanation": "🔍 المضارع التام في المجهول: has/have + been + V3. 'has been built' = تم بناؤها. 'was built' للماضي البسيط، و'is built' للحاضر، و'had been built' للماضي التام."
+      },
+      {
+        "id": 605,
+        "category": "Grammar - Passive Voice",
+        "question": "Choose the CORRECT passive sentence. (They had finished the work.)",
+        "options": [
+          "The work had been finished.",
+          "The work was finished.",
+          "The work has been finished.",
+          "The work is finished."
+        ],
+        "answer": 0,
+        "explanation": "🔍 الماضي التام في المجهول: had + been + V3. 'had been finished' = كانت قد انتهت. 'was' و'has been' و'is' لا تعبر عن الماضي التام."
+      },
+      {
+        "id": 606,
+        "category": "Grammar - Passive Voice",
+        "question": "Choose the CORRECT passive sentence. (The government is building new schools.)",
+        "options": [
+          "New schools are being built.",
+          "New schools are built.",
+          "New schools have been built.",
+          "New schools were being built."
+        ],
+        "answer": 0,
+        "explanation": "🔍 المضارع المستمر في المجهول: am/is/are + being + V3. 'are being built' = يتم بناؤها حالياً. 'are built' للحقائق، و'have been' للتمام، و'were being' للماضي المستمر."
+      },
+      {
+        "id": 607,
+        "category": "Grammar - Passive Voice",
+        "question": "Choose the CORRECT passive sentence. (The chef was cooking dinner.)",
+        "options": [
+          "Dinner was being cooked.",
+          "Dinner was cooked.",
+          "Dinner has been cooked.",
+          "Dinner is being cooked."
+        ],
+        "answer": 0,
+        "explanation": "🔍 الماضي المستمر في المجهول: was/were + being + V3. 'was being cooked' = كان يتم طهيها. 'was cooked' للماضي البسيط، و'has been' للتمام، و'is being' للحاضر المستمر."
+      },
+      {
+        "id": 608,
+        "category": "Grammar - Passive Voice",
+        "question": "Choose the CORRECT passive sentence. (They will have completed the bridge.)",
+        "options": [
+          "The bridge will have been completed.",
+          "The bridge will be completed.",
+          "The bridge has been completed.",
+          "The bridge was completed."
+        ],
+        "answer": 0,
+        "explanation": "🔍 المستقبل التام في المجهول: will have been + V3. 'will have been completed' = سيكون قد تم إكمالها. 'will be' للمستقبل البسيط، و'has been' للتمام، و'was' للماضي."
+      },
+      {
+        "id": 609,
+        "category": "Grammar - Conditionals",
+        "question": "Choose the CORRECT conditional sentence. (If I see him, I will tell him.)",
+        "options": [
+          "If I will see him, I will tell him.",
+          "If I see him, I will tell him.",
+          "If I saw him, I will tell him.",
+          "If I see him, I tell him."
+        ],
+        "answer": 1,
+        "explanation": "🔍 First conditional: if + present + will + V1. 'If I see him, I will tell him' = إذا رأيته، سأخبره. لا نستخدم 'will' في جملة 'if'، و'saw' للشرط الثاني، و'I tell' للمضارع البسيط."
+      },
+      {
+        "id": 610,
+        "category": "Grammar - Conditionals",
+        "question": "Choose the CORRECT conditional sentence. (If I had known, I would have helped.)",
+        "options": [
+          "If I had known, I would have helped.",
+          "If I knew, I would have helped.",
+          "If I have known, I would have helped.",
+          "If I had known, I will help."
+        ],
+        "answer": 0,
+        "explanation": "🔍 Third conditional: if + past perfect + would have + V3. 'had known' و'would have helped' = لو كنت قد عرفت، لكنت ساعدت. 'knew' للشرط الثاني، و'have known' غير صحيحة."
+      },
+      {
+        "id": 611,
+        "category": "Grammar - Conditionals",
+        "question": "Choose the CORRECT conditional sentence. (If she had studied, she would have passed.)",
+        "options": [
+          "If she had studied, she would have passed.",
+          "If she studied, she would have passed.",
+          "If she has studied, she would have passed.",
+          "If she had studied, she will pass."
+        ],
+        "answer": 0,
+        "explanation": "🔍 Third conditional: had studied → would have passed. 'studied' للشرط الثاني، و'has studied' للحاضر التام، و'will pass' للمستقبل."
+      },
+      {
+        "id": 612,
+        "category": "Grammar - Question Tags",
+        "question": "Choose the CORRECT question tag. (She has been very kind, hasn't she?)",
+        "options": [
+          "She has been very kind, isn't she?",
+          "She has been very kind, hasn't she?",
+          "She has been very kind, doesn't she?",
+          "She has been very kind, wasn't she?"
+        ],
+        "answer": 1,
+        "explanation": "🔍 المذيل مع المضارع التام: hasn't she. الفعل المساعد هو 'has'، لذا المذيل 'hasn't she'. 'isn't' و'doesn't' و'wasn't' لا تتبع 'has'."
+      },
+      {
+        "id": 613,
+        "category": "Grammar - Question Tags",
+        "question": "Choose the CORRECT question tag. (You've been to France, haven't you?)",
+        "options": [
+          "You've been to France, haven't you?",
+          "You've been to France, have you?",
+          "You've been to France, didn't you?",
+          "You've been to France, did you?"
+        ],
+        "answer": 0,
+        "explanation": "🔍 المذيل مع المضارع التام: haven't you. الجملة مثبتة ('have been')، لذا المذيل منفي 'haven't you'. 'have you' مثبت (خطأ)، و'didn't' و'did' للماضي البسيط."
+      },
+      {
+        "id": 614,
+        "category": "Grammar - Question Tags",
+        "question": "Choose the CORRECT question tag. (Let's do something interesting, shall we?)",
+        "options": [
+          "Let's do something interesting, don't we?",
+          "Let's do something interesting, do we?",
+          "Let's do something interesting, shall we?",
+          "Let's do something interesting, can't we?"
+        ],
+        "answer": 2,
+        "explanation": "🔍 المذيل مع 'Let's' هو 'shall we' دائماً. هذه قاعدة ثابتة. 'don't we' و'do we' و'can't we' غير صحيحة مع 'Let's'."
+      },
+      {
+        "id": 615,
+        "category": "Grammar - Question Tags",
+        "question": "Choose the CORRECT question tag. (Don't be late, will you?)",
+        "options": [
+          "Don't be late, is you?",
+          "Don't be late, will you?",
+          "Don't be late, do you?",
+          "Don't be late, don't you?"
+        ],
+        "answer": 1,
+        "explanation": "🔍 مع الأمر المنفي: Don't + V1, will you? 'Don't be late, will you?' = لا تتأخر، حسناً؟ 'is you' و'do you' و'don't you' غير صحيحة."
+      },
+      {
+        "id": 616,
+        "category": "Grammar - Reported Speech",
+        "question": "Choose the CORRECT reported speech. (He said he would make up his mind the following day.)",
+        "options": [
+          "He said he makes up his mind the following day.",
+          "He said he would make up his mind the following day.",
+          "He said he has made up his mind the following day.",
+          "He said he had made up his mind the following day."
+        ],
+        "answer": 1,
+        "explanation": "🔍 الكلام المنقول: 'will' → 'would'. 'He said he would make up his mind the following day' = قال إنه سيتخذ قراره في اليوم التالي. 'makes' و'has made' و'had made' لا تعبر عن المستقبل في الكلام المنقول."
+      },
+      {
+        "id": 617,
+        "category": "Grammar - Reported Speech",
+        "question": "Choose the CORRECT reported speech. (He told me he didn't want any trouble.)",
+        "options": [
+          "He told me he didn't want any trouble.",
+          "He told me he doesn't want any trouble.",
+          "He told me he hadn't wanted any trouble.",
+          "He told me he won't want any trouble."
+        ],
+        "answer": 0,
+        "explanation": "🔍 الكلام المنقول: 'don't' → 'didn't'. 'He told me he didn't want any trouble' = أخبرني أنه لا يريد أي مشكلة. 'doesn't' للحاضر، و'hadn't wanted' للماضي التام، و'won't' للمستقبل."
+      },
+      {
+        "id": 618,
+        "category": "Grammar - Indirect Questions",
+        "question": "Choose the CORRECT indirect question. (Could you tell me where the station is?)",
+        "options": [
+          "Could you tell me where the station is?",
+          "Could you tell me where is the station?",
+          "Could you tell me where the station?",
+          "Could you tell me where is station?"
+        ],
+        "answer": 0,
+        "explanation": "🔍 في السؤال غير المباشر: فاعل + فعل. 'where the station is' = أين المحطة. 'where is' خطأ، و'where the station' غير مكتملة."
+      },
+      {
+        "id": 619,
+        "category": "Grammar - Indirect Questions",
+        "question": "Choose the CORRECT indirect question. (I want to know what his real name is.)",
+        "options": [
+          "I want to know what is his real name.",
+          "I want to know what his real name is.",
+          "I want to know what his real name.",
+          "I want to know what was his real name."
+        ],
+        "answer": 1,
+        "explanation": "🔍 في السؤال غير المباشر: فاعل + فعل. 'what his real name is' = ما اسمه الحقيقي. 'what is' خطأ، و'what his real name' غير مكتملة، و'was' للماضي."
+      },
+      {
+        "id": 620,
+        "category": "Grammar - Comparatives",
+        "question": "Choose the CORRECT comparative sentence. (She is taller than her sister.)",
+        "options": [
+          "She is more taller than her sister.",
+          "She is taller than her sister.",
+          "She is tall than her sister.",
+          "She is more tall than her sister."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Tall' صفة قصيرة → 'taller than'. 'more taller' مزدوجة، و'tall than' بدون 'er'، و'more tall' غير صحيحة."
+      },
+      {
+        "id": 621,
+        "category": "Grammar - Comparatives",
+        "question": "Choose the CORRECT comparative sentence. (He is the most intelligent student in the class.)",
+        "options": [
+          "He is the most intelligent student in the class.",
+          "He is the intelligenter student in the class.",
+          "He is the most intelligent than the class.",
+          "He is more intelligent in the class."
+        ],
+        "answer": 0,
+        "explanation": "🔍 Superlative: the most + صفة طويلة. 'intelligenter' خطأ، و'than' مع 'most' خطأ، و'more...in' غير صحيحة للتفضيل."
+      },
+      {
+        "id": 622,
+        "category": "Grammar - Comparatives",
+        "question": "Choose the CORRECT comparative sentence. (Math is as difficult as chemistry.)",
+        "options": [
+          "Math is as difficult than chemistry.",
+          "Math is as difficult as chemistry.",
+          "Math is more difficult as chemistry.",
+          "Math is the most difficult as chemistry."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'As + adjective + as' للمساواة. 'as difficult as chemistry' = بنفس صعوبة الكيمياء. 'than' و'more' و'the most' لا تستخدم مع 'as...as'."
+      },
+      {
+        "id": 623,
+        "category": "Grammar - Comparatives",
+        "question": "Choose the CORRECT comparative sentence. (The more we walk, the faster we arrive.)",
+        "options": [
+          "The more we walk, the faster we arrive.",
+          "The more we walk, the fast we arrive.",
+          "The most we walk, the faster we arrive.",
+          "The more we walk, the faster we arrived."
+        ],
+        "answer": 0,
+        "explanation": "🔍 صيغة المقارنة المزدوجة: the + comparative, the + comparative. 'the more...the faster' = كلما...كلما. 'fast' ليست مقارنة، و'most' خطأ، و'arrived' للماضي."
+      },
+      {
+        "id": 624,
+        "category": "Grammar - Articles",
+        "question": "Choose the CORRECT article. (People in England talk about the weather.)",
+        "options": [
+          "People in England talk about weather.",
+          "People in England talk about a weather.",
+          "People in England talk about the weather.",
+          "People in England talk about weathers."
+        ],
+        "answer": 2,
+        "explanation": "🔍 'The weather' = شيء محدد ومعروف. 'weather' غير معدود، لذا لا نستخدم 'a' ولا 'weathers'. 'the' ضرورية لأن الطقس شيء معروف."
+      },
+      {
+        "id": 625,
+        "category": "Grammar - Articles",
+        "question": "Choose the CORRECT article. (The Chinese eat a lot of vegetables.)",
+        "options": [
+          "Chinese eat a lot of vegetables.",
+          "The Chinese eat a lot of vegetables.",
+          "A Chinese eat a lot of vegetables.",
+          "Chineses eat a lot of vegetables."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'The + nationality' للإشارة إلى الشعب. 'The Chinese' = الشعب الصيني. 'Chinese' بدون 'the' تشير إلى اللغة، و'A Chinese' لشخص واحد، و'Chineses' خطأ."
+      },
+      {
+        "id": 626,
+        "category": "Grammar - Articles",
+        "question": "Choose the CORRECT article. (I met a man who took your book.)",
+        "options": [
+          "I met a man who took your book.",
+          "I met an man who took your book.",
+          "I met the man who took your book.",
+          "I met man who took your book."
+        ],
+        "answer": 0,
+        "explanation": "🔍 'A man' = للمرة الأولى. 'an man' خطأ لأن 'man' يبدأ بحرف ساكن، و'the man' للمرة الثانية، و'man' بدون أداة خطأ."
+      },
+      {
+        "id": 627,
+        "category": "Phrasal Verbs",
+        "question": "I want to ______ a new job. I really don't like the one I'm doing now.",
+        "options": [
+          "give up",
+          "find out",
+          "look for",
+          "look after"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Look for' = يبحث عن. 'I want to look for a new job' = أريد البحث عن وظيفة جديدة. 'Give up' تعني 'يتخلى عن'، و'Find out' تعني 'يكتشف'."
+      },
+      {
+        "id": 628,
+        "category": "Phrasal Verbs",
+        "question": "If you want to ______ people you should be a nurse.",
+        "options": [
+          "look for",
+          "look after",
+          "break down",
+          "find out"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Look after' = يعتني بـ. 'look after people' = يعتني بالناس. الممرضات يعتنين بالمرضى. 'Look for' تعني 'يبحث عن'."
+      },
+      {
+        "id": 629,
+        "category": "Phrasal Verbs",
+        "question": "Take lots of petrol in case you ______ in the middle of the desert.",
+        "options": [
+          "break down",
+          "look for",
+          "give up",
+          "look after"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Break down' = يتعطل. السيارة قد تتعطل في الصحراء. 'Look for' تعني 'يبحث'، و'Give up' تعني 'يستسلم'."
+      },
+      {
+        "id": 630,
+        "category": "Phrasal Verbs",
+        "question": "I'm going to ______ drinking!",
+        "options": [
+          "find out",
+          "look after",
+          "break down",
+          "give up"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Give up' = يقلع عن، يتوقف عن. 'give up drinking' = أقلع عن الشرب. 'Find out' تعني 'يكتشف'، و'Look after' تعني 'يعتني'."
+      },
+      {
+        "id": 631,
+        "category": "Phrasal Verbs",
+        "question": "They ______ the meeting for a week.",
+        "options": [
+          "put off",
+          "take off",
+          "break down",
+          "look for"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Put off' = يؤجل. 'put off the meeting' = أجل الاجتماع. 'Take off' تعني 'يخلع' أو 'تقلع'، و'Break down' تعني 'يتعطل'."
+      },
+      {
+        "id": 632,
+        "category": "Phrasal Verbs",
+        "question": "______ the heater before you go.",
+        "options": [
+          "Turn on",
+          "Turn off",
+          "Plug in",
+          "Look after"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Turn off' = يطفئ. 'turn off the heater' = أطفئ المدفأة. 'Turn on' تعني 'يشغل' (عكس المعنى)، و'Plug in' تعني 'يوصل بالكهرباء'."
+      },
+      {
+        "id": 633,
+        "category": "Phrasal Verbs",
+        "question": "Thieves broke ______ their house and stole the video.",
+        "options": [
+          "out",
+          "into",
+          "off",
+          "down"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Break into' = يقتحم. 'broke into their house' = اقتحموا منزلهم. 'Break out' تعني 'يهرب'، و'Break off' تعني 'ينكسر'، و'Break down' تعني 'يتعطل'."
+      },
+      {
+        "id": 634,
+        "category": "Phrasal Verbs",
+        "question": "Their car broke ______ on the way to the airport.",
+        "options": [
+          "out",
+          "into",
+          "off",
+          "down"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Break down' = يتعطل. 'broke down on the way' = تعطلت في الطريق. 'Break out' و'Break into' و'Break off' لا تناسب السيارة."
+      },
+      {
+        "id": 635,
+        "category": "Phrasal Verbs",
+        "question": "The couple broke ______ five years after getting married.",
+        "options": [
+          "out",
+          "into",
+          "off",
+          "up"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Break up' = ينفصل. 'broke up five years after' = انفصلا بعد خمس سنوات. 'Break out' تعني 'يهرب'، و'Break off' تعني 'ينكسر'."
+      },
+      {
+        "id": 636,
+        "category": "Phrasal Verbs",
+        "question": "Two prisoners broke ______ of the prison.",
+        "options": [
+          "out",
+          "into",
+          "off",
+          "down"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Break out' = يهرب. 'broke out of prison' = هربا من السجن. 'Break into' تعني 'يقتحم'، و'Break off' تعني 'ينكسر'."
+      },
+      {
+        "id": 637,
+        "category": "Prepositions",
+        "question": "I finish work ______ 7:50.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "by"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'At' مع الوقت المحدد. 'at 7:50' = في الساعة 7:50. 'in' تستخدم مع الشهور والسنوات، و'on' مع الأيام، و'by' تعني 'بحلول'."
+      },
+      {
+        "id": 638,
+        "category": "Prepositions",
+        "question": "My mother was born ______ 1948.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "by"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'In' مع السنة. 'in 1948' = في عام 1948. 'on' مع الأيام، و'at' مع الساعات، و'by' تعني 'بحلول'."
+      },
+      {
+        "id": 639,
+        "category": "Prepositions",
+        "question": "I will give you back that money ______ the end of the month.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "by"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'At the end of' = في نهاية. 'at the end of the month' = في نهاية الشهر. 'in' تستخدم مع 'the middle'، و'on' مع الأيام."
+      },
+      {
+        "id": 640,
+        "category": "Prepositions",
+        "question": "We will be visiting my parents ______ April.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "by"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'In' مع الشهر. 'in April' = في أبريل. 'on' مع الأيام، و'at' مع الساعات، و'by' تعني 'بحلول'."
+      },
+      {
+        "id": 641,
+        "category": "Prepositions",
+        "question": "Jane arrived ______ midnight.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "by"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'At' مع منتصف الليل. 'at midnight' = في منتصف الليل. 'in' مع الفترات الطويلة، و'on' مع الأيام."
+      },
+      {
+        "id": 642,
+        "category": "Prepositions",
+        "question": "My plane leaves ______ Saturday.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "by"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'On' مع الأيام. 'on Saturday' = يوم السبت. 'in' مع الشهور، و'at' مع الساعات، و'by' تعني 'بحلول'."
+      },
+      {
+        "id": 643,
+        "category": "Idioms",
+        "question": "The elevator is out of ______ today.",
+        "options": [
+          "function",
+          "order",
+          "work",
+          "operation"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Out of order' = معطل. 'the elevator is out of order' = المصعد معطل. 'out of work' تعني 'عاطل'، و'out of operation' تعني 'خارج الخدمة'."
+      },
+      {
+        "id": 644,
+        "category": "Idioms",
+        "question": "I'm afraid this car doesn't have enough ______ to get up that hill.",
+        "options": [
+          "motor",
+          "charge",
+          "engine",
+          "power"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Power' = قوة. السيارة تحتاج قوة كافية لتسلق التل. 'Motor' و'Engine' هما أجزاء من السيارة، و'Charge' تعني 'شحن'."
+      },
+      {
+        "id": 645,
+        "category": "Idioms",
+        "question": "How he manages to keep going is ______ me.",
+        "options": [
+          "beneath",
+          "beyond",
+          "below",
+          "beside"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Beyond me' = يفوق فهمي. 'How he manages is beyond me' = كيف يدبر أمره يفوق فهمي. 'Beneath' و'Below' و'Beside' لا تعبر عن هذا المعنى."
+      },
+      {
+        "id": 646,
+        "category": "Vocabulary",
+        "question": "The ______ of the forest will result in the ______ of many species.",
+        "options": [
+          "destructing/disappearance",
+          "destruction/disappear",
+          "destruction/disappearance",
+          "destruct/disappear"
+        ],
+        "answer": 2,
+        "explanation": "🔍 نحتاج أسماء بعد 'the'. 'destruction' و'disappearance' هما الاسمين الصحيحين. 'Destructing' و'destruct' و'disappear' ليست أسماء."
+      },
+      {
+        "id": 647,
+        "category": "Vocabulary",
+        "question": "The incident has been witnessed by a number of ______.",
+        "options": [
+          "passer-bys",
+          "passer-by",
+          "passers-bys",
+          "passers-by"
+        ],
+        "answer": 3,
+        "explanation": "🔍 جمع 'passer-by' هو 'passers-by'. نضيف 's' للكلمة الأولى (الاسم)، وليس للكلمة الثانية (حرف الجر)."
+      },
+      {
+        "id": 648,
+        "category": "Vocabulary",
+        "question": "The new job will provide you with ______ experience.",
+        "options": [
+          "praiseworthy",
+          "invaluable",
+          "admirable",
+          "merit"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Invaluable' = لا يُقدر بثمن. 'invaluable experience' = خبرة لا تُقدر بثمن. 'Praiseworthy' و'Admirable' و'Merit' لا تناسب هذا السياق."
+      },
+      {
+        "id": 649,
+        "category": "Vocabulary",
+        "question": "A funeral can ______ the feelings of regret and loss.",
+        "options": [
+          "amplify",
+          "extend",
+          "develop",
+          "exaggerate"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Amplify' = يضخم، يعزز. الجنازة تعزز مشاعر الحزن والفقدان. 'Extend' تعني 'يمدد'، و'Develop' تعني 'يطور'."
+      },
+      {
+        "id": 650,
+        "category": "Vocabulary",
+        "question": "He was left alone in the hospital, with ______ to take care of him.",
+        "options": [
+          "no one",
+          "not one",
+          "anyone",
+          "someone"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'No one' = لا أحد. 'with no one to take care of him' = مع لا أحد ليعتني به. 'Anyone' و'Someone' تعنيان وجود شخص، و'Not one' غير صحيحة."
+      },
+      {
+        "id": 651,
+        "category": "Vocabulary",
+        "question": "The company did not have any ______ opening shops in Paris.",
+        "options": [
+          "profit",
+          "winnings",
+          "victory",
+          "success"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Profit' = ربح. 'did not have any profit' = لم يكن لديهم أي ربح. 'Winnings' و'Victory' و'Success' لا تعبر عن الربح المالي."
+      },
+      {
+        "id": 652,
+        "category": "Vocabulary",
+        "question": "I noticed that there were two buttons ______ from his coat.",
+        "options": [
+          "dropping",
+          "falling",
+          "missing",
+          "loosing"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Missing' = مفقودة. 'two buttons missing' = زرين مفقودين. 'Dropping' و'Falling' تعنيان 'يسقطان'، و'Loosing' تعني 'يفقدان'."
+      },
+      {
+        "id": 653,
+        "category": "Vocabulary",
+        "question": "I think I will ______ about this bad service.",
+        "options": [
+          "think",
+          "consider",
+          "complaint",
+          "complain"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Complain about' = يشتكي من. 'I will complain about this bad service' = سأشتكي من هذه الخدمة السيئة. 'Complaint' اسم، و'Think' و'Consider' لا تعبر عن الشكوى."
+      },
+      {
+        "id": 654,
+        "category": "Vocabulary",
+        "question": "Further research is needed to find out what side ______ this pill has.",
+        "options": [
+          "affects",
+          "suspects",
+          "defects",
+          "effects"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Side effects' = آثار جانبية. 'side effects' هي التأثيرات الجانبية للدواء. 'Affects' فعل، و'Suspects' تعني 'مشتبه بهم'، و'Defects' تعني 'عيوب'."
+      },
+      {
+        "id": 655,
+        "category": "Vocabulary",
+        "question": "Oh I am so ______! Let's go and rent a video.",
+        "options": [
+          "tiring",
+          "happiness",
+          "boring",
+          "fed up"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Fed up' = سئمت، ضجرت. 'I am so fed up!' = لقد سئمت جداً! 'Tiring' تعني 'مُتعب'، و'Happiness' اسم، و'Boring' تصف الشيء."
+      },
+      {
+        "id": 656,
+        "category": "Vocabulary",
+        "question": "I'm worried about the children's ______ on the street.",
+        "options": [
+          "noise",
+          "freedom",
+          "sanction",
+          "safety"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Safety' = سلامة. 'children's safety on the street' = سلامة الأطفال في الشارع. 'Noise' و'Freedom' و'Sanction' لا تعبر عن الخطر."
+      },
+      {
+        "id": 657,
+        "category": "Vocabulary",
+        "question": "If the fire alarm sounds, all residents are required to ______ in the courtyard.",
+        "options": [
+          "unite",
+          "combine",
+          "assemble",
+          "mobilise"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Assemble' = يتجمعون. 'assemble in the courtyard' = يتجمعون في الفناء. 'Unite' و'Combine' و'Mobilise' لا تعبر عن التجمع."
+      },
+      {
+        "id": 658,
+        "category": "Vocabulary",
+        "question": "Many lakes, rivers and seas are being ______ polluted.",
+        "options": [
+          "dangerously",
+          "dangers",
+          "danger",
+          "dangerous"
+        ],
+        "answer": 0,
+        "explanation": "🔍 نحتاج حال (adverb). 'dangerously polluted' = ملوثة بشكل خطير. 'Dangers' و'Danger' و'Dangerous' ليست حالات."
+      },
+      {
+        "id": 659,
+        "category": "Vocabulary",
+        "question": "The film was a huge ______. It made 90 million dollars.",
+        "options": [
+          "succeed",
+          "hope",
+          "money",
+          "success"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Success' = نجاح. 'a huge success' = نجاح كبير. 'Succeed' فعل، و'Hope' و'Money' لا تعبر عن النجاح."
+      },
+      {
+        "id": 660,
+        "category": "Vocabulary",
+        "question": "He gave the police the ______ of the stolen goods.",
+        "options": [
+          "shape",
+          "shadow",
+          "description",
+          "explanation"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Description' = وصف. 'gave the police a description' = أعطى الشرطة وصفاً. 'Shape' و'Shadow' و'Explanation' لا تناسب."
+      },
+      {
+        "id": 661,
+        "category": "Vocabulary",
+        "question": "I don't like the ______ of the furniture in this room.",
+        "options": [
+          "way",
+          "staying",
+          "compliment",
+          "arrangement"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Arrangement' = ترتيب. 'the arrangement of the furniture' = ترتيب الأثاث. 'Way' تعني 'طريقة'، و'Staying' و'Compliment' لا تناسب."
+      },
+      {
+        "id": 662,
+        "category": "Vocabulary",
+        "question": "The ______ of the train will be 15 minutes late.",
+        "options": [
+          "coming",
+          "use",
+          "departure",
+          "time"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Departure' = موعد المغادرة. 'the departure of the train' = موعد مغادرة القطار. 'Coming' و'Use' و'Time' لا تعبر عن المغادرة."
+      },
+      {
+        "id": 663,
+        "category": "Vocabulary",
+        "question": "We cannot ______ children under 14 to go to movies without their parents.",
+        "options": [
+          "let",
+          "make",
+          "have",
+          "permit"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Permit' = يسمح، وتأتي مع 'to'. 'permit children to go' = يسمح للأطفال بالذهاب. 'Let' و'Make' و'Have' تتبعها V1 بدون 'to'."
+      },
+      {
+        "id": 664,
+        "category": "Vocabulary",
+        "question": "I'd like to ______ you on passing your exam.",
+        "options": [
+          "congratulate",
+          "thank",
+          "excuse",
+          "let"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Congratulate' = يهنئ. 'congratulate you on passing' = أهنئك على النجاح. 'Thank' و'Excuse' و'Let' لا تعبر عن التهنئة."
+      },
+      {
+        "id": 665,
+        "category": "Vocabulary",
+        "question": "He ______ lives in the house where he was born.",
+        "options": [
+          "already",
+          "yet",
+          "still",
+          "every"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Still' = ما زال. 'He still lives' = ما زال يعيش. 'Already' تعني 'بالفعل'، و'Yet' تستخدم في النفي، و'Every' تعني 'كل'."
+      },
+      {
+        "id": 666,
+        "category": "Vocabulary",
+        "question": "He was a good swimmer so he ______ swim to the river bank.",
+        "options": [
+          "could",
+          "might",
+          "succeeded to",
+          "was able to"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Was able to' = تمكن من (ونجح). 'was able to swim' = تمكن من السباحة. 'Could' تعبر عن قدرة عامة، و'Might' عن احتمالية، و'Succeeded to' خطأ."
+      },
+      {
+        "id": 667,
+        "category": "Vocabulary",
+        "question": "My brother ______ 65 kilos.",
+        "options": [
+          "weighs",
+          "masses",
+          "makes",
+          "pulls"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Weighs' = يزن. 'weighs 65 kilos' = يزن 65 كيلو. 'Masses' و'Makes' و'Pulls' لا تعبر عن الوزن."
+      },
+      {
+        "id": 668,
+        "category": "Vocabulary",
+        "question": "The people demonstrated for more ______.",
+        "options": [
+          "government",
+          "freedom",
+          "oppression",
+          "life"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Freedom' = حرية. 'demonstrated for freedom' = تظاهروا من أجل الحرية. 'Government' و'Oppression' و'Life' لا تعبر عن المطالب المعتادة."
+      },
+      {
+        "id": 669,
+        "category": "Vocabulary",
+        "question": "A problem of fundamental ______ for developing countries.",
+        "options": [
+          "importance",
+          "vital",
+          "urgent",
+          "serious"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Of fundamental importance' = ذو أهمية أساسية. 'Vital' و'Urgent' و'Serious' صفات ولا تأتي بعد 'of' في هذا السياق."
+      },
+      {
+        "id": 670,
+        "category": "Vocabulary",
+        "question": "Larry is a friendly person. He meets new people ______ he goes.",
+        "options": [
+          "whenever",
+          "whatever",
+          "wherever",
+          "whoever"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Wherever' = أينما. 'wherever he goes' = أينما يذهب. 'Whenever' تعني 'كلما'، و'Whatever' و'Whoever' لا تعبر عن المكان."
+      },
+      {
+        "id": 671,
+        "category": "Vocabulary",
+        "question": "The people who objected were told there was no point in ______.",
+        "options": [
+          "contradicting",
+          "protesting",
+          "provoking",
+          "competing"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'No point in protesting' = لا فائدة من الاحتجاج. 'Contradicting' و'Provoking' و'Competing' لا تعبر عن الاحتجاج."
+      },
+      {
+        "id": 672,
+        "category": "Vocabulary",
+        "question": "Nursery schools can be enormously ______ to socially handicapped children.",
+        "options": [
+          "admirable",
+          "beneficial",
+          "invaluable",
+          "meritorious"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Beneficial' = مفيد. 'beneficial to children' = مفيد للأطفال. 'Admirable' و'Invaluable' و'Meritorious' لا تعبر عن الفائدة بهذا الشكل."
+      },
+      {
+        "id": 673,
+        "category": "Vocabulary",
+        "question": "I don't think Alan is ______. Sherie is at home with him.",
+        "options": [
+          "lonely",
+          "solitary",
+          "unsociable",
+          "alone"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Lonely' = يشعر بالوحدة. 'Alan isn't lonely because Sherie is with him' = آلان ليس وحيداً لأن شيري معه. 'Alone' تعني 'بمفرده' (حالة فيزيائية)."
+      },
+      {
+        "id": 674,
+        "category": "Vocabulary",
+        "question": "This documentation is not ______. You might be arrested.",
+        "options": [
+          "criminal",
+          "legal",
+          "formal",
+          "incorrect"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Not legal' = غير قانوني. 'not legal documentation' = وثائق غير قانونية. 'Criminal' أقوى، و'Formal' و'Incorrect' لا تعبر عن المخالفة القانونية."
+      },
+      {
+        "id": 675,
+        "category": "Vocabulary",
+        "question": "Will you take the job? We must have a quick ______.",
+        "options": [
+          "mind",
+          "decision",
+          "deciding",
+          "manner"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Have a quick decision' = نتخذ قراراً سريعاً. 'Decision' هو الاسم المناسب. 'Mind' و'Deciding' و'Manner' لا تعبر عن القرار."
+      },
+      {
+        "id": 676,
+        "category": "Vocabulary",
+        "question": "It was a(n) ______ film. I nearly fell asleep.",
+        "options": [
+          "interesting",
+          "boring",
+          "exciting",
+          "relaxing"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Boring' = ممل. 'boring film' = فيلم ممل، سبب النعاس. 'Interesting' و'Exciting' و'Relaxing' لا تسبب النعاس."
+      },
+      {
+        "id": 677,
+        "category": "Vocabulary",
+        "question": "We felt very ______ on holiday.",
+        "options": [
+          "relaxed",
+          "relaxing",
+          "rest",
+          "unrest"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Relaxed' = مرتاح (صفة للشخص). 'We felt relaxed' = شعرنا بالراحة. 'Relaxing' تصف الشيء، و'Rest' و'Unrest' أسماء."
+      },
+      {
+        "id": 678,
+        "category": "Vocabulary",
+        "question": "Thanks to technology, a visit to the dentist is now often quite ______.",
+        "options": [
+          "harmless",
+          "helpful",
+          "painless",
+          "tasty"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Painless' = غير مؤلم. 'painless visit' = زيارة غير مؤلمة. 'Harmless' و'Helpful' و'Tasty' لا تعبر عن الألم."
+      },
+      {
+        "id": 679,
+        "category": "Vocabulary",
+        "question": "The government is trying to help ______ families.",
+        "options": [
+          "rich",
+          "social",
+          "small",
+          "homeless"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Homeless families' = عائلات بلا مأوى. هي الفئة التي تحتاج المساعدة. 'Rich' عكس المعنى، و'Social' و'Small' لا تعبر عن الحاجة."
+      },
+      {
+        "id": 680,
+        "category": "Vocabulary",
+        "question": "Thank you for the books. They will be very ______ for my studies.",
+        "options": [
+          "harmful",
+          "useful",
+          "tasteful",
+          "hopeful"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Useful' = مفيد. 'useful for studies' = مفيدة للدراسة. 'Harmful' عكس المعنى، و'Tasteful' و'Hopeful' لا تناسب."
+      },
+      {
+        "id": 681,
+        "category": "Vocabulary",
+        "question": "The Sahara is a ______.",
+        "options": [
+          "river",
+          "continent",
+          "desert",
+          "canal"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Desert' = صحراء. الصحراء الكبرى هي أكبر صحراء في العالم. 'River' و'Continent' و'Canal' لا تناسب."
+      },
+      {
+        "id": 682,
+        "category": "Vocabulary",
+        "question": "Shoes are usually made of ______.",
+        "options": [
+          "leather",
+          "wool",
+          "paper",
+          "iron"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Leather' = جلد. الأحذية تصنع عادة من الجلد. 'Wool' و'Paper' و'Iron' لا تستخدم في صناعة الأحذية."
+      },
+      {
+        "id": 683,
+        "category": "Vocabulary",
+        "question": "His father always says 'please' and 'thank you'. He is very ______.",
+        "options": [
+          "impolite",
+          "polite",
+          "rude",
+          "talkative"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Polite' = مهذب. استخدام 'please' و'thank you' يدل على الأدب. 'Impolite' و'Rude' عكس المعنى، و'Talkative' تعني 'ثرثار'."
+      },
+      {
+        "id": 684,
+        "category": "Vocabulary",
+        "question": "My sister is very careful about her appearance. She is a/an ______ lady.",
+        "options": [
+          "tidy",
+          "silly",
+          "unsociable",
+          "cautious"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Tidy' = مرتبة. 'tidy lady' = سيدة مرتبة. 'Silly' و'Unsociable' و'Cautious' لا تعبر عن الاهتمام بالمظهر."
+      },
+      {
+        "id": 685,
+        "category": "Vocabulary",
+        "question": "He always has good hopes for the future. He is very ______.",
+        "options": [
+          "rude",
+          "pessimist",
+          "optimist",
+          "quiet"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Optimist' = متفائل. 'optimist' هو الشخص الذي يرى المستقبل بإيجابية. 'Pessimist' عكس المعنى، و'Rude' و'Quiet' لا تناسب."
+      },
+      {
+        "id": 686,
+        "category": "Vocabulary",
+        "question": "Jake has a lot of common sense. He is a ______ boy.",
+        "options": [
+          "sensitive",
+          "sensual",
+          "sensible",
+          "nonsense"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Sensible' = عاقل. 'sensible boy' = ولد عاقل. 'Sensitive' و'Sensual' و'Nonsense' لا تعبر عن الحكمة."
+      },
+      {
+        "id": 687,
+        "category": "Vocabulary",
+        "question": "Lora only thinks about herself. She is ______.",
+        "options": [
+          "naughty",
+          "selfish",
+          "patient",
+          "genius"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Selfish' = أنانية. 'selfish person' = شخص أناني. 'Naughty' و'Patient' و'Genius' لا تعبر عن الأنانية."
+      },
+      {
+        "id": 688,
+        "category": "Vocabulary",
+        "question": "He is always happy and smiling. He is very ______.",
+        "options": [
+          "cheerful",
+          "hard-headed",
+          "funny",
+          "intelligent"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Cheerful' = مبتهج. 'cheerful person' = شخص مبتهج. 'Hard-headed' و'Funny' و'Intelligent' لا تعبر عن السعادة."
+      },
+      {
+        "id": 689,
+        "category": "Vocabulary",
+        "question": "Madison doesn't like work. He is ______.",
+        "options": [
+          "happy",
+          "poor",
+          "rich",
+          "lazy"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Lazy' = كسول. 'lazy person' = شخص كسول. 'Happy' و'Poor' و'Rich' لا تعبر عن كره العمل."
+      },
+      {
+        "id": 690,
+        "category": "Vocabulary",
+        "question": "My brother wants to get an important job. He is very ______.",
+        "options": [
+          "stubborn",
+          "learned",
+          "ambitious",
+          "talkative"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Ambitious' = طموح. 'ambitious person' = شخص طموح. 'Stubborn' و'Learned' و'Talkative' لا تعبر عن الطموح."
+      },
+      {
+        "id": 691,
+        "category": "Vocabulary",
+        "question": "My friend loves to talk to people. He is ______.",
+        "options": [
+          "ugly",
+          "talkative",
+          "strong",
+          "sad"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Talkative' = ثرثار. 'talkative person' = شخص ثرثار. 'Ugly' و'Strong' و'Sad' لا تعبر عن حب الكلام."
+      },
+      {
+        "id": 692,
+        "category": "Vocabulary",
+        "question": "Peter never gets upset when things go wrong. He is a very ______ man.",
+        "options": [
+          "hard-working",
+          "attractive",
+          "easy-going",
+          "mad"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Easy-going' = مرن، هادئ. 'easy-going man' = رجل هادئ. 'Hard-working' و'Attractive' و'Mad' لا تعبر عن الهدوء."
+      },
+      {
+        "id": 693,
+        "category": "Vocabulary",
+        "question": "He gets annoyed if he has to wait. He is very ______.",
+        "options": [
+          "sociable",
+          "industrious",
+          "hard",
+          "impatient"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Impatient' = نفذ الصبر. 'impatient person' = شخص نفذ صبره. 'Sociable' و'Industrious' و'Hard' لا تعبر عن عدم الصبر."
+      },
+      {
+        "id": 694,
+        "category": "Vocabulary",
+        "question": "He likes new things and new places, even if dangerous. He is ______.",
+        "options": [
+          "adventurous",
+          "selfish",
+          "clever",
+          "mean"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Adventurous' = مغامر. 'adventurous person' = شخص مغامر. 'Selfish' و'Clever' و'Mean' لا تعبر عن حب المغامرة."
+      },
+      {
+        "id": 695,
+        "category": "Vocabulary",
+        "question": "She loves meeting people. She is a very ______ person.",
+        "options": [
+          "shy",
+          "ignorant",
+          "learned",
+          "sociable"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Sociable' = اجتماعي. 'sociable person' = شخص اجتماعي. 'Shy' و'Ignorant' و'Learned' لا تعبر عن حب الاجتماع."
+      },
+      {
+        "id": 696,
+        "category": "Vocabulary",
+        "question": "The music was too ______.",
+        "options": [
+          "loud",
+          "small",
+          "wrong",
+          "incorrect"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Loud' = صاخب. 'loud music' = موسيقى صاخبة. 'Small' و'Wrong' و'Incorrect' لا تصف الصوت."
+      },
+      {
+        "id": 697,
+        "category": "Vocabulary",
+        "question": "Mark is a ______ boy. Everyone likes him.",
+        "options": [
+          "hard",
+          "polite",
+          "rude",
+          "bad"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Polite' = مهذب. 'polite boy' = ولد مهذب يحبه الجميع. 'Hard' و'Rude' و'Bad' لا تجعل الشخص محبوباً."
+      },
+      {
+        "id": 698,
+        "category": "Vocabulary",
+        "question": "He is a ______ man. I do not want to speak to him.",
+        "options": [
+          "clever",
+          "gentle",
+          "stupid",
+          "handsome"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Stupid' = غبي. 'stupid man' = رجل غبي لا يرغبون في التحدث معه. 'Clever' و'Gentle' و'Handsome' لا تسبب النفور."
+      },
+      {
+        "id": 699,
+        "category": "Vocabulary",
+        "question": "My belt is too ______. I couldn't loose it.",
+        "options": [
+          "hard",
+          "soft",
+          "useful",
+          "tight"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Tight' = ضيق. 'tight belt' = حزام ضيق يصعب فكه. 'Hard' و'Soft' و'Useful' لا تعبر عن صعوبة الفك."
+      },
+      {
+        "id": 700,
+        "category": "Vocabulary",
+        "question": "He was ______. He wasn't set free.",
+        "options": [
+          "guilty",
+          "easy",
+          "cheap",
+          "weak"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Guilty' = مذنب. 'guilty person' = شخص مذنب لا يُطلق سراحه. 'Easy' و'Cheap' و'Weak' لا تعبر عن الذنب."
+      }
+    ]
+  }
+}

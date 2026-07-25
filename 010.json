@@ -1,0 +1,1968 @@
+{
+  "exam": {
+    "title": "بنك الأسئلة الشامل للغة الإنجليزية - الجامعة الافتراضية (الجزء العاشر)",
+    "description": "الأسئلة من 851 إلى 1000 - مستخرجة من ملف Full set.pdf مع شرح مفصل لكل إجابة",
+    "totalQuestions": 150,
+    "categories": {
+      "Grammar": 70,
+      "Vocabulary": 40,
+      "Phrasal Verbs": 15,
+      "Prepositions": 10,
+      "Idioms": 5,
+      "Structure": 10
+    },
+    "questions": [
+      {
+        "id": 851,
+        "category": "Grammar - Tenses",
+        "question": "The tennis player Boris Becker ______ 17 years old when he first won Wimbledon.",
+        "options": [
+          "is",
+          "was",
+          "are",
+          "were"
+        ],
+        "answer": 1,
+        "explanation": "🔍 الفعل في الماضي البسيط لأن الحدث وقع في الماضي ('when he first won'). الفاعل 'Boris Becker' مفرد، لذا نستخدم 'was'. 'is' للحاضر، و'are' و'were' للجمع."
+      },
+      {
+        "id": 852,
+        "category": "Grammar - Tenses",
+        "question": "Bats can fly, ______ they can't swim.",
+        "options": [
+          "and",
+          "then",
+          "but",
+          "or"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'but' تستخدم للربط بين جملتين متضادتين. الخفافيش تستطيع الطيران ولكنها لا تستطيع السباحة. 'and' للجمع، و'then' للترتيب الزمني، و'or' للاختيار."
+      },
+      {
+        "id": 853,
+        "category": "Grammar - Tenses",
+        "question": "The teacher always ______ English at class.",
+        "options": [
+          "speak",
+          "speaks",
+          "speaking",
+          "to speak"
+        ],
+        "answer": 1,
+        "explanation": "🔍 مع الفاعل المفرد 'The teacher' في المضارع البسيط نضيف 's' للفعل. 'always' تدل على عادة. 'speaking' و'to speak' لا تصلحان كفعل رئيسي."
+      },
+      {
+        "id": 854,
+        "category": "Grammar - Tenses",
+        "question": "He ______ a book when I came home.",
+        "options": [
+          "was reading",
+          "read",
+          "will read",
+          "reads"
+        ],
+        "answer": 0,
+        "explanation": "🔍 الماضي المستمر (was reading) يستخدم لفعل كان مستمراً عند حدوث فعل آخر (came). 'read' للماضي البسيط، و'will read' للمستقبل، و'reads' للمضارع."
+      },
+      {
+        "id": 855,
+        "category": "Grammar - Comparatives",
+        "question": "Tom is ______ Beth.",
+        "options": [
+          "tall",
+          "taller than",
+          "the tallest",
+          "more tall"
+        ],
+        "answer": 1,
+        "explanation": "🔍 للمقارنة بين شخصين نستخدم 'taller than'. 'tall' للمفرد، و'the tallest' للتفضيل بين ثلاثة فأكثر، و'more tall' خطأ (الصحيح 'taller')."
+      },
+      {
+        "id": 856,
+        "category": "Prepositions",
+        "question": "Her birthday is ______ June 11.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "during"
+        ],
+        "answer": 0,
+        "explanation": "🔍 نستخدم 'on' مع التواريخ المحددة (June 11). 'in' مع الشهور والسنوات، و'at' مع الساعات، و'during' مع الفترات."
+      },
+      {
+        "id": 857,
+        "category": "Grammar - Tenses",
+        "question": "Where did he ______?",
+        "options": [
+          "went",
+          "goes",
+          "go",
+          "gone"
+        ],
+        "answer": 2,
+        "explanation": "🔍 بعد 'did' في السؤال نستخدم المصدر (V1). 'go' هو المصدر الصحيح. 'went' ماضي، و'goes' مضارع مفرد، و'gone' تصريف ثالث."
+      },
+      {
+        "id": 858,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: Can he plays tennis?",
+        "options": [
+          "can",
+          "he",
+          "plays",
+          "tennis"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'plays' هو الخطأ. بعد 'can' نستخدم المصدر (V1). الصحيح: 'Can he play tennis?'"
+      },
+      {
+        "id": 859,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: You won't find Jerry at home right now. He studies in the library.",
+        "options": [
+          "find",
+          "at",
+          "studies",
+          "in"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'studies' هو الخطأ. الجملة تتحدث عن حدث يحدث الآن ('right now')، لذا يجب استخدام المضارع المستمر: 'is studying'. 'studies' للمضارع البسيط (عادة)."
+      },
+      {
+        "id": 860,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: How does you go to work?",
+        "options": [
+          "does",
+          "you",
+          "go",
+          "to"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'does' هو الخطأ. مع الفاعل 'you' نستخدم 'do' وليس 'does'. الصحيح: 'How do you go to work?'"
+      },
+      {
+        "id": 861,
+        "category": "Grammar - Structure",
+        "question": "Choose the CORRECT order only.",
+        "options": [
+          "The fruit in September is harvested.",
+          "The fruit is harvested in September.",
+          "The fruit harvested in September is.",
+          "Is harvested in September the fruit."
+        ],
+        "answer": 1,
+        "explanation": "🔍 ترتيب الجملة الصحيح: فاعل + فعل + مفعول به + ظرف زمان. 'The fruit is harvested in September.' الخيارات الأخرى بها أخطاء في الترتيب."
+      },
+      {
+        "id": 862,
+        "category": "Grammar - Structure",
+        "question": "Choose the CORRECT order only.",
+        "options": [
+          "Where are they sitting?",
+          "Are they were sitting?",
+          "Sitting Where are they?",
+          "Where sitting they are?"
+        ],
+        "answer": 0,
+        "explanation": "🔍 ترتيب السؤال الصحيح: أداة السؤال + فعل مساعد + فاعل + فعل رئيسي. 'Where are they sitting?' الخيارات الأخرى بها أخطاء في الترتيب."
+      },
+      {
+        "id": 863,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT structure: You must be kidding.",
+        "options": [
+          "You don't be must kidding.",
+          "You must is be kidding.",
+          "You must be kidding.",
+          "You kidding must do."
+        ],
+        "answer": 2,
+        "explanation": "🔍 الصيغة الصحيحة: فاعل + must + be + V-ing. 'You must be kidding' = لا بد أنك تمزح. الخيارات الأخرى بها أخطاء في ترتيب الكلمات."
+      },
+      {
+        "id": 864,
+        "category": "Grammar - Tenses",
+        "question": "She ______ Biology when she was abroad.",
+        "options": [
+          "studies",
+          "study",
+          "has studied",
+          "studied"
+        ],
+        "answer": 3,
+        "explanation": "🔍 الفعل في الماضي البسيط لأن الحدث وقع في الماضي وانتهى ('when she was abroad'). 'studied' هو الصحيح. 'has studied' للمضارع التام."
+      },
+      {
+        "id": 865,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: Your school has got a very clean rooms.",
+        "options": [
+          "your",
+          "got",
+          "a",
+          "clean"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'a' هو الخطأ. 'rooms' جمع، لذا لا نستخدم 'a' معه. الصحيح: 'Your school has got very clean rooms.'"
+      },
+      {
+        "id": 866,
+        "category": "Grammar - Tenses",
+        "question": "He ______ about birds. It drives me mad!",
+        "options": [
+          "always talk",
+          "talk always",
+          "had talked",
+          "is always talking"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'is always talking' = المضارع المستمر مع 'always' للتعبير عن عادة مزعجة ومتكررة. 'He is always talking about birds' = يتحدث دائماً عن الطيور (ويضايقني)."
+      },
+      {
+        "id": 867,
+        "category": "Grammar - Tenses",
+        "question": "Hello Mary? It's me. Listen, I ______ up your road. I'll be with you in five minutes!",
+        "options": [
+          "was just walking",
+          "will just walk",
+          "just walked",
+          "am just walking"
+        ],
+        "answer": 3,
+        "explanation": "🔍 المضارع المستمر (am just walking) يستخدم للحدث الجاري الآن. المتحدث يقول إنه يمشي في الطريق الآن وسيصل بعد خمس دقائق."
+      },
+      {
+        "id": 868,
+        "category": "Grammar - Tenses",
+        "question": "This shirt fits me perfectly. I ______ it.",
+        "options": [
+          "will take",
+          "take",
+          "going to take",
+          "am going to take"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'am going to take' للقرارات والخطط المستقبلية. المتحدث قرر شراء القميص. 'will take' تستخدم للقرارات الفورية."
+      },
+      {
+        "id": 869,
+        "category": "Grammar - Tenses",
+        "question": "I traveled to Egypt ______ the pyramids.",
+        "options": [
+          "to see",
+          "to seeing",
+          "to have seen",
+          "see"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'to + V1' تستخدم للتعبير عن الغرض. 'I traveled to Egypt to see the pyramids' = سافرت إلى مصر لرؤية الأهرامات. 'to seeing' و'to have seen' خطأ."
+      },
+      {
+        "id": 870,
+        "category": "Grammar - Tenses",
+        "question": "After her parents' death, she had to look ______ her younger brothers.",
+        "options": [
+          "on",
+          "at",
+          "after",
+          "before"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Look after' = يعتني بـ. 'look after her brothers' = تعتني بإخوتها. 'look on' و'look at' و'look before' لا تعبر عن الاعتناء."
+      },
+      {
+        "id": 871,
+        "category": "Grammar - Tenses",
+        "question": "Nathan ______ three books so far.",
+        "options": [
+          "wrote",
+          "has been writing",
+          "had been writing",
+          "has written"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'so far' = حتى الآن، وتستخدم مع المضارع التام. 'has written' = كتب (وما زال يكتب). 'has been writing' تؤكد على الاستمرارية."
+      },
+      {
+        "id": 872,
+        "category": "Grammar - Tenses",
+        "question": "Do you think ______ would lend ______ some money?",
+        "options": [
+          "he,me",
+          "him, I",
+          "he, I",
+          "him, me"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'he' هو الفاعل في جملة 'would lend'، و'me' هو المفعول به. 'him' لا يصلح كفاعل، و'I' لا يصلح كمفعول به."
+      },
+      {
+        "id": 873,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: I would like to speaking to her for three minutes if she can.",
+        "options": [
+          "would",
+          "speaking",
+          "her",
+          "can"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'speaking' هو الخطأ. بعد 'would like to' نستخدم المصدر (V1). الصحيح: 'I would like to speak to her...'"
+      },
+      {
+        "id": 874,
+        "category": "Grammar - Tenses",
+        "question": "She would help you if you ______ ask her to.",
+        "options": [
+          "happy",
+          "happily",
+          "happily",
+          "happiness"
+        ],
+        "answer": 1,
+        "explanation": "🔍 نحتاج حال (adverb) ليصف الفعل 'ask'. 'happily' = بسعادة. 'happy' صفة، و'happiness' اسم."
+      },
+      {
+        "id": 875,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT order only.",
+        "options": [
+          "She has lived in American 1980 since.",
+          "She since has lived in America 1980.",
+          "She has since 1980 lived in America.",
+          "She has lived in America since 1980."
+        ],
+        "answer": 3,
+        "explanation": "🔍 ترتيب الجملة الصحيح: فاعل + have/has + V3 + مفعول به + since + سنة. 'She has lived in America since 1980.'"
+      },
+      {
+        "id": 876,
+        "category": "Grammar - Conditionals",
+        "question": "If I were you, I ______ buy that television on sale.",
+        "options": [
+          "will",
+          "can",
+          "may",
+          "would"
+        ],
+        "answer": 3,
+        "explanation": "🔍 الشرط الثاني: if + past simple + would + V1. 'If I were you, I would buy' = لو كنت مكانك، لكنت اشتريت."
+      },
+      {
+        "id": 877,
+        "category": "Grammar - Tenses",
+        "question": "______ for my exam all week.",
+        "options": [
+          "am studying",
+          "was studying",
+          "had studied",
+          "have been studying"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'all week' تشير إلى فترة مستمرة حتى الآن. 'have been studying' = كنت أدرس طوال الأسبوع (وما زلت). المضارع التام المستمر هو الأنسب."
+      },
+      {
+        "id": 878,
+        "category": "Grammar - Tenses",
+        "question": "It ______ hours to do my English writing homework.",
+        "options": [
+          "takes me a",
+          "taken me",
+          "take",
+          "takes me"
+        ],
+        "answer": 3,
+        "explanation": "🔍 الصيغة الصحيحة: It takes me + وقت + to + V1. 'It takes me hours to do my homework.' 'takes me' مع الفاعل المفرد 'it'."
+      },
+      {
+        "id": 879,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "He is in his fifties.",
+          "He is in his fifty years.",
+          "He is in his fifties years.",
+          "He is in his fifty."
+        ],
+        "answer": 0,
+        "explanation": "🔍 'in his fifties' = في الخمسينات من عمره. الصيغة الصحيحة: in his + عدد (جمع) للدلالة على العمر. 'fifty' مفرد و'years' غير ضرورية."
+      },
+      {
+        "id": 880,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "The number of English speakers is falling sharply.",
+          "The number of English speakers are falling sharply.",
+          "The number of English speakers is sharply falling.",
+          "Sharply the number of English speakers is falling."
+        ],
+        "answer": 0,
+        "explanation": "🔍 'The number of' + اسم جمع تأخذ فعل مفرد (is). ترتيب الظروف: فعل + حال (falling sharply) أفضل من 'sharply falling'. الخيار 0 هو الأصح."
+      },
+      {
+        "id": 881,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT statement.",
+        "options": [
+          "I travelled to France because to learn French.",
+          "I travelled to France so that I learn French.",
+          "I travelled to France for learn French.",
+          "I travelled to France due to learn French."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'so that' تتبعها جملة كاملة. 'so that I learn French' = لكي أتعلم الفرنسية. 'because to' و'for learn' و'due to learn' كلها خطأ."
+      },
+      {
+        "id": 882,
+        "category": "Grammar - Tenses",
+        "question": "Have we had any emails ______?",
+        "options": [
+          "ago",
+          "recently",
+          "yesterday",
+          "at this moment"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'recently' = مؤخراً، وتستخدم مع المضارع التام في السؤال. 'ago' و'yesterday' مع الماضي البسيط، و'at this moment' مع المضارع المستمر."
+      },
+      {
+        "id": 883,
+        "category": "Grammar - Tenses",
+        "question": "How ______ eggs do you need to make a cake?",
+        "options": [
+          "much",
+          "many",
+          "little",
+          "few"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'eggs' اسم معدود جمع، لذا نستخدم 'many'. 'much' مع غير المعدود، و'little' و'few' مع النفي."
+      },
+      {
+        "id": 884,
+        "category": "Grammar - Tenses",
+        "question": "I'll call you as soon as I ______.",
+        "options": [
+          "'ll arrive",
+          "arrived",
+          "arrive",
+          "arriving"
+        ],
+        "answer": 2,
+        "explanation": "🔍 في جمل الزمان المستقبلية ('as soon as') نستخدم المضارع البسيط بدلاً من المستقبل. 'as soon as I arrive' = حالما أصل. لا نستخدم 'will arrive'."
+      },
+      {
+        "id": 885,
+        "category": "Grammar - Tenses",
+        "question": "The animal that you saw last year ______ a wolf.",
+        "options": [
+          "may be",
+          "might have been",
+          "can never be",
+          "must be"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'might have been' = قد يكون (في الماضي). الحدث وقع في الماضي ('last year')، لذا نستخدم 'might have been' للتعبير عن احتمالية في الماضي."
+      },
+      {
+        "id": 886,
+        "category": "Grammar - Tenses",
+        "question": "He ______ listens to my advice.",
+        "options": [
+          "never",
+          "does not",
+          "ever",
+          "not"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'never' = أبداً، وتأتي قبل الفعل الرئيسي. 'He never listens' = لا يستمع أبداً. 'does not' تحتاج إلى فعل، و'ever' تستخدم في السؤال."
+      },
+      {
+        "id": 887,
+        "category": "Grammar - Tenses",
+        "question": "______ my socks? B. Yes, I saw them on your bed.",
+        "options": [
+          "Had you seen",
+          "Do you see",
+          "Have you seen",
+          "Would you see"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Have you seen' = هل رأيت؟ (مضارع تام). الجواب 'I saw them' في الماضي البسيط. السؤال عن رؤية حدثت مؤخراً، لذا نستخدم المضارع التام."
+      },
+      {
+        "id": 888,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "You ought studies harder.",
+          "You ought to study harder.",
+          "You ought study harder.",
+          "You ought to studying harder."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'ought to' تتبعها المصدر (V1). 'You ought to study harder' = ينبغي أن تدرس بجد. 'ought' بدون 'to' أو مع 'studies' أو 'studying' خطأ."
+      },
+      {
+        "id": 889,
+        "category": "Grammar - Tenses",
+        "question": "He realized that he ______ his car keys in the office.",
+        "options": [
+          "was leaving",
+          "had left",
+          "has left",
+          "is leaving"
+        ],
+        "answer": 1,
+        "explanation": "🔍 الماضي التام (had left) يستخدم للحدث الذي حدث قبل حدث آخر في الماضي (realized). 'had left his keys' = كان قد ترك مفاتيحه. 'was leaving' مستمر، و'has left' للمضارع التام."
+      },
+      {
+        "id": 890,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: I am supposed to clean the room, but I didn't.",
+        "options": [
+          "am supposed",
+          "clean",
+          "the",
+          "but"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'am supposed' هو الخطأ. الصحيح: 'I was supposed to clean' (في الماضي). 'am supposed' للحاضر، ولكن الجملة تتحدث عن شيء لم يحدث في الماضي."
+      },
+      {
+        "id": 891,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "There is nothing I can say.",
+          "There isn't nothing I can say.",
+          "There is nothing I couldn't say.",
+          "There are nothing I can say."
+        ],
+        "answer": 0,
+        "explanation": "🔍 'There is nothing I can say' = لا يوجد شيء يمكنني قوله. 'isn't nothing' نفي مزدوج خطأ، و'couldn't' تغير المعنى، و'are' مع 'nothing' خطأ."
+      },
+      {
+        "id": 892,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: Smoking could be the cause of this cough your have.",
+        "options": [
+          "the cause",
+          "of",
+          "your",
+          "have"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'have' هو الخطأ. الصحيح: 'this cough you have' أو 'your cough'. 'your have' غير صحيحة نحويًا."
+      },
+      {
+        "id": 893,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: Although the film has some famous actors in it, but people find them boring and uninteresting.",
+        "options": [
+          "has",
+          "but",
+          "them",
+          "uninteresting"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'but' هو الخطأ. لا نستخدم 'but' مع 'Although'. الصحيح: 'Although the film has..., people find them boring.' أو 'The film has..., but people find them boring.'"
+      },
+      {
+        "id": 894,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT sentence.",
+        "options": [
+          "You should read the instructions first so that you know how to use the camera.",
+          "You should read the instructions first in order to know how to use the camera.",
+          "You should read the instructions first because you know how to use the camera.",
+          "You should read the instructions first to know how to use the camera."
+        ],
+        "answer": 2,
+        "explanation": "🔍 'because' تعني 'لأن' وتعطي سبباً، وليس غرضاً. الجملة تعني: اقرأ التعليمات لأنك تعرف كيف تستخدم الكاميرا (وهذا غير منطقي). الصحيح استخدام 'so that' أو 'to'."
+      },
+      {
+        "id": 895,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "The doctor told her she needed some medicine for get better.",
+          "The doctor told her she needs some medicine to get better.",
+          "The doctor told her she needed some medicine to getting better.",
+          "The doctor told her she needed some medicine to get better."
+        ],
+        "answer": 3,
+        "explanation": "🔍 في الكلام المنقول، نرجع الزمن: 'needs' → 'needed'. 'to get better' = لكي تتحسن. الخيارات الأخرى: 'for get' خطأ، و'to getting' خطأ."
+      },
+      {
+        "id": 896,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "Play volleyball on the beach is fun.",
+          "To play volleyball on the beach is fun.",
+          "Playing volleyball on the beach is fun.",
+          "Playing volleyball on the beach is fun."
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Playing' كـ Gerund (اسم مصدر) يصلح كفاعل للجملة. 'Play' فعل لا يصلح، و'To play' (مصدر) صحيح أيضاً ولكن الخيار 3 هو الأكثر شيوعاً."
+      },
+      {
+        "id": 897,
+        "category": "Grammar - Tenses",
+        "question": "This can ______ a malfunction in the ventilation system.",
+        "options": [
+          "result in",
+          "lead in",
+          "due to",
+          "because"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'result in' = يؤدي إلى، ينتج عنه. 'can result in a malfunction' = يمكن أن يؤدي إلى عطل. 'lead in' خطأ (الصحيح 'lead to')، و'due to' و'because' لا تصلحان مع 'can'."
+      },
+      {
+        "id": 898,
+        "category": "Grammar - Tenses",
+        "question": "I ______ to try to climb the Himalayas.",
+        "options": [
+          "have always wanted",
+          "wanted always",
+          "always wanted",
+          "always have wanted"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'have always wanted' = لطالما أردت. ترتيب الظروف الصحيح: have + always + wanted. 'always' تأتي بين الفعل المساعد والفعل الرئيسي."
+      },
+      {
+        "id": 899,
+        "category": "Grammar - Tenses",
+        "question": "Albert Einstein ______ he was four.",
+        "options": [
+          "couldn't talk until",
+          "could talk until",
+          "could talk unless",
+          "couldn't talked because"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'couldn't talk until' = لم يستطع التحدث حتى. المعنى: أينشتاين لم يستطع التحدث حتى بلغ الرابعة. 'until' تعني 'حتى'. 'unless' = ما لم."
+      },
+      {
+        "id": 900,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "Sam is leaving forever his things around the room.",
+          "Forever Sam is leaving his things around the room.",
+          "Sam is leaving his things around the room forever.",
+          "Sam is forever leaving his things around the room forever."
+        ],
+        "answer": 2,
+        "explanation": "🔍 'forever' تأتي في نهاية الجملة كظرف زمان. 'Sam is leaving his things around the room forever' صحيحة. الخيار 4 بها تكرار لـ 'forever'."
+      },
+      {
+        "id": 901,
+        "category": "Grammar - Tenses",
+        "question": "It's advised ______ the educational places.",
+        "options": [
+          "you should visit",
+          "you visiting",
+          "visited",
+          "to visit"
+        ],
+        "answer": 3,
+        "explanation": "🔍 بعد 'it's advised' نستخدم 'to + V1'. 'to visit the educational places' = زيارة الأماكن التعليمية. 'you should visit' هي جملة كاملة وليست تكملة لـ 'it's advised'."
+      },
+      {
+        "id": 902,
+        "category": "Grammar - Tenses",
+        "question": "Syria ______ for decades before it became independent.",
+        "options": [
+          "had struggled",
+          "has struggled",
+          "struggles",
+          "was struggling"
+        ],
+        "answer": 0,
+        "explanation": "🔍 الماضي التام (had struggled) يستخدم للحدث الذي استمر قبل حدث آخر في الماضي (became independent). 'had struggled for decades' = كانت قد كافحت لعقود."
+      },
+      {
+        "id": 903,
+        "category": "Grammar - Tenses",
+        "question": "It ______ matter of time before conventional teaching is replaced by networking alternatives.",
+        "options": [
+          "is only a",
+          "only is",
+          "is an only",
+          "an only is"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'It is only a matter of time' = إنها مجرد مسألة وقت. 'only a' هو الترتيب الصحيح. 'only is' و'is an only' و'an only is' كلها خطأ."
+      },
+      {
+        "id": 904,
+        "category": "Grammar - Tenses",
+        "question": "Lung disease ______ by lack of practice and smoking.",
+        "options": [
+          "can be caused",
+          "was able to cause",
+          "could cause",
+          "has been causing"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'can be caused' = يمكن أن يسببها. المجهول مع 'can': can + be + V3. الجملة تتحدث عن سبب محتمل (can). 'was able to cause' للمجهول خطأ."
+      },
+      {
+        "id": 905,
+        "category": "Grammar - Tenses",
+        "question": "Choose the sentence that is equal in meaning to: 'You must practice for 6 hours a day.'",
+        "options": [
+          "They made us practice for six hours a day.",
+          "They allowed us to practice for six hours a day.",
+          "They persuaded us to practice for six hours a day.",
+          "They didn't allow us to practice for six hours a day."
+        ],
+        "answer": 0,
+        "explanation": "🔍 'They made us practice' = جعلونا نتدرب (إجبار). هذا يعادل 'must' (يجب) من ناحية الإجبار. 'allowed' و'persuaded' أضعف، و'didn't allow' عكس المعنى."
+      },
+      {
+        "id": 906,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: The economy of the USA witnessed a drastic fall during the 1930s. Many people lost their jobs and a number of companies gone bankrupt.",
+        "options": [
+          "economy",
+          "drastic",
+          "a",
+          "gone"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'gone' هو الخطأ. الصحيح: 'went bankrupt' (الماضي البسيط). 'gone' هو التصريف الثالث ولا يصلح مع 'companies' كفعل ماضٍ."
+      },
+      {
+        "id": 907,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: He is not interested about reading novels.",
+        "options": [
+          "not",
+          "about",
+          "reading",
+          "novels"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'about' هو الخطأ. الصحيح: 'interested in reading novels'. نستخدم 'interested in' وليس 'interested about'."
+      },
+      {
+        "id": 908,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: Juanita had worked for that company since twelve years when they fired her.",
+        "options": [
+          "had worked",
+          "for",
+          "since",
+          "fired"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'since' هو الخطأ. مع المدة الزمنية (twelve years) نستخدم 'for' وليس 'since'. الصحيح: 'for twelve years'."
+      },
+      {
+        "id": 909,
+        "category": "Grammar - Tenses",
+        "question": "You must ______ home now.",
+        "options": [
+          "to go",
+          "going",
+          "to going",
+          "go"
+        ],
+        "answer": 3,
+        "explanation": "🔍 بعد 'must' نستخدم المصدر (V1). 'You must go home now' = يجب أن تذهب إلى المنزل الآن. 'to go' و'going' و'to going' خطأ."
+      },
+      {
+        "id": 910,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "Despite the exam had been too hard, everyone passed.",
+          "Although the exam had been too hard, everyone passed.",
+          "In spite of the exam had been too hard, everyone passed.",
+          "Inspite the exam had been too hard, everyone passed."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Although' تتبعها جملة كاملة. 'Although the exam had been too hard' = على الرغم من أن الامتحان كان صعباً جداً. 'Despite' و'In spite of' يتبعها اسم أو V-ing وليس جملة."
+      },
+      {
+        "id": 911,
+        "category": "Prepositions",
+        "question": "We are looking ______ a new flat near the city center.",
+        "options": [
+          "for",
+          "by",
+          "of",
+          "to"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'look for' = يبحث عن. 'We are looking for a new flat' = نبحث عن شقة جديدة. 'look by' و'look of' و'look to' لا تستخدم بهذا المعنى."
+      },
+      {
+        "id": 912,
+        "category": "Grammar - Tenses",
+        "question": "The book ______ be published last week.",
+        "options": [
+          "is meant to",
+          "means to",
+          "was meant to",
+          "meant to"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'was meant to' = كان من المفترض أن. الحدث في الماضي ('last week') لذا نستخدم الماضي. 'is meant to' للحاضر، و'means to' خطأ."
+      },
+      {
+        "id": 913,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "Sam has a four rooms house.",
+          "Sam has a four-rooms house.",
+          "Sam has a four- room- house.",
+          "Sam has a four- room house."
+        ],
+        "answer": 3,
+        "explanation": "🔍 الصفة المركبة: four-room house (غرفة واحدة مفردة مع واصلة). 'four-room' صفة، و'house' اسم. لا نضيف 's' للصفة."
+      },
+      {
+        "id": 914,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "All flights will be cancelled because the bad weather.",
+          "All flights will be cancelled although the bad weather.",
+          "All flights will be cancelled due to the bad weather.",
+          "All flights will be cancelled therefore the bad weather."
+        ],
+        "answer": 2,
+        "explanation": "🔍 'due to' = بسبب، وتتبعها اسم. 'due to the bad weather' = بسبب الطقس السيء. 'because' تتبعها جملة، و'although' للتناقض، و'therefore' للنتيجة."
+      },
+      {
+        "id": 915,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: However, it is unclear what criteria they will use to arrive to their decision.",
+        "options": [
+          "unclear",
+          "criteria",
+          "will use",
+          "to"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'to' هو الخطأ. الصحيح: 'arrive at their decision' (يتوصلون إلى قرارهم). 'arrive to' خطأ، والصحيح 'arrive at' مع القرارات."
+      },
+      {
+        "id": 916,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "Do you know where the bus station is?",
+          "Do you know where is the bus station?",
+          "Do you know where is the bus station built?",
+          "Do you know where was the bus station built?"
+        ],
+        "answer": 0,
+        "explanation": "🔍 في السؤال غير المباشر، نضع الفاعل قبل الفعل: 'where the bus station is'. الخيارات الأخرى بها ترتيب خاطئ."
+      },
+      {
+        "id": 917,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "This shirt is still dirty even though I have washed it twice.",
+          "This shirt is still dirty even if I have washed it twice.",
+          "This shirt is still dirty whenever I have washed it twice.",
+          "This shirt is still dirty despite though I have washed it twice."
+        ],
+        "answer": 0,
+        "explanation": "🔍 'even though' = على الرغم من، وتستخدم مع جملة كاملة. 'even if' = حتى لو، و'whenever' = كلما، و'despite though' مزيج خاطئ."
+      },
+      {
+        "id": 918,
+        "category": "Grammar - Tenses",
+        "question": "The company made ______ less money than last year.",
+        "options": [
+          "a good deal",
+          "much",
+          "by far",
+          "not quite"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'much' تستخدم لتوكيد المقارنة. 'much less money' = مال أقل بكثير. 'a good deal' تستخدم مع 'more'، و'by far' مع التفضيل، و'not quite' تعني 'ليس تماماً'."
+      },
+      {
+        "id": 919,
+        "category": "Grammar - Tenses",
+        "question": "Toshiba ______ the new laptop by the end of June.",
+        "options": [
+          "will launch",
+          "will have launched",
+          "will be launching",
+          "will be launched"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'by the end of June' تشير إلى وقت محدد في المستقبل، والفعل سيكون مكتملاً بحلول ذلك الوقت. نستخدم المستقبل التام: 'will have launched'."
+      },
+      {
+        "id": 920,
+        "category": "Grammar - Tenses",
+        "question": "Who ______ the advertisements for the new products?",
+        "options": [
+          "did make",
+          "have made",
+          "makes",
+          "does make"
+        ],
+        "answer": 2,
+        "explanation": "🔍 السؤال عن الفاعل ('Who') لا يحتاج إلى 'do' أو 'did'. نستخدم 'makes' مع الفاعل المفرد في المضارع البسيط. 'Who makes the advertisements?'"
+      },
+      {
+        "id": 921,
+        "category": "Grammar - Conditionals",
+        "question": "If they offered him a better salary, he ______ the job.",
+        "options": [
+          "will accept",
+          "would accept",
+          "can accept",
+          "does make"
+        ],
+        "answer": 1,
+        "explanation": "🔍 الشرط الثاني: if + past simple + would + V1. 'If they offered... he would accept' = إذا عرضوا عليه... لكان قبل."
+      },
+      {
+        "id": 922,
+        "category": "Grammar - Tenses",
+        "question": "When you visit a new country, it ______ the museums and education centres.",
+        "options": [
+          "is recommended you visit",
+          "is recommended visiting",
+          "is recommended visit",
+          "is recommended to visit"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'it is recommended to visit' = يُنصح بزيارة. 'to visit' هو المصدر المناسب. 'you visit' تحتاج إلى 'that'، و'visiting' و'visit' خطأ."
+      },
+      {
+        "id": 923,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT sentence.",
+        "options": [
+          "He left early to catch the train.",
+          "He left early in order to not miss the train.",
+          "He left early so as to catch the train.",
+          "He left early in order not to miss the train."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'in order to not' خطأ. الصحيح: 'in order not to miss' (لكي لا يفوت). ترتيب النفي مع 'in order to' هو: in order not to + V1."
+      },
+      {
+        "id": 924,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT sentence.",
+        "options": [
+          "On my day off I am inhabited of spending all morning in bed.",
+          "On my day off I am in the habit of spending all morning in bed.",
+          "On my day off I have the habit of spending all morning in bed.",
+          "On my day off I usually spend all morning in bed."
+        ],
+        "answer": 0,
+        "explanation": "🔍 'am inhabited of' خطأ. 'inhabited' تعني 'مأهول' أو 'يسكن'. الصحيح: 'in the habit of' = معتاد على."
+      },
+      {
+        "id": 925,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT sentence.",
+        "options": [
+          "She writes in a direct humorous manner yet.",
+          "She writes in a direct yet humorous manner.",
+          "She writes in a direct manner, though humorous.",
+          "She writes in a direct manner, although humorous."
+        ],
+        "answer": 0,
+        "explanation": "🔍 'yet' في نهاية الجملة خطأ. 'yet' تستخدم للربط بين صفتين: 'direct yet humorous' = مباشر ولكن فكاهي. الخيارات الأخرى صحيحة."
+      },
+      {
+        "id": 926,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "SVU tutors have the advantage of teaching from their homes.",
+          "SVU tutors have the teaching advantage from their homes.",
+          "SVU tutors have the advantage of teaches from their homes.",
+          "SVU tutors have the advantage of to teach from their homes."
+        ],
+        "answer": 0,
+        "explanation": "🔍 'have the advantage of + V-ing' = لديهم ميزة. 'teaching' هو الصحيح. 'teaching advantage' خطأ، و'teaches' و'to teach' خطأ."
+      },
+      {
+        "id": 927,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: Superman made their first debut in 1983 in action films.",
+        "options": [
+          "made",
+          "their",
+          "debut",
+          "in"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'their' هو الخطأ. سوبرمان شخصية مفردة، لذا نستخدم 'his' وليس 'their'. 'his first debut' = أول ظهور له."
+      },
+      {
+        "id": 928,
+        "category": "Grammar - Tenses",
+        "question": "Last year I graduated and got a great job, two events ______ totally changed my life.",
+        "options": [
+          "those",
+          "these",
+          "that",
+          "there"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'that' تستخدم للإشارة إلى حدثين سبق ذكرهما. 'those' و'these' للجمع، و'there' للمكان."
+      },
+      {
+        "id": 929,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: All my friends believes there's life on Mars but I don't.",
+        "options": [
+          "All",
+          "believes",
+          "there's",
+          "don't"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'believes' هو الخطأ. الفاعل 'All my friends' جمع، لذا نستخدم 'believe' وليس 'believes'. الصحيح: 'All my friends believe...'"
+      },
+      {
+        "id": 930,
+        "category": "Grammar - Tenses",
+        "question": "We ______ to the party on Friday.",
+        "options": [
+          "had gone",
+          "have gone",
+          "are going",
+          "go"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'are going' = المضارع المستمر للخطط المستقبلية. 'on Friday' تشير إلى خطة مستقبلية. 'had gone' و'have gone' للماضي، و'go' للمضارع."
+      },
+      {
+        "id": 931,
+        "category": "Grammar - Tenses",
+        "question": "How long ______ as a dentist before you changed jobs?",
+        "options": [
+          "have you worked",
+          "you had worked",
+          "you have worked",
+          "had you worked"
+        ],
+        "answer": 3,
+        "explanation": "🔍 الماضي التام (had you worked) يستخدم للحدث الذي حدث قبل حدث آخر في الماضي (changed jobs). 'before you changed' تشير إلى التسلسل الزمني."
+      },
+      {
+        "id": 932,
+        "category": "Grammar - Tenses",
+        "question": "An earthquake hit when the workers ______ to remove the ruins of an old house.",
+        "options": [
+          "are trying",
+          "try",
+          "were trying",
+          "tried"
+        ],
+        "answer": 2,
+        "explanation": "🔍 الماضي المستمر (were trying) يستخدم للفعل الذي كان مستمراً عند حدوث حدث آخر (earthquake hit). 'were trying' = كانوا يحاولون."
+      },
+      {
+        "id": 933,
+        "category": "Grammar - Comparatives",
+        "question": "Riding a horse is not ______ riding a bike.",
+        "options": [
+          "easier than",
+          "so easy than",
+          "as easy as",
+          "more easy than"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'as easy as' للمساواة مع النفي. 'not as easy as' = ليس بنفس السهولة. 'easier than' للمقارنة وليس المساواة، و'so easy than' و'more easy than' خطأ."
+      },
+      {
+        "id": 934,
+        "category": "Prepositions",
+        "question": "The mother ran ______ her son in the park.",
+        "options": [
+          "at",
+          "near",
+          "for",
+          "after"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'ran after' = ركض وراء. الأم ركضت وراء ابنها. 'run at' و'run near' و'run for' لا تعبر عن المطاردة."
+      },
+      {
+        "id": 935,
+        "category": "Grammar - Tenses",
+        "question": "Hardly ever ______ out in the evening.",
+        "options": [
+          "we go",
+          "we will go",
+          "do we go",
+          "we did go"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Hardly ever' في بداية الجملة تسبب الانعكاس: 'do we go'. 'Hardly ever do we go out' = نادراً ما نخرج. 'we go' و'we will go' و'we did go' خطأ."
+      },
+      {
+        "id": 936,
+        "category": "Grammar - Articles",
+        "question": "My brother travelled to ______ UK to buy ______ books.",
+        "options": [
+          "the/the",
+          "X/the",
+          "X/X",
+          "the/X"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'the UK' لأنها دولة (المملكة المتحدة) مع 'the'. 'books' جمع عام بدون 'the'. لذا: 'the UK' و 'X books'."
+      },
+      {
+        "id": 937,
+        "category": "Grammar - Conditionals",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "If we didn't finish our project early, we'd stay all night working.",
+          "If we finish our project early, we could eat out.",
+          "If we do not finish our project early, we would not eat out.",
+          "If we finished our project early, we will eat out."
+        ],
+        "answer": 1,
+        "explanation": "🔍 الشرط الأول: if + present + can/will + V1. 'If we finish early, we could eat out' = إذا أنهينا مبكراً، يمكننا أن نأكل خارجاً. الخيارات الأخرى بها أخطاء في المزج بين الأزمنة."
+      },
+      {
+        "id": 938,
+        "category": "Prepositions",
+        "question": "Almost all my friends are good ______ solving problems.",
+        "options": [
+          "at",
+          "in",
+          "for",
+          "on"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'good at' = جيد في (مهارة). 'good at solving problems' = جيد في حل المشاكل. 'in' و'for' و'on' لا تستخدم مع 'good' بهذا المعنى."
+      },
+      {
+        "id": 939,
+        "category": "Grammar - Comparatives",
+        "question": "The plane is ______ than the train.",
+        "options": [
+          "fast",
+          "faster",
+          "more faster",
+          "more fast"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'faster' للمقارنة مع الصفات القصيرة. 'fast' → 'faster'. 'more faster' مزدوجة، و'more fast' خطأ لأن 'fast' صفة قصيرة."
+      },
+      {
+        "id": 940,
+        "category": "Phrasal Verbs",
+        "question": "Don't put ______ till tomorrow what you can do today.",
+        "options": [
+          "up",
+          "off",
+          "on",
+          "in"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'put off' = يؤجل. 'Don't put off till tomorrow' = لا تؤجل إلى الغد. 'put up' = يرفع، و'put on' = يلبس، و'put in' = يضع."
+      },
+      {
+        "id": 941,
+        "category": "Grammar - Tenses",
+        "question": "______ of the stagnation, many workers were made redundant.",
+        "options": [
+          "Due",
+          "As a result",
+          "Instead",
+          "In spite"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Due to' = بسبب. 'Due to the stagnation' = بسبب الركود. 'As a result' تتبعها جملة، و'Instead' = بدلاً من، و'In spite' = على الرغم من."
+      },
+      {
+        "id": 942,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "I started studying this morning.",
+          "She stopped to crying after three hours.",
+          "Continue walked till you reach the restaurant.",
+          "It began rains in the afternoon."
+        ],
+        "answer": 0,
+        "explanation": "🔍 'started studying' = بدأ الدراسة. 'stopped crying' (بدون 'to')، و'continue walking'، و'began raining' - الخيار 0 هو الصحيح."
+      },
+      {
+        "id": 943,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "You can go to the party today?",
+          "Are you can go to the party today?",
+          "Do you can go to the party today?",
+          "Can you go to the party today?"
+        ],
+        "answer": 3,
+        "explanation": "🔍 ترتيب السؤال مع 'can': Can + فاعل + V1؟ 'Can you go to the party today؟' الخيارات الأخرى بها أخطاء في الترتيب."
+      },
+      {
+        "id": 944,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "I always was aware of those dangers.",
+          "I was aware always of those dangers.",
+          "I was always aware of those dangers.",
+          "I was aware of those dangers always."
+        ],
+        "answer": 2,
+        "explanation": "🔍 ترتيب الظروف الصحيح: was + always + aware. 'I was always aware' = كنت دائماً مدركاً. 'always' تأتي بعد الفعل المساعد وقبل الصفة."
+      },
+      {
+        "id": 945,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "Can I buy stamps.",
+          "Could I buy stamps.",
+          "I able to buy stamps.",
+          "I can buy stamps."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Could I buy stamps?' = هل يمكنني شراء طوابع؟ (طلب مهذب). 'Can I' صحيح أيضاً ولكن 'Could' أكثر تهذيباً. 'able to' تحتاج إلى 'am'."
+      },
+      {
+        "id": 946,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: They are watch the match now.",
+        "options": [
+          "they",
+          "are",
+          "watch",
+          "match"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'watch' هو الخطأ. مع 'are' في المضارع المستمر، نستخدم V-ing. الصحيح: 'They are watching the match now.'"
+      },
+      {
+        "id": 947,
+        "category": "Grammar - Tenses",
+        "question": "Take a taxi or you ______ miss the plane!",
+        "options": [
+          "can't",
+          "won't",
+          "might",
+          "should"
+        ],
+        "answer": 2,
+        "comment": "ملاحظة: الإجابة الصحيحة هي 'might' أو 'will' حسب السياق، ولكن 'might' هي الأنسب",
+        "explanation": "🔍 'might miss' = قد تفوت. 'Take a taxi or you might miss the plane' = خذ تاكسي وإلا قد تفوت الطائرة. 'won't' تعني 'لن تفوت' (عكس المعنى)."
+      },
+      {
+        "id": 948,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT part: Not only did she took my book, she gave it to him!",
+        "options": [
+          "also",
+          "though",
+          "but also",
+          "more"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'not only...but also' = ليس فقط...بل أيضاً. 'Not only did she take my book, but she also gave it to him!' 'also' هو الجزء المطلوب."
+      },
+      {
+        "id": 949,
+        "category": "Grammar - Conditionals",
+        "question": "The first thing I'll do is to drive to my uncle's house if ______.",
+        "options": [
+          "I had gotten my driving license",
+          "I got my driving license",
+          "I would get my driving license",
+          "I get my driving license"
+        ],
+        "answer": 3,
+        "explanation": "🔍 الشرط الأول: if + present + will. 'if I get my driving license' = إذا حصلت على رخصة القيادة. 'I'll do' في المستقبل، لذا نستخدم المضارع في الشرط."
+      },
+      {
+        "id": 950,
+        "category": "Grammar - Tenses",
+        "question": "Right now I ______ my English exam.",
+        "options": [
+          "'m doing",
+          "did",
+          "do",
+          "had done"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Right now' تشير إلى الحدث الجاري الآن، لذا نستخدم المضارع المستمر: 'am doing'. 'did' للماضي، و'do' للمضارع البسيط، و'had done' للماضي التام."
+      },
+      {
+        "id": 951,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: My friend got married in December 3 and got divorced after four months. She now had a baby boy and plans look after him.",
+        "options": [
+          "go married",
+          "divorced",
+          "had",
+          "him"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'go married' خطأ. الصحيح: 'got married' (تزوج). 'got' هو الماضي الصحيح لـ 'get'."
+      },
+      {
+        "id": 952,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "Take a sandwich because of you get hungry.",
+          "Take a sandwich although you get hungry.",
+          "Take a sandwich in case you get hungry.",
+          "Take a sandwich even though you get hungry."
+        ],
+        "answer": 2,
+        "explanation": "🔍 'in case' = تحسباً، لئلا. 'Take a sandwich in case you get hungry' = خذ ساندويتش تحسباً للجوع. 'because of' و'although' و'even though' لا تناسب."
+      },
+      {
+        "id": 953,
+        "category": "Grammar - Tenses",
+        "question": "The teacher gave a lesson ______ she was very tired.",
+        "options": [
+          "also",
+          "even though",
+          "because",
+          "too"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'even though' = على الرغم من. 'The teacher gave a lesson even though she was tired' = أعطت المعلمة درساً على الرغم من أنها كانت متعبة."
+      },
+      {
+        "id": 954,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: I have the most expensivest house in town.",
+        "options": [
+          "the",
+          "most",
+          "expensivest",
+          "town"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'expensivest' هو الخطأ. الصحيح: 'most expensive' (للصفات الطويلة). 'expensivest' غير صحيحة لأن 'expensive' طويلة."
+      },
+      {
+        "id": 955,
+        "category": "Grammar - Tenses",
+        "question": "You ______ have a driver's license before you buy a car.",
+        "options": [
+          "need",
+          "must to",
+          "have to",
+          "like to"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'have to' = يجب (إجبار خارجي). 'You have to have a driver's license' = يجب أن يكون لديك رخصة قيادة. 'need' تحتاج إلى 'to'، و'must to' خطأ."
+      },
+      {
+        "id": 956,
+        "category": "Phrasal Verbs",
+        "question": "Please ______ soon.",
+        "options": [
+          "up and make your mind",
+          "make upon your mind",
+          "make up your mind",
+          "your mind make up"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'make up your mind' = قرر (خذ قرارك). هذه عبارة اصطلاحية. 'make up your mind soon' = قرر بسرعة. الخيارات الأخرى بها أخطاء في الترتيب."
+      },
+      {
+        "id": 957,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT sentence.",
+        "options": [
+          "What is the cost of repairing this car?",
+          "What is the price of this TV?",
+          "How much did cleaning your garage price?",
+          "How much did this t-shirt cost?"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'How much did cleaning your garage price?' خطأ. الصحيح: 'How much did it cost to clean your garage؟' أو 'How much did cleaning your garage cost؟'"
+      },
+      {
+        "id": 958,
+        "category": "Grammar - Tenses",
+        "question": "The police ______ after the suspect for two hours when they discovered he was an Olympic athlete.",
+        "options": [
+          "ran",
+          "was running",
+          "had been running",
+          "were running"
+        ],
+        "answer": 2,
+        "explanation": "🔍 الماضي التام المستمر (had been running) للحدث المستمر قبل حدث آخر في الماضي (discovered). 'had been running for two hours' = كانوا يركضون لمدة ساعتين."
+      },
+      {
+        "id": 959,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: Are these hers books?",
+        "options": [
+          "Are",
+          "these",
+          "hers",
+          "books"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'hers' هو الخطأ. 'hers' ضمير ملكية (بدون اسم بعده). الصحيح: 'her books' (صفة ملكية + اسم)."
+      },
+      {
+        "id": 960,
+        "category": "Grammar - Tenses",
+        "question": "The flight ______ due to the bad weather.",
+        "options": [
+          "cancelled",
+          "was cancelled",
+          "was cancelling",
+          "cancels"
+        ],
+        "answer": 1,
+        "explanation": "🔍 الماضي البسيط في المجهول: was + V3. 'The flight was cancelled' = تم إلغاء الرحلة. 'cancelled' (بدون 'was') خطأ، و'was cancelling' للمستمر."
+      },
+      {
+        "id": 961,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: If anyone has a question tell him to come see me in the office.",
+        "options": [
+          "has",
+          "him",
+          "come",
+          "see"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'him' هو الخطأ. الصحيح: 'tell them' (لأن 'anyone' محايد وغير محدد). 'tell them to come' = أخبرهم أن يأتوا."
+      },
+      {
+        "id": 962,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: Don't disturbing her, she's trying to finish her new book.",
+        "options": [
+          "Don't",
+          "disturbing",
+          "trying",
+          "finish"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'disturbing' هو الخطأ. بعد 'Don't' نستخدم المصدر (V1). الصحيح: 'Don't disturb her'."
+      },
+      {
+        "id": 963,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: Yesterday we've been to the cinema and then had a drink.",
+        "options": [
+          "we've been",
+          "to",
+          "the",
+          "had"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'we've been' هو الخطأ. مع 'Yesterday' (وقت محدد في الماضي) نستخدم الماضي البسيط. الصحيح: 'we went to the cinema'."
+      },
+      {
+        "id": 964,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: When he arrived the film started so he missed the first ten minutes.",
+        "options": [
+          "arrived",
+          "the",
+          "started",
+          "missed"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'arrived' هو الخطأ. المعنى: عندما وصل بدأ الفيلم (أي بدأ قبل وصوله). الصحيح: 'When he arrived, the film had started' (ماضي تام)."
+      },
+      {
+        "id": 965,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: I was listening to radio when they had arrived.",
+        "options": [
+          "was listening",
+          "to",
+          "when",
+          "had arrived"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'had arrived' هو الخطأ. الصحيح: 'arrived' (ماضي بسيط) مع 'when' لأن الفعلين وقعا في نفس الوقت تقريباً."
+      },
+      {
+        "id": 966,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: The train leaves at 8.30 so make sure you're don't late.",
+        "options": [
+          "leaves",
+          "at",
+          "make",
+          "don't"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'don't' هو الخطأ. الصحيح: 'you're not late' (لست متأخراً) أو 'you aren't late'. 'don't late' خطأ."
+      },
+      {
+        "id": 967,
+        "category": "Prepositions",
+        "question": "She went ______ home.",
+        "options": [
+          "in",
+          "at",
+          "to",
+          "X"
+        ],
+        "answer": 3,
+        "explanation": "🔍 لا نستخدم حرف جر مع 'home' عندما يأتي بعد فعل الحركة. 'She went home' = ذهبت إلى المنزل. 'to home' خطأ."
+      },
+      {
+        "id": 968,
+        "category": "Prepositions",
+        "question": "I work ______ Seattle.",
+        "options": [
+          "in",
+          "onto",
+          "X",
+          "about"
+        ],
+        "answer": 0,
+        "explanation": "🔍 نستخدم 'in' مع المدن. 'I work in Seattle' = أعمل في سياتل. 'onto' و'about' وبدون حرف جر خطأ."
+      },
+      {
+        "id": 969,
+        "category": "Prepositions",
+        "question": "He went ______ his friend's house.",
+        "options": [
+          "about",
+          "to",
+          "with",
+          "over"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'to' تستخدم مع الاتجاهات. 'He went to his friend's house' = ذهب إلى منزل صديقه. 'about' و'with' و'over' لا تعبر عن الاتجاه."
+      },
+      {
+        "id": 970,
+        "category": "Grammar - Tenses",
+        "question": "I ______ TV when the telephone rang.",
+        "options": [
+          "watched",
+          "watching",
+          "was watching",
+          "were watching"
+        ],
+        "answer": 2,
+        "explanation": "🔍 الماضي المستمر (was watching) للفعل المستمر عند حدوث فعل آخر (rang). 'was watching' مع الفاعل المفرد 'I'."
+      },
+      {
+        "id": 971,
+        "category": "Grammar - Tenses",
+        "question": "I'm afraid I'm not hungry. I've ______ eaten lunch.",
+        "options": [
+          "yet",
+          "still",
+          "ever",
+          "already"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'already' = بالفعل، وتستخدم في المثبت مع المضارع التام. 'I've already eaten lunch' = لقد تناولت الغداء بالفعل. 'yet' في النفي، و'still' = ما زال."
+      },
+      {
+        "id": 972,
+        "category": "Grammar - Tenses",
+        "question": "My mother let me ______ late when I was a child.",
+        "options": [
+          "stay",
+          "to stay",
+          "staying",
+          "to staying"
+        ],
+        "answer": 0,
+        "explanation": "🔍 بعد 'let' نستخدم المصدر المجرد (V1). 'let me stay' = سمحت لي بالبقاء. 'to stay' و'staying' و'to staying' خطأ."
+      },
+      {
+        "id": 973,
+        "category": "Grammar - Tenses",
+        "question": "Would you like ______ chicken?",
+        "options": [
+          "any",
+          "none",
+          "some",
+          "every"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'some' في العرض (offer) وليس في السؤال العادي. 'Would you like some chicken؟' = هل تريد بعض الدجاج؟ 'any' تستخدم في الأسئلة العادية."
+      },
+      {
+        "id": 974,
+        "category": "Grammar - Tenses",
+        "question": "He has ______ friends in Chicago.",
+        "options": [
+          "much",
+          "lots",
+          "a few",
+          "a lot"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'a few' = بعض (مع الجمع المعدود). 'a few friends' = بعض الأصدقاء. 'much' مع غير المعدود، و'lots' تحتاج إلى 'of'، و'a lot' تحتاج إلى 'of'."
+      },
+      {
+        "id": 975,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT sentence.",
+        "options": [
+          "They talked to each other.",
+          "They talked to them selves.",
+          "They talked to one another.",
+          "They talked among themselves."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'them selves' خطأ. الصحيح: 'themselves' (ضمير منعكس). 'themselves' تُكتب ككلمة واحدة وليس كلمتين."
+      },
+      {
+        "id": 976,
+        "category": "Grammar - Tenses",
+        "question": "She ______ lunch by the time we arrived.",
+        "options": [
+          "finishes",
+          "has finished",
+          "had finished",
+          "was finished"
+        ],
+        "answer": 2,
+        "explanation": "🔍 الماضي التام (had finished) للحدث الذي حدث قبل حدث آخر في الماضي (arrived). 'had finished lunch' = كانت قد انتهت من الغداء."
+      },
+      {
+        "id": 977,
+        "category": "Grammar - Conditionals",
+        "question": "If I were you I ______ that television on sale.",
+        "options": [
+          "will buy",
+          "buy",
+          "bought",
+          "would buy"
+        ],
+        "answer": 3,
+        "explanation": "🔍 الشرط الثاني: if + past simple + would + V1. 'If I were you, I would buy' = لو كنت مكانك، لكنت اشتريت."
+      },
+      {
+        "id": 978,
+        "category": "Grammar - Tenses",
+        "question": "______ you ever ______ to England?",
+        "options": [
+          "Did/go",
+          "Have/been",
+          "Has/gone",
+          "Are/going"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Have you ever been to England؟' = هل سبق أن ذهبت إلى إنجلترا؟ 'ever' مع المضارع التام، و'been' = ذهبت وعُدت. 'gone' = ذهب ولم يعد."
+      },
+      {
+        "id": 979,
+        "category": "Grammar - Passive Voice",
+        "question": "Choose the CORRECT order only.",
+        "options": [
+          "In China the rice is growing.",
+          "Rice growing in China.",
+          "Rice is grew in China.",
+          "Rice is grown in China."
+        ],
+        "answer": 3,
+        "explanation": "🔍 المجهول في المضارع البسيط: is + V3. 'Rice is grown in China' = يُزرع الأرز في الصين. 'growing' و'grew' و'grow' خطأ."
+      },
+      {
+        "id": 980,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT statement.",
+        "options": [
+          "If he's feeling ill, he should to see the doctor.",
+          "If he's feeling ill, he should see the doctor.",
+          "If he's feeling ill, he should seeing the doctor.",
+          "If he's feeling ill, he should sees the doctor."
+        ],
+        "answer": 1,
+        "explanation": "🔍 بعد 'should' نستخدم المصدر (V1). 'He should see the doctor' = ينبغي أن يرى الطبيب. 'should to' و'should seeing' و'should sees' خطأ."
+      },
+      {
+        "id": 981,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT order. You can see the coast from the window.",
+        "options": [
+          "You can see the coast from the window.",
+          "You can to see the coast from the window.",
+          "You can seeing the coast from the window.",
+          "You can to seeing the coast from the window."
+        ],
+        "answer": 0,
+        "explanation": "🔍 بعد 'can' نستخدم المصدر (V1). 'You can see' = يمكنك رؤية. 'to see' و'seeing' و'to seeing' خطأ."
+      },
+      {
+        "id": 982,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: By next week I would have finished my study.",
+        "options": [
+          "By",
+          "next week",
+          "would",
+          "finished"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'would' هو الخطأ. مع 'By next week' نستخدم المستقبل التام: 'will have finished' وليس 'would have finished'. 'would' للماضي."
+      },
+      {
+        "id": 983,
+        "category": "Grammar - Tenses",
+        "question": "When I go to the office, I realized I ______ my keys at home.",
+        "options": [
+          "have left",
+          "leave",
+          "would leave",
+          "had left"
+        ],
+        "answer": 3,
+        "explanation": "🔍 الماضي التام (had left) للحدث الذي حدث قبل حدث آخر في الماضي (realized). 'had left my keys' = كنت قد تركت مفاتيحي."
+      },
+      {
+        "id": 984,
+        "category": "Grammar - Tenses",
+        "question": "You ______ to register in this course.",
+        "options": [
+          "shouldn't",
+          "mustn't",
+          "can have",
+          "don't need"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'don't need to' = لا تحتاج إلى. 'You don't need to register' = لا تحتاج إلى التسجيل. 'shouldn't' = لا ينبغي، و'mustn't' = ممنوع."
+      },
+      {
+        "id": 985,
+        "category": "Grammar - Tenses",
+        "question": "Last time I ______ to France, I was 10 years old.",
+        "options": [
+          "gone",
+          "been",
+          "went",
+          "have gone"
+        ],
+        "answer": 2,
+        "explanation": "🔍 الماضي البسيط (went) مع 'last time' (وقت محدد في الماضي). 'went to France' = ذهبت إلى فرنسا. 'been' و'gone' و'have gone' خطأ."
+      },
+      {
+        "id": 986,
+        "category": "Grammar - Tenses",
+        "question": "We ______ to Sally's party last week.",
+        "options": [
+          "are invited",
+          "invited",
+          "was invited",
+          "were invited"
+        ],
+        "answer": 3,
+        "explanation": "🔍 الماضي البسيط في المجهول: were + V3. 'We were invited' = تمت دعوتنا. 'are invited' للحاضر، و'invited' بدون 'were' خطأ."
+      },
+      {
+        "id": 987,
+        "category": "Grammar - Tenses",
+        "question": "- I will buy some bread tomorrow. - She said she ______ some bread the next day.",
+        "options": [
+          "will buy",
+          "was buying",
+          "would buy",
+          "can buy"
+        ],
+        "answer": 2,
+        "explanation": "🔍 الكلام المنقول: 'will' → 'would'. 'She said she would buy' = قالت إنها ستشتري. 'would buy' هو الصحيح."
+      },
+      {
+        "id": 988,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: She feels so exciting when she passes her exam.",
+        "options": [
+          "feels",
+          "so",
+          "exciting",
+          "passes"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'exciting' هو الخطأ. الصحيح: 'excited' (لوصف شعور الشخص). 'exciting' تصف الشيء المسبب للشعور."
+      },
+      {
+        "id": 989,
+        "category": "Grammar - Tenses",
+        "question": "Nutrition experts advise us ______ too many refined foods.",
+        "options": [
+          "not to eat",
+          "eating",
+          "to eat",
+          "to don't eat"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'advise + object + not to + V1'. 'advise us not to eat' = ينصحوننا بعدم أكل. 'to don't eat' خطأ، و'eating' و'to eat' تعنيان العكس."
+      },
+      {
+        "id": 990,
+        "category": "Phrasal Verbs",
+        "question": "She had to give ______ her job when her son was born.",
+        "options": [
+          "in",
+          "up",
+          "off",
+          "away"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'give up' = يتخلى عن، يترك. 'give up her job' = تترك وظيفتها. 'give in' = يستسلم، و'give off' = ينبعث، و'give away' = يتبرع."
+      },
+      {
+        "id": 991,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT part: The number of English learners are increasing.",
+        "options": [
+          "The",
+          "of",
+          "are",
+          "increasing"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'are' هو الخطأ. 'The number of' تأخذ فعل مفرد (is). الصحيح: 'The number of English learners is increasing.'"
+      },
+      {
+        "id": 992,
+        "category": "Grammar - Tenses",
+        "question": "When you visit a new country, it ______ the museums and education centres.",
+        "options": [
+          "is advised you visit",
+          "is advised visiting",
+          "is advised visit",
+          "is advised that you visit"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'it is advised that you visit' = يُنصح بأن تزور. 'that + clause' هو الصحيح. 'you visit' (بدون 'that') خطأ، و'visiting' و'visit' خطأ."
+      },
+      {
+        "id": 993,
+        "category": "Grammar - Tenses",
+        "question": "______ you get off a plane in a foreign country, you should go through Customs.",
+        "options": [
+          "When",
+          "Where",
+          "Whose",
+          "Who"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'When' = عندما. 'When you get off a plane' = عندما تنزل من الطائرة. 'Where' للمكان، و'Whose' للملكية، و'Who' للفاعل."
+      },
+      {
+        "id": 994,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "My sister and I are different, and we get on well together.",
+          "My sister and I are different, so we get on well together.",
+          "My sister and I are different, but we get on well together.",
+          "My sister and I are different, because we get on well together."
+        ],
+        "answer": 2,
+        "explanation": "🔍 'but' للربط بين جملتين متضادتين. 'different' و'get on well' متناقضان، لذا نستخدم 'but'."
+      },
+      {
+        "id": 995,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "It is only a matter of time and everything was discovered.",
+          "It is only a matter of time before everything is discovered.",
+          "It is only a matter of time that everything is discovered.",
+          "It is only a matter of time that everything was discovered."
+        ],
+        "answer": 1,
+        "explanation": "🔍 'It is only a matter of time before...' = إنها مجرد مسألة وقت قبل أن... 'before everything is discovered' = قبل أن يُكتشف كل شيء. 'that' و'and' و'was' خطأ."
+      },
+      {
+        "id": 996,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "If he is feeling sick, he must go to the doctor.",
+          "If he is feeling sick, he musts go to the doctor.",
+          "If he is feeling sick, he must to go to the doctor.",
+          "If he is feeling sick, he must going to the doctor."
+        ],
+        "answer": 0,
+        "explanation": "🔍 بعد 'must' نستخدم المصدر (V1). 'must go' = يجب أن يذهب. 'musts' و'must to' و'must going' خطأ."
+      },
+      {
+        "id": 997,
+        "category": "Grammar - Tenses",
+        "question": "Choose the CORRECT sentence.",
+        "options": [
+          "He is leaving forever the lights on in the kitchen.",
+          "He is leaving the lights on in the kitchen forever.",
+          "He forever is leaving the lights on in the kitchen.",
+          "He is forever leaving the lights on in the kitchen."
+        ],
+        "answer": 3,
+        "explanation": "🔍 'is forever leaving' = المضارع المستمر مع 'forever' للتعبير عن عادة مزعجة. 'He is forever leaving the lights on' = يترك الأضواء دائماً (ويضايق)."
+      },
+      {
+        "id": 998,
+        "category": "Grammar - Tenses",
+        "question": "Choose the INCORRECT answer. - How often do you go to the cinema?",
+        "options": [
+          "Three times a week.",
+          "Everyday.",
+          "Never.",
+          "Yes, I do."
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Yes, I do' هو الجواب الخطأ. السؤال 'How often' يسأل عن التكرار، والإجابة يجب أن تكون عن التكرار (ثلاث مرات، كل يوم، أبداً). 'Yes, I do' جواب على سؤال 'Do you...؟'"
+      },
+      {
+        "id": 999,
+        "category": "Grammar - Tenses",
+        "question": "Neither one of my two brothers ______ meat.",
+        "options": [
+          "eats",
+          "have eaten",
+          "eat",
+          "eating"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Neither one' مفرد، لذا نستخدم 'eats'. 'Neither one of my brothers eats meat' = لا أحد من أخيَّ يأكل اللحم. 'have eaten' و'eating' و'eat' (جمع) خطأ."
+      },
+      {
+        "id": 1000,
+        "category": "Grammar - Tenses",
+        "question": "Generally speaking, nobody ______ to carry around a huge cell phone.",
+        "options": [
+          "want",
+          "is wanting",
+          "wanting",
+          "wants"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'nobody' مفرد، لذا نستخدم 'wants' في المضارع البسيط. 'nobody wants' = لا أحد يريد. 'want' (جمع) و'is wanting' و'wanting' خطأ."
+      }
+    ]
+  }
+}

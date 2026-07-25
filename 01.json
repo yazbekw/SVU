@@ -1,0 +1,1308 @@
+{
+  "exam": {
+    "title": "بنك الأسئلة الشامل للغة الإنجليزية - الجامعة الافتراضية (الجزء الأول)",
+    "description": "الأسئلة من 1 إلى 100 - مع شرح مفصل لكل إجابة",
+    "totalQuestions": 100,
+    "categories": {
+      "Grammar": 45,
+      "Vocabulary": 35,
+      "Phrasal Verbs": 8,
+      "Prepositions": 6,
+      "Idioms": 4,
+      "Structure": 2
+    },
+    "questions": [
+      {
+        "id": 1,
+        "category": "Grammar - Tenses",
+        "question": "The new line of trains ______ all the suburbs to the city center.",
+        "options": [
+          "Refer",
+          "Connect",
+          "Conduct",
+          "Conclude"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Connect' تعني 'يربط'. الجملة تتحدث عن خط قطار يربط الضواحي بمركز المدينة. 'Conduct' تعني 'يقود' أو 'يدير'، 'Refer' تعني 'يشير'، و'Conclude' تعني 'يستنتج' أو 'ينهي'، ولا تناسب أي منها سياق الجملة."
+      },
+      {
+        "id": 2,
+        "category": "Vocabulary",
+        "question": "The legend has been ______ down from generation to generation.",
+        "options": [
+          "Banded",
+          "Branded",
+          "Handed",
+          "Hanged"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Handed down' هي العبارة الاصطلاحية الصحيحة التي تعني 'تنتقل' أو 'تتناقل' عبر الأجيال. 'Banded' تعني 'مجمّع'، 'Branded' تعني 'موسوم'، و'Hanged' تعني 'مشنوق'، ولا تناسب السياق."
+      },
+      {
+        "id": 3,
+        "category": "Prepositions",
+        "question": "The post office? Well, walk ______ this road for about half a kilometre and it is on your left.",
+        "options": [
+          "Along",
+          "Under",
+          "Over",
+          "Cross"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Walk along' تعني 'امشِ على طول' الطريق. 'Under' تعني 'تحت'، 'Over' تعني 'فوق'، و'Cross' تعني 'اعبر'، ولا تناسب مع 'this road'."
+      },
+      {
+        "id": 4,
+        "category": "Vocabulary",
+        "question": "The ______ of the forest will result in the ______ of many species.",
+        "options": [
+          "Destructing/disappearance",
+          "Destruction/disappear",
+          "Destruction/disappearance",
+          "Destruct/disappear"
+        ],
+        "answer": 2,
+        "explanation": "🔍 نحتاج أسماء (nouns) بعد 'the' وفي موقع الفاعل والمفعول به. 'Destruction' هو الاسم المناسب بمعنى 'تدمير'، و'disappearance' هو الاسم المناسب بمعنى 'اختفاء' أو 'انقراض'."
+      },
+      {
+        "id": 5,
+        "category": "Grammar - Tenses",
+        "question": "She has been very kind, ______?",
+        "options": [
+          "Is not she",
+          "Has not she",
+          "Does not she",
+          "Was not she"
+        ],
+        "answer": 1,
+        "explanation": "🔍 هذا سؤال مذيل (Tag Question). القاعدة: في المضارع التام (Present Perfect) نستخدم الفعل المساعد نفسه في المذيل. الجملة مثبتة (has been)، لذا المذيل يكون منفياً (hasn't she). لماذا ليس 'isn't she'؟ لأن الفعل الرئيسي 'has been' وليس 'is'."
+      },
+      {
+        "id": 6,
+        "category": "Grammar - Tenses",
+        "question": "I do not like ______.",
+        "options": [
+          "To take my photograph",
+          "Take photograph of myself",
+          "Having my photograph taken",
+          "My photograph been taken"
+        ],
+        "answer": 2,
+        "explanation": "🔍 بعد 'like' نستخدم إما (V-ing) أو (to + infinitive). ولكن هنا المعنى: لا أحب أن يُلتقط لي صورة (من قبل شخص آخر). للدلالة على أن شخصاً آخر يقوم بالفعل، نستخدم صيغة 'have something done': have + object + V3. الصيغة الصحيحة هي 'having my photograph taken'."
+      },
+      {
+        "id": 7,
+        "category": "Grammar - Tenses",
+        "question": "I made him ______ what I had told him.",
+        "options": [
+          "Repeat",
+          "That he repeated",
+          "To repeat",
+          "Repeating"
+        ],
+        "answer": 0,
+        "explanation": "🔍 بعد أفعال الإجبار مثل 'make', 'let', 'have' في صيغة المعلوم، نستخدم المصدر المجرد (bare infinitive) أي الفعل بدون 'to'. القاعدة: make + object + V1. لماذا ليس 'to repeat'؟ لأن 'make' من الأفعال التي تتبعها V1 مباشرة."
+      },
+      {
+        "id": 8,
+        "category": "Grammar - Tenses",
+        "question": "He ______ live in the country than in the city.",
+        "options": [
+          "Had better",
+          "Prefers",
+          "Would rather",
+          "Likes better to"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'would rather' تعبر عن التفضيل، وتتبعها القاعدة: would rather + V1 (مصدر مجرد). لماذا ليس 'prefers'؟ لأن 'prefers' تحتاج إلى 'to' أو 'V-ing'، بينما 'would rather' تتبعها V1 مباشرة."
+      },
+      {
+        "id": 9,
+        "category": "Vocabulary",
+        "question": "My kitchen is very old. I am going to ______ it.",
+        "options": [
+          "Modernize",
+          "Paint",
+          "New",
+          "Clean"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Modernize' تعني 'تحديث'، وهي الأنسب لمطبخ قديم يحتاج إلى تجديد. 'Paint' تعني 'دهان'، و'Clean' تعني 'تنظيف'، ولكن الجملة تشير إلى تحسين المطبخ بشكل عام، لذا 'Modernize' هي الأفضل."
+      },
+      {
+        "id": 10,
+        "category": "Grammar - Tenses",
+        "question": "I am afraid I do not know where he lives. I wish I ______.",
+        "options": [
+          "Do",
+          "Did",
+          "Were",
+          "Had known"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'wish' للتعبير عن أمنية غير حقيقية في الحاضر. القاعدة: wish + past simple. هنا المتحدث لا يعرف أين يعيش، ويتمنى لو كان يعرف. 'did' هنا تعني 'knew'."
+      },
+      {
+        "id": 11,
+        "category": "Vocabulary",
+        "question": "A big crowd of demonstrators was ______ cuts in health spending.",
+        "options": [
+          "Protesting against",
+          "Provoking",
+          "Protesting for",
+          "Refusing to"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Protest against' تعني 'احتجاج ضد'. المتظاهرون يحتجون ضد تخفيضات الإنفاق الصحي. 'Provoking' تعني 'استفزاز'، و'Protesting for' تعني 'احتجاج من أجل'، و'Refusing to' تعني 'رفض'."
+      },
+      {
+        "id": 12,
+        "category": "Vocabulary",
+        "question": "It does not matter. It's of no ______.",
+        "options": [
+          "Learning",
+          "Important",
+          "Work",
+          "Significance"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Of no significance' هي العبارة الصحيحة بمعنى 'لا أهمية له'. 'Importance' هي كلمة صحيحة ولكنها ليست في الخيارات. 'Significance' تعني 'أهمية' وهي الأنسب."
+      },
+      {
+        "id": 13,
+        "category": "Vocabulary",
+        "question": "Mike spent several years as a(n) ______ to a master-builder, so that he might learn the trade.",
+        "options": [
+          "Apprentice",
+          "Applicant",
+          "Learner",
+          "Student"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Apprentice' هو 'متدرب' يتعلم حرفة من شخص ماهر. 'Applicant' هو 'متقدم لوظيفة'، و'Learner' و'Student' هما عامان ولا يشيران إلى نظام التدريب المهني المحدد."
+      },
+      {
+        "id": 14,
+        "category": "Grammar - Tenses",
+        "question": "My chest hurts ______ I breathe, do you think I got Covid?",
+        "options": [
+          "Wherever",
+          "Whenever",
+          "Whoever",
+          "Whatever"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Whenever' تعني 'كلما'، أي أن الألم يحدث كلما تنفست. 'Wherever' تعني 'أينما'، و'Whoever' تعني 'أياً كان من'، و'Whatever' تعني 'أياً كان ما'."
+      },
+      {
+        "id": 15,
+        "category": "Structure",
+        "question": "What do you do?",
+        "options": [
+          "Am from Italy",
+          "Am a student",
+          "Am fine thank you"
+        ],
+        "answer": 1,
+        "explanation": "🔍 السؤال 'What do you do?' يسأل عن المهنة أو العمل. الإجابة الصحيحة هي 'I am a student' (أنا طالب). 'I am from Italy' يجيب على سؤال 'Where are you from?'، و'I am fine thank you' يجيب على سؤال 'How are you?'."
+      },
+      {
+        "id": 16,
+        "category": "Grammar - Tenses",
+        "question": "We do not have ______ butter.",
+        "options": [
+          "A",
+          "Any",
+          "Got"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Butter' هو اسم غير معدود (uncountable). في النفي نستخدم 'any' مع الأسماء غير المعدودة والجمع. 'A' تستخدم مع الأسماء المفردة المعدودة، و'Got' غير صحيحة نحويًا هنا."
+      },
+      {
+        "id": 17,
+        "category": "Grammar - Tenses",
+        "question": "That is the dog ______.",
+        "options": [
+          "After which we have been looking",
+          "What we have been looking after",
+          "We have been looking after",
+          "We have been taking care"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Look after' تعني 'يعتني بـ'. الصيغة الصحيحة مع حرف الجر في Relative Clause هي 'after which we have been looking'. هذا أسلوب رسمي لتجنب إنهاء الجملة بحرف جر."
+      },
+      {
+        "id": 18,
+        "category": "Vocabulary",
+        "question": "She ______ her father.",
+        "options": [
+          "Remembers me",
+          "Reminds me of",
+          "Remembers me of",
+          "Reminds me"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Remind someone of' تعني 'تذكر شخصاً بشيء' أو 'تجعل شخصاً يتذكر شيئاً'. 'She reminds me of her father' = إنها تذكرني بوالدها. 'Remembers' تعني 'تتذكر' وهي لا تأتي مع 'of' في هذا السياق."
+      },
+      {
+        "id": 19,
+        "category": "Grammar - Tenses",
+        "question": "The incident has been witnessed by a number of ______.",
+        "options": [
+          "passer-bys",
+          "Passer-by",
+          "Passers-bys",
+          "Passers-by"
+        ],
+        "answer": 3,
+        "explanation": "🔍 جمع 'passer-by' (المار أو العابر) هو 'passers-by'. القاعدة: نضيف 's' للكلمة الأولى لأنها الاسم، وليس للكلمة الثانية لأنها حرف جر."
+      },
+      {
+        "id": 20,
+        "category": "Grammar - Tenses",
+        "question": "______ name is Mary.",
+        "options": [
+          "Me",
+          "I",
+          "My"
+        ],
+        "answer": 2,
+        "explanation": "🔍 نستخدم صفة الملكية 'my' قبل الاسم. 'Me' ضمير مفعول به، و'I' ضمير فاعل."
+      },
+      {
+        "id": 21,
+        "category": "Vocabulary",
+        "question": "How long is it? The ______ must be very exact.",
+        "options": [
+          "Side",
+          "Area",
+          "Measurement",
+          "Longing"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Measurement' تعني 'القياس'، وهي الأنسب للحديث عن الدقة في تحديد الطول. 'Side' تعني 'جانب'، و'Area' تعني 'مساحة'، و'Longing' تعني 'شوق'."
+      },
+      {
+        "id": 22,
+        "category": "Grammar - Tenses",
+        "question": "The boss listened to them with great patience ______ he was obviously infuriated.",
+        "options": [
+          "However",
+          "Consequently",
+          "In spite of",
+          "Though"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Though' تعني 'على الرغم من' وهي تستخدم للربط بين جملتين متناقضتين. 'However' تعني 'مع ذلك' ولكنها تحتاج إلى فاصلة منقوطة أو نقطة. 'Consequently' تعني 'وبالتالي'، و'In spite of' تتبعها اسم وليس جملة."
+      },
+      {
+        "id": 23,
+        "category": "Vocabulary",
+        "question": "What about 6 o'clock? Will that time ______ you?",
+        "options": [
+          "Suit",
+          "Match",
+          "Agree",
+          "Approve"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Suit' تعني 'يناسب' (من حيث الوقت أو الملابس). 'Match' تعني 'يتطابق مع'، و'Agree' تعني 'يتفق مع' وتحتاج إلى 'with'، و'Approve' تعني 'يوافق على' وتحتاج إلى 'of'."
+      },
+      {
+        "id": 24,
+        "category": "Idioms",
+        "question": "How he manages to keep going with all this is ______ me.",
+        "options": [
+          "Beneath",
+          "Beyond",
+          "Below",
+          "Beside"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Beyond me' هي عبارة اصطلاحية تعني 'يفوق فهمي' أو 'لا أفهمه'. 'Beneath' تعني 'تحت'، و'Below' تعني 'أقل من'، و'Beside' تعني 'بجانب'."
+      },
+      {
+        "id": 25,
+        "category": "Vocabulary",
+        "question": "I am afraid this car does not have enough ______ to get up that hill. We will have to walk up.",
+        "options": [
+          "Motor",
+          "Charge",
+          "Engine",
+          "Power"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Power' تعني 'قوة'، وهي ما تحتاجه السيارة لتسلق التل. 'Motor' و'Engine' هما أجزاء من السيارة، وليس القوة نفسها. 'Charge' تعني 'شحن' (بطارية)."
+      },
+      {
+        "id": 26,
+        "category": "Grammar - Tenses",
+        "question": "Have you ______ a car?",
+        "options": [
+          "Have",
+          "Ant",
+          "Got"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Have you got...' هو السؤال الشائع في البريطانية للتعبير عن الملكية. 'Have you have...' غير صحيح، و'Ant' خطأ إملائي."
+      },
+      {
+        "id": 27,
+        "category": "Vocabulary",
+        "question": "If you were a more ______ person, you would not have left me waiting for you in the rain for an hour.",
+        "options": [
+          "Kind",
+          "Considerate",
+          "Polite",
+          "Humorous"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Considerate' تعني 'مراعٍ للآخرين'، وهي الأنسب لوصف شخص لا يترك الآخرين ينتظرون في المطر. 'Kind' تعني 'طيب'، و'Polite' تعني 'مهذب'، و'Humorous' تعني 'فكاهي'."
+      },
+      {
+        "id": 28,
+        "category": "Grammar - Tenses",
+        "question": "Her condition is improving ______.",
+        "options": [
+          "Steady",
+          "Steadily",
+          "Steadiness"
+        ],
+        "answer": 1,
+        "explanation": "🔍 نحتاج حال (adverb) ليصف الفعل 'is improving'. 'Steadily' هو الحال المناسب. 'Steady' صفة، و'Steadiness' اسم."
+      },
+      {
+        "id": 29,
+        "category": "Grammar - Tenses",
+        "question": "Put on your raincoat ______ it rains.",
+        "options": [
+          "Because",
+          "In any case",
+          "In case",
+          "For"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'In case' تعني 'احتياطاً' أو 'لئلا'. الجملة تعني: ارتدِ المطرية تحسباً للمطر. 'Because' تعني 'لأن'، و'In any case' تعني 'في أي حال'، و'For' تعني 'لـ'."
+      },
+      {
+        "id": 30,
+        "category": "Vocabulary",
+        "question": "The patient was ______ examined by three of the best doctors in our hospital.",
+        "options": [
+          "Thoroughly",
+          "Fondly",
+          "Shyly",
+          "Utter"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Thoroughly' تعني 'بدقة' أو 'بشكل شامل'، وهي الأنسب لفحص الأطباء. 'Fondly' تعني 'بحب'، و'Shyly' تعني 'بخجل'، و'Utter' تعني 'مطلق' (صفة وليس حال)."
+      },
+      {
+        "id": 31,
+        "category": "Vocabulary",
+        "question": "It is very difficult to ______ this machine.",
+        "options": [
+          "Make",
+          "Operate",
+          "Work",
+          "Do"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Operate a machine' تعني 'تشغيل آلة' وهي العبارة الصحيحة. 'Make' تعني 'صنع'، و'Work' تستخدم مع 'on' أو كفعل لازم، و'Do' تعني 'يفعل' ولا تصلح هنا."
+      },
+      {
+        "id": 32,
+        "category": "Vocabulary",
+        "question": "It is highly unlikely to raise ______ income in an election year, according to an official in the parliament.",
+        "options": [
+          "Tax",
+          "Payment",
+          "Price",
+          "Salary"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Income tax' هي 'ضريبة الدخل'. الحديث عن رفع الضرائب في سنة انتخابية أمر غير مرجح. 'Payment' تعني 'دفع'، و'Price' تعني 'سعر'، و'Salary' تعني 'راتب'."
+      },
+      {
+        "id": 33,
+        "category": "Vocabulary",
+        "question": "I did not buy the sweater because it was not ______.",
+        "options": [
+          "Washed",
+          "Washing",
+          "Washer",
+          "Washable"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Washable' تعني 'قابل للغسل'. الجملة تعني: لم أشتري الكنزة لأنها غير قابلة للغسل. 'Washed' تعني 'مغسولة'، و'Washing' تعني 'غسل'، و'Washer' تعني 'غسالة'."
+      },
+      {
+        "id": 34,
+        "category": "Vocabulary",
+        "question": "The poet had written several ______ before completing the final version.",
+        "options": [
+          "Originals",
+          "Novels",
+          "Drafts",
+          "Rehearsals"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Drafts' هي 'مسودات'، وهي النسخ الأولية التي يكتبها الشاعر قبل النسخة النهائية. 'Originals' تعني 'أصول'، و'Novels' تعني 'روايات'، و'Rehearsals' تعني 'بروفات'."
+      },
+      {
+        "id": 35,
+        "category": "Vocabulary",
+        "question": "His uncle owns four computer companies and lives in a big ______ out in the country.",
+        "options": [
+          "Bungalow",
+          "Hut",
+          "Apartment",
+          "Mansion"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Mansion' هي 'قصر' أو 'فيلا كبيرة'، وهي تليق بشخص ثري يملك أربع شركات كمبيوتر. 'Bungalow' تعني 'بيت صغير من طابق واحد'، و'Hut' تعني 'كوخ'، و'Apartments' تعني 'شقق'."
+      },
+      {
+        "id": 36,
+        "category": "Vocabulary",
+        "question": "My boss needs my ______ on the paper.",
+        "options": [
+          "Acceptance",
+          "Mark",
+          "Signature",
+          "Refuse"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Signature' تعني 'توقيع'، وهو ما يطلبه المدير على الورقة. 'Acceptance' تعني 'قبول'، و'Mark' تعني 'علامة'، و'Refuse' تعني 'رفض'."
+      },
+      {
+        "id": 37,
+        "category": "Grammar - Tenses",
+        "question": "Do you like the red ______?",
+        "options": [
+          "One",
+          "It",
+          "That"
+        ],
+        "answer": 0,
+        "explanation": "🔍 نستخدم 'one' لتجنب تكرار الاسم (مثلاً: Do you like the red dress? - Do you like the red one?). 'It' تشير إلى شيء محدد تم ذكره، و'That' تشير إلى شيء بعيد."
+      },
+      {
+        "id": 38,
+        "category": "Vocabulary",
+        "question": "They do not get on well. They are having a(n) ______ now.",
+        "options": [
+          "Fighting",
+          "War",
+          "Argument",
+          "Talking"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Have an argument' تعني 'يتشاجران' أو 'يتجادلان'. 'Fighting' و'War' قويان جداً، و'Talking' يعني 'يتحدثان' وهو عكس المعنى."
+      },
+      {
+        "id": 39,
+        "category": "Vocabulary",
+        "question": "The new job will provide you with ______ experience. It is so helpful for your future as a programmer.",
+        "options": [
+          "Praiseworthy",
+          "Invaluable",
+          "Admirable",
+          "Merit"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Invaluable' تعني 'لا يُقدر بثمن'، وهي الأنسب لوصف خبرة مفيدة جداً. 'Praiseworthy' تعني 'جدير بالثناء'، و'Admirable' تعني 'مميز'، و'Merit' تعني 'استحقاق'."
+      },
+      {
+        "id": 40,
+        "category": "Vocabulary",
+        "question": "It is quite ______ that they have already made up their mind about the project.",
+        "options": [
+          "Probable",
+          "Opportunity",
+          "Chance",
+          "Possibility"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Probable' هي صفة بمعنى 'محتمل'، وهي الأنسب بعد 'It is quite...'. 'Opportunity' و'Chance' و'Possibility' هي أسماء."
+      },
+      {
+        "id": 41,
+        "category": "Vocabulary",
+        "question": "The bridge ______ into the river without any warning. Lots of people were injured.",
+        "options": [
+          "Submerged",
+          "Collapsed",
+          "Relapsed",
+          "Degenerated"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Collapsed' تعني 'انهار'، وهو ما يحدث للجسر فجأة. 'Submerged' تعني 'غمر'، و'Relapsed' تعني 'انتكس'، و'Degenerated' تعني 'تدهور'."
+      },
+      {
+        "id": 42,
+        "category": "Grammar - Tenses",
+        "question": "Children would rather ______.",
+        "options": [
+          "To play than to study",
+          "Play than study",
+          "Playing than studying",
+          "To play than studying"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Would rather' يتبعه مصدر مجرد (V1). الصيغة الصحيحة: would rather + V1 + than + V1. 'play than study' هي الصيغة الصحيحة."
+      },
+      {
+        "id": 43,
+        "category": "Vocabulary",
+        "question": "If you don't like the soup, why don't you ______ to the waiter and he can bring another one?",
+        "options": [
+          "Protest",
+          "Criticise",
+          "Complain",
+          "Consult"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Complain to' تعني 'تشتكي لـ'، وهي الأنسب مع النادل. 'Protest' تعني 'تحتج'، و'Criticise' تعني 'تنتقد'، و'Consult' تعني 'تستشير'."
+      },
+      {
+        "id": 44,
+        "category": "Grammar - Tenses",
+        "question": "The weather changed ______. It suddenly started to rain.",
+        "options": [
+          "Unexpected",
+          "Expectedly",
+          "Unexpectedly",
+          "unexpectancy"
+        ],
+        "answer": 2,
+        "explanation": "🔍 نحتاج حال (adverb) لوصف الفعل 'changed'. 'Unexpectedly' هي الحال الصحيح بمعنى 'بشكل غير متوقع'. 'Unexpected' صفة، و'Expectedly' تعني 'بشكل متوقع' (عكس المعنى)."
+      },
+      {
+        "id": 45,
+        "category": "Vocabulary",
+        "question": "I do not know how we are going to get to the airport. We will have to ______ for a taxi to come.",
+        "options": [
+          "Arrange",
+          "Plan",
+          "Hire",
+          "Book"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Book a taxi' تعني 'يحجز سيارة أجرة'، وهي العبارة الأكثر شيوعاً. 'Arrange' تعني 'يرتب'، و'Plan' تعني 'يخطط'، و'Hire' تعني 'يستأجر' (ولكن ليس مع 'for')."
+      },
+      {
+        "id": 46,
+        "category": "Vocabulary",
+        "question": "A funeral can ______ the feelings of regret and loss for the relatives.",
+        "options": [
+          "Amplify",
+          "Extend",
+          "Develop",
+          "Exaggerate"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Amplify' تعني 'يضخم' أو 'يعزز'، وهي الأنسب لوصف تأثير الجنازة على مشاعر الحزن. 'Extend' تعني 'يمدد'، و'Develop' تعني 'يطور'، و'Exaggerate' تعني 'يبالغ'."
+      },
+      {
+        "id": 47,
+        "category": "Vocabulary",
+        "question": "Peter ______ at six in the morning.",
+        "options": [
+          "Gets up",
+          "Goes",
+          "Goes up"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Get up' تعني 'يستيقظ'، وهي الأنسب مع الوقت في الصباح. 'Goes' تعني 'يذهب'، و'Goes up' تعني 'يصعد'."
+      },
+      {
+        "id": 48,
+        "category": "Vocabulary",
+        "question": "He was left alone in the hospital, with ______ to take care of him.",
+        "options": [
+          "No one",
+          "Not one",
+          "Anyone",
+          "Someone"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'No one' تعني 'لا أحد'، وهي الأنسب للسياق (ترك وحيداً في المستشفى). 'Anyone' و'Someone' تعنيان وجود شخص، و'Not one' غير صحيحة نحويًا."
+      },
+      {
+        "id": 49,
+        "category": "Vocabulary",
+        "question": "The company did not have any ______ opening shops in Paris and Marseilles so they closed after only three months.",
+        "options": [
+          "Profit",
+          "Winnings",
+          "Victory",
+          "Success"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Profit' تعني 'ربح'، وعدم وجود ربح هو سبب إغلاق المتاجر. 'Winnings' تعني 'أرباح' (من قمار أو يانصيب)، و'Victory' تعني 'نصر'، و'Success' تعني 'نجاح'."
+      },
+      {
+        "id": 50,
+        "category": "Vocabulary",
+        "question": "His new appointment takes ______ from the beginning of next month.",
+        "options": [
+          "position",
+          "Place",
+          "Part",
+          "effect"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Take effect' هي عبارة اصطلاحية تعني 'يسري مفعوله' أو 'يدخل حيز التنفيذ'. 'Position' و'Place' و'Part' لا تستخدم مع 'takes' بهذا المعنى."
+      },
+      {
+        "id": 51,
+        "category": "Grammar - Tenses",
+        "question": "They ______ from Spain.",
+        "options": [
+          "is",
+          "we",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "🔍 الفاعل 'They' (هم) يحتاج إلى فعل 'are' في المضارع. 'is' تستخدم مع المفرد (He/She/It)، و'we' تعني 'نحن' ولا تصلح كفعل."
+      },
+      {
+        "id": 52,
+        "category": "Vocabulary",
+        "question": "I noticed that there were two buttons ______ from his coat.",
+        "options": [
+          "dropping",
+          "Falling",
+          "Missing",
+          "Loosing"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Missing' تعني 'مفقودة' أو 'ناقصة'. الجملة تعني أن هناك زرين مفقودين من معطفه. 'Dropping' تعني 'يسقط' (بمعنى فعل)، و'Falling' تعني 'يسقط'، و'Loosing' تعني 'يفقد' (ولكنها أقل شيوعاً)."
+      },
+      {
+        "id": 53,
+        "category": "Vocabulary",
+        "question": "I think I will ______ about this bad service.",
+        "options": [
+          "think",
+          "Consider",
+          "Complaint",
+          "complain"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Complain about' تعني 'يشتكي من'. الجملة تعني 'سأشتكي من هذه الخدمة السيئة'. 'Complaint' اسم وليس فعلاً."
+      },
+      {
+        "id": 54,
+        "category": "Vocabulary",
+        "question": "Further research is needed to find out what side ______ this pill has on a person's digestive system.",
+        "options": [
+          "Affects",
+          "Suspects",
+          "Defects",
+          "effects"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Side effects' هي 'آثار جانبية'. 'effects' هو الاسم الصحيح بمعنى 'تأثيرات'. 'Affects' فعل، و'Suspects' تعني 'مشتبه بهم'، و'Defects' تعني 'عيوب'."
+      },
+      {
+        "id": 55,
+        "category": "Vocabulary",
+        "question": "Oh I am so ______! Let's go and rent a video or something.",
+        "options": [
+          "Tiring",
+          "Happiness",
+          "Boring",
+          "Fed up"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Fed up' هي عبارة اصطلاحية تعني 'سئمت' أو 'ضجرت'، وهي الأنسب للسياق (الرغبة في تغيير النشاط). 'Tiring' تعني 'مُتعب'، و'Happiness' تعني 'سعادة'، و'Boring' تعني 'ممل' (ولكنها تصف الشيء وليس الشخص)."
+      },
+      {
+        "id": 56,
+        "category": "Vocabulary",
+        "question": "I'm now going to give you ______ tips for running a successful online business.",
+        "options": [
+          "unworthy",
+          "unprofitable",
+          "worthless",
+          "invaluable"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Invaluable' تعني 'قيّمة جداً' أو 'لا تُقدر بثمن'. 'Unworthy' تعني 'غير جدير'، و'Unprofitable' تعني 'غير مربح'، و'Worthless' تعني 'عديم القيمة'."
+      },
+      {
+        "id": 57,
+        "category": "Vocabulary",
+        "question": "When they asked him about the new project, he said it was no ______ of theirs and wouldn't tell them anything.",
+        "options": [
+          "relation",
+          "relevance",
+          "influence",
+          "concern"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'No concern of theirs' تعني 'لا شأن لهم به' أو 'لا يعنيهم'. 'Relation' تعني 'علاقة'، و'Relevance' تعني 'صلة'، و'Influence' تعني 'تأثير'."
+      },
+      {
+        "id": 58,
+        "category": "Grammar - Tenses",
+        "question": "I ______ eat all this food.",
+        "options": [
+          "would not better",
+          "Would better not",
+          "Better not to",
+          "Would better not to"
+        ],
+        "answer": 1,
+        "explanation": "🔍 التعبير الصحيح هو 'had better not'، ولكن الخيار الأقرب هنا هو 'Would better not'. 'had better' يستخدم للنصيحة القوية: had better + V1."
+      },
+      {
+        "id": 59,
+        "category": "Vocabulary",
+        "question": "I'm worried about the children's ______ on the street.",
+        "options": [
+          "Noise",
+          "Freedom",
+          "sanction",
+          "Safety"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Safety' تعني 'سلامة'، وهي الأنسب للقلق على الأطفال في الشارع. 'Noise' تعني 'ضوضاء'، و'Freedom' تعني 'حرية'، و'sanction' تعني 'عقوبة'."
+      },
+      {
+        "id": 60,
+        "category": "Vocabulary",
+        "question": "If the fire alarm sounds, all residents are required to ______ in the courtyard.",
+        "options": [
+          "Unite",
+          "Combine",
+          "Assemble",
+          "mobilise"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Assemble' تعني 'يتجمعون'، وهي الأنسب عندما يُطلب من السكان التجمع في مكان محدد. 'Unite' تعني 'يتحدون'، و'Combine' تعني 'يدمجون'، و'Mobilise' تعني 'يتحركون' أو 'يستعدون'."
+      },
+      {
+        "id": 61,
+        "category": "Vocabulary",
+        "question": "Many lakes, rivers and seas are being ______ polluted.",
+        "options": [
+          "Dangerously",
+          "Dangers",
+          "Danger",
+          "dangerous"
+        ],
+        "answer": 0,
+        "explanation": "🔍 نحتاج حال (adverb) لوصف الفعل 'polluted'. 'Dangerously' هو الحال الصحيح بمعنى 'بشكل خطير'. 'Danger' و'Dangerous' صفات/أسماء."
+      },
+      {
+        "id": 62,
+        "category": "Grammar - Tenses",
+        "question": "I don't know which one to ______.",
+        "options": [
+          "Buy",
+          "Bought",
+          "Pay"
+        ],
+        "answer": 0,
+        "explanation": "🔍 بعد 'to' نستخدم المصدر (V1). 'Buy' هو المصدر الصحيح. 'Bought' هو الماضي، و'Pay' تعني 'يدفع' ولا تصلح مع 'which one'."
+      },
+      {
+        "id": 63,
+        "category": "Vocabulary",
+        "question": "The film was a huge ______. It actually made 90 million dollars.",
+        "options": [
+          "Succeed",
+          "Hope",
+          "Money",
+          "success"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Success' هو اسم بمعنى 'نجاح'. الفعل هو 'Succeed'. 'Hope' تعني 'أمل'، و'Money' تعني 'مال'."
+      },
+      {
+        "id": 64,
+        "category": "Vocabulary",
+        "question": "He gave the police the ______ of the stolen goods.",
+        "options": [
+          "Shape",
+          "Shadow",
+          "Description",
+          "explanation"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Description' تعني 'وصف'، وهي الأنسب لما يعطيه الشخص للشرطة عن البضائع المسروقة. 'Shape' تعني 'شكل'، و'Shadow' تعني 'ظل'، و'Explanation' تعني 'تفسير'."
+      },
+      {
+        "id": 65,
+        "category": "Vocabulary",
+        "question": "I don't like the ______ of the furniture in this room.",
+        "options": [
+          "Way",
+          "Staying",
+          "Compliment",
+          "Arrangement"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Arrangement' تعني 'ترتيب'، وهي الأنسب للحديث عن وضع الأثاث. 'Way' تعني 'طريقة'، و'Staying' تعني 'بقاء'، و'Compliment' تعني 'إطراء'."
+      },
+      {
+        "id": 66,
+        "category": "Vocabulary",
+        "question": "The ______ of the train will be 15 minutes late.",
+        "options": [
+          "Coming",
+          "Use",
+          "Departure",
+          "time"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Departure' تعني 'موعد المغادرة'، وهي الأنسب للحديث عن تأخر القطار. 'Coming' تعني 'قدوم'، و'Use' تعني 'استخدام'، و'time' تعني 'وقت'."
+      },
+      {
+        "id": 67,
+        "category": "Vocabulary",
+        "question": "We cannot ______ children under 14 to go to movies without their parents.",
+        "options": [
+          "Let",
+          "Make",
+          "Have",
+          "Permit"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Permit' تعني 'يسمح'، وتأتي مع 'to'. 'Let' و'Make' تتبعهما V1 بدون 'to'، و'Have' تستخدم بمعنى 'يجعل' ولكن بشكل مختلف."
+      },
+      {
+        "id": 68,
+        "category": "Vocabulary",
+        "question": "I'd like to ______ you on passing your exam.",
+        "options": [
+          "Congratulations",
+          "Thank",
+          "Excuse",
+          "let"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Congratulate' هو الفعل الصحيح للتهنئة. 'Congratulations' هو الاسم. 'Thank' تعني 'شكر'، و'Excuse' تعني 'عذر'، و'let' تعني 'دع'."
+      },
+      {
+        "id": 69,
+        "category": "Vocabulary",
+        "question": "He ______ lives in the house where he was born.",
+        "options": [
+          "Already",
+          "Yet",
+          "Still",
+          "every"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Still' تعني 'ما زال'، وهي الأنسب للدلالة على استمرار السكن في نفس المنزل. 'Already' تعني 'بالفعل'، و'Yet' تعني 'بعد' (في النفي)، و'every' تعني 'كل'."
+      },
+      {
+        "id": 70,
+        "category": "Grammar - Tenses",
+        "question": "He was a good swimmer so he ______ swim to the river bank when the boat sank.",
+        "options": [
+          "Could",
+          "Might",
+          "Succeeded to",
+          "Was able to"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Was able to' تعني 'تمكن من' وتشير إلى نجاح الفعل في موقف معين. 'Could' تعبر عن قدرة عامة، و'Might' تعبر عن احتمالية، و'Succeeded to' خطأ (الصحيح 'succeeded in')."
+      },
+      {
+        "id": 71,
+        "category": "Prepositions",
+        "question": "It's ten o'clock in the morning so he's still ______.",
+        "options": [
+          "At the bed",
+          "At bed",
+          "In bed",
+          "In the bed"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'In bed' هي العبارة الصحيحة بمعنى 'في السرير' (بدون 'the'). 'At the bed' و'At bed' غير صحيحتين، و'In the bed' قد تستخدم ولكنها أقل شيوعاً وتشير إلى سرير معين."
+      },
+      {
+        "id": 72,
+        "category": "Grammar - Tenses",
+        "question": "I was ______ tired that I had to rest.",
+        "options": [
+          "So much",
+          "So",
+          "Enough",
+          "too"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'So + adjective + that' تعني 'لدرجة أن'. 'so tired that I had to rest' = كنت متعباً لدرجة أنني اضطررت للراحة. 'So much' تستخدم مع الأسماء غير المعدودة."
+      },
+      {
+        "id": 73,
+        "category": "Grammar - Tenses",
+        "question": "I pulled the handle ______ I could.",
+        "options": [
+          "So hardly as",
+          "As hardly as",
+          "So hard as",
+          "As hard as"
+        ],
+        "answer": 3,
+        "explanation": "🔍 قاعدة المقارنة: as + adjective/adverb + as. 'as hard as I could' = بأقصى ما استطعت. 'Hardly' تعني 'بالكاد' (عكس المعنى)."
+      },
+      {
+        "id": 74,
+        "category": "Vocabulary",
+        "question": "Have you got matches? I've left my ______ at home.",
+        "options": [
+          "Cigarette lighter",
+          "Cigarettes lighter",
+          "Cigarette's lighter",
+          "Lighter for cigarettes"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Cigarette lighter' هي العبارة الصحيحة للولاعة (اسم مركب). 'Cigarettes lighter' غير صحيحة لأن الاسم الأول يجب أن يكون مفرداً عندما يستخدم كصفة."
+      },
+      {
+        "id": 75,
+        "category": "Grammar - Tenses",
+        "question": "He'd done that before, ______?",
+        "options": [
+          "Wouldn't he",
+          "Shouldn't he",
+          "Hadn't he",
+          "Didn't he"
+        ],
+        "answer": 2,
+        "explanation": "🔍 المذيل يتبع الفعل المساعد في الجملة. 'had done' → 'hadn't he'. 'Wouldn't' و'Shouldn't' و'Didn't' لا تتبع الفعل المساعد 'had'."
+      },
+      {
+        "id": 76,
+        "category": "Grammar - Tenses",
+        "question": "______ of them understood him.",
+        "options": [
+          "None",
+          "No one",
+          "Anyone",
+          "someone"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'None of them' تعني 'لا أحد منهم'. 'No one' لا تتبعها 'of'، و'Anyone' و'someone' تعنيان وجود شخص، وهو عكس المعنى."
+      },
+      {
+        "id": 77,
+        "category": "Vocabulary",
+        "question": "There are pictures of ______ in the newspapers every day. I really don't want to see them.",
+        "options": [
+          "Peace",
+          "Freedom",
+          "People",
+          "violence"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Violence' تعني 'عنف'، وهي الأنسب لما لا يريد الشخص رؤيته في الصحف. 'Peace' تعني 'سلام'، و'Freedom' تعني 'حرية'، و'People' تعني 'ناس'."
+      },
+      {
+        "id": 78,
+        "category": "Grammar - Tenses",
+        "question": "He's ______ his sister.",
+        "options": [
+          "Much taller than",
+          "Much taller that",
+          "Much more tall than",
+          "Much more tall that"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Much' تستخدم لتوكيد المقارنة. 'Taller than' هو الصحيح للمقارنة. 'That' خطأ، و'More tall' غير صحيح لأن 'tall' صفة قصيرة."
+      },
+      {
+        "id": 79,
+        "category": "Grammar - Tenses",
+        "question": "He made me ______.",
+        "options": [
+          "Angry",
+          "Be angry",
+          "To be angry",
+          "That I got angry"
+        ],
+        "answer": 0,
+        "explanation": "🔍 بعد 'make + object' نستخدم صفة مباشرة. 'He made me angry' = جعلني غاضباً. لا نحتاج إلى 'be' أو 'to' أو جملة كاملة."
+      },
+      {
+        "id": 80,
+        "category": "Vocabulary",
+        "question": "You will find all the ______ you want here. It is a good place to stay.",
+        "options": [
+          "Law",
+          "Peace",
+          "War",
+          "argument"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Peace' تعني 'سلام' و'هدوء'، وهي الأنسب لمكان جيد للإقامة. 'Law' تعني 'قانون'، و'War' تعني 'حرب'، و'Argument' تعني 'جدال'."
+      },
+      {
+        "id": 81,
+        "category": "Vocabulary",
+        "question": "My brother ______ 65 kilos.",
+        "options": [
+          "Weighs",
+          "Masses",
+          "Makes",
+          "Pulls"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Weighs' تعني 'يزن'، وهو الفعل الصحيح للتعبير عن الوزن. 'Masses' تعني 'كتل'، و'Makes' تعني 'يجعل'، و'Pulls' تعني 'يسحب'."
+      },
+      {
+        "id": 82,
+        "category": "Vocabulary",
+        "question": "The people demonstrated for more ______.",
+        "options": [
+          "Government",
+          "Freedom",
+          "Oppression",
+          "life"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Freedom' تعني 'حرية'، وهي ما يطالب به المتظاهرون عادة. 'Government' تعني 'حكومة'، و'Oppression' تعني 'قمع' (عكس المطلوب)، و'life' تعني 'حياة'."
+      },
+      {
+        "id": 83,
+        "category": "Vocabulary",
+        "question": "A problem of fundamental ______ for the developing countries is that of slowing down population growth.",
+        "options": [
+          "Importance",
+          "Vital",
+          "Urgent",
+          "serious"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Of fundamental importance' تعني 'ذو أهمية أساسية'. 'Vital' و'Urgent' و'Serious' هي صفات، وليست أسماء بعد 'of'."
+      },
+      {
+        "id": 84,
+        "category": "Grammar - Tenses",
+        "question": "A: Who told you they were moving? B: They told me ______.",
+        "options": [
+          "By themselves",
+          "On their ow",
+          "Themselves",
+          "himself"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'They told me themselves' تعني 'هم أنفسهم أخبروني'، للتوكيد على أنهم هم من أخبروني. 'By themselves' تعني 'بمفردهم'، و'On their own' تعني 'بمفردهم' أيضاً."
+      },
+      {
+        "id": 85,
+        "category": "Vocabulary",
+        "question": "The toes of her shoes are open. She always wears open-______ shoes.",
+        "options": [
+          "Toe",
+          "Toehold",
+          "Tip",
+          "toed"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Open-toed shoes' هي الأحذية المفتوحة من الأمام (تظهر أصابع القدم). 'Toe' مفرد، و'Toehold' تعني 'نقطة ارتكاز'، و'Tip' تعني 'طرف'."
+      },
+      {
+        "id": 86,
+        "category": "Vocabulary",
+        "question": "Larry is a friendly person. He meets new people ______ he goes.",
+        "options": [
+          "Whenever",
+          "Whatever",
+          "Wherever",
+          "whoever"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Wherever' تعني 'أينما'، وهي الأنسب للسياق (يقابل أشخاصاً أينما ذهب). 'Whenever' تعني 'كلما'، و'Whatever' تعني 'أياً كان'، و'Whoever' تعني 'أياً كان من'."
+      },
+      {
+        "id": 87,
+        "category": "Grammar - Tenses",
+        "question": "That is a beautiful dress you're wearing. Did you make it ______?",
+        "options": [
+          "Your",
+          "Yourselves",
+          "Yourself",
+          "Herself"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Yourself' تعني 'بنفسك' (ضمير منعكس مع 'you' المفرد). 'Yourselves' تستخدم مع الجمع، و'Herself' مع المؤنث، و'Your' صفة ملكية."
+      },
+      {
+        "id": 88,
+        "category": "Grammar - Tenses",
+        "question": "Fleming discovered penicillin ______.",
+        "options": [
+          "Accidentally",
+          "Accidental",
+          "Accident",
+          "On accident"
+        ],
+        "answer": 0,
+        "explanation": "🔍 نحتاج حال (adverb) لوصف الفعل 'discovered'. 'Accidentally' هو الحال الصحيح بمعنى 'بالصدفة'. 'Accidental' صفة، و'Accident' اسم، و'On accident' غير صحيحة."
+      },
+      {
+        "id": 89,
+        "category": "Vocabulary",
+        "question": "The people who objected to the new road were told that since work had already started there was no point in ______.",
+        "options": [
+          "Contradicting",
+          "Protesting",
+          "Provoking",
+          "competing"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'No point in protesting' تعني 'لا فائدة من الاحتجاج' لأن العمل قد بدأ بالفعل. 'Contradicting' تعني 'تناقض'، و'Provoking' تعني 'استفزاز'، و'Competing' تعني 'منافسة'."
+      },
+      {
+        "id": 90,
+        "category": "Vocabulary",
+        "question": "Nursery schools can be enormously ______ to socially handicapped children.",
+        "options": [
+          "Admirable",
+          "Beneficial",
+          "Invaluable",
+          "meritorious"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Beneficial' تعني 'مفيد'، وهي الأنسب لوصف تأثير مدارس الحضانة على الأطفال. 'Admirable' تعني 'مميز'، و'Invaluable' تعني 'لا يُقدر بثمن'، و'Meritorious' تعني 'جدير بالثناء'."
+      },
+      {
+        "id": 91,
+        "category": "Vocabulary",
+        "question": "I don't think Alan is ______. Sherie is at home with him.",
+        "options": [
+          "Lonely",
+          "Solitary",
+          "Unsociable",
+          "alone"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Lonely' تعني 'وحيد' (يشعر بالوحدة). الجملة تنفي أن يكون آلان وحيداً لأن شيري معه. 'Alone' تعني 'بمفرده' (حالة فيزيائية)."
+      },
+      {
+        "id": 92,
+        "category": "Phrasal Verbs",
+        "question": "Did you hear that Rita and George have ______? She says it was all his fault.",
+        "options": [
+          "Broken up",
+          "Woken up",
+          "Run out",
+          "Given up"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Broken up' تعني 'انفصلا'، وهي الأنسب للحديث عن إنهاء علاقة عاطفية. 'Woken up' تعني 'استيقظا'، و'Run out' تعني 'نفد'، و'Given up' تعني 'استسلما'."
+      },
+      {
+        "id": 93,
+        "category": "Vocabulary",
+        "question": "This documentation is not ______. You might be arrested for this.",
+        "options": [
+          "criminal",
+          "legal",
+          "formal",
+          "incorrect"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Not legal' تعني 'غير قانوني'، وهو سبب الاعتقال. 'Criminal' تعني 'إجرامي' (أقوى)، و'Formal' تعني 'رسمي'، و'Incorrect' تعني 'غير صحيح'."
+      },
+      {
+        "id": 94,
+        "category": "Vocabulary",
+        "question": "Will you take the job? We must have a quick ______.",
+        "options": [
+          "mind",
+          "decision",
+          "deciding",
+          "manner"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Have a quick decision' تعني 'نتخذ قراراً سريعاً'. 'Mind' تعني 'عقل'، و'Deciding' اسم مصدر، و'Manner' تعني 'أسلوب'."
+      },
+      {
+        "id": 95,
+        "category": "Vocabulary",
+        "question": "It was a(n) ______ film. I nearly fell asleep.",
+        "options": [
+          "interesting",
+          "boring",
+          "exciting",
+          "relaxing"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Boring' تعني 'ممل'، وهو سبب النعاس أثناء الفيلم. 'Interesting' تعني 'مثير للاهتمام'، و'Exciting' تعني 'مثير'، و'Relaxing' تعني 'مريح'."
+      },
+      {
+        "id": 96,
+        "category": "Vocabulary",
+        "question": "We felt very ______ on holiday.",
+        "options": [
+          "relaxed",
+          "relaxing",
+          "rest",
+          "unrest"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Relaxed' هي صفة للشخص بمعنى 'مرتاح'. 'Relaxing' تصف الشيء (مثل: holiday). 'Rest' اسم، و'Unrest' تعني 'اضطراب'."
+      },
+      {
+        "id": 97,
+        "category": "Vocabulary",
+        "question": "Thanks to modern technology, a visit to the dentist is now often quite ______.",
+        "options": [
+          "harmless",
+          "helpful",
+          "painless",
+          "tasty"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Painless' تعني 'غير مؤلم'، وهي الأنسب بفضل التكنولوجيا الحديثة. 'Harmless' تعني 'غير ضار'، و'Helpful' تعني 'مفيد'، و'Tasty' تعني 'لذيذ'."
+      },
+      {
+        "id": 98,
+        "category": "Vocabulary",
+        "question": "The government is trying to help ______ families.",
+        "options": [
+          "rich",
+          "social",
+          "small",
+          "homeless"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Homeless families' هي 'عائلات بلا مأوى'، وهي الفئة التي تحاول الحكومة مساعدتها. 'Rich' تعني 'غني' (عكس المعنى)، و'Social' تعني 'اجتماعي'، و'Small' تعني 'صغير'."
+      },
+      {
+        "id": 99,
+        "category": "Vocabulary",
+        "question": "Thank you for the books. They will be very ______ for my studies.",
+        "options": [
+          "harmful",
+          "useful",
+          "tasteful",
+          "hopeful"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Useful' تعني 'مفيد'، وهي الأنسب للكتب الدراسية. 'Harmful' تعني 'ضار'، و'Tasteful' تعني 'لطيف' (في الذوق)، و'Hopeful' تعني 'متفائل'."
+      },
+      {
+        "id": 100,
+        "category": "Vocabulary",
+        "question": "The Sahara is a ______.",
+        "options": [
+          "river",
+          "continent",
+          "desert",
+          "canal"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Desert' هي 'صحراء'، والصحراء الكبرى (Sahara) هي أكبر صحراء في العالم. 'River' تعني 'نهر'، و'Continent' تعني 'قارة'، و'Canal' تعني 'قناة مائية'."
+      }
+    ]
+  }
+}

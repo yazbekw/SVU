@@ -1,0 +1,1315 @@
+{
+  "exam": {
+    "title": "بنك الأسئلة الشامل للغة الإنجليزية - الجامعة الافتراضية (الجزء الثامن)",
+    "description": "الأسئلة من 701 إلى 800 - مع شرح مفصل لكل إجابة",
+    "totalQuestions": 100,
+    "categories": {
+      "Grammar": 38,
+      "Vocabulary": 40,
+      "Phrasal Verbs": 10,
+      "Prepositions": 6,
+      "Idioms": 4,
+      "Structure": 2
+    },
+    "questions": [
+      {
+        "id": 701,
+        "category": "Vocabulary",
+        "question": "The bottle is ______. Throw it away.",
+        "options": [
+          "necessary",
+          "flexible",
+          "tiny",
+          "empty"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Empty' = فارغ. الزجاجة الفارغة تُرمى. 'Necessary' تعني 'ضروري'، و'Flexible' تعني 'مرن'، و'Tiny' تعني 'صغير جداً'."
+      },
+      {
+        "id": 702,
+        "category": "Vocabulary",
+        "question": "It was ______ news. I couldn't stand it.",
+        "options": [
+          "terrible",
+          "wonderful",
+          "clean",
+          "short"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Terrible' = فظيع. الأخبار الفظيعة لا يمكن تحملها. 'Wonderful' تعني 'رائع' (عكس المعنى)، و'Clean' و'Short' لا تناسب."
+      },
+      {
+        "id": 703,
+        "category": "Vocabulary",
+        "question": "That is a(n) ______ meeting.",
+        "options": [
+          "own",
+          "private",
+          "strict",
+          "safe"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Private meeting' = اجتماع خاص. 'Own' تعني 'خاص' (ملكية)، و'Strict' تعني 'صارم'، و'Safe' تعني 'آمن'."
+      },
+      {
+        "id": 704,
+        "category": "Vocabulary",
+        "question": "The knife was very ______. I cut my finger.",
+        "options": [
+          "huge",
+          "dirty",
+          "ordinary",
+          "sharp"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Sharp' = حاد. السكين الحادة تسبب الجروح. 'Huge' و'Dirty' و'Ordinary' لا تسبب القطع."
+      },
+      {
+        "id": 705,
+        "category": "Vocabulary",
+        "question": "She felt ______ about her exam.",
+        "options": [
+          "interested",
+          "ignorant",
+          "ugly",
+          "nervous"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Nervous' = متوتر. التوتر شعور شائع قبل الامتحان. 'Interested' تعني 'مهتم'، و'Ignorant' تعني 'جاهل'، و'Ugly' تعني 'قبيح'."
+      },
+      {
+        "id": 706,
+        "category": "Vocabulary",
+        "question": "She wore ______ clothes at the party.",
+        "options": [
+          "difficult",
+          "huge",
+          "formal",
+          "sad"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Formal clothes' = ملابس رسمية. المناسبات الرسمية تتطلب ملابس رسمية. 'Difficult' و'Huge' و'Sad' لا تصف الملابس."
+      },
+      {
+        "id": 707,
+        "category": "Vocabulary",
+        "question": "The paper is very ______.",
+        "options": [
+          "thin",
+          "weak",
+          "guilty",
+          "easy"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Thin' = رقيق. الورق رقيق. 'Weak' و'Guilty' و'Easy' لا تصف الورق."
+      },
+      {
+        "id": 708,
+        "category": "Vocabulary",
+        "question": "What a(n) ______ street! Two cars can't pass.",
+        "options": [
+          "easy",
+          "ugly",
+          "large",
+          "narrow"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Narrow' = ضيق. الشارع الضيق لا يسع سيارتين. 'Easy' و'Ugly' و'Large' (عكس المعنى) لا تناسب."
+      },
+      {
+        "id": 709,
+        "category": "Vocabulary",
+        "question": "You can ______ the quality of the sound by using the other controls.",
+        "options": [
+          "adapt",
+          "adjust",
+          "adore",
+          "alarm"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Adjust' = يضبط. ضبط جودة الصوت. 'Adapt' تعني 'يتكيف'، و'Adore' تعني 'يعشق'، و'Alarm' تعني 'ينذر'."
+      },
+      {
+        "id": 710,
+        "category": "Vocabulary",
+        "question": "Put a cassette in the machine and ______ the 'start' button.",
+        "options": [
+          "block",
+          "tick",
+          "click",
+          "press"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Press the button' = اضغط الزر. 'Press' هو الفعل الصحيح للأزرار. 'Block' و'Tick' و'Click' (للماوس) لا تناسب."
+      },
+      {
+        "id": 711,
+        "category": "Vocabulary",
+        "question": "Please, do not ______ the sides of the chair.",
+        "options": [
+          "bend",
+          "sit",
+          "lean",
+          "stand"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Lean on' = تتكئ على. لا تتكئ على جوانب الكرسي. 'Bend' و'Sit' و'Stand' لا تعبر عن الاتكاء."
+      },
+      {
+        "id": 712,
+        "category": "Vocabulary",
+        "question": "______ your hands above your head.",
+        "options": [
+          "Raise",
+          "Rise",
+          "Rice",
+          "Rays"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Raise your hands' = ارفع يديك. 'Raise' هو فعل متعدٍ (يأخذ مفعولاً به). 'Rise' لازم (لا يأخذ مفعولاً به)."
+      },
+      {
+        "id": 713,
+        "category": "Vocabulary",
+        "question": "Could you ______ me the way to the town hall?",
+        "options": [
+          "let",
+          "put",
+          "talk",
+          "tell"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Tell me the way' = دلني على الطريق. 'Tell' هو الفعل الصحيح لطلب الاتجاهات. 'Let' و'Put' و'Talk' لا تستخدم بهذا المعنى."
+      },
+      {
+        "id": 714,
+        "category": "Vocabulary",
+        "question": "Not more books! There aren't enough ______.",
+        "options": [
+          "leaves",
+          "cases",
+          "spaces",
+          "shelves"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Shelves' = رفوف. الرفوف تنقص لوضع الكتب. 'Leaves' و'Cases' و'Spaces' لا تعبر عن مكان الكتب."
+      },
+      {
+        "id": 715,
+        "category": "Vocabulary",
+        "question": "Don't forget your ______. It's very cold outside.",
+        "options": [
+          "gloves",
+          "underwear",
+          "umbrellas",
+          "scissors"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Gloves' = قفازات. القفازات تحمي اليدين من البرد. 'Underwear' و'Umbrellas' و'Scissors' لا تحمي من البرد."
+      },
+      {
+        "id": 716,
+        "category": "Vocabulary",
+        "question": "There are eleven players in a football ______.",
+        "options": [
+          "game",
+          "pitch",
+          "team",
+          "group"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Team' = فريق. الفريق يتكون من أحد عشر لاعباً. 'Game' هي المباراة، و'Pitch' هو الملعب، و'Group' عام."
+      },
+      {
+        "id": 717,
+        "category": "Vocabulary",
+        "question": "What's wrong with your foot? - One of my ______ hurts.",
+        "options": [
+          "fingers",
+          "heels",
+          "wrists",
+          "toes"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Toes' = أصابع القدم. هي جزء من القدم. 'Fingers' للأصابع اليد، و'Heels' للكعب، و'Wrists' للمعصم."
+      },
+      {
+        "id": 718,
+        "category": "Vocabulary",
+        "question": "Bill's a ______ so he travels all over the world.",
+        "options": [
+          "baker",
+          "butcher",
+          "sailor",
+          "driver"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Sailor' = بحار. البحار يسافر كثيراً. 'Baker' و'Butcher' و'Driver' لا يسافرون بالضرورة."
+      },
+      {
+        "id": 719,
+        "category": "Vocabulary",
+        "question": "The ______ will help you if you can't find the book.",
+        "options": [
+          "porter",
+          "agent",
+          "librarian",
+          "operator"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Librarian' = أمين مكتبة. هو الشخص الذي يساعد في البحث عن الكتب. 'Porter' و'Agent' و'Operator' لا يعملون في المكتبات."
+      },
+      {
+        "id": 720,
+        "category": "Vocabulary",
+        "question": "I must book a ______ for our game of tennis.",
+        "options": [
+          "field",
+          "court",
+          "green",
+          "team"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Tennis court' = ملعب تنس. 'Field' للحقول، و'Green' للغولف، و'Team' للفريق."
+      },
+      {
+        "id": 721,
+        "category": "Vocabulary",
+        "question": "My car won't start. Could you give me a ______ to town?",
+        "options": [
+          "bus",
+          "car",
+          "hand",
+          "lift"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Give me a lift' = أوصلني. طلب توصيلة. 'Bus' و'Car' وسائل نقل، و'Hand' يد."
+      },
+      {
+        "id": 722,
+        "category": "Vocabulary",
+        "question": "Do you take ______ in your tea?",
+        "options": [
+          "spoon",
+          "pepper",
+          "salt",
+          "sugar"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Sugar' = سكر. يوضع السكر في الشاي. 'Spoon' ملعقة، و'Pepper' فلفل، و'Salt' ملح."
+      },
+      {
+        "id": 723,
+        "category": "Vocabulary",
+        "question": "This doll is a present for my ______.",
+        "options": [
+          "husband",
+          "nephew",
+          "niece",
+          "uncle"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Niece' = ابنة الأخ/الأخت. الدمية تناسبها. 'Husband' زوج، و'Nephew' ابن الأخ/الأخت، و'Uncle' عم/خال."
+      },
+      {
+        "id": 724,
+        "category": "Vocabulary",
+        "question": "I'll look in my ______ and see if I'm free.",
+        "options": [
+          "diary",
+          "dictionary",
+          "briefcase",
+          "calendar"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Diary' = مفكرة. تسجل فيها المواعيد. 'Dictionary' قاموس، و'Briefcase' حقيبة، و'Calendar' تقويم."
+      },
+      {
+        "id": 725,
+        "category": "Vocabulary",
+        "question": "Which do you ______, cream or milk?",
+        "options": [
+          "rather",
+          "eat",
+          "prefer",
+          "wear"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Prefer' = تفضل. السؤال عن الاختيار بين شيئين. 'Rather' تحتاج إلى 'would'، و'Eat' و'Wear' لا تناسب."
+      },
+      {
+        "id": 726,
+        "category": "Vocabulary",
+        "question": "You can hang your jacket in the ______.",
+        "options": [
+          "bedspread",
+          "chest of drawers",
+          "hanger",
+          "wardrobe"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Wardrobe' = خزانة ملابس. مكان تعليق الجاكيت. 'Bedspread' غطاء سرير، و'Chest of drawers' خزانة أدراج، و'Hanger' شماعة."
+      },
+      {
+        "id": 727,
+        "category": "Vocabulary",
+        "question": "The shopping center is now a pedestrian ______.",
+        "options": [
+          "arrival",
+          "palace",
+          "pavement",
+          "precinct"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Pedestrian precinct' = منطقة مشاة. خالية من السيارات. 'Arrival' و'Palace' و'Pavement' لا تعبر عن المنطقة."
+      },
+      {
+        "id": 728,
+        "category": "Vocabulary",
+        "question": "Could you ______ a photo of me in front of this building?",
+        "options": [
+          "check",
+          "make",
+          "paint",
+          "take"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Take a photo' = يلتقط صورة. 'Take' هو الفعل الصحيح مع الصور. 'Check' و'Make' و'Paint' لا تستخدم."
+      },
+      {
+        "id": 729,
+        "category": "Vocabulary",
+        "question": "The ice is very ______ so don't walk on it.",
+        "options": [
+          "high",
+          "low",
+          "thick",
+          "thin"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Thick' = سميك. الجليد السميك غير آمن للمشي. 'High' و'Low' و'Thin' لا تعبر عن الخطر بنفس الطريقة."
+      },
+      {
+        "id": 730,
+        "category": "Vocabulary",
+        "question": "Carol speaks so fast that it's ______ to understand her.",
+        "options": [
+          "difficult",
+          "easy",
+          "slow",
+          "wrong"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Difficult' = صعب. فهم شخص يتحدث بسرعة صعب. 'Easy' عكس المعنى، و'Slow' و'Wrong' لا تناسب."
+      },
+      {
+        "id": 731,
+        "category": "Vocabulary",
+        "question": "The mechanic hopes to ______ our car by this evening.",
+        "options": [
+          "make",
+          "renew",
+          "repair",
+          "wander"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Repair' = يصلح. الميكانيكي يصلح السيارات. 'Make' و'Renew' و'Wander' لا تعبر عن التصليح."
+      },
+      {
+        "id": 732,
+        "category": "Vocabulary",
+        "question": "My ______ says I need stronger glasses.",
+        "options": [
+          "chemist",
+          "conductor",
+          "keeper",
+          "optician"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Optician' = النظاراتي. مختص بالنظارات. 'Chemist' صيدلي، و'Conductor' قائد أوركسترا، و'Keeper' حارس."
+      },
+      {
+        "id": 733,
+        "category": "Vocabulary",
+        "question": "Are you ready to go? - Not ______. Give me 10 minutes.",
+        "options": [
+          "for me",
+          "very much",
+          "very many",
+          "yet"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Not yet' = ليس بعد. إجابة شائعة. 'For me' و'Very much' و'Very many' لا تستخدم بهذا المعنى."
+      },
+      {
+        "id": 734,
+        "category": "Vocabulary",
+        "question": "How much does she earn? - That's none of your ______!",
+        "options": [
+          "business",
+          "decision",
+          "information",
+          "role"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'None of your business' = لا يعنيك. عبارة رفض للإجابة. 'Decision' و'Information' و'Role' لا تستخدم."
+      },
+      {
+        "id": 735,
+        "category": "Vocabulary",
+        "question": "The police are looking for the ______ of a red Ford.",
+        "options": [
+          "detective",
+          "instructor",
+          "owner",
+          "rider"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Owner' = مالك. الشرطة تبحث عن مالك السيارة. 'Detective' محقق، و'Instructor' مدرب، و'Rider' راكب."
+      },
+      {
+        "id": 736,
+        "category": "Phrasal Verbs",
+        "question": "She ______ her coat and sat down.",
+        "options": [
+          "took off",
+          "took on",
+          "took over",
+          "took up"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Take off' = يخلع (الملابس). 'She took off her coat' = خلعت معطفها. 'Take on' تعني 'يتحمل'، و'Take over' تعني 'يتولى'، و'Take up' تعني 'يبدأ'."
+      },
+      {
+        "id": 737,
+        "category": "Phrasal Verbs",
+        "question": "The plane ______ on time.",
+        "options": [
+          "took off",
+          "took on",
+          "took over",
+          "took up"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Take off' = تقلع (الطائرة). 'The plane took off on time' = أقلعت الطائرة في الوقت المحدد. المعاني الأخرى لا تناسب."
+      },
+      {
+        "id": 738,
+        "category": "Phrasal Verbs",
+        "question": "She is ______ her children.",
+        "options": [
+          "looking after",
+          "looking for",
+          "looking into",
+          "looking up"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Look after' = يعتني بـ. 'She is looking after her children' = تعتني بأطفالها. 'Look for' تعني 'يبحث عن'، و'Look into' تعني 'يحقق في'."
+      },
+      {
+        "id": 739,
+        "category": "Phrasal Verbs",
+        "question": "I am ______ my keys. Have you seen them?",
+        "options": [
+          "looking after",
+          "looking for",
+          "looking into",
+          "looking up"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Look for' = يبحث عن. 'I am looking for my keys' = أبحث عن مفاتيحي. 'Look after' تعني 'يعتني'، و'Look into' تعني 'يحقق'."
+      },
+      {
+        "id": 740,
+        "category": "Phrasal Verbs",
+        "question": "The police are ______ the case.",
+        "options": [
+          "looking after",
+          "looking for",
+          "looking into",
+          "looking up"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Look into' = يحقق في. 'The police are looking into the case' = تحقق الشرطة في القضية. 'Look after' و'Look for' لا تناسب."
+      },
+      {
+        "id": 741,
+        "category": "Phrasal Verbs",
+        "question": "You can ______ this word in the dictionary.",
+        "options": [
+          "look after",
+          "look for",
+          "look into",
+          "look up"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Look up' = يبحث عن (كلمة في المعجم). 'look up this word' = ابحث عن هذه الكلمة. 'Look for' تعني 'يبحث عن' بشكل عام."
+      },
+      {
+        "id": 742,
+        "category": "Phrasal Verbs",
+        "question": "She ______ her mother. They look so similar.",
+        "options": [
+          "takes after",
+          "takes on",
+          "takes over",
+          "takes up"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Take after' = يشبه (في الشكل أو الصفات). 'She takes after her mother' = تشبه أمها. 'Take on' و'Take over' و'Take up' لا تعبر عن الشبه."
+      },
+      {
+        "id": 743,
+        "category": "Phrasal Verbs",
+        "question": "He ______ running to keep fit.",
+        "options": [
+          "took after",
+          "took on",
+          "took over",
+          "took up"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Take up' = يبدأ بممارسة (هواية أو رياضة). 'took up running' = بدأ ممارسة الجري. 'Take after' و'Take on' و'Take over' لا تناسب."
+      },
+      {
+        "id": 744,
+        "category": "Phrasal Verbs",
+        "question": "The company was ______ by a larger firm.",
+        "options": [
+          "taken after",
+          "taken on",
+          "taken over",
+          "taken up"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Take over' = يستولي على، يشتري شركة. 'taken over by a larger firm' = استولت عليها شركة أكبر. 'Take after' و'Take on' و'Take up' لا تناسب."
+      },
+      {
+        "id": 745,
+        "category": "Phrasal Verbs",
+        "question": "I ______ smoking last year.",
+        "options": [
+          "gave up",
+          "gave in",
+          "gave out",
+          "gave away"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Give up' = يقلع عن، يتوقف عن. 'gave up smoking' = أقلع عن التدخين. 'Give in' تعني 'يستسلم'، و'Give out' تعني 'يوزع'، و'Give away' تعني 'يتبرع'."
+      },
+      {
+        "id": 746,
+        "category": "Phrasal Verbs",
+        "question": "The teacher ______ the exam papers.",
+        "options": [
+          "gave up",
+          "gave in",
+          "gave out",
+          "gave away"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Give out' = يوزع. 'gave out the exam papers' = وزع أوراق الامتحان. 'Give up' و'Give in' و'Give away' لا تناسب."
+      },
+      {
+        "id": 747,
+        "category": "Phrasal Verbs",
+        "question": "She ______ her old clothes to charity.",
+        "options": [
+          "gave up",
+          "gave in",
+          "gave out",
+          "gave away"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Give away' = يتبرع بـ، يهدي. 'gave away her old clothes' = تبرعت بملابسها القديمة. 'Give up' و'Give in' و'Give out' لا تناسب."
+      },
+      {
+        "id": 748,
+        "category": "Phrasal Verbs",
+        "question": "The government ______ to public pressure.",
+        "options": [
+          "gave up",
+          "gave in",
+          "gave out",
+          "gave away"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Give in' = يستسلم، يخضع. 'gave in to public pressure' = استسلم للضغط الشعبي. 'Give up' و'Give out' و'Give away' لا تناسب."
+      },
+      {
+        "id": 749,
+        "category": "Phrasal Verbs",
+        "question": "I ran ______ an old friend at the mall.",
+        "options": [
+          "into",
+          "out of",
+          "away",
+          "after"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Run into' = يصادف، يقابل بالصدفة. 'ran into an old friend' = صادف صديقاً قديماً. 'Run out of' تعني 'ينفد'، و'Run away' تعني 'يهرب'."
+      },
+      {
+        "id": 750,
+        "category": "Phrasal Verbs",
+        "question": "We've run ______ milk. Can you buy some?",
+        "options": [
+          "into",
+          "out of",
+          "away",
+          "after"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Run out of' = ينفد منه. 'run out of milk' = نفد الحليب. 'Run into' و'Run away' و'Run after' لا تناسب."
+      },
+      {
+        "id": 751,
+        "category": "Phrasal Verbs",
+        "question": "The thief ran ______ when he saw the police.",
+        "options": [
+          "into",
+          "out of",
+          "away",
+          "after"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Run away' = يهرب. 'ran away when he saw the police' = هرب عندما رأى الشرطة. 'Run into' و'Run out of' و'Run after' لا تناسب."
+      },
+      {
+        "id": 752,
+        "category": "Phrasal Verbs",
+        "question": "She is running ______ her dreams.",
+        "options": [
+          "into",
+          "out of",
+          "away",
+          "after"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Run after' = يطارد، يسعى وراء. 'running after her dreams' = تسعى وراء أحلامها. 'Run into' و'Run out of' و'Run away' لا تناسب."
+      },
+      {
+        "id": 753,
+        "category": "Phrasal Verbs",
+        "question": "I ______ with my brother very well.",
+        "options": [
+          "get on",
+          "get off",
+          "get over",
+          "get through"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Get on with' = يتفق مع، ينسجم مع. 'get on with my brother' = أنسجم مع أخي. 'Get off' تعني 'ينزل'، و'Get over' تعني 'يتجاوز'."
+      },
+      {
+        "id": 754,
+        "category": "Phrasal Verbs",
+        "question": "I can't ______ how expensive everything is.",
+        "options": [
+          "get on",
+          "get off",
+          "get over",
+          "get through"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Get over' = يتجاوز، يتعافى من. 'can't get over how expensive' = لا أستطيع تجاوز مدى الغلاء. 'Get on' و'Get off' و'Get through' لا تناسب."
+      },
+      {
+        "id": 755,
+        "category": "Phrasal Verbs",
+        "question": "I'm trying to ______ to you but the line is busy.",
+        "options": [
+          "get on",
+          "get off",
+          "get over",
+          "get through"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Get through' = يتصل بـ (عبر الهاتف). 'get through to you' = أتصل بك. 'Get on' و'Get off' و'Get over' لا تناسب."
+      },
+      {
+        "id": 756,
+        "category": "Phrasal Verbs",
+        "question": "I need to ______ at the next station.",
+        "options": [
+          "get on",
+          "get off",
+          "get over",
+          "get through"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Get off' = ينزل من (المواصلات). 'get off at the next station' = أنزل في المحطة التالية. 'Get on' تعني 'يركب'، و'Get over' و'Get through' لا تناسب."
+      },
+      {
+        "id": 757,
+        "category": "Phrasal Verbs",
+        "question": "The problem ______ to a lack of communication.",
+        "options": [
+          "comes down",
+          "comes from",
+          "comes across",
+          "comes up"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Come down to' = يعود إلى (سبب). 'comes down to a lack of communication' = يعود إلى نقص التواصل. 'Come from' و'Come across' و'Come up' لا تناسب."
+      },
+      {
+        "id": 758,
+        "category": "Phrasal Verbs",
+        "question": "She ______ as very confident.",
+        "options": [
+          "came down",
+          "came from",
+          "came across",
+          "came up"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Come across as' = يبدو، يظهر بمظهر. 'comes across as confident' = تبدو واثقة. 'Come down' و'Come from' و'Come up' لا تناسب."
+      },
+      {
+        "id": 759,
+        "category": "Phrasal Verbs",
+        "question": "Something unexpected ______.",
+        "options": [
+          "came down",
+          "came from",
+          "came across",
+          "came up"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Come up' = يطرأ (موضوع أو مشكلة). 'something unexpected came up' = طرأ أمر غير متوقع. 'Come down' و'Come from' و'Come across' لا تناسب."
+      },
+      {
+        "id": 760,
+        "category": "Prepositions",
+        "question": "I'm good ______ math.",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "by"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Good at' = جيد في (مهارة). 'good at math' = جيد في الرياضيات. 'in' و'on' و'by' لا تستخدم مع 'good' بهذا المعنى."
+      },
+      {
+        "id": 761,
+        "category": "Prepositions",
+        "question": "She is afraid ______ spiders.",
+        "options": [
+          "from",
+          "of",
+          "about",
+          "for"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Afraid of' = خائف من. 'afraid of spiders' = خائفة من العناكب. 'from' و'about' و'for' لا تستخدم مع 'afraid'."
+      },
+      {
+        "id": 762,
+        "category": "Prepositions",
+        "question": "I'm interested ______ learning French.",
+        "options": [
+          "in",
+          "about",
+          "for",
+          "with"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Interested in' = مهتم بـ. 'interested in learning French' = مهتم بتعلم الفرنسية. 'about' و'for' و'with' لا تستخدم مع 'interested'."
+      },
+      {
+        "id": 763,
+        "category": "Prepositions",
+        "question": "She is married ______ a doctor.",
+        "options": [
+          "with",
+          "to",
+          "for",
+          "from"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Married to' = متزوج من. 'married to a doctor' = متزوجة من طبيب. 'with' و'for' و'from' لا تستخدم مع 'married'."
+      },
+      {
+        "id": 764,
+        "category": "Prepositions",
+        "question": "I'm proud ______ my son.",
+        "options": [
+          "for",
+          "of",
+          "with",
+          "about"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Proud of' = فخور بـ. 'proud of my son' = فخور بابني. 'for' و'with' و'about' لا تستخدم مع 'proud'."
+      },
+      {
+        "id": 765,
+        "category": "Prepositions",
+        "question": "She's worried ______ her exam results.",
+        "options": [
+          "about",
+          "of",
+          "for",
+          "with"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Worried about' = قلق بشأن. 'worried about her exam results' = قلقة بشأن نتائج امتحانها. 'of' و'for' و'with' لا تستخدم."
+      },
+      {
+        "id": 766,
+        "category": "Prepositions",
+        "question": "He's responsible ______ the project.",
+        "options": [
+          "about",
+          "of",
+          "for",
+          "with"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Responsible for' = مسؤول عن. 'responsible for the project' = مسؤول عن المشروع. 'about' و'of' و'with' لا تستخدم."
+      },
+      {
+        "id": 767,
+        "category": "Prepositions",
+        "question": "She apologized ______ being late.",
+        "options": [
+          "about",
+          "of",
+          "for",
+          "with"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Apologize for' = يعتذر عن. 'apologized for being late' = اعتذر عن التأخر. 'about' و'of' و'with' لا تستخدم."
+      },
+      {
+        "id": 768,
+        "category": "Idioms",
+        "question": "She was ______ when she heard the news.",
+        "options": [
+          "over the moon",
+          "under the weather",
+          "once in a blue moon",
+          "piece of cake"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Over the moon' = سعيد جداً. تعبير عن السعادة الشديدة. 'Under the weather' تعني 'مريض'، و'Once in a blue moon' تعني 'نادراً'."
+      },
+      {
+        "id": 769,
+        "category": "Idioms",
+        "question": "I'm feeling ______ today. I think I have a cold.",
+        "options": [
+          "over the moon",
+          "under the weather",
+          "once in a blue moon",
+          "piece of cake"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Under the weather' = مريض قليلاً، غير بحالة جيدة. 'I'm feeling under the weather' = أشعر بتعب. 'Over the moon' سعادة، و'Piece of cake' سهل."
+      },
+      {
+        "id": 770,
+        "category": "Idioms",
+        "question": "He only visits us ______.",
+        "options": [
+          "over the moon",
+          "under the weather",
+          "once in a blue moon",
+          "piece of cake"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Once in a blue moon' = نادراً جداً. 'He visits us once in a blue moon' = يزورنا نادراً جداً. 'Over the moon' و'Under the weather' لا تعبر عن التكرار."
+      },
+      {
+        "id": 771,
+        "category": "Idioms",
+        "question": "The exam was a ______.",
+        "options": [
+          "over the moon",
+          "under the weather",
+          "once in a blue moon",
+          "piece of cake"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Piece of cake' = سهل جداً. 'The exam was a piece of cake' = الامتحان كان سهلاً جداً. 'Over the moon' سعادة، و'Under the weather' تعب."
+      },
+      {
+        "id": 772,
+        "category": "Grammar - Tenses",
+        "question": "The weather changed ______. It suddenly started to rain.",
+        "options": [
+          "unexpected",
+          "expectedly",
+          "unexpectedly",
+          "unexpectancy"
+        ],
+        "answer": 2,
+        "explanation": "🔍 نحتاج حال: 'unexpectedly' = بشكل غير متوقع. 'Unexpected' صفة، و'Expectedly' عكس المعنى، و'Unexpectancy' اسم."
+      },
+      {
+        "id": 773,
+        "category": "Grammar - Tenses",
+        "question": "She's been very kind, ______?",
+        "options": [
+          "isn't she",
+          "hasn't she",
+          "doesn't she",
+          "wasn't she"
+        ],
+        "answer": 1,
+        "explanation": "🔍 المذيل مع المضارع التام: 'hasn't she'. الفعل المساعد 'has'، لذا المذيل 'hasn't she'."
+      },
+      {
+        "id": 774,
+        "category": "Grammar - Tenses",
+        "question": "The patient was ______ examined by three doctors.",
+        "options": [
+          "thoroughly",
+          "fondly",
+          "shyly",
+          "utter"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Thoroughly' = بدقة. الفحص الدقيق من قبل الأطباء. 'Fondly' و'Shyly' و'Utter' لا تناسب."
+      },
+      {
+        "id": 775,
+        "category": "Grammar - Tenses",
+        "question": "It is very difficult to ______ this machine.",
+        "options": [
+          "make",
+          "operate",
+          "work",
+          "do"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Operate a machine' = تشغيل آلة. 'Make' تعني 'صنع'، و'Work' تستخدم مع 'on'، و'Do' لا تصلح."
+      },
+      {
+        "id": 776,
+        "category": "Grammar - Tenses",
+        "question": "I did not buy the sweater because it was not ______.",
+        "options": [
+          "washed",
+          "washing",
+          "washer",
+          "washable"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Washable' = قابل للغسل. 'not washable' = غير قابل للغسل. 'Washed' و'Washing' و'Washer' لا تعبر عن قابلية الغسل."
+      },
+      {
+        "id": 777,
+        "category": "Grammar - Tenses",
+        "question": "The poet had written several ______ before completing the final version.",
+        "options": [
+          "originals",
+          "novels",
+          "drafts",
+          "rehearsals"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Drafts' = مسودات. النسخ الأولية قبل النهائية. 'Originals' و'Novels' و'Rehearsals' لا تعبر عن المسودات."
+      },
+      {
+        "id": 778,
+        "category": "Grammar - Tenses",
+        "question": "His uncle owns four computer companies and lives in a big ______.",
+        "options": [
+          "bungalow",
+          "hut",
+          "apartment",
+          "mansion"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Mansion' = قصر. تليق بشخص ثري. 'Bungalow' و'Hut' و'Apartments' لا تناسب الثراء."
+      },
+      {
+        "id": 779,
+        "category": "Grammar - Tenses",
+        "question": "My boss needs my ______ on the paper.",
+        "options": [
+          "acceptance",
+          "mark",
+          "signature",
+          "refuse"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Signature' = توقيع. ما يطلبه المدير على الورقة. 'Acceptance' و'Mark' و'Refuse' لا تعبر عن التوقيع."
+      },
+      {
+        "id": 780,
+        "category": "Grammar - Tenses",
+        "question": "Do you like the red ______?",
+        "options": [
+          "one",
+          "it",
+          "that"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'One' لتجنب تكرار الاسم. 'Do you like the red one؟' = هل تحب الأحمر؟ 'It' و'That' لا تستخدم بهذا الشكل."
+      },
+      {
+        "id": 781,
+        "category": "Grammar - Tenses",
+        "question": "They do not get on well. They are having a(n) ______.",
+        "options": [
+          "fighting",
+          "war",
+          "argument",
+          "talking"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Have an argument' = يتشاجران. 'Fighting' و'War' قويان جداً، و'Talking' عكس المعنى."
+      },
+      {
+        "id": 782,
+        "category": "Grammar - Tenses",
+        "question": "The new job will provide you with ______ experience.",
+        "options": [
+          "praiseworthy",
+          "invaluable",
+          "admirable",
+          "merit"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Invaluable' = لا يُقدر بثمن. 'invaluable experience' = خبرة لا تُقدر بثمن. 'Praiseworthy' و'Admirable' و'Merit' لا تناسب."
+      },
+      {
+        "id": 783,
+        "category": "Grammar - Tenses",
+        "question": "It is quite ______ that they have already made up their mind.",
+        "options": [
+          "probable",
+          "opportunity",
+          "chance",
+          "possibility"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Probable' = محتمل. الصفة المناسبة. 'Opportunity' و'Chance' و'Possibility' أسماء."
+      },
+      {
+        "id": 784,
+        "category": "Grammar - Tenses",
+        "question": "The bridge ______ into the river without any warning.",
+        "options": [
+          "submerged",
+          "collapsed",
+          "relapsed",
+          "degenerated"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Collapsed' = انهار. ما يحدث للجسر فجأة. 'Submerged' و'Relapsed' و'Degenerated' لا تعبر عن الانهيار."
+      },
+      {
+        "id": 785,
+        "category": "Grammar - Tenses",
+        "question": "Children would rather ______.",
+        "options": [
+          "to play than to study",
+          "play than study",
+          "playing than studying",
+          "to play than studying"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Would rather' يتبعه مصدر مجرد. 'play than study' = يلعب بدلاً من الدراسة. 'to play' و'playing' غير صحيحة."
+      },
+      {
+        "id": 786,
+        "category": "Grammar - Tenses",
+        "question": "If you don't like the soup, why don't you ______ to the waiter?",
+        "options": [
+          "protest",
+          "criticise",
+          "complain",
+          "consult"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Complain to' = يشتكي لـ. الشكوى للنادل. 'Protest' و'Criticise' و'Consult' لا تناسب."
+      },
+      {
+        "id": 787,
+        "category": "Grammar - Tenses",
+        "question": "I do not know how we are going to get to the airport. We will have to ______ for a taxi.",
+        "options": [
+          "arrange",
+          "plan",
+          "hire",
+          "book"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Book a taxi' = يحجز سيارة أجرة. 'Arrange' و'Plan' و'Hire' (مع 'for') لا تستخدم بهذا المعنى."
+      },
+      {
+        "id": 788,
+        "category": "Grammar - Tenses",
+        "question": "A funeral can ______ the feelings of regret and loss.",
+        "options": [
+          "amplify",
+          "extend",
+          "develop",
+          "exaggerate"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Amplify' = يضخم. تعزز الجنازة مشاعر الحزن. 'Extend' و'Develop' و'Exaggerate' لا تناسب."
+      },
+      {
+        "id": 789,
+        "category": "Grammar - Tenses",
+        "question": "Peter ______ at six in the morning.",
+        "options": [
+          "gets up",
+          "goes",
+          "goes up"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Get up' = يستيقظ. الأنسب مع الوقت. 'Goes' و'Goes up' لا تعبر عن الاستيقاظ."
+      },
+      {
+        "id": 790,
+        "category": "Grammar - Tenses",
+        "question": "He was left alone in the hospital, with ______ to take care of him.",
+        "options": [
+          "no one",
+          "not one",
+          "anyone",
+          "someone"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'No one' = لا أحد. 'with no one to take care of him' = مع لا أحد ليعتني به. 'Anyone' و'Someone' تعنيان وجود شخص."
+      },
+      {
+        "id": 791,
+        "category": "Grammar - Tenses",
+        "question": "The company did not have any ______ opening shops in Paris.",
+        "options": [
+          "profit",
+          "winnings",
+          "victory",
+          "success"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Profit' = ربح. عدم وجود ربح سبب الإغلاق. 'Winnings' و'Victory' و'Success' لا تعبر عن الربح المالي."
+      },
+      {
+        "id": 792,
+        "category": "Grammar - Tenses",
+        "question": "His new appointment takes ______ from the beginning of next month.",
+        "options": [
+          "position",
+          "place",
+          "part",
+          "effect"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Take effect' = يسري مفعوله. 'takes effect from the beginning' = يسري مفعوله من بداية. 'Position' و'Place' و'Part' لا تستخدم."
+      },
+      {
+        "id": 793,
+        "category": "Grammar - Tenses",
+        "question": "I noticed that there were two buttons ______ from his coat.",
+        "options": [
+          "dropping",
+          "falling",
+          "missing",
+          "loosing"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Missing' = مفقودة. 'two buttons missing' = زرين مفقودين. 'Dropping' و'Falling' تعنيان 'يسقطان'، و'Loosing' تعني 'يفقدان'."
+      },
+      {
+        "id": 794,
+        "category": "Grammar - Tenses",
+        "question": "I think I will ______ about this bad service.",
+        "options": [
+          "think",
+          "consider",
+          "complaint",
+          "complain"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Complain about' = يشتكي من. 'will complain about' = سأشتكي من. 'Complaint' اسم، و'Think' و'Consider' لا تعبر عن الشكوى."
+      },
+      {
+        "id": 795,
+        "category": "Grammar - Tenses",
+        "question": "Further research is needed to find out what side ______ this pill has.",
+        "options": [
+          "affects",
+          "suspects",
+          "defects",
+          "effects"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Side effects' = آثار جانبية. 'effects' هو الاسم الصحيح. 'Affects' فعل، و'Suspects' و'Defects' لا تعبر عن التأثيرات."
+      },
+      {
+        "id": 796,
+        "category": "Grammar - Tenses",
+        "question": "Oh I am so ______! Let's go and rent a video.",
+        "options": [
+          "tiring",
+          "happiness",
+          "boring",
+          "fed up"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Fed up' = سئمت. 'I am so fed up!' = لقد سئمت جداً! 'Tiring' و'Happiness' و'Boring' لا تعبر عن الشعور."
+      },
+      {
+        "id": 797,
+        "category": "Grammar - Tenses",
+        "question": "I'm now going to give you ______ tips for running a successful online business.",
+        "options": [
+          "unworthy",
+          "unprofitable",
+          "worthless",
+          "invaluable"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Invaluable' = قيّمة جداً. 'invaluable tips' = نصائح قيّمة. 'Unworthy' و'Unprofitable' و'Worthless' تعني عدم القيمة."
+      },
+      {
+        "id": 798,
+        "category": "Grammar - Tenses",
+        "question": "When they asked him about the project, he said it was no ______ of theirs.",
+        "options": [
+          "relation",
+          "relevance",
+          "influence",
+          "concern"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'No concern of theirs' = لا يعنيهم. 'relation' و'relevance' و'influence' لا تعبر عن الاهتمام."
+      },
+      {
+        "id": 799,
+        "category": "Grammar - Tenses",
+        "question": "I'm worried about the children's ______ on the street.",
+        "options": [
+          "noise",
+          "freedom",
+          "sanction",
+          "safety"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Safety' = سلامة. 'children's safety' = سلامة الأطفال. 'Noise' و'Freedom' و'Sanction' لا تعبر عن الخطر."
+      },
+      {
+        "id": 800,
+        "category": "Grammar - Tenses",
+        "question": "If the fire alarm sounds, all residents are required to ______ in the courtyard.",
+        "options": [
+          "unite",
+          "combine",
+          "assemble",
+          "mobilise"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Assemble' = يتجمعون. 'assemble in the courtyard' = يتجمعون في الفناء. 'Unite' و'Combine' و'Mobilise' لا تعبر عن التجمع."
+      }
+    ]
+  }
+}

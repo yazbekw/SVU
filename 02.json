@@ -1,0 +1,1317 @@
+{
+  "exam": {
+    "title": "بنك الأسئلة الشامل للغة الإنجليزية - الجامعة الافتراضية (الجزء الثاني)",
+    "description": "الأسئلة من 101 إلى 200 - مع شرح مفصل لكل إجابة",
+    "totalQuestions": 100,
+    "categories": {
+      "Grammar": 40,
+      "Vocabulary": 38,
+      "Phrasal Verbs": 10,
+      "Prepositions": 7,
+      "Idioms": 3,
+      "Structure": 2
+    },
+    "questions": [
+      {
+        "id": 101,
+        "category": "Vocabulary",
+        "question": "Shoes are usually made of ______.",
+        "options": [
+          "leather",
+          "wool",
+          "paper",
+          "iron"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Leather' هو 'جلد'، وهو المادة الأساسية المستخدمة في صناعة الأحذية. 'Wool' هو 'صوف' ويستخدم في الملابس الشتوية، و'Paper' ورق، و'Iron' حديد."
+      },
+      {
+        "id": 102,
+        "category": "Vocabulary",
+        "question": "His father always remembers to say 'please' and 'thank you'. He is very ______.",
+        "options": [
+          "impolite",
+          "polite",
+          "rude",
+          "talkative"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Polite' تعني 'مهذب'، وهو الشخص الذي يستخدم كلمات مثل 'من فضلك' و 'شكراً'. 'Impolite' و'Rude' عكس المعنى، و'Talkative' تعني 'ثرثار'."
+      },
+      {
+        "id": 103,
+        "category": "Vocabulary",
+        "question": "My sister is very careful about her appearance and how she arranges her desk and her room. She is a/an ______ lady.",
+        "options": [
+          "tidy",
+          "silly",
+          "unsociable",
+          "cautious"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Tidy' تعني 'مرتبة'، وهي الأنسب لمن تهتم بمظهرها وترتيب غرفتها. 'Silly' تعني 'سخيفة'، و'Unsociable' تعني 'غير اجتماعية'، و'Cautious' تعني 'حذرة'."
+      },
+      {
+        "id": 104,
+        "category": "Vocabulary",
+        "question": "He always has good hopes for the future. He thinks everything will be fine. He is very ______.",
+        "options": [
+          "rude",
+          "pessimist",
+          "optimist",
+          "quiet"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Optimist' هو 'متفائل'، وهو الشخص الذي يرى المستقبل بإيجابية. 'Pessimist' هو 'متشائم' (عكس المعنى)، و'Rude' تعني 'وقح'، و'Quiet' تعني 'هادئ'."
+      },
+      {
+        "id": 105,
+        "category": "Vocabulary",
+        "question": "Jake has a lot of common sense. He always knows the correct thing to do. He is a ______ boy.",
+        "options": [
+          "sensitive",
+          "sensual",
+          "sensible",
+          "nonsense"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Sensible' تعني 'عاقل' و'حكيم'، وهو الشخص الذي يتصرف بحكمة. 'Sensitive' تعني 'حساس'، و'Sensual' تعني 'حسي'، و'Nonsense' تعني 'هراء'."
+      },
+      {
+        "id": 106,
+        "category": "Vocabulary",
+        "question": "Lora only thinks about herself. She is ______.",
+        "options": [
+          "naughty",
+          "selfish",
+          "patient",
+          "genius"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Selfish' تعني 'أنانية'، وهي الصفة التي تصف الشخص الذي يهتم بنفسه فقط. 'Naughty' تعني 'مشاغب'، و'Patient' تعني 'صبور'، و'Genius' تعني 'عبقري'."
+      },
+      {
+        "id": 107,
+        "category": "Vocabulary",
+        "question": "He is always happy and smiling. He is very ______.",
+        "options": [
+          "cheerful",
+          "hard-headed",
+          "funny",
+          "intelligent"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Cheerful' تعني 'مبتهج'، وهو الشخص الذي يظهر السعادة والابتسامة. 'Hard-headed' تعني 'عنيد'، و'Funny' تعني 'مضحك'، و'Intelligent' تعني 'ذكي'."
+      },
+      {
+        "id": 108,
+        "category": "Vocabulary",
+        "question": "Madison doesn't like work. He is ______.",
+        "options": [
+          "happy",
+          "poor",
+          "rich",
+          "lazy"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Lazy' تعني 'كسول'، وهو الشخص الذي لا يحب العمل. 'Happy' تعني 'سعيد'، و'Poor' تعني 'فقير'، و'Rich' تعني 'غني'."
+      },
+      {
+        "id": 109,
+        "category": "Vocabulary",
+        "question": "My brother wants to get an important job in a high position. He is very ______.",
+        "options": [
+          "stubborn",
+          "learned",
+          "ambitious",
+          "talkative"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Ambitious' تعني 'طموح'، وهو الشخص الذي يسعى للحصول على مناصب مهمة. 'Stubborn' تعني 'عنيد'، و'Learned' تعني 'متعلم'، و'Talkative' تعني 'ثرثار'."
+      },
+      {
+        "id": 110,
+        "category": "Vocabulary",
+        "question": "My friend loves to talk to people and tell them what he thinks. He is ______.",
+        "options": [
+          "ugly",
+          "talkative",
+          "strong",
+          "sad"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Talkative' تعني 'ثرثار'، وهو الشخص الذي يحب الحديث مع الآخرين. 'Ugly' تعني 'قبيح'، و'Strong' تعني 'قوي'، و'Sad' تعني 'حزين'."
+      },
+      {
+        "id": 111,
+        "category": "Vocabulary",
+        "question": "Peter never gets upset or annoyed when things go wrong. He is a very ______ man.",
+        "options": [
+          "hard-working",
+          "attractive",
+          "easy-going",
+          "mad"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Easy-going' تعني 'مرن' و'هادئ'، وهو الشخص الذي لا ينزعج بسهولة. 'Hard-working' تعني 'مجتهد'، و'Attractive' تعني 'جذاب'، و'Mad' تعني 'مجنون'."
+      },
+      {
+        "id": 112,
+        "category": "Vocabulary",
+        "question": "He gets very annoyed if he has to wait for anything. He doesn't like waiting. He is very ______.",
+        "options": [
+          "sociable",
+          "industrious",
+          "hard",
+          "impatient"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Impatient' تعني 'نفذ الصبر'، وهو الشخص الذي لا يحب الانتظار. 'Sociable' تعني 'اجتماعي'، و'Industrious' تعني 'مجتهد'، و'Hard' تعني 'صعب'."
+      },
+      {
+        "id": 113,
+        "category": "Vocabulary",
+        "question": "He likes new things and new places, even if they are difficult or dangerous. He is ______.",
+        "options": [
+          "adventurous",
+          "selfish",
+          "clever",
+          "mean"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Adventurous' تعني 'مغامر'، وهو الشخص الذي يحب التجارب الجديدة حتى لو كانت خطيرة. 'Selfish' تعني 'أناني'، و'Clever' تعني 'ذكي'، و'Mean' تعني 'لئيم'."
+      },
+      {
+        "id": 114,
+        "category": "Vocabulary",
+        "question": "She loves meeting people and going to parties. She is a very ______ person.",
+        "options": [
+          "shy",
+          "ignorant",
+          "learned",
+          "sociable"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Sociable' تعني 'اجتماعي'، وهو الشخص الذي يحب التفاعل مع الآخرين. 'Shy' تعني 'خجول'، و'Ignorant' تعني 'جاهل'، و'Learned' تعني 'متعلم'."
+      },
+      {
+        "id": 115,
+        "category": "Vocabulary",
+        "question": "The music was too ______.",
+        "options": [
+          "loud",
+          "small",
+          "wrong",
+          "incorrect"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Loud' تعني 'صاخب'، وتستخدم لوصف الصوت العالي. 'Small' تعني 'صغير' (للحجم)، و'Wrong' و'Incorrect' تعنيان 'خاطئ'."
+      },
+      {
+        "id": 116,
+        "category": "Vocabulary",
+        "question": "Mark is a ______ boy. Everyone likes him.",
+        "options": [
+          "hard",
+          "polite",
+          "rude",
+          "bad"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Polite' تعني 'مهذب'، وهو الشخص الذي يحبه الجميع. 'Hard' تعني 'صعب'، و'Rude' تعني 'وقح'، و'Bad' تعني 'سيء'."
+      },
+      {
+        "id": 117,
+        "category": "Vocabulary",
+        "question": "He is a ______ man. I do not want to speak to him.",
+        "options": [
+          "clever",
+          "gentle",
+          "stupid",
+          "handsome"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Stupid' تعني 'غبي'، وهو الشخص الذي لا يرغب الآخرون في التحدث معه بسبب تصرفاته. 'Clever' تعني 'ذكي'، و'Gentle' تعني 'لطيف'، و'Handsome' تعني 'وسيم'."
+      },
+      {
+        "id": 118,
+        "category": "Vocabulary",
+        "question": "My belt is too ______. I couldn't loose it.",
+        "options": [
+          "hard",
+          "soft",
+          "useful",
+          "tight"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Tight' تعني 'ضيق'، وهو سبب صعوبة فك الحزام. 'Hard' تعني 'صلب'، و'Soft' تعني 'ناعم'، و'Useful' تعني 'مفيد'."
+      },
+      {
+        "id": 119,
+        "category": "Vocabulary",
+        "question": "He was ______. He wasn't set free.",
+        "options": [
+          "guilty",
+          "easy",
+          "cheap",
+          "weak"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Guilty' تعني 'مذنب'، وهو الشخص الذي لم يُطلق سراحه. 'Easy' تعني 'سهل'، و'Cheap' تعني 'رخيص'، و'Weak' تعني 'ضعيف'."
+      },
+      {
+        "id": 120,
+        "category": "Vocabulary",
+        "question": "The bottle is ______. Throw it away.",
+        "options": [
+          "necessary",
+          "flexible",
+          "tiny",
+          "empty"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Empty' تعني 'فارغ'، وهو سبب رمي الزجاجة. 'Necessary' تعني 'ضروري'، و'Flexible' تعني 'مرن'، و'Tiny' تعني 'صغير جداً'."
+      },
+      {
+        "id": 121,
+        "category": "Vocabulary",
+        "question": "It was ______ news. I couldn't stand it.",
+        "options": [
+          "terrible",
+          "wonderful",
+          "clean",
+          "short"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Terrible' تعني 'فظيع'، وهو وصف للأخبار التي لا يمكن تحملها. 'Wonderful' تعني 'رائع' (عكس المعنى)، و'Clean' تعني 'نظيف'، و'Short' تعني 'قصير'."
+      },
+      {
+        "id": 122,
+        "category": "Vocabulary",
+        "question": "That is a(n) ______ meeting.",
+        "options": [
+          "own",
+          "private",
+          "strict",
+          "safe"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Private meeting' هي 'اجتماع خاص'، وهو النوع الذي لا يحضره الجميع. 'Own' تعني 'خاص' (ملكية)، و'Strict' تعني 'صارم'، و'Safe' تعني 'آمن'."
+      },
+      {
+        "id": 123,
+        "category": "Vocabulary",
+        "question": "The knife was very ______. I cut my finger.",
+        "options": [
+          "huge",
+          "dirty",
+          "ordinary",
+          "sharp"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Sharp' تعني 'حاد'، وهو سبب قطع الإصبع. 'Huge' تعني 'ضخم'، و'Dirty' تعني 'وسخ'، و'Ordinary' تعني 'عادي'."
+      },
+      {
+        "id": 124,
+        "category": "Vocabulary",
+        "question": "She felt ______ about her exam.",
+        "options": [
+          "interested",
+          "ignorant",
+          "ugly",
+          "nervous"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Nervous' تعني 'متوتر'، وهو الشعور الشائع قبل الامتحان. 'Interested' تعني 'مهتم'، و'Ignorant' تعني 'جاهل'، و'Ugly' تعني 'قبيح'."
+      },
+      {
+        "id": 125,
+        "category": "Vocabulary",
+        "question": "She wore ______ clothes at the party.",
+        "options": [
+          "difficult",
+          "huge",
+          "formal",
+          "sad"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Formal clothes' هي 'ملابس رسمية'، وهي المناسبة للحفلات الرسمية. 'Difficult' تعني 'صعب'، و'Huge' تعني 'ضخم'، و'Sad' تعني 'حزين'."
+      },
+      {
+        "id": 126,
+        "category": "Vocabulary",
+        "question": "The paper is very ______.",
+        "options": [
+          "thin",
+          "weak",
+          "guilty",
+          "easy"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Thin' تعني 'رقيق'، وهي صفة الورق. 'Weak' تعني 'ضعيف'، و'Guilty' تعني 'مذنب'، و'Easy' تعني 'سهل'."
+      },
+      {
+        "id": 127,
+        "category": "Vocabulary",
+        "question": "What a(n) ______ street! Two cars can't pass through together.",
+        "options": [
+          "easy",
+          "ugly",
+          "large",
+          "narrow"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Narrow' تعني 'ضيق'، وهو سبب عدم تمكن سيارتين من المرور معاً. 'Easy' تعني 'سهل'، و'Ugly' تعني 'قبيح'، و'Large' تعني 'واسع' (عكس المعنى)."
+      },
+      {
+        "id": 128,
+        "category": "Vocabulary",
+        "question": "You can ______ the quality of the sound by using the other controls.",
+        "options": [
+          "adapt",
+          "adjust",
+          "adore",
+          "alarm"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Adjust' تعني 'يضبط'، وهو الفعل المناسب لتحسين جودة الصوت. 'Adapt' تعني 'يتكيف'، و'Adore' تعني 'يعشق'، و'Alarm' تعني 'ينذر'."
+      },
+      {
+        "id": 129,
+        "category": "Vocabulary",
+        "question": "Put a cassette in the machine and ______ the 'start' button.",
+        "options": [
+          "block",
+          "tick",
+          "click",
+          "press"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Press the button' تعني 'اضغط الزر'، وهو الإجراء الصحيح لتشغيل الآلة. 'Block' تعني 'يسد'، و'Tick' تعني 'يحدد'، و'Click' تعني 'يضغط' (ولكن 'click' تستخدم مع الفأرة)."
+      },
+      {
+        "id": 130,
+        "category": "Vocabulary",
+        "question": "Please, do not ______ the sides of the chair.",
+        "options": [
+          "bend",
+          "sit",
+          "lean",
+          "stand"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Lean on' تعني 'تتكئ على'، وهو الفعل الممنوع في هذا السياق. 'Bend' تعني 'يثني'، و'Sit' تعني 'يجلس'، و'Stand' تعني 'يقف'."
+      },
+      {
+        "id": 131,
+        "category": "Vocabulary",
+        "question": "______ your hands above your head.",
+        "options": [
+          "Raise",
+          "Rise",
+          "Rice",
+          "Rays"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Raise your hands' تعني 'ارفع يديك'، وهو الفعل المتعدي المطلوب. 'Rise' هو فعل لازم (لا يأخذ مفعولاً به)، و'Rice' تعني 'أرز'، و'Rays' تعني 'أشعة'."
+      },
+      {
+        "id": 132,
+        "category": "Vocabulary",
+        "question": "Excuse me. Could you ______ me the way to the town hall?",
+        "options": [
+          "let",
+          "put",
+          "talk",
+          "tell"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Tell me the way' تعني 'دلني على الطريق'، وهي العبارة الصحيحة لطلب الاتجاهات. 'Let' تعني 'دع'، و'Put' تعني 'ضع'، و'Talk' تعني 'تحدث'."
+      },
+      {
+        "id": 133,
+        "category": "Vocabulary",
+        "question": "Not more books! There aren't enough ______ to put them on.",
+        "options": [
+          "leaves",
+          "cases",
+          "spaces",
+          "shelves"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Shelves' هي 'رفوف'، وهي ما ينقص لوضع الكتب. 'Leaves' تعني 'أوراق'، و'Cases' تعني 'علب'، و'Spaces' تعني 'مساحات'."
+      },
+      {
+        "id": 134,
+        "category": "Vocabulary",
+        "question": "Don't forget your ______. It's very cold outside.",
+        "options": [
+          "gloves",
+          "underwear",
+          "umbrellas",
+          "scissors"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Gloves' هي 'قفازات'، وهي ضرورية في الطقس البارد لحماية اليدين. 'Underwear' هي 'ملابس داخلية'، و'Umbrellas' هي 'مظلات'، و'Scissors' هي 'مقصات'."
+      },
+      {
+        "id": 135,
+        "category": "Vocabulary",
+        "question": "There are eleven players in a football ______.",
+        "options": [
+          "game",
+          "pitch",
+          "team",
+          "group"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Team' هي 'فريق'، وهو مجموعة اللاعبين. 'Game' هي 'مباراة'، و'Pitch' هو 'ملعب'، و'Group' هو 'مجموعة' (عام)."
+      },
+      {
+        "id": 136,
+        "category": "Vocabulary",
+        "question": "What's wrong with your foot? - One of my ______ hurts.",
+        "options": [
+          "fingers",
+          "heels",
+          "wrists",
+          "toes"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Toes' هي 'أصابع القدم'، وهي جزء من القدم. 'Fingers' هي 'أصابع اليد'، و'Heels' هي 'الكعبان'، و'Wrists' هي 'المعصمان'."
+      },
+      {
+        "id": 137,
+        "category": "Vocabulary",
+        "question": "Bill's a ______ so he travels all over the world.",
+        "options": [
+          "baker",
+          "butcher",
+          "sailor",
+          "driver"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Sailor' هو 'بحار'، وهو الشخص الذي يسافر كثيراً. 'Baker' هو 'خباز'، و'Butcher' هو 'جزار'، و'Driver' هو 'سائق'."
+      },
+      {
+        "id": 138,
+        "category": "Vocabulary",
+        "question": "The ______ will help you if you can't find the book you want.",
+        "options": [
+          "porter",
+          "agent",
+          "librarian",
+          "operator"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Librarian' هو 'أمين مكتبة'، وهو الشخص الذي يساعد في البحث عن الكتب. 'Porter' هو 'بواب'، و'Agent' هو 'وكيل'، و'Operator' هو 'مشغل'."
+      },
+      {
+        "id": 139,
+        "category": "Vocabulary",
+        "question": "I must book a ______ for our game of tennis tomorrow.",
+        "options": [
+          "field",
+          "court",
+          "green",
+          "team"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Tennis court' هي 'ملعب تنس'، وهو المكان المخصص للعبة. 'Field' هو 'حقل' (لكرة القدم)، و'Green' هو 'ملعب غولف'، و'Team' هو 'فريق'."
+      },
+      {
+        "id": 140,
+        "category": "Vocabulary",
+        "question": "My car won't start. Could you give me a ______ to town?",
+        "options": [
+          "bus",
+          "car",
+          "hand",
+          "lift"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Give me a lift' تعني 'أوصلني'، وهي طلب توصيلة. 'Bus' و'Car' وسائل نقل، و'Hand' تعني 'يد'."
+      },
+      {
+        "id": 141,
+        "category": "Vocabulary",
+        "question": "Do you take ______ in your tea?",
+        "options": [
+          "spoon",
+          "pepper",
+          "salt",
+          "sugar"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Sugar' هو 'سكر'، وهو ما يوضع في الشاي. 'Spoon' هي 'ملعقة'، و'Pepper' هو 'فلفل'، و'Salt' هو 'ملح'."
+      },
+      {
+        "id": 142,
+        "category": "Vocabulary",
+        "question": "This doll is a present for my ______. I hope she likes it.",
+        "options": [
+          "husband",
+          "nephew",
+          "niece",
+          "uncle"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Niece' هي 'ابنة الأخ أو الأخت'، والدمية تناسبها. 'Husband' هو 'زوج'، و'Nephew' هو 'ابن الأخ أو الأخت'، و'Uncle' هو 'عم أو خال'."
+      },
+      {
+        "id": 143,
+        "category": "Vocabulary",
+        "question": "I'll look in my ______ and see if I'm free on Wednesday.",
+        "options": [
+          "diary",
+          "dictionary",
+          "briefcase",
+          "calendar"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Diary' هو 'مفكرة'، وهي التي تُستخدم لتسجيل المواعيد. 'Dictionary' هو 'قاموس'، و'Briefcase' هو 'حقيبة'، و'Calendar' هو 'تقويم' (ولكن 'diary' أكثر تحديداً للمواعيد اليومية)."
+      },
+      {
+        "id": 144,
+        "category": "Vocabulary",
+        "question": "Which do you ______, cream or milk?",
+        "options": [
+          "rather",
+          "eat",
+          "prefer",
+          "wear"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Prefer' تعني 'تفضل'، وهي صيغة السؤال عن الاختيار بين شيئين. 'Rather' تحتاج إلى 'would'، و'Eat' تعني 'أكل'، و'Wear' تعني 'ارتداء'."
+      },
+      {
+        "id": 145,
+        "category": "Vocabulary",
+        "question": "You can hang your jacket in the ______.",
+        "options": [
+          "bedspread",
+          "chest of drawers",
+          "hanger",
+          "wardrobe"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Wardrobe' هي 'خزانة ملابس'، وهي المكان المناسب لتعليق الجاكيت. 'Bedspread' هو 'غطاء سرير'، و'Chest of drawers' هو 'خزانة ذات أدراج'، و'Hanger' هو 'شماعة' (وليس مكاناً)."
+      },
+      {
+        "id": 146,
+        "category": "Vocabulary",
+        "question": "The shopping center is now a pedestrian ______.",
+        "options": [
+          "Arrival",
+          "palace",
+          "pavement",
+          "precinct"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Pedestrian precinct' هي 'منطقة مشاة'، وهي منطقة خالية من السيارات. 'Arrival' تعني 'وصول'، و'Palace' تعني 'قصر'، و'Pavement' تعني 'رصيف'."
+      },
+      {
+        "id": 147,
+        "category": "Vocabulary",
+        "question": "Could you ______ a photo of me in front of this building?",
+        "options": [
+          "check",
+          "make",
+          "paint",
+          "take"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Take a photo' تعني 'يلتقط صورة'، وهي العبارة الصحيحة. 'Check' تعني 'يتحقق'، و'Make' تعني 'يصنع'، و'Paint' تعني 'يرسم'."
+      },
+      {
+        "id": 148,
+        "category": "Vocabulary",
+        "question": "The ice is very ______ so don't walk on it.",
+        "options": [
+          "high",
+          "low",
+          "thick",
+          "thin"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Thick' تعني 'سميك'، وهو وصف للجليد الذي لا يجب المشي عليه (لأنه قد يكون غير آمن إذا كان رقيقاً). 'High' تعني 'مرتفع'، و'Low' تعني 'منخفض'، و'Thin' تعني 'رقيق' (وهو سبب الخطر)."
+      },
+      {
+        "id": 149,
+        "category": "Vocabulary",
+        "question": "Carol speaks so fast that it's ______ to understand her.",
+        "options": [
+          "difficult",
+          "easy",
+          "slow",
+          "wrong"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Difficult' تعني 'صعب'، وهو وصف لفهم شخص يتحدث بسرعة. 'Easy' عكس المعنى، و'Slow' تعني 'بطيء'، و'Wrong' تعني 'خاطئ'."
+      },
+      {
+        "id": 150,
+        "category": "Vocabulary",
+        "question": "The mechanic hopes to ______ our car by this evening.",
+        "options": [
+          "make",
+          "renew",
+          "repair",
+          "wander"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Repair' تعني 'يصلح'، وهو ما يقوم به الميكانيكي. 'Make' تعني 'يصنع'، و'Renew' تعني 'يجدد'، و'Wander' تعني 'يتجول'."
+      },
+      {
+        "id": 151,
+        "category": "Vocabulary",
+        "question": "My ______ says I need stronger glasses.",
+        "options": [
+          "chemist",
+          "conductor",
+          "keeper",
+          "optician"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Optician' هو 'النظاراتي'، وهو الشخص المختص بالنظارات. 'Chemist' هو 'صيدلي'، و'Conductor' هو 'قائد أوركسترا'، و'Keeper' هو 'حارس'."
+      },
+      {
+        "id": 152,
+        "category": "Vocabulary",
+        "question": "Are you ready to go? - Not ______. Give me 10 minutes.",
+        "options": [
+          "for me",
+          "very much",
+          "very many",
+          "yet"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Not yet' تعني 'ليس بعد'، وهي إجابة شائعة. 'For me' تعني 'لي'، و'Very much' تعني 'كثيراً'، و'Very many' تعني 'كثيراً' (للجمع)."
+      },
+      {
+        "id": 153,
+        "category": "Vocabulary",
+        "question": "How much does she earn? - That's none of your ______!",
+        "options": [
+          "business",
+          "decision",
+          "information",
+          "role"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'None of your business' تعني 'لا يعنيك'، وهي عبارة رفض للإجابة. 'Decision' تعني 'قرار'، و'Information' تعني 'معلومات'، و'Role' تعني 'دور'."
+      },
+      {
+        "id": 154,
+        "category": "Vocabulary",
+        "question": "The police are looking for the ______ of a red Ford.",
+        "options": [
+          "detective",
+          "instructor",
+          "owner",
+          "rider"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Owner' هو 'مالك'، وهو الشخص الذي تبحث عنه الشرطة. 'Detective' هو 'محقق'، و'Instructor' هو 'مدرب'، و'Rider' هو 'راكب'."
+      },
+      {
+        "id": 155,
+        "category": "Vocabulary",
+        "question": "I've already got a ______ at a hotel in the town centre.",
+        "options": [
+          "prescription",
+          "property",
+          "reserve",
+          "reservation"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Reservation' هو 'حجز'، وهو ما يتم في الفنادق. 'Prescription' هي 'وصفة طبية'، و'Property' هو 'ملكية'، و'Reserve' هو 'احتياطي'."
+      },
+      {
+        "id": 156,
+        "category": "Vocabulary",
+        "question": "The next ______ of the show is at seven thirty.",
+        "options": [
+          "event",
+          "performance",
+          "stall",
+          "game"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Performance' هو 'عرض'، وهو ما يقدم في المسرح. 'Event' هو 'حدث' (عام)، و'Stall' هو 'كشك'، و'Game' هو 'مباراة'."
+      },
+      {
+        "id": 157,
+        "category": "Vocabulary",
+        "question": "You can't eat that pear. It isn't ______ yet.",
+        "options": [
+          "best",
+          "pale",
+          "ripe",
+          "mature"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Ripe' تعني 'ناضج'، وهو المطلوب لأكل الكمثرى. 'Best' تعني 'أفضل'، و'Pale' تعني 'شاحب'، و'Mature' تعني 'ناضج' (ولكن 'ripe' تستخدم للفاكهة)."
+      },
+      {
+        "id": 158,
+        "category": "Vocabulary",
+        "question": "Can you ______ the coffee and I'll get the biscuits.",
+        "options": [
+          "depart",
+          "disturb",
+          "feed",
+          "pour"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Pour the coffee' تعني 'صب القهوة'، وهو الفعل المناسب. 'Depart' تعني 'غادر'، و'Disturb' تعني 'أزعج'، و'Feed' تعني 'أطعم'."
+      },
+      {
+        "id": 159,
+        "category": "Vocabulary",
+        "question": "Should I wear my sandals or my ______?",
+        "options": [
+          "cardigan",
+          "shorts",
+          "trainers",
+          "scarves"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Trainers' هي 'أحذية رياضية'، وهي خيار بديل عن الصندل. 'Cardigan' هي 'سترة صوفية'، و'Shorts' هي 'شورت'، و'Scarves' هي 'أوشحة'."
+      },
+      {
+        "id": 160,
+        "category": "Vocabulary",
+        "question": "Shirley tried to stop the car but the ______ didn't work.",
+        "options": [
+          "brakes",
+          "crossroads",
+          "tires",
+          "controls"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Brakes' هي 'مكابح'، وهي المسؤولة عن إيقاف السيارة. 'Crossroads' هي 'مفترق طرق'، و'Tires' هي 'إطارات'، و'Controls' هي 'أدوات التحكم'."
+      },
+      {
+        "id": 161,
+        "category": "Vocabulary",
+        "question": "The referee and the two teams ran out onto the ______.",
+        "options": [
+          "circus",
+          "course",
+          "observatory",
+          "pitch"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Pitch' هو 'ملعب'، وهو مكان المباراة. 'Circus' هو 'سيرك'، و'Course' هو 'مسار' (غولف)، و'Observatory' هو 'مرصد'."
+      },
+      {
+        "id": 162,
+        "category": "Vocabulary",
+        "question": "You need some ______ coffee to wake you up.",
+        "options": [
+          "awake",
+          "hard",
+          "brown",
+          "strong"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Strong coffee' هي 'قهوة قوية'، وهي التي تساعد على الاستيقاظ. 'Awake' تعني 'مستيقظ'، و'Hard' تعني 'صلب'، و'Brown' تعني 'بني'."
+      },
+      {
+        "id": 163,
+        "category": "Vocabulary",
+        "question": "His suitcase was quite ______ so I could easily carry it.",
+        "options": [
+          "cheap",
+          "heavy",
+          "light",
+          "short"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Light' تعني 'خفيف'، وهو سبب سهولة الحمل. 'Cheap' تعني 'رخيص'، و'Heavy' تعني 'ثقيل' (عكس المعنى)، و'Short' تعني 'قصير'."
+      },
+      {
+        "id": 164,
+        "category": "Phrasal Verbs",
+        "question": "When did you ______ smoking? - About two years ago.",
+        "options": [
+          "cut off",
+          "give up",
+          "make up",
+          "throw away"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Give up smoking' تعني 'أقلع عن التدخين'، وهي العبارة الصحيحة. 'Cut off' تعني 'قطع'، و'Make up' تعني 'اختلق'، و'Throw away' تعني 'رمى'."
+      },
+      {
+        "id": 165,
+        "category": "Phrasal Verbs",
+        "question": "The plane ______ late because of the terrible weather.",
+        "options": [
+          "blew up",
+          "grew up",
+          "went on",
+          "took off"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Took off' تعني 'أقلعت'، وهو الفعل المستخدم للطائرة. 'Blew up' تعني 'انفجر'، و'Grew up' تعني 'كبر'، و'Went on' تعني 'استمر'."
+      },
+      {
+        "id": 166,
+        "category": "Vocabulary",
+        "question": "The ______ at the hospital told me not to worry about my leg.",
+        "options": [
+          "accountant",
+          "director",
+          "lodger",
+          "specialist"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Specialist' هو 'اختصاصي'، وهو الطبيب المختص الذي يطمئن المريض. 'Accountant' هو 'محاسب'، و'Director' هو 'مدير'، و'Lodger' هو 'نزيل'."
+      },
+      {
+        "id": 167,
+        "category": "Vocabulary",
+        "question": "The President is a very ______ man. Everyone does what he says.",
+        "options": [
+          "circular",
+          "direct",
+          "painful",
+          "powerful"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Powerful' تعني 'قوي'، وهو وصف للرئيس الذي يطيعه الجميع. 'Circular' تعني 'دائري'، و'Direct' تعني 'مباشر'، و'Painful' تعني 'مؤلم'."
+      },
+      {
+        "id": 168,
+        "category": "Phrasal Verbs",
+        "question": "We had to ______ the match because of the bad weather.",
+        "options": [
+          "call back",
+          "call off",
+          "think over",
+          "find out"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Call off' تعني 'يلغي'، وهو الفعل المناسب لإلغاء المباراة بسبب الطقس. 'Call back' تعني 'يعيد الاتصال'، و'Think over' تعني 'يفكر ملياً'، و'Find out' تعني 'يكتشف'."
+      },
+      {
+        "id": 169,
+        "category": "Vocabulary",
+        "question": "Pat was surprised when her boss didn't ______ the meal.",
+        "options": [
+          "buy",
+          "pay",
+          "pay for",
+          "spend"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Pay for' تعني 'يدفع ثمن'، وهي العبارة الصحيحة لدفع ثمن الوجبة. 'Buy' تعني 'يشتري'، و'Pay' تحتاج إلى مفعول به، و'Spend' تعني 'ينفق' (ولكن 'spend money on')."
+      },
+      {
+        "id": 170,
+        "category": "Vocabulary",
+        "question": "All Michael ate was two thin ______ of bread.",
+        "options": [
+          "rolls",
+          "loaves",
+          "slices",
+          "snacks"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Slices' هي 'شرائح'، وهي قطع الخبز الرقيقة. 'Rolls' هي 'لفائف'، و'Loaves' هي 'أرغفة'، و'Snacks' هي 'وجبات خفيفة'."
+      },
+      {
+        "id": 171,
+        "category": "Vocabulary",
+        "question": "With this ______ I can get to the windows on the first floor.",
+        "options": [
+          "index",
+          "ladder",
+          "lager",
+          "step"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Ladder' هو 'سلم'، وهو الأداة للوصول إلى النوافذ العالية. 'Index' هو 'فهرس'، و'Lager' هو 'بيرة'، و'Step' هو 'درجة'."
+      },
+      {
+        "id": 172,
+        "category": "Vocabulary",
+        "question": "You can ______ a bus just outside the station.",
+        "options": [
+          "beat",
+          "catch",
+          "keep",
+          "meet"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Catch a bus' تعني 'يركب حافلة'، وهي العبارة الصحيحة. 'Beat' تعني 'يضرب'، و'Keep' تعني 'يحتفظ'، و'Meet' تعني 'يقابل'."
+      },
+      {
+        "id": 173,
+        "category": "Grammar - Tenses",
+        "question": "Take your overcoat with you ______ it gets cold.",
+        "options": [
+          "although",
+          "in case",
+          "unless",
+          "until"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'In case' تعني 'احتياطاً' أو 'لئلا'، وهي أداة الربط المناسبة للتعبير عن الاحتياط. 'Although' تعني 'على الرغم من'، و'Unless' تعني 'إذا لم'، و'Until' تعني 'حتى'."
+      },
+      {
+        "id": 174,
+        "category": "Vocabulary",
+        "question": "I'd like to ______ this cheque, please.",
+        "options": [
+          "Cash",
+          "change",
+          "pay for",
+          "spend"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Cash a cheque' تعني 'يصرف شيكاً'، وهي العبارة الصحيحة. 'Change' تعني 'يغير'، و'Pay for' تعني 'يدفع ثمن'، و'Spend' تعني 'ينفق'."
+      },
+      {
+        "id": 175,
+        "category": "Vocabulary",
+        "question": "The police put ______ on the robbers to stop them getting away.",
+        "options": [
+          "handcuffs",
+          "make-up",
+          "saddles",
+          "stretchers"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Handcuffs' هي 'أصفاد'، وهي ما تضعه الشرطة على المجرمين. 'Make-up' هو 'مكياج'، و'Saddles' هي 'سروج'، و'Stretchers' هي 'نقالات'."
+      },
+      {
+        "id": 176,
+        "category": "Vocabulary",
+        "question": "Jimmy sent his mother a ______ of flowers for her birthday.",
+        "options": [
+          "bar",
+          "bunch",
+          "pack",
+          "packet"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'A bunch of flowers' هي 'باقة زهور'، وهي العبارة الصحيحة. 'Bar' تستخدم للشوكولاتة، و'Pack' و'Packet' تستخدمان للتغليف."
+      },
+      {
+        "id": 177,
+        "category": "Grammar - Tenses",
+        "question": "It's raining. ______ take your umbrella with you.",
+        "options": [
+          "Are you going",
+          "Let's",
+          "You'd better",
+          "Would you like"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'You'd better' تعني 'من الأفضل لك'، وهي نصيحة. 'Are you going' سؤال، و'Let's' اقتراح للمشاركة، و'Would you like' عرض."
+      },
+      {
+        "id": 178,
+        "category": "Vocabulary",
+        "question": "There's nothing good on television. Let's ______ a video.",
+        "options": [
+          "carry",
+          "hire",
+          "invite",
+          "phone"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Hire a video' تعني 'يستأجر فيديو'، وهي العبارة الصحيحة. 'Carry' تعني 'يحمل'، و'Invite' تعني 'يدعو'، و'Phone' تعني 'يتصل'."
+      },
+      {
+        "id": 179,
+        "category": "Vocabulary",
+        "question": "Make sure the knife is really ______ before you cut the meat.",
+        "options": [
+          "flat",
+          "sharp",
+          "sliced",
+          "thick"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Sharp' تعني 'حاد'، وهو المطلوب لتقطيع اللحم. 'Flat' تعني 'مسطح'، و'Sliced' تعني 'مقطع'، و'Thick' تعني 'سميك'."
+      },
+      {
+        "id": 180,
+        "category": "Vocabulary",
+        "question": "Thanks very much! I'm very ______ for your help.",
+        "options": [
+          "generous",
+          "grateful",
+          "full",
+          "sorry"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Grateful' تعني 'ممتن'، وهو الشعور المناسب عند تلقي المساعدة. 'Generous' تعني 'كريم'، و'Full' تعني 'ممتلئ'، و'Sorry' تعني 'آسف'."
+      },
+      {
+        "id": 181,
+        "category": "Vocabulary",
+        "question": "I like the color of the jacket but the ______ are too short.",
+        "options": [
+          "buttons",
+          "heels",
+          "collars",
+          "sleeves"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Sleeves' هي 'أكمام'، وهي التي قد تكون قصيرة. 'Buttons' هي 'أزرار'، و'Heels' هي 'كعب'، و'Collars' هي 'أطواق'."
+      },
+      {
+        "id": 182,
+        "category": "Vocabulary",
+        "question": "Can you just ______ that all the windows are shut?",
+        "options": [
+          "catch",
+          "check",
+          "control",
+          "reclaim"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Check' تعني 'يتحقق'، وهو الفعل المناسب للتأكد. 'Catch' تعني 'يمسك'، و'Control' تعني 'يتحكم'، و'Reclaim' تعني 'يسترد'."
+      },
+      {
+        "id": 183,
+        "category": "Vocabulary",
+        "question": "Which ______ does our flight leave from? - Number 12.",
+        "options": [
+          "carriageway",
+          "exit",
+          "gate",
+          "ground"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Gate' هي 'بوابة'، وهي رقم بوابة الطائرة. 'Carriageway' هو 'طريق'، و'Exit' هو 'مخرج'، و'Ground' هو 'أرض'."
+      },
+      {
+        "id": 184,
+        "category": "Vocabulary",
+        "question": "Look at my sweater! It ______ when I washed it.",
+        "options": [
+          "boiled",
+          "cut",
+          "missed",
+          "stretched"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Stretched' تعني 'تمدد'، وهو ما يحدث للكنزة عند الغسيل. 'Boiled' تعني 'غلي'، و'Cut' تعني 'قطع'، و'Missed' تعني 'أخطأ'."
+      },
+      {
+        "id": 185,
+        "category": "Vocabulary",
+        "question": "Wear a ______ to protect your head in case there's an accident.",
+        "options": [
+          "brooch",
+          "crash helmet",
+          "glove",
+          "cap"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Crash helmet' هي 'خوذة'، وهي لحماية الرأس في الحوادث. 'Brooch' هو 'بروش'، و'Glove' هو 'قفاز'، و'Cap' هو 'قبعة'."
+      },
+      {
+        "id": 186,
+        "category": "Vocabulary",
+        "question": "Could you ______ your name at the bottom of the letter?",
+        "options": [
+          "answer",
+          "cross",
+          "lay",
+          "sign"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Sign' تعني 'يوقع'، وهو المطلوب في أسفل الورقة. 'Answer' تعني 'يجيب'، و'Cross' تعني 'يعبر'، و'Lay' تعني 'يضع'."
+      },
+      {
+        "id": 187,
+        "category": "Vocabulary",
+        "question": "James is a terrible cook. He can't even ______ an egg!",
+        "options": [
+          "blow",
+          "boil",
+          "lay",
+          "smoke"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Boil an egg' تعني 'يسلق بيضة'، وهي مهارة طبخ أساسية. 'Blow' تعني 'ينفخ'، و'Lay' تعني 'يضع'، و'Smoke' تعني 'يدخن'."
+      },
+      {
+        "id": 188,
+        "category": "Vocabulary",
+        "question": "Surely they aren't ______ enough to buy such a large car!",
+        "options": [
+          "cautious",
+          "well",
+          "poor",
+          "wealthy"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Wealthy' تعني 'غني'، وهو المطلوب لشراء سيارة كبيرة. 'Cautious' تعني 'حذر'، و'Well' تعني 'بخير'، و'Poor' تعني 'فقير' (عكس المعنى)."
+      },
+      {
+        "id": 189,
+        "category": "Vocabulary",
+        "question": "There isn't any water coming out of this ______.",
+        "options": [
+          "heel",
+          "lock",
+          "shelf",
+          "tap"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Tap' هو 'صنبور'، وهو مصدر الماء. 'Heel' هو 'كعب'، و'Lock' هو 'قفل'، و'Shelf' هو 'رف'."
+      },
+      {
+        "id": 190,
+        "category": "Vocabulary",
+        "question": "I've put on ______. I eat too many cakes.",
+        "options": [
+          "gloves",
+          "mixture",
+          "waist",
+          "weight"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Put on weight' تعني 'يزيد وزنه'، وهو نتيجة أكل الكثير من الكعك. 'Gloves' هي 'قفازات'، و'Mixture' هو 'مزيج'، و'Waist' هو 'خصر'."
+      },
+      {
+        "id": 191,
+        "category": "Vocabulary",
+        "question": "Put your suitcase up on the luggage ______.",
+        "options": [
+          "lounge",
+          "park",
+          "rack",
+          "store"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Luggage rack' هو 'رف الأمتعة'، وهو مكان وضع الحقائب. 'Lounge' هو 'صالة'، و'Park' هو 'حديقة'، و'Store' هو 'متجر'."
+      },
+      {
+        "id": 192,
+        "category": "Vocabulary",
+        "question": "You could hear the crowd shouting in the local football ______.",
+        "options": [
+          "ground",
+          "park",
+          "pool",
+          "station"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Football ground' هو 'ملعب كرة قدم'، وهو مكان المباراة. 'Park' هو 'حديقة'، و'Pool' هو 'بركة'، و'Station' هو 'محطة'."
+      },
+      {
+        "id": 193,
+        "category": "Vocabulary",
+        "question": "That'll ______ children! Stop shouting!",
+        "options": [
+          "do",
+          "fit",
+          "help",
+          "make"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'That'll do' تعني 'هذا يكفي'، وهي عبارة توقف. 'Fit' تعني 'يناسب'، و'Help' تعني 'يساعد'، و'Make' تعني 'يجعل'."
+      },
+      {
+        "id": 194,
+        "category": "Vocabulary",
+        "question": "I can't tell you now. I'll ______ you know later.",
+        "options": [
+          "get",
+          "let",
+          "make",
+          "tell"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Let you know' تعني 'أخبرك'، وهي العبارة الصحيحة. 'Get' تعني 'يحصل'، و'Make' تعني 'يجعل'، و'Tell' تعني 'يقول' (ولكنها تحتاج إلى مفعول به)."
+      },
+      {
+        "id": 195,
+        "category": "Vocabulary",
+        "question": "Give me a ______ sometime. You know my phone number.",
+        "options": [
+          "date",
+          "line",
+          "post",
+          "ring"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Give me a ring' تعني 'اتصل بي'، وهي عبارة طلب اتصال. 'Date' تعني 'موعد'، و'Line' تعني 'خط'، و'Post' تعني 'بريد'."
+      },
+      {
+        "id": 196,
+        "category": "Vocabulary",
+        "question": "The bus was so ______ that we couldn't all get on.",
+        "options": [
+          "crowded",
+          "deep",
+          "thick",
+          "various"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Crowded' تعني 'مزدحم'، وهو سبب عدم تمكن الجميع من الركوب. 'Deep' تعني 'عميق'، و'Thick' تعني 'سميك'، و'Various' تعني 'متنوع'."
+      },
+      {
+        "id": 197,
+        "category": "Vocabulary",
+        "question": "We have a ______ climate so the winters are never very cold.",
+        "options": [
+          "bright",
+          "fair",
+          "high",
+          "mild"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Mild' تعني 'معتدل'، وهو وصف لمناخ لا يكون شديد البرودة. 'Bright' تعني 'مشرق'، و'Fair' تعني 'معتدل' (أيضاً)، و'High' تعني 'مرتفع'."
+      },
+      {
+        "id": 198,
+        "category": "Vocabulary",
+        "question": "It's so ______ in here. Don't you ever clean this room?",
+        "options": [
+          "cloudy",
+          "dark",
+          "dusty",
+          "misty"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Dusty' تعني 'مغبر'، وهو وصف لغرفة غير نظيفة. 'Cloudy' تعني 'غائم'، و'Dark' تعني 'مظلم'، و'Misty' تعني 'ضبابي'."
+      },
+      {
+        "id": 199,
+        "category": "Vocabulary",
+        "question": "If you ask a ______ price for your car, I'm sure you'll sell it.",
+        "options": [
+          "helpful",
+          "mild",
+          "reasonable",
+          "shiny"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Reasonable price' هو 'سعر معقول'، وهو الذي يضمن البيع. 'Helpful' تعني 'مفيد'، و'Mild' تعني 'معتدل'، و'Shiny' تعني 'لامع'."
+      },
+      {
+        "id": 200,
+        "category": "Vocabulary",
+        "question": "No, don't wear blue. It doesn't ______ you.",
+        "options": [
+          "fit",
+          "notice",
+          "suit",
+          "talk"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Suit' تعني 'يناسب' (من حيث اللون أو المظهر)، وهي الكلمة المناسبة للملابس. 'Fit' تعني 'يناسب' (من حيث المقاس)، و'Notice' تعني 'يلاحظ'، و'Talk' تعني 'يتحدث'."
+      }
+    ]
+  }
+}

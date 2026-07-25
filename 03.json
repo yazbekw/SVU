@@ -1,0 +1,1298 @@
+{
+  "exam": {
+    "title": "بنك الأسئلة الشامل للغة الإنجليزية - الجامعة الافتراضية (الجزء الثالث)",
+    "description": "الأسئلة من 201 إلى 300 - مع شرح مفصل لكل إجابة",
+    "totalQuestions": 100,
+    "categories": {
+      "Grammar": 42,
+      "Vocabulary": 36,
+      "Phrasal Verbs": 10,
+      "Prepositions": 6,
+      "Idioms": 4,
+      "Structure": 2
+    },
+    "questions": [
+      {
+        "id": 201,
+        "category": "Vocabulary",
+        "question": "The ______ climbed up the tree and we couldn't see it any more.",
+        "options": [
+          "deer",
+          "rabbit",
+          "squirrel",
+          "tortoise"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Squirrel' هو 'سنجاب'، وهو حيوان يتسلق الأشجار. 'Deer' هو 'غزال'، و'Rabbit' هو 'أرنب'، و'Tortoise' هو 'سلحفاة' - جميعها لا تتسلق الأشجار بسهولة."
+      },
+      {
+        "id": 202,
+        "category": "Vocabulary",
+        "question": "Can you ______ me the time, please?",
+        "options": [
+          "say",
+          "tell",
+          "speak",
+          "talk"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Tell me the time' تعني 'أخبرني بالوقت'، وهي العبارة الصحيحة. 'Say' لا تأخذ مفعولاً به مباشراً (شخص)، و'Speak' و'Talk' تستخدمان مع 'to' أو 'about'."
+      },
+      {
+        "id": 203,
+        "category": "Vocabulary",
+        "question": "Do you know how ______ it is from Ashgabat to Mary? It's 370 km.",
+        "options": [
+          "many",
+          "much",
+          "far",
+          "often"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'How far' تعني 'كم تبعد'، وهو السؤال عن المسافة. 'How many' و'How much' يسألان عن الكمية، و'How often' يسأل عن التكرار."
+      },
+      {
+        "id": 204,
+        "category": "Vocabulary",
+        "question": "Can I ______ your phone, please? I must call my parents.",
+        "options": [
+          "borrow",
+          "use",
+          "take",
+          "lend"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Use your phone' تعني 'استخدم هاتفك'، وهو الطلب المهذب لاستخدام الهاتف. 'Borrow' تعني 'يستعير' ولكنها تحتاج إلى 'from'، و'Take' تعني 'يأخذ'، و'Lend' تعني 'يعير' (من المتحدث)."
+      },
+      {
+        "id": 205,
+        "category": "Vocabulary",
+        "question": "Don't go. I'm going to ______ some coffee.",
+        "options": [
+          "make",
+          "cook",
+          "boil",
+          "prepare"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Make coffee' تعني 'يحضر قهوة'، وهي العبارة الصحيحة. 'Cook' تستخدم للطعام، و'Boil' تعني 'يغلي'، و'Prepare' تعني 'يحضر' ولكنها أقل شيوعاً مع القهوة."
+      },
+      {
+        "id": 206,
+        "category": "Vocabulary",
+        "question": "I am ______ my wife to drive a car.",
+        "options": [
+          "learning",
+          "showing",
+          "practicing",
+          "teaching"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Teaching' تعني 'يعلم'، وهو الفعل المناسب لتعليم القيادة. 'Learning' تعني 'يتعلم' (من الشخص نفسه)، و'Showing' تعني 'يظهر'، و'Practicing' تعني 'يمارس'."
+      },
+      {
+        "id": 207,
+        "category": "Vocabulary",
+        "question": "I had to keep my son home from school today because he had a ______ of 38.",
+        "options": [
+          "fever",
+          "headache",
+          "temperature",
+          "heat"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Had a temperature' تعني 'كانت حرارته مرتفعة'، وهو سبب البقاء في المنزل. 'Fever' تعني 'حمى' (ولكنها تأتي مع 'had a fever')، و'Headache' تعني 'صداع'، و'Heat' تعني 'حرارة'."
+      },
+      {
+        "id": 208,
+        "category": "Vocabulary",
+        "question": "When we were in Spain last year we ______ at a wonderful hotel overlooking the beach.",
+        "options": [
+          "stayed",
+          "stopped",
+          "lived",
+          "left"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Stayed at a hotel' تعني 'أقام في فندق'، وهي العبارة الصحيحة. 'Stopped' تعني 'توقف' (لفترة قصيرة)، و'Lived' تعني 'عاش' (بشكل دائم)، و'Left' تعني 'غادر'."
+      },
+      {
+        "id": 209,
+        "category": "Vocabulary",
+        "question": "Is there anything ______ you'd like me to get you?",
+        "options": [
+          "else",
+          "more",
+          "extra",
+          "much"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Anything else' تعني 'أي شيء آخر'، وهي صيغة السؤال. 'More' تعني 'أكثر'، و'Extra' تعني 'إضافي'، و'Much' تعني 'كثيراً'."
+      },
+      {
+        "id": 210,
+        "category": "Vocabulary",
+        "question": "Most banks will ______ people money to buy a house.",
+        "options": [
+          "lend",
+          "borrow",
+          "give",
+          "take"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Lend' تعني 'يقرض'، وهو ما تفعله البنوك. 'Borrow' تعني 'يستقرض' (من البنك)، و'Give' تعني 'يعطي'، و'Take' تعني 'يأخذ'."
+      },
+      {
+        "id": 211,
+        "category": "Vocabulary",
+        "question": "My friend has a ______ job at a chemist's.",
+        "options": [
+          "half-time",
+          "spare-time",
+          "empty-time",
+          "part-time"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Part-time job' هي 'وظيفة جزئية'، وهي العمل لساعات أقل. 'Half-time' تستخدم في الرياضة، و'Spare-time' تعني 'وقت فراغ'، و'Empty-time' غير صحيحة."
+      },
+      {
+        "id": 212,
+        "category": "Grammar - Tenses",
+        "question": "______ have you been learning English?",
+        "options": [
+          "For how long time",
+          "How long",
+          "How long time",
+          "How many time"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'How long' هي الصيغة الصحيحة للسؤال عن المدة. 'For how long time' صحيحة ولكنها أقل شيوعاً، و'How long time' خطأ، و'How many time' خطأ لأن 'time' غير معدود."
+      },
+      {
+        "id": 213,
+        "category": "Vocabulary",
+        "question": "I hate doing the ______ especially cleaning the windows.",
+        "options": [
+          "homework",
+          "housework",
+          "jobs",
+          "house-jobs"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Housework' هي 'الأعمال المنزلية'، وهي تشمل تنظيف النوافذ. 'Homework' هي 'الواجبات المدرسية'، و'Jobs' هي 'وظائف'، و'House-jobs' غير صحيحة."
+      },
+      {
+        "id": 214,
+        "category": "Vocabulary",
+        "question": "You mustn't be angry with her. It wasn't her ______ that she was late.",
+        "options": [
+          "blame",
+          "error",
+          "mistake",
+          "fault"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'It wasn't her fault' تعني 'لم يكن خطأها'، وهي عبارة الدفاع. 'Blame' تعني 'لوم'، و'Error' و'Mistake' تعنيان 'خطأ' ولكن 'fault' هي الأكثر شيوعاً في هذا السياق."
+      },
+      {
+        "id": 215,
+        "category": "Vocabulary",
+        "question": "She ______ to take her neighbor to court if he didn't stop making so much noise.",
+        "options": [
+          "promised",
+          "threatened",
+          "offered",
+          "suggested"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Threatened' تعني 'هددت'، وهو الفعل المناسب للتهديد برفع دعوى. 'Promised' تعني 'وعدت'، و'Offered' تعني 'عرضت'، و'Suggested' تعني 'اقترحت'."
+      },
+      {
+        "id": 216,
+        "category": "Vocabulary",
+        "question": "You can count ______ me if you ever want any help.",
+        "options": [
+          "in",
+          "on",
+          "up",
+          "by"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Count on me' تعني 'اعتمد علي'، وهي عبارة تقديم المساعدة. 'Count in' تعني 'أدرج'، و'Count up' تعني 'يعد'، و'Count by' تعني 'يعد بـ'."
+      },
+      {
+        "id": 217,
+        "category": "Vocabulary",
+        "question": "Each ______ of the family had to take it in turns to do the washing up.",
+        "options": [
+          "individual",
+          "character",
+          "member",
+          "person"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Each member' تعني 'كل فرد'، وهي العبارة الصحيحة. 'Individual' تعني 'فرد'، و'Character' تعني 'شخصية'، و'Person' تعني 'شخص' (ولكن 'member' هي الأكثر شيوعاً مع العائلة)."
+      },
+      {
+        "id": 218,
+        "category": "Vocabulary",
+        "question": "Don't ______ my speech when I am talking.",
+        "options": [
+          "cut",
+          "interrupt",
+          "divide",
+          "separate"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Interrupt' تعني 'يقاطع'، وهو الفعل الممنوع أثناء الحديث. 'Cut' تعني 'يقطع'، و'Divide' تعني 'يقسم'، و'Separate' تعني 'يفصل'."
+      },
+      {
+        "id": 219,
+        "category": "Vocabulary",
+        "question": "You can borrow money this time but don't make ______ of it.",
+        "options": [
+          "habit",
+          "feeling",
+          "help",
+          "learning"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Make a habit' تعني 'تعتاد'، وهو تحذير من تكرار الفعل. 'Feeling' تعني 'شعور'، و'Help' تعني 'مساعدة'، و'Learning' تعني 'تعلم'."
+      },
+      {
+        "id": 220,
+        "category": "Vocabulary",
+        "question": "I always write my daily activities on my ______.",
+        "options": [
+          "weekly",
+          "daily",
+          "diary",
+          "minutely"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Diary' هي 'مفكرة'، وهي مكان تسجيل الأنشطة اليومية. 'Weekly' تعني 'أسبوعي'، و'Daily' تعني 'يومي'، و'Minutely' تعني 'دقيقة'."
+      },
+      {
+        "id": 221,
+        "category": "Vocabulary",
+        "question": "James and Jim are twins. They were ______ at birth and they didn't meet until they were both thirty-nine.",
+        "options": [
+          "left",
+          "deserted",
+          "separated",
+          "abandoned"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Separated' تعني 'فُصلا'، وهو الفعل المناسب للتوأم اللذين فرق بينهما عند الولادة. 'Left' تعني 'ترك'، و'Deserted' تعني 'هُجر'، و'Abandoned' تعني 'تُرك'."
+      },
+      {
+        "id": 222,
+        "category": "Vocabulary",
+        "question": "What do we call someone whose job is to repair taps and baths?",
+        "options": [
+          "tailor",
+          "carpenter",
+          "bricklayer",
+          "plumber"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Plumber' هو 'سباك'، وهو الشخص الذي يصلح الصنابير والحمامات. 'Tailor' هو 'خياط'، و'Carpenter' هو 'نجار'، و'Bricklayer' هو 'بناء'."
+      },
+      {
+        "id": 223,
+        "category": "Vocabulary",
+        "question": "When I was away on business, my neighbors looked after my home. Which of the following is the synonym of the underlined word?",
+        "options": [
+          "pick out",
+          "give up",
+          "take care of",
+          "settle down"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Looked after' تعني 'اعتني بـ'، ومرادفها هو 'take care of'. 'Pick out' تعني 'اختار'، و'Give up' تعني 'استسلم'، و'Settle down' تعني 'استقر'."
+      },
+      {
+        "id": 224,
+        "category": "Grammar - Tenses",
+        "question": "______ it was difficult, they managed to find somewhere they all liked.",
+        "options": [
+          "Although",
+          "Before",
+          "Since",
+          "As soon as"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Although' تعني 'على الرغم من'، وهي أداة الربط المناسبة للتناقض. 'Before' تعني 'قبل'، و'Since' تعني 'منذ'، و'As soon as' تعني 'حالما'."
+      },
+      {
+        "id": 225,
+        "category": "Vocabulary",
+        "question": "Anyone who gets free rides in other people's cars as a way of travelling cheaply is called ______.",
+        "options": [
+          "passenger",
+          "traveler",
+          "goner",
+          "hitchhiker"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Hitchhiker' هو 'من يستقل السيارات مجاناً' (المستقل). 'Passenger' هو 'راكب' (يدفع ثمن التذكرة)، و'Traveler' هو 'مسافر'، و'Goner' هو 'شخص هالك'."
+      },
+      {
+        "id": 226,
+        "category": "Vocabulary",
+        "question": "When you pay no attention to anybody or to act as if you don't see him/her, you ______ him/her.",
+        "options": [
+          "ignore",
+          "view",
+          "notice",
+          "watch"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Ignore' تعني 'يتجاهل'، وهو الفعل المناسب لعدم الانتباه لشخص. 'View' تعني 'يشاهد'، و'Notice' تعني 'يلاحظ'، و'Watch' تعني 'يراقب'."
+      },
+      {
+        "id": 227,
+        "category": "Vocabulary",
+        "question": "He was bitten by a mosquito, but he made things worse by ______ the bite all the time.",
+        "options": [
+          "stoking",
+          "scratching",
+          "rubbing",
+          "scraping"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Scratching' تعني 'يحك'، وهو ما يزيد من سوء لدغة البعوض. 'Stoking' تعني 'يحرك النار'، و'Rubbing' تعني 'يفرك'، و'Scraping' تعني 'يكشط'."
+      },
+      {
+        "id": 228,
+        "category": "Vocabulary",
+        "question": "______ is a white and black striped horse.",
+        "options": [
+          "Zebra",
+          "Donkey",
+          "Horse",
+          "Tiger"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Zebra' هو 'حمار وحشي'، وهو الحيوان المخطط بالأبيض والأسود. 'Donkey' هو 'حمار'، و'Horse' هو 'حصان'، و'Tiger' هو 'نمر'."
+      },
+      {
+        "id": 229,
+        "category": "Vocabulary",
+        "question": "______ is a male cow.",
+        "options": [
+          "Sheep",
+          "Bull",
+          "Hippopotamus",
+          "Cow"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Bull' هو 'ثور'، وهو ذكر البقرة. 'Sheep' هو 'خروف'، و'Hippopotamus' هو 'فرس النهر'، و'Cow' هي الأنثى."
+      },
+      {
+        "id": 230,
+        "category": "Vocabulary",
+        "question": "The best animal friend of human is known to be ______.",
+        "options": [
+          "dog",
+          "shark",
+          "zebra",
+          "panda"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Dog' هو 'كلب'، وهو المعروف بصديق الإنسان. 'Shark' هو 'قرش'، و'Zebra' هو 'حمار وحشي'، و'Panda' هو 'باندا'."
+      },
+      {
+        "id": 231,
+        "category": "Vocabulary",
+        "question": "The young of kangaroo grows up in its mother's ______.",
+        "options": [
+          "sack",
+          "bag",
+          "pocket",
+          "pouch"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Pouch' هي 'جراب'، وهو الكيس الذي يحمل فيه الكنغر صغاره. 'Sack' هو 'كيس' (خيش)، و'Bag' هو 'حقيبة'، و'Pocket' هو 'جيب'."
+      },
+      {
+        "id": 232,
+        "category": "Vocabulary",
+        "question": "Camel has ______ on his back.",
+        "options": [
+          "trunk",
+          "horn",
+          "pouch",
+          "lump"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Lump' أو 'Hump' هي 'سنام'، وهو ما يوجد على ظهر الجمل. 'Trunk' هو 'خرطوم' (الفيل)، و'Horn' هو 'قرن'، و'Pouch' هو 'جراب'."
+      },
+      {
+        "id": 233,
+        "category": "Vocabulary",
+        "question": "______ is a piece of cloth used for drying something.",
+        "options": [
+          "Tie",
+          "Flannel",
+          "Toilet paper",
+          "Towel"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Towel' هي 'منشفة'، وهي قطعة قماش تستخدم للتجفيف. 'Tie' هي 'ربطة عنق'، و'Flannel' هي 'فوطة' (تستخدم في الحمام)، و'Toilet paper' هو 'ورق حمام'."
+      },
+      {
+        "id": 234,
+        "category": "Vocabulary",
+        "question": "______ is a piece of cloth you use in bathroom to wash yourself.",
+        "options": [
+          "Toilet paper",
+          "Towel",
+          "Flannel",
+          "Scales"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Flannel' هي 'فوطة'، وهي قطعة قماش تستخدم في الحمام للاستحمام. 'Toilet paper' هو 'ورق حمام'، و'Towel' هي 'منشفة' (للتجفيف)، و'Scales' هو 'ميزان'."
+      },
+      {
+        "id": 235,
+        "category": "Vocabulary",
+        "question": "My friend weighs 120 kilograms, and he has ______ which help him to know how much he weighs.",
+        "options": [
+          "combs",
+          "scales",
+          "razor",
+          "watch"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Scales' هي 'ميزان'، وهي الأداة لمعرفة الوزن. 'Combs' هي 'أمشاط'، و'Razor' هي 'موسى'، و'Watch' هي 'ساعة'."
+      },
+      {
+        "id": 236,
+        "category": "Vocabulary",
+        "question": "______ is a substance that you use to wash yourself with.",
+        "options": [
+          "Soap",
+          "Towel",
+          "Flannel",
+          "Tile"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Soap' هو 'صابون'، وهو المادة المستخدمة للاستحمام. 'Towel' هي 'منشفة'، و'Flannel' هي 'فوطة'، و'Tile' هو 'بلاط'."
+      },
+      {
+        "id": 237,
+        "category": "Vocabulary",
+        "question": "______ is a brush for cleaning your teeth.",
+        "options": [
+          "Toothbrush",
+          "Hairbrush",
+          "Paintbrush",
+          "Toothpaste"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Toothbrush' هي 'فرشاة أسنان'، وهي الأداة لتنظيف الأسنان. 'Hairbrush' هي 'فرشاة شعر'، و'Paintbrush' هي 'فرشاة رسم'، و'Toothpaste' هو 'معجون أسنان'."
+      },
+      {
+        "id": 238,
+        "category": "Vocabulary",
+        "question": "______ is a sharp instrument for removing hair, especially from a man's face.",
+        "options": [
+          "Scissors",
+          "Razor",
+          "Comb",
+          "Shaving-foam"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Razor' هي 'موسى'، وهي الأداة الحادة لإزالة الشعر. 'Scissors' هي 'مقص'، و'Comb' هو 'مشط'، و'Shaving-foam' هو 'كريم حلاقة'."
+      },
+      {
+        "id": 239,
+        "category": "Vocabulary",
+        "question": "______ is a thing that you stand under to wash your whole body.",
+        "options": [
+          "Toilet",
+          "Sink",
+          "Bathtub",
+          "Shower"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Shower' هو 'دش'، وهو المكان الذي تقف تحته للاستحمام. 'Toilet' هو 'مرحاض'، و'Sink' هو 'حوض'، و'Bathtub' هو 'حوض استحمام' (تجلس فيه)."
+      },
+      {
+        "id": 240,
+        "category": "Vocabulary",
+        "question": "______ is a bar that you use to hang things on.",
+        "options": [
+          "Towel-rail",
+          "Sink",
+          "Bathtub",
+          "Laundry basket"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Towel-rail' هو 'شماعة مناشف'، وهو القضيب لتعليق الأشياء. 'Sink' هو 'حوض'، و'Bathtub' هو 'حوض استحمام'، و'Laundry basket' هو 'سلة غسيل'."
+      },
+      {
+        "id": 241,
+        "category": "Vocabulary",
+        "question": "______ is a piece of plastic or metal that you use to make your hair tidy.",
+        "options": [
+          "Comb",
+          "Razor",
+          "Razor-blade",
+          "Scissors"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Comb' هو 'مشط'، وهو الأداة لترتيب الشعر. 'Razor' هي 'موسى'، و'Razor-blade' هي 'شفرة'، و'Scissors' هي 'مقص'."
+      },
+      {
+        "id": 242,
+        "category": "Vocabulary",
+        "question": "______ is a long large container that you fill with water to sit in and wash yourself.",
+        "options": [
+          "Laundry basket",
+          "Bathtub",
+          "Sink",
+          "Toilet"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Bathtub' هو 'حوض استحمام'، وهو الحاوية الكبيرة للاستحمام. 'Laundry basket' هو 'سلة غسيل'، و'Sink' هو 'حوض'، و'Toilet' هو 'مرحاض'."
+      },
+      {
+        "id": 243,
+        "category": "Vocabulary",
+        "question": "______ is a soft hat with a curved part sticking out at the front.",
+        "options": [
+          "Cap",
+          "Umbrella",
+          "Scarf",
+          "Boot"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Cap' هي 'قبعة'، وهي القبعة الناعمة ذات الحاجب. 'Umbrella' هي 'مظلة'، و'Scarf' هو 'وشاح'، و'Boot' هو 'حذاء'."
+      },
+      {
+        "id": 244,
+        "category": "Vocabulary",
+        "question": "______ is a short coat.",
+        "options": [
+          "Blazer",
+          "Jacket",
+          "Suit",
+          "Blouse"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Jacket' هي 'سترة'، وهي المعطف القصير. 'Blazer' هو 'سترة رياضية'، و'Suit' هو 'بدلة'، و'Blouse' هو 'بلوزة'."
+      },
+      {
+        "id": 245,
+        "category": "Vocabulary",
+        "question": "Yesterday we didn't have electricity, but we had some ______. We lit them to produce light.",
+        "options": [
+          "batteries",
+          "candles",
+          "papers",
+          "fires"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Candles' هي 'شموع'، وهي ما يوقد لإنتاج الضوء. 'Batteries' هي 'بطاريات'، و'Papers' هي 'أوراق'، و'Fires' هي 'نيران'."
+      },
+      {
+        "id": 246,
+        "category": "Vocabulary",
+        "question": "______ cut some bread with a ______.",
+        "options": [
+          "spoon",
+          "fork",
+          "knife",
+          "plate"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Knife' هو 'سكين'، وهو الأداة لتقطيع الخبز. 'Spoon' هي 'ملعقة'، و'Fork' هي 'شوكة'، و'Plate' هو 'صحن'."
+      },
+      {
+        "id": 247,
+        "category": "Vocabulary",
+        "question": "The table was covered by table ______.",
+        "options": [
+          "rug",
+          "mat",
+          "carpet",
+          "cloth"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Tablecloth' هي 'مفرش طاولة'، وهو القماش الذي يغطي الطاولة. 'Rug' هو 'سجادة'، و'Mat' هو 'حصير'، و'Carpet' هو 'سجاد'."
+      },
+      {
+        "id": 248,
+        "category": "Vocabulary",
+        "question": "He looked at the ______ and realized that it was 3:00 AM.",
+        "options": [
+          "clock",
+          "water",
+          "fire",
+          "window"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Clock' هي 'ساعة'، وهي الأداة لمعرفة الوقت. 'Water' هو 'ماء'، و'Fire' هو 'نار'، و'Window' هي 'نافذة'."
+      },
+      {
+        "id": 249,
+        "category": "Vocabulary",
+        "question": "We drink soup meals from a ______.",
+        "options": [
+          "knife",
+          "fork",
+          "bowl",
+          "lampshade"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Bowl' هو 'وعاء'، وهو الأداة لتناول الحساء. 'Knife' هو 'سكين'، و'Fork' هي 'شوكة'، و'Lampshade' هو 'غطاء مصباح'."
+      },
+      {
+        "id": 250,
+        "category": "Vocabulary",
+        "question": "I drank orange juice from a ______.",
+        "options": [
+          "glass",
+          "pot",
+          "spoon",
+          "plate"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Glass' هو 'كأس'، وهو الأداة لشرب العصير. 'Pot' هو 'وعاء'، و'Spoon' هي 'ملعقة'، و'Plate' هو 'صحن'."
+      },
+      {
+        "id": 251,
+        "category": "Vocabulary",
+        "question": "There weren't any ______ between our gardens and it was very difficult to separate them from each other.",
+        "options": [
+          "field",
+          "rock",
+          "hedge",
+          "grass"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Hedge' هو 'سياج'، وهو ما يفصل بين الحدائق. 'Field' هو 'حقل'، و'Rock' هو 'صخرة'، و'Grass' هو 'عشب'."
+      },
+      {
+        "id": 252,
+        "category": "Vocabulary",
+        "question": "Total area of wheat ______ is 19670 km2.",
+        "options": [
+          "sea",
+          "field",
+          "lake",
+          "beach"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Wheat field' هو 'حقل قمح'، وهو مكان زراعة القمح. 'Sea' هو 'بحر'، و'Lake' هو 'بحيرة'، و'Beach' هو 'شاطئ'."
+      },
+      {
+        "id": 253,
+        "category": "Vocabulary",
+        "question": "The water is stored in ______ before it is supplied to people's houses.",
+        "options": [
+          "reservoir",
+          "sea",
+          "lake",
+          "river"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Reservoir' هو 'خزان مياه'، وهو مكان تخزين المياه قبل التوزيع. 'Sea' هو 'بحر'، و'Lake' هو 'بحيرة'، و'River' هو 'نهر'."
+      },
+      {
+        "id": 254,
+        "category": "Vocabulary",
+        "question": "______ is a very high hill.",
+        "options": [
+          "Cliff",
+          "Rock",
+          "Plateau",
+          "Mountain"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Mountain' هو 'جبل'، وهو التل العالي جداً. 'Cliff' هو 'جرف'، و'Rock' هو 'صخرة'، و'Plateau' هو 'هضبة'."
+      },
+      {
+        "id": 255,
+        "category": "Vocabulary",
+        "question": "______ is a large area of flat land that is higher than the land around it.",
+        "options": [
+          "Plateau",
+          "Desert",
+          "Mountain",
+          "Field"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Plateau' هو 'هضبة'، وهي منطقة مرتفعة ومسطحة. 'Desert' هو 'صحراء'، و'Mountain' هو 'جبل'، و'Field' هو 'حقل'."
+      },
+      {
+        "id": 256,
+        "category": "Vocabulary",
+        "question": "______ is a large rock which is especially found in the mountain.",
+        "options": [
+          "Stone",
+          "Boulder",
+          "Hill"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Boulder' هي 'صخرة كبيرة'، وهي الصخرة الكبيرة الموجودة في الجبال. 'Stone' هو 'حجر' (أصغر)، و'Hill' هو 'تل'."
+      },
+      {
+        "id": 257,
+        "category": "Vocabulary",
+        "question": "My mother's sister is my ______.",
+        "options": [
+          "niece",
+          "uncle",
+          "nephew",
+          "aunt"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Aunt' هي 'خالة' (أخت الأم) أو 'عمّة' (أخت الأب). 'Niece' هي 'ابنة الأخ/الأخت'، و'Uncle' هو 'عم/خال'، و'Nephew' هو 'ابن الأخ/الأخت'."
+      },
+      {
+        "id": 258,
+        "category": "Vocabulary",
+        "question": "My female parent is my ______.",
+        "options": [
+          "grandmother",
+          "father",
+          "daughter",
+          "mother"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Mother' هي 'أم'، وهي الوالدة الأنثى. 'Grandmother' هي 'جدة'، و'Father' هو 'أب'، و'Daughter' هي 'ابنة'."
+      },
+      {
+        "id": 259,
+        "category": "Vocabulary",
+        "question": "My uncle's or aunt's child is my ______.",
+        "options": [
+          "cousin",
+          "niece",
+          "nephew",
+          "brother-in-law"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Cousin' هو 'ابن/ابنة العم/الخال/العمة/الخالة'. 'Niece' هي 'ابنة الأخ/الأخت'، و'Nephew' هو 'ابن الأخ/الأخت'، و'Brother-in-law' هو 'صهر'."
+      },
+      {
+        "id": 260,
+        "category": "Vocabulary",
+        "question": "My sister's husband is my ______.",
+        "options": [
+          "brother",
+          "brother-in-law",
+          "cousin",
+          "nephew"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Brother-in-law' هو 'صهر' (زوج الأخت). 'Brother' هو 'أخ'، و'Cousin' هو 'ابن العم/الخال'، و'Nephew' هو 'ابن الأخ/الأخت'."
+      },
+      {
+        "id": 261,
+        "category": "Vocabulary",
+        "question": "My sister's daughter is my ______.",
+        "options": [
+          "niece",
+          "nephew",
+          "cousin",
+          "sister-in-law"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Niece' هي 'ابنة الأخت/الأخ'. 'Nephew' هو 'ابن الأخت/الأخ'، و'Cousin' هو 'ابن العم/الخال'، و'Sister-in-law' هي 'زوجة الأخ/الأخت'."
+      },
+      {
+        "id": 262,
+        "category": "Vocabulary",
+        "question": "My sister's son is my ______.",
+        "options": [
+          "niece",
+          "nephew",
+          "cousin",
+          "sister-in-law"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Nephew' هو 'ابن الأخت/الأخ'. 'Niece' هي 'ابنة الأخت/الأخ'، و'Cousin' هو 'ابن العم/الخال'، و'Sister-in-law' هي 'زوجة الأخ/الأخت'."
+      },
+      {
+        "id": 263,
+        "category": "Vocabulary",
+        "question": "He broke his leg, so the doctor made a ______ around his broken leg.",
+        "options": [
+          "cast",
+          "ointment",
+          "medicine",
+          "plaster"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Cast' هو 'جبيرة'، وهي القالب الذي يوضع حول الكسر. 'Ointment' هو 'مرهم'، و'Medicine' هو 'دواء'، و'Plaster' هو 'لاصق طبي'."
+      },
+      {
+        "id": 264,
+        "category": "Vocabulary",
+        "question": "He had had a big hole in his tooth before the dentist made ______ in the hole.",
+        "options": [
+          "injection",
+          "cast",
+          "filling",
+          "medicine"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Filling' هي 'حشوة'، وهي ما يضعه طبيب الأسنان في التجويف. 'Injection' هي 'حقنة'، و'Cast' هو 'جبيرة'، و'Medicine' هو 'دواء'."
+      },
+      {
+        "id": 265,
+        "category": "Vocabulary",
+        "question": "The doctor gave the patient a ______ on which the medicine the patient should take was written.",
+        "options": [
+          "prescription",
+          "medicine",
+          "capsule",
+          "cast"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Prescription' هي 'وصفة طبية'، وهي الورقة التي يكتب عليها الطبيب الدواء. 'Medicine' هو 'دواء'، و'Capsule' هو 'كبسولة'، و'Cast' هو 'جبيرة'."
+      },
+      {
+        "id": 266,
+        "category": "Grammar - Tenses",
+        "question": "Whether or not COVID-19 will spread in the near future was discussed in the meeting.",
+        "options": [
+          "Whether or not",
+          "The question of"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Whether or not' هي الصيغة الصحيحة للسؤال غير المباشر بمعنى 'سواء أم لا'. 'The question of' تعني 'مسألة' ولكنها تحتاج إلى 'whether' بعدها."
+      },
+      {
+        "id": 267,
+        "category": "Grammar - Tenses",
+        "question": "He says he can climb trees exactly ______ a monkey.",
+        "options": [
+          "like",
+          "as",
+          "The same",
+          "Similarly the"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Like' تستخدم للمقارنة بين الأشياء (حرف جر) بمعنى 'مثل'. 'As' تستخدم مع الجمل (فاعل + فعل)، و'The same as' تعني 'نفس'، و'Similarly' تعني 'بشكل مشابه'."
+      },
+      {
+        "id": 268,
+        "category": "Grammar - Tenses",
+        "question": "______ is a great hobby and a great activity to keep fit.",
+        "options": [
+          "swimming",
+          "swim"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Swimming' هي صيغة الاسم (Gerund) وتصلح كفاعل للجملة. 'Swim' هو الفعل الأساسي ولا يصلح كفاعل."
+      },
+      {
+        "id": 269,
+        "category": "Grammar - Tenses",
+        "question": "Do you know what ______?",
+        "options": [
+          "time it is",
+          "Time is",
+          "time is now",
+          "Time is it"
+        ],
+        "answer": 0,
+        "explanation": "🔍 في السؤال غير المباشر، نضع الفعل بعد الفاعل. السؤال المباشر: 'What time is it?' يصبح في غير المباشر: 'what time it is'."
+      },
+      {
+        "id": 270,
+        "category": "Prepositions",
+        "question": "All the children enjoyed going to school ______ from Harry.",
+        "options": [
+          "Apart",
+          "Except",
+          "except for"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Except' تعني 'باستثناء'، وهي الصحيحة هنا. 'Apart from' تعني أيضاً 'باستثناء'، ولكن الخيار 'Apart' بدون 'from' غير صحيح."
+      },
+      {
+        "id": 271,
+        "category": "Grammar - Tenses",
+        "question": "A: The doorbell is ringing. B: ______ answer it.",
+        "options": [
+          "I will",
+          "I am"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'I will' تستخدم للقرارات الفورية (spontaneous decisions). عندما يرن جرس الباب، يكون القرار فورياً. 'I am' غير مكتملة."
+      },
+      {
+        "id": 272,
+        "category": "Grammar - Tenses",
+        "question": "We will give a job ______ we have a vacancy.",
+        "options": [
+          "As soon as"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'As soon as' تعني 'حالما'، وهي الصيغة الصحيحة للربط بين حدثين مستقبليين. 'We will give a job as soon as we have a vacancy' = سنعطي وظيفة حالما تتوفر لدينا شاغر."
+      },
+      {
+        "id": 273,
+        "category": "Grammar - Tenses",
+        "question": "Did you finish ______ your suitcase?",
+        "options": [
+          "Packing"
+        ],
+        "answer": 0,
+        "explanation": "🔍 بعد 'finish' نستخدم V-ing. 'finish packing' = انتهيت من ترتيب الحقيبة. 'Packing' هي صيغة V-ing الصحيحة."
+      },
+      {
+        "id": 274,
+        "category": "Grammar - Tenses",
+        "question": "He wasn't ______ to lift the box.",
+        "options": [
+          "strong enough",
+          "couldn't",
+          "enough strong"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Enough' تأتي بعد الصفة. 'strong enough' = قوي بما فيه الكفاية. 'Enough strong' خطأ لأن ترتيب الكلمات غير صحيح."
+      },
+      {
+        "id": 275,
+        "category": "Grammar - Tenses",
+        "question": "Helena ______ we all went out for dinner.",
+        "options": [
+          "suggested that",
+          "invited to"
+        ],
+        "answer": 0,
+        "explanation": "🔍 بعد 'suggest' نستخدم 'that + clause' أو V-ing. 'suggested that we all went out' = اقترحت أن نخرج جميعاً لتناول العشاء."
+      },
+      {
+        "id": 276,
+        "category": "Grammar - Tenses",
+        "question": "He ______ like his brother.",
+        "options": [
+          "isn't",
+          "Is look",
+          "look"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Isn't like' تعني 'ليس مثل'، وهي الصيغة الصحيحة للمقارنة بالنفي. 'Is look' و'Look' غير صحيحتين."
+      },
+      {
+        "id": 277,
+        "category": "Vocabulary",
+        "question": "You told me you were with your friend but that was a ______. You were with that annoying girl.",
+        "options": [
+          "Lie",
+          "Lied",
+          "Lying"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Lie' هي اسم بمعنى 'كذبة'. 'Lied' هو الفعل الماضي بمعنى 'كذب'، و'Lying' هو اسم مصدر بمعنى 'الكذب'."
+      },
+      {
+        "id": 278,
+        "category": "Prepositions",
+        "question": "I travelled ______ business for a few days last month.",
+        "options": [
+          "On",
+          "At",
+          "In",
+          "Through"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'On business' هي العبارة الصحيحة بمعنى 'لأعمال' (سفر عمل). 'At' و'In' و'Through' لا تستخدم مع 'business' بهذا المعنى."
+      },
+      {
+        "id": 279,
+        "category": "Idioms",
+        "question": "The elevator is out of ______ today. We have already called the fixer.",
+        "options": [
+          "Order",
+          "Work",
+          "Intake",
+          "power"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'Out of order' هي العبارة الاصطلاحية بمعنى 'معطل'. 'Out of work' تعني 'عاطل عن العمل'، و'Out of power' تعني 'خارج السلطة'."
+      },
+      {
+        "id": 280,
+        "category": "Grammar - Tenses",
+        "question": "This is the ______ beautiful novel I have ever read.",
+        "options": [
+          "Good",
+          "More",
+          "Much",
+          "Most"
+        ],
+        "answer": 3,
+        "explanation": "🔍 للتفضيل مع الصفات الطويلة (ثلاثة مقاطع فأكثر) نستخدم 'most'. 'the most beautiful' = الأجمل. 'Good' و'More' و'Much' غير صحيحة."
+      },
+      {
+        "id": 281,
+        "category": "Grammar - Tenses",
+        "question": "I'm wondering which country ______ this year.",
+        "options": [
+          "they have travelled",
+          "have they travelled to",
+          "they have travelled to",
+          "have they travelled"
+        ],
+        "answer": 2,
+        "explanation": "🔍 في السؤال غير المباشر، نضع الفاعل قبل الفعل، ونحافظ على 'to' مع 'which country'. 'they have travelled to' هي الصيغة الصحيحة."
+      },
+      {
+        "id": 282,
+        "category": "Grammar - Tenses",
+        "question": "Lisa likes opera, which is lucky for me, because ______ too.",
+        "options": [
+          "I do",
+          "I like",
+          "do I",
+          "I am"
+        ],
+        "answer": 0,
+        "explanation": "🔍 نستخدم 'I do' لتجنب تكرار الفعل 'like'. 'I do' هنا تعني 'I like opera too'. 'I like' تحتاج إلى مفعول به، و'do I' صيغة سؤال، و'I am' غير صحيحة."
+      },
+      {
+        "id": 283,
+        "category": "Grammar - Tenses",
+        "question": "Peter? I ______ for him all morning.",
+        "options": [
+          "Have you been seeing / have looked",
+          "Have you seen / 've been looking",
+          "Have you been seen / have been looking",
+          "Have you seeing / 've looked"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Have you seen' للسؤال عن الرؤية (هل رأيته)، و''ve been looking' للدلالة على الاستمرارية (كنت أبحث). 'Have you been seeing' تعني 'هل كنت ترى' (وهي غير صحيحة هنا)."
+      },
+      {
+        "id": 284,
+        "category": "Grammar - Tenses",
+        "question": "Some actions that are habits for ______, may look weird to people from other nationalities.",
+        "options": [
+          "the Japanese",
+          "the Japanese people",
+          "the Japanesees",
+          "Japanesees"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'The Japanese' هي الصيغة الصحيحة للإشارة إلى الشعب الياباني بأكمله. 'The Japanese people' صحيحة أيضاً ولكنها أقل شيوعاً، و'Japanesees' خطأ."
+      },
+      {
+        "id": 285,
+        "category": "Grammar - Tenses",
+        "question": "I don't understand why you always have to say ______ stupid things.",
+        "options": [
+          "so",
+          "such",
+          "such a",
+          "so much"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Such' تستخدم مع الأسماء الجمع (stupid things) بمعنى 'مثل هذه'. 'So' تستخدم مع الصفات، و'Such a' تستخدم مع المفرد، و'So much' تستخدم مع غير المعدود."
+      },
+      {
+        "id": 286,
+        "category": "Grammar - Tenses",
+        "question": "If I continue reading 50 pages every day, by the end of the month I ______ 8,000 pages.",
+        "options": [
+          "will read",
+          "am going to read",
+          "will be reading",
+          "will have read"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'By the end of the month' تشير إلى وقت محدد في المستقبل، والفعل سيكون مكتملاً بحلول ذلك الوقت. لذا نستخدم المستقبل التام: 'will have read'."
+      },
+      {
+        "id": 287,
+        "category": "Grammar - Tenses",
+        "question": "She wouldn't be helping you if she ______ your sister.",
+        "options": [
+          "wouldn't be",
+          "wouldn't have been",
+          "isn't",
+          "weren't"
+        ],
+        "answer": 3,
+        "explanation": "🔍 الشرط الثاني (Second Conditional) مع 'were' للدلالة على حالة غير حقيقية في الحاضر. 'If she were your sister' = لو كانت أختك (وهي ليست كذلك)."
+      },
+      {
+        "id": 288,
+        "category": "Grammar - Tenses",
+        "question": "I wish I ______ come to the zoo with you next weekend, but I'm going to be busy.",
+        "options": [
+          "could",
+          "would",
+          "had",
+          "will"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'I wish I could' تعني 'أتمنى لو أستطيع'، وهي صيغة الأمنية غير الحقيقية في الحاضر/المستقبل. 'Could' تعبر عن القدرة."
+      },
+      {
+        "id": 289,
+        "category": "Grammar - Tenses",
+        "question": "My parents were very ______. I expected they would buy me a better present.",
+        "options": [
+          "disappointing",
+          "disappointed",
+          "disappoint",
+          "disappointingly"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Disappointed' لوصف شعور الشخص (خائب الأمل). 'Disappointing' تصف الشيء المسبب للشعور (مخيّب للأمل). هنا الوالدان يشعران بخيبة الأمل."
+      },
+      {
+        "id": 290,
+        "category": "Grammar - Tenses",
+        "question": "She regretted ______.",
+        "options": [
+          "get married",
+          "to get married",
+          "having got married",
+          "to have got married"
+        ],
+        "answer": 2,
+        "explanation": "🔍 بعد 'regret' نستخدم V-ing للندم على شيء مضى. 'having got married' = تندم على أنها تزوجت (في الماضي). 'to get married' تستخدم عندما نأسف لإخبار شخص بشيء."
+      },
+      {
+        "id": 291,
+        "category": "Grammar - Tenses",
+        "question": "The weather was very hot the whole time. We ______ a month later when it's cooler.",
+        "options": [
+          "shouldn't have gone",
+          "should have gone",
+          "must have gone",
+          "can't have gone"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Should have gone' = كان من الأفضل أن نذهب (ولكننا لم نفعل). هذه نصيحة على شيء مضى. الجو كان حاراً، وكان من الأفضل الذهاب لاحقاً."
+      },
+      {
+        "id": 292,
+        "category": "Grammar - Tenses",
+        "question": "I'd rather ______ for me at the station.",
+        "options": [
+          "you waited",
+          "you wait",
+          "you to wait",
+          "you waiting"
+        ],
+        "answer": 0,
+        "explanation": "🔍 بعد 'would rather + subject' نستخدم الماضي البسيط. 'I'd rather you waited' = أفضل أن تنتظر. 'you wait' صحيحة ولكنها أقل شيوعاً مع 'would rather'."
+      },
+      {
+        "id": 293,
+        "category": "Grammar - Tenses",
+        "question": "The robbers ______ have escaped.",
+        "options": [
+          "are thought that they",
+          "it's thought that they",
+          "are thought to",
+          "are thought that"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'Are thought to' هي الصيغة الصحيحة للمبني للمجهول مع 'think'. 'The robbers are thought to have escaped' = يُعتقد أن اللصوص قد هربوا."
+      },
+      {
+        "id": 294,
+        "category": "Grammar - Tenses",
+        "question": "I must go to the doctor and ______ before I go on holiday.",
+        "options": [
+          "test my blood pressure",
+          "have my blood pressure tested",
+          "have tested my blood pressure",
+          "get to test my blood pressure"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Have something done' = يقوم به شخص آخر. 'have my blood pressure tested' = أقيس ضغط دمي (بواسطة الطبيب). 'test my blood pressure' تعني أنا من يقيس."
+      },
+      {
+        "id": 295,
+        "category": "Grammar - Tenses",
+        "question": "______ everything she said, I won't forgive her.",
+        "options": [
+          "Despite of",
+          "Although",
+          "In spite of",
+          "However"
+        ],
+        "answer": 2,
+        "explanation": "🔍 'In spite of' يتبعه اسم أو V-ing. 'In spite of everything she said' = على الرغم من كل ما قالته. 'Despite of' خطأ (الصحيح 'Despite' بدون 'of')."
+      },
+      {
+        "id": 296,
+        "category": "Grammar - Tenses",
+        "question": "Your colleague talks a lot and you find it annoying. What could you say?",
+        "options": [
+          "If only he'd been quiet",
+          "If only he'd be quiet",
+          "If only he were quiet",
+          "I wish he is quiet"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'If only he'd be quiet' تعني 'ليته كان هادئاً'، وهي صيغة الرغبة في تغيير سلوك مزعج في الحاضر/المستقبل. 'If only he were quiet' تعني 'ليته كان هادئاً' (حالة دائمة)."
+      },
+      {
+        "id": 297,
+        "category": "Grammar - Tenses",
+        "question": "I hate ______ that I can't do something because I'm a girl. Boys say that a lot.",
+        "options": [
+          "telling",
+          "to tell",
+          "having to tell",
+          "being told"
+        ],
+        "answer": 3,
+        "explanation": "🔍 'Being told' = أن يُقال لي (مبني للمجهول). 'I hate being told...' = أكره أن يُقال لي... لأن الشخص يتلقى الكلام وليس هو من يقوله."
+      },
+      {
+        "id": 298,
+        "category": "Grammar - Tenses",
+        "question": "He looked ______ a ghost.",
+        "options": [
+          "as though he had seen",
+          "as he had seen",
+          "like seeing",
+          "as if a"
+        ],
+        "answer": 0,
+        "explanation": "🔍 'As though' تتبعها جملة كاملة، والفعل الماضي التام للشيء غير الحقيقي. 'as though he had seen a ghost' = كأنه رأى شبحاً. 'as if a' غير مكتملة."
+      },
+      {
+        "id": 299,
+        "category": "Grammar - Tenses",
+        "question": "______ nor any of the workers offered to help us.",
+        "options": [
+          "The manager",
+          "Neither the manager",
+          "Either the manager",
+          "None the manager"
+        ],
+        "answer": 1,
+        "explanation": "🔍 'Neither...nor' هي الصيغة الصحيحة. 'Neither the manager nor any of the workers' = لا المدير ولا أي من العمال. 'Either' تعني 'أي من'، و'None' تعني 'لا أحد'."
+      },
+      {
+        "id": 300,
+        "category": "Grammar - Tenses",
+        "question": "She couldn't remember how long they ______ when the accident happened.",
+        "options": [
+          "had driven",
+          "were driving",
+          "had been driven",
+          "had been driving"
+        ],
+        "answer": 3,
+        "explanation": "🔍 الماضي التام المستمر (Past Perfect Continuous) للفعل المستمر قبل حادثة الماضي. 'had been driving' = كانوا يقودون (لفترة من الوقت) عندما حدث الحادث."
+      }
+    ]
+  }
+}
