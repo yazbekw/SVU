@@ -42,7 +42,6 @@ if not TOKEN:
 
 # ======================== دوال مساعدة للهروب من HTML ========================
 def escape_html(text: str) -> str:
-    """هروب النص لـ HTML (تهرب &, <, >)"""
     if not text:
         return ""
     return text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
