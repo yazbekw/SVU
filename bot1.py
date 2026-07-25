@@ -320,7 +320,6 @@ def build_back_button():
     return InlineKeyboardMarkup([[InlineKeyboardButton("🔙 رجوع للقائمة", callback_data="menu")]])
 
 def build_question_keyboard(qid, idx, total, state, time_left=None):
-    """أزرار التنقل والإضافية (بدون أزرار الخيارات)"""
     buttons = []
     nav = []
     if idx > 0:
@@ -341,7 +340,6 @@ def build_question_keyboard(qid, idx, total, state, time_left=None):
     return InlineKeyboardMarkup(buttons)
 
 def build_option_buttons(q, state):
-    """إنشاء أزرار الخيارات مع حالة الإجابة"""
     qid, question, options, answer, explanation, category = q
     buttons = []
     ans = state.get('answers', {})
@@ -361,7 +359,6 @@ def build_option_buttons(q, state):
     return InlineKeyboardMarkup(buttons)
 
 def format_question_header(q, idx, total, time_left=None):
-    """تنسيق رأس السؤال بدون الخيارات"""
     qid, question, options, answer, explanation, category = q
     cat = escape_html(category or "غير مصنف")
     q_text = escape_html(question)
