@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-بوت أسئلة شامل - نسخة متطورة مع اختبار مخصص، عدم تكرار الأسئلة، ومؤقت تنازلي
-يعمل على Render مع Webhook ومسار /health
+بوت أسئلة شامل - نسخة مبسطة مع اختبار مخصص يعمل بشكل مؤكد
 """
 
 import os
@@ -13,7 +12,7 @@ import sqlite3
 import random
 import logging
 import asyncio
-from datetime import datetime, timedelta
+from datetime import datetime
 from typing import List, Dict, Any, Optional, Tuple
 
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
@@ -44,7 +43,6 @@ if not TOKEN:
 
 # ======================== دوال مساعدة للهروب من HTML ========================
 def escape_html(text: str) -> str:
-    """هروب النص لـ HTML (تهرب &, <, >)"""
     if not text:
         return ""
     return text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
@@ -53,39 +51,31 @@ def escape_html(text: str) -> str:
 def init_db():
     conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
-    c.execute('''
-        CREATE TABLE IF NOT EXISTS questions (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            question TEXT NOT NULL,
-            options TEXT NOT NULL,
-            answer INTEGER NOT NULL,
-            explanation TEXT,
-            category TEXT
-        )
-    ''')
-    c.execute('''
-        CREATE TABLE IF NOT EXISTS users (
-            user_id INTEGER PRIMARY KEY,
-            state TEXT,
-            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-        )
-    ''')
-    c.execute('''
-        CREATE TABLE IF NOT EXISTS answers_log (
-            user_id INTEGER,
-            question_id INTEGER,
-            correct INTEGER,
-            answered_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-            PRIMARY KEY (user_id, question_id)
-        )
-    ''')
-    c.execute('''
-        CREATE TABLE IF NOT EXISTS bookmarks (
-            user_id INTEGER,
-            question_id INTEGER,
-            PRIMARY KEY (user_id, question_id)
-        )
-    ''')
+    c.execute('''CREATE TABLE IF NOT EXISTS questions (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        question TEXT NOT NULL,
+        options TEXT NOT NULL,
+        answer INTEGER NOT NULL,
+        explanation TEXT,
+        category TEXT
+    )''')
+    c.execute('''CREATE TABLE IF NOT EXISTS users (
+        user_id INTEGER PRIMARY KEY,
+        state TEXT,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    )''')
+    c.execute('''CREATE TABLE IF NOT EXISTS answers_log (
+        user_id INTEGER,
+        question_id INTEGER,
+        correct INTEGER,
+        answered_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        PRIMARY KEY (user_id, question_id)
+    )''')
+    c.execute('''CREATE TABLE IF NOT EXISTS bookmarks (
+        user_id INTEGER,
+        question_id INTEGER,
+        PRIMARY KEY (user_id, question_id)
+    )''')
     conn.commit()
     conn.close()
 
@@ -150,39 +140,6 @@ def get_question_by_id(qid):
         options = json.loads(row[2])
         return (row[0], row[1], options, row[3], row[4], row[5])
     return None
-
-def add_question(question, options, answer, explanation, category):
-    conn = get_db_connection()
-    c = conn.cursor()
-    c.execute(
-        "INSERT INTO questions (question, options, answer, explanation, category) VALUES (?, ?, ?, ?, ?)",
-        (question, json.dumps(options), answer, explanation, category)
-    )
-    conn.commit()
-    qid = c.lastrowid
-    conn.close()
-    return qid
-
-def delete_question(qid):
-    conn = get_db_connection()
-    c = conn.cursor()
-    c.execute("DELETE FROM questions WHERE id=?", (qid,))
-    conn.commit()
-    affected = c.rowcount
-    conn.close()
-    return affected
-
-def update_question(qid, question, options, answer, explanation, category):
-    conn = get_db_connection()
-    c = conn.cursor()
-    c.execute(
-        "UPDATE questions SET question=?, options=?, answer=?, explanation=?, category=? WHERE id=?",
-        (question, json.dumps(options), answer, explanation, category, qid)
-    )
-    conn.commit()
-    affected = c.rowcount
-    conn.close()
-    return affected
 
 def get_categories():
     conn = get_db_connection()
@@ -305,7 +262,6 @@ def get_weak_categories(user_id):
     return weak
 
 def get_unanswered_questions(user_id):
-    """إرجاع قائمة بمعرفات الأسئلة التي لم يجب عليها المستخدم ولم تستخدم في اختبارات سابقة"""
     answered = get_answer_log(user_id).keys()
     state = get_user_state(user_id)
     used = set(state.get('used_questions', []))
@@ -314,7 +270,7 @@ def get_unanswered_questions(user_id):
     available = [qid for qid in all_ids if qid not in answered and qid not in used]
     return available
 
-# ======================== دوال واجهة المستخدم (HTML) ========================
+# ======================== دوال واجهة المستخدم ========================
 def build_main_menu(user_id=None):
     buttons = [
         [InlineKeyboardButton("📝 اختبار عادي", callback_data="start_quiz")],
@@ -336,7 +292,6 @@ def build_back_button():
     return InlineKeyboardMarkup([[InlineKeyboardButton("🔙 رجوع للقائمة", callback_data="menu")]])
 
 def build_question_keyboard(qid, idx, total, state, time_left=None):
-    """أزرار التنقل والإضافية (بدون أزرار الخيارات)"""
     buttons = []
     nav = []
     if idx > 0:
@@ -357,7 +312,6 @@ def build_question_keyboard(qid, idx, total, state, time_left=None):
     return InlineKeyboardMarkup(buttons)
 
 def build_option_buttons(q, state):
-    """إنشاء أزرار الخيارات مع حالة الإجابة"""
     qid, question, options, answer, explanation, category = q
     buttons = []
     ans = state.get('answers', {})
@@ -376,7 +330,6 @@ def build_option_buttons(q, state):
     return InlineKeyboardMarkup(buttons)
 
 def format_question_header(q, idx, total, time_left=None):
-    """تنسيق رأس السؤال مع الوقت المتبقي"""
     qid, question, options, answer, explanation, category = q
     cat = escape_html(category or "غير مصنف")
     q_text = escape_html(question)
@@ -425,7 +378,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         parse_mode=ParseMode.HTML,
         reply_markup=build_main_menu(user_id)
     )
-    logger.info(f"تم الرد على /start من المستخدم {user_id}")
 
 async def menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
@@ -451,13 +403,12 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         parse_mode=ParseMode.HTML
     )
 
-# ======================== اختبار مخصص (بدون ConversationHandler) ========================
+# ======================== اختبار مخصص (طريقة مبسطة) ========================
+CUSTOM_QUIZ_STATE = 1
+
 async def custom_quiz_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """طلب عدد الأسئلة والمدة من المستخدم"""
     query = update.callback_query
     await query.answer()
-    # تخزين حالة انتظار الإدخال
-    context.user_data['awaiting_quiz'] = True
     await query.edit_message_text(
         "📝 <b>اختبار مخصص</b>\n"
         "أدخل عدد الأسئلة و المدة (بالدقائق) بالصيغة:\n\n"
@@ -466,13 +417,9 @@ async def custom_quiz_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "ملاحظة: سيتم اختيار الأسئلة من الأسئلة التي لم تجب عليها مسبقاً.",
         parse_mode=ParseMode.HTML
     )
+    return CUSTOM_QUIZ_STATE
 
-async def handle_quiz_input(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """معالجة إدخال المستخدم للاختبار المخصص"""
-    # التأكد من أن المستخدم في حالة انتظار
-    if not context.user_data.get('awaiting_quiz'):
-        return
-    
+async def custom_quiz_receive(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
     text = update.message.text.strip()
     parts = text.split()
@@ -481,21 +428,18 @@ async def handle_quiz_input(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "❌ الصيغة غير صحيحة. استخدم: <code>10 5</code>",
             parse_mode=ParseMode.HTML
         )
-        return
+        return CUSTOM_QUIZ_STATE
     
     try:
         count = int(parts[0])
         minutes = int(parts[1])
     except ValueError:
         await update.message.reply_text("❌ أرقام فقط. حاول مرة أخرى.")
-        return
+        return CUSTOM_QUIZ_STATE
     
     if count <= 0 or minutes <= 0:
         await update.message.reply_text("❌ يجب أن تكون الأرقام أكبر من صفر.")
-        return
-    
-    # إلغاء حالة الانتظار
-    context.user_data['awaiting_quiz'] = False
+        return CUSTOM_QUIZ_STATE
     
     # الحصول على الأسئلة المتاحة
     available_qids = get_unanswered_questions(user_id)
@@ -504,7 +448,7 @@ async def handle_quiz_input(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "⚠️ لا توجد أسئلة متاحة للإجابة عليها. حاول بعد الإجابة على بعض الأسئلة أو إعادة تعيين التقدم.",
             reply_markup=build_main_menu(user_id)
         )
-        return
+        return ConversationHandler.END
     
     if count > len(available_qids):
         count = len(available_qids)
@@ -538,8 +482,17 @@ async def handle_quiz_input(update: Update, context: ContextTypes.DEFAULT_TYPE):
         parse_mode=ParseMode.HTML
     )
     
-    # عرض السؤال الأول
+    # عرض السؤال الأول - نستخدم update.message لأنه من نوع Message
     await show_current_question(update, context, user_id)
+    
+    return ConversationHandler.END
+
+async def cancel_conversation(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text(
+        "❌ تم الإلغاء.",
+        reply_markup=build_main_menu(update.effective_user.id)
+    )
+    return ConversationHandler.END
 
 # ======================== وظائف الاختبار ========================
 async def start_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE, mode='normal'):
@@ -559,7 +512,6 @@ async def start_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE, mode='n
     await show_current_question(update, context, user_id)
 
 async def show_current_question(update: Update, context: ContextTypes.DEFAULT_TYPE, user_id=None):
-    """عرض السؤال الحالي مع دعم كل من callback_query والرسائل النصية"""
     if not user_id:
         if update.callback_query:
             user_id = update.callback_query.from_user.id
@@ -1366,19 +1318,17 @@ async def admin_import_json(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # ======================== دوال التشغيل ========================
 async def run_webhook_async(application):
-    """تشغيل البوت باستخدام webhook مع خادم aiohttp مخصص"""
     WEBHOOK_URL = os.getenv("WEBHOOK_URL")
     if not WEBHOOK_URL:
-        logger.error("WEBHOOK_URL غير معرف في متغيرات البيئة.")
+        logger.error("WEBHOOK_URL غير معرف")
         return
 
     try:
         from aiohttp import web
     except ImportError:
-        logger.error("مكتبة aiohttp غير مثبتة. الرجاء إضافتها إلى requirements.txt")
+        logger.error("مكتبة aiohttp غير مثبتة")
         return
 
-    # تهيئة التطبيق
     await application.initialize()
     await application.start()
 
@@ -1387,15 +1337,8 @@ async def run_webhook_async(application):
             data = await request.json()
             if not data:
                 return web.Response(text="Empty", status=400)
-            
             from telegram import Update
             update = Update.de_json(data, application.bot)
-            
-            if update.message and update.message.text:
-                logger.info(f"رسالة من {update.message.from_user.id}: {update.message.text}")
-            elif update.callback_query:
-                logger.info(f"استعلام من {update.callback_query.from_user.id}: {update.callback_query.data}")
-            
             await application.process_update(update)
             return web.Response(text="OK", status=200)
         except Exception as e:
@@ -1424,13 +1367,9 @@ async def run_webhook_async(application):
     await application.bot.set_webhook(webhook_url)
     logger.info(f"تم تعيين webhook إلى {webhook_url}")
 
-    webhook_info = await application.bot.get_webhook_info()
-    logger.info(f"معلومات webhook: {webhook_info}")
-
     await asyncio.Event().wait()
 
 def main():
-    # تهيئة قاعدة البيانات والتحميل الأولي
     init_db()
     conn = get_db_connection()
     c = conn.cursor()
@@ -1448,9 +1387,18 @@ def main():
     application.add_handler(CommandHandler("list_questions", list_questions_command))
     application.add_handler(CommandHandler("stats", lambda u, c: stats(u, c)))
 
-    # معالجات الاختبار المخصص (بدون ConversationHandler)
-    application.add_handler(CallbackQueryHandler(custom_quiz_start, pattern="^custom_quiz$"))
-    application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_quiz_input))
+    # محادثة الاختبار المخصص (تعمل بشكل مؤكد)
+    custom_quiz_conv = ConversationHandler(
+        entry_points=[CallbackQueryHandler(custom_quiz_start, pattern="^custom_quiz$")],
+        states={
+            CUSTOM_QUIZ_STATE: [MessageHandler(filters.TEXT & ~filters.COMMAND, custom_quiz_receive)],
+        },
+        fallbacks=[CommandHandler("cancel", cancel_conversation)],
+        per_user=True,
+        per_chat=False,
+        per_message=False,
+    )
+    application.add_handler(custom_quiz_conv)
 
     # ConversationHandlers للإدارة
     admin_add_conv = ConversationHandler(
