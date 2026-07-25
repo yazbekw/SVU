@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-
+"""
+بوت أسئلة شامل - نسخة تعمل على Render مع Webhook ومسار /health
+تم إصلاح مشكلة عدم استجابة /start وجميع أخطاء بناء الجملة
 """
 
 import os
@@ -42,6 +44,7 @@ if not TOKEN:
 
 # ======================== دوال مساعدة للهروب من HTML ========================
 def escape_html(text: str) -> str:
+    """هروب النص لـ HTML (تهرب &, <, >)"""
     if not text:
         return ""
     return text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
@@ -319,6 +322,7 @@ def build_back_button():
     return InlineKeyboardMarkup([[InlineKeyboardButton("🔙 رجوع للقائمة", callback_data="menu")]])
 
 def build_question_keyboard(qid, idx, total, state, time_left=None):
+    """أزرار التنقل والإضافية (بدون أزرار الخيارات)"""
     buttons = []
     nav = []
     if idx > 0:
@@ -339,6 +343,7 @@ def build_question_keyboard(qid, idx, total, state, time_left=None):
     return InlineKeyboardMarkup(buttons)
 
 def build_option_buttons(q, state):
+    """إنشاء أزرار الخيارات مع حالة الإجابة"""
     qid, question, options, answer, explanation, category = q
     buttons = []
     ans = state.get('answers', {})
@@ -347,7 +352,6 @@ def build_option_buttons(q, state):
     
     for i, opt in enumerate(options):
         text = escape_html(opt)
-        # تحديد حالة الزر
         if answered:
             if i == answer:
                 text = "✅ " + text
@@ -358,6 +362,7 @@ def build_option_buttons(q, state):
     return InlineKeyboardMarkup(buttons)
 
 def format_question_header(q, idx, total, time_left=None):
+    """تنسيق رأس السؤال بدون الخيارات"""
     qid, question, options, answer, explanation, category = q
     cat = escape_html(category or "غير مصنف")
     q_text = escape_html(question)
@@ -488,24 +493,18 @@ async def show_current_question(update: Update, context: ContextTypes.DEFAULT_TY
             return
     show_explanation = (state.get('mode') == 'study')
     if show_explanation:
-        # في وضع التعلم نضع الإجابة الصحيحة تلقائياً في حالة المستخدم لتمييزها
         state['answers'][str(qid)] = q[3]
         save_user_state(user_id, state)
     
     total = len(qids)
-    # بناء رأس السؤال
     header_text = format_question_header(q, idx, total, time_left)
     
-    # إضافة الشرح إذا كان مطلوباً
     if show_explanation and q[4]:
         header_text += f"\n📖 <b>الشرح:</b>\n{escape_html(q[4])}"
     
-    # أزرار الخيارات
     option_keyboard = build_option_buttons(q, state)
-    # أزرار التنقل والإضافية
     nav_keyboard = build_question_keyboard(qid, idx, total, state, time_left)
     
-    # دمج الأزرار (صفوف الخيارات أولاً ثم صفوف التنقل)
     combined_keyboard = InlineKeyboardMarkup(
         option_keyboard.inline_keyboard + nav_keyboard.inline_keyboard
     )
@@ -563,7 +562,6 @@ async def answer_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         qid = int(qid_str)
         opt = int(opt_str)
         state = get_user_state(user_id)
-        # التأكد من أن السؤال في القائمة الحالية
         if qid not in state['current_ids']:
             await query.answer("السؤال ليس في القائمة الحالية!")
             return
@@ -571,7 +569,6 @@ async def answer_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if not q:
             await query.answer("السؤال غير موجود!")
             return
-        # التأكد من عدم الإجابة مسبقاً
         if str(qid) in state.get('answers', {}):
             await query.answer("لقد أجبت بالفعل!")
             return
@@ -579,7 +576,6 @@ async def answer_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         state['answers'][str(qid)] = opt
         log_answer(user_id, qid, correct)
         save_user_state(user_id, state)
-        # إعادة عرض السؤال مع الإجابة المحددة
         await show_current_question(update, context, user_id)
 
 async def nav_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -1253,6 +1249,7 @@ async def admin_import_json(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # ======================== دوال التشغيل ========================
 async def run_webhook_async(application):
+    """تشغيل البوت باستخدام webhook مع خادم aiohttp مخصص مع تهيئة صحيحة"""
     WEBHOOK_URL = os.getenv("WEBHOOK_URL")
     if not WEBHOOK_URL:
         logger.error("WEBHOOK_URL غير معرف في متغيرات البيئة.")
@@ -1274,7 +1271,6 @@ async def run_webhook_async(application):
     async def telegram_webhook(request):
         try:
             data = await request.json()
-            # التأكد من وجود التحديث
             if not data:
                 logger.warning("بيانات فارغة مستلمة")
                 return web.Response(text="Empty data", status=400)
