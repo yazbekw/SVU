@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-بوت أسئلة شامل - حل نهائي يعمل مع اختبار مخصص وأزرار تفاعلية
+بوت أسئلة شامل - الحل النهائي الذي يعمل بشكل مضمون
 """
 
 import os
@@ -292,7 +292,6 @@ def build_back_button():
     return InlineKeyboardMarkup([[InlineKeyboardButton("🔙 رجوع للقائمة", callback_data="menu")]])
 
 def build_question_keyboard(qid, idx, total, state, time_left=None):
-    """أزرار التنقل والإضافية (بدون أزرار الخيارات)"""
     buttons = []
     nav = []
     if idx > 0:
@@ -313,7 +312,6 @@ def build_question_keyboard(qid, idx, total, state, time_left=None):
     return InlineKeyboardMarkup(buttons)
 
 def build_option_buttons(q, state):
-    """إنشاء أزرار الخيارات مع حالة الإجابة"""
     qid, question, options, answer, explanation, category = q
     buttons = []
     ans = state.get('answers', {})
@@ -327,13 +325,11 @@ def build_option_buttons(q, state):
                 text = "✅ " + text
             elif i == selected:
                 text = "❌ " + text
-        # المفتاح: نحن نستخدم "ans_" متبوعة بـ qid ثم _ ثم i
         callback = f"ans_{qid}_{i}" if not answered else "noop"
         buttons.append([InlineKeyboardButton(text, callback_data=callback)])
     return InlineKeyboardMarkup(buttons)
 
 def format_question_header(q, idx, total, time_left=None):
-    """تنسيق رأس السؤال مع الوقت المتبقي"""
     qid, question, options, answer, explanation, category = q
     cat = escape_html(category or "غير مصنف")
     q_text = escape_html(question)
@@ -409,7 +405,6 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # ======================== اختبار مخصص ========================
 async def custom_quiz_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """طلب عدد الأسئلة والمدة من المستخدم"""
     query = update.callback_query
     await query.answer()
     context.user_data['awaiting_custom_quiz'] = True
@@ -423,7 +418,6 @@ async def custom_quiz_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 async def handle_quiz_input(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """معالجة إدخال المستخدم للاختبار المخصص"""
     if not context.user_data.get('awaiting_custom_quiz'):
         return
     
@@ -448,25 +442,22 @@ async def handle_quiz_input(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("❌ يجب أن تكون الأرقام أكبر من صفر.")
         return
     
-    # إلغاء حالة الانتظار
     context.user_data['awaiting_custom_quiz'] = False
     
-    # الحصول على الأسئلة المتاحة
     available_qids = get_unanswered_questions(user_id)
     if not available_qids:
         await update.message.reply_text(
-            "⚠️ لا توجد أسئلة متاحة للإجابة عليها. حاول بعد الإجابة على بعض الأسئلة أو إعادة تعيين التقدم.",
+            "⚠️ لا توجد أسئلة متاحة للإجابة عليها.",
             reply_markup=build_main_menu(user_id)
         )
         return
     
     if count > len(available_qids):
         count = len(available_qids)
-        await update.message.reply_text(f"⚠️ العدد المطلوب أكبر من المتاح، سيتم استخدام {count} سؤال.")
+        await update.message.reply_text(f"⚠️ سيتم استخدام {count} سؤال.")
     
     selected_qids = random.sample(available_qids, count)
     
-    # تجهيز حالة المستخدم
     state = get_user_state(user_id)
     state['current_ids'] = selected_qids
     state['current_index'] = 0
@@ -477,7 +468,6 @@ async def handle_quiz_input(update: Update, context: ContextTypes.DEFAULT_TYPE):
     state['used_questions'] = state.get('used_questions', []) + selected_qids
     save_user_state(user_id, state)
     
-    # جدولة مهمة انتهاء الوقت
     job = context.job_queue.run_once(
         quiz_timeout,
         minutes * 60,
@@ -491,8 +481,30 @@ async def handle_quiz_input(update: Update, context: ContextTypes.DEFAULT_TYPE):
         parse_mode=ParseMode.HTML
     )
     
-    # عرض السؤال الأول
-    await show_current_question(update, context, user_id)
+    # ===== إرسال السؤال الأول مباشرة باستخدام bot.send_message =====
+    first_qid = selected_qids[0]
+    q = get_question_by_id(first_qid)
+    if q:
+        # الوقت المتبقي (بالثواني)
+        time_left = minutes * 60
+        
+        # تنسيق النص والأزرار
+        header_text = format_question_header(q, 0, len(selected_qids), time_left)
+        option_keyboard = build_option_buttons(q, state)
+        nav_keyboard = build_question_keyboard(first_qid, 0, len(selected_qids), state, time_left)
+        combined_keyboard = InlineKeyboardMarkup(
+            option_keyboard.inline_keyboard + nav_keyboard.inline_keyboard
+        )
+        
+        # إرسال السؤال
+        await context.bot.send_message(
+            chat_id=user_id,
+            text=header_text,
+            parse_mode=ParseMode.HTML,
+            reply_markup=combined_keyboard
+        )
+    else:
+        await update.message.reply_text("⚠️ حدث خطأ في تحميل السؤال الأول.")
 
 # ======================== وظائف الاختبار ========================
 async def start_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE, mode='normal'):
@@ -512,7 +524,6 @@ async def start_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE, mode='n
     await show_current_question(update, context, user_id)
 
 async def show_current_question(update: Update, context: ContextTypes.DEFAULT_TYPE, user_id=None):
-    """عرض السؤال الحالي مع دعم كل من callback_query والرسائل النصية"""
     if not user_id:
         if update.callback_query:
             user_id = update.callback_query.from_user.id
@@ -578,7 +589,6 @@ async def show_current_question(update: Update, context: ContextTypes.DEFAULT_TY
             )
     except Exception as e:
         logger.error(f"خطأ في عرض السؤال: {e}")
-        # محاولة إرسال رسالة جديدة إذا فشل التحرير
         if update.callback_query:
             await update.callback_query.message.reply_text(
                 header_text,
@@ -624,7 +634,6 @@ async def send_quiz_complete(update, context, user_id):
 
 # ======================== معالجات الأزرار ========================
 async def answer_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """معالجة اختيار إجابة من المستخدم"""
     query = update.callback_query
     await query.answer()
     user_id = query.from_user.id
@@ -634,20 +643,16 @@ async def answer_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
     
     try:
-        # استخراج qid و opt من البيانات
         parts = data.split("_")
         if len(parts) != 3:
-            logger.error(f"بيانات غير صحيحة: {data}")
             return
         qid = int(parts[1])
         opt = int(parts[2])
-    except (ValueError, IndexError) as e:
-        logger.error(f"خطأ في تحليل البيانات: {e}")
+    except (ValueError, IndexError):
         return
     
     state = get_user_state(user_id)
     
-    # التحقق من أن السؤال في القائمة الحالية
     if qid not in state['current_ids']:
         await query.answer("السؤال ليس في القائمة الحالية!")
         return
@@ -657,18 +662,16 @@ async def answer_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.answer("السؤال غير موجود!")
         return
     
-    # التحقق من عدم الإجابة مسبقاً
     if str(qid) in state.get('answers', {}):
         await query.answer("لقد أجبت بالفعل!")
         return
     
-    # تسجيل الإجابة
     correct = (opt == q[3])
     state['answers'][str(qid)] = opt
     log_answer(user_id, qid, correct)
     save_user_state(user_id, state)
     
-    # إعادة عرض السؤال مع الإجابة المحددة
+    # نمرر update (وهو callback_query) ليعيد عرض السؤال
     await show_current_question(update, context, user_id)
 
 async def nav_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -711,11 +714,9 @@ async def explain_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
             )
 
 async def back_from_explain(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """العودة من عرض الشرح إلى السؤال"""
     query = update.callback_query
     await query.answer()
     user_id = query.from_user.id
-    # نمرر نفس update (وهو callback_query) إلى show_current_question
     await show_current_question(update, context, user_id)
 
 async def bookmark_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -1414,7 +1415,7 @@ def main():
     application.add_handler(CommandHandler("list_questions", list_questions_command))
     application.add_handler(CommandHandler("stats", lambda u, c: stats(u, c)))
 
-    # معالجات الاختبار المخصص
+    # اختبار مخصص
     application.add_handler(CallbackQueryHandler(custom_quiz_start, pattern="^custom_quiz$"))
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_quiz_input))
 
@@ -1476,7 +1477,7 @@ def main():
     application.add_handler(CallbackQueryHandler(admin_import_json, pattern="^admin_import_json$"))
     application.add_handler(CallbackQueryHandler(admin_list, pattern="^admin_list$"))
     
-    # معالجات الأزرار الأساسية
+    # الأزرار الأساسية
     application.add_handler(CallbackQueryHandler(answer_callback, pattern="^ans_"))
     application.add_handler(CallbackQueryHandler(nav_callback, pattern="^nav_"))
     application.add_handler(CallbackQueryHandler(explain_callback, pattern="^show_explain_"))
