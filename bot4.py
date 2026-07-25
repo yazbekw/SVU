@@ -408,7 +408,6 @@ async def custom_quiz_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """طلب عدد الأسئلة والمدة من المستخدم"""
     query = update.callback_query
     await query.answer()
-    # تخزين حالة انتظار الإدخال
     context.user_data['awaiting_custom_quiz'] = True
     await query.edit_message_text(
         "📝 <b>اختبار مخصص</b>\n"
@@ -417,11 +416,10 @@ async def custom_quiz_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "مثال: <code>10 5</code> (يعني 10 أسئلة و 5 دقائق)\n\n"
         "ملاحظة: سيتم اختيار الأسئلة من الأسئلة التي لم تجب عليها مسبقاً.",
         parse_mode=ParseMode.HTML
-    )
-    # لا نستخدم ConversationHandler، بل ننتظر الرسالة النصية
+    )بل ننتظر الرسالة النصية
 
 async def handle_quiz_input(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """معالجة إدخال المستخدم للاختبار المخصص - حل نهائي"""
+    """معالجة إدخال المستخدم للاختبار المخصص - إرسال السؤال الأول باستخدام update.message"""
     if not context.user_data.get('awaiting_custom_quiz'):
         return
     
@@ -446,22 +444,26 @@ async def handle_quiz_input(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("❌ يجب أن تكون الأرقام أكبر من صفر.")
         return
     
+    # إلغاء حالة الانتظار
     context.user_data['awaiting_custom_quiz'] = False
     
+    # الحصول على الأسئلة المتاحة
     available_qids = get_unanswered_questions(user_id)
     if not available_qids:
         await update.message.reply_text(
-            "⚠️ لا توجد أسئلة متاحة للإجابة عليها.",
+            "⚠️ لا توجد أسئلة متاحة للإجابة عليها. حاول بعد الإجابة على بعض الأسئلة أو إعادة تعيين التقدم.",
             reply_markup=build_main_menu(user_id)
         )
         return
     
     if count > len(available_qids):
         count = len(available_qids)
-        await update.message.reply_text(f"⚠️ سيتم استخدام {count} سؤال.")
+        await update.message.reply_text(f"⚠️ العدد المطلوب أكبر من المتاح، سيتم استخدام {count} سؤال.")
     
     selected_qids = random.sample(available_qids, count)
+    selected_questions = [get_question_by_id(qid) for qid in selected_qids]
     
+    # تجهيز حالة المستخدم
     state = get_user_state(user_id)
     state['current_ids'] = selected_qids
     state['current_index'] = 0
@@ -472,6 +474,7 @@ async def handle_quiz_input(update: Update, context: ContextTypes.DEFAULT_TYPE):
     state['used_questions'] = state.get('used_questions', []) + selected_qids
     save_user_state(user_id, state)
     
+    # جدولة مهمة انتهاء الوقت
     job = context.job_queue.run_once(
         quiz_timeout,
         minutes * 60,
@@ -485,26 +488,10 @@ async def handle_quiz_input(update: Update, context: ContextTypes.DEFAULT_TYPE):
         parse_mode=ParseMode.HTML
     )
     
-    # --- إرسال السؤال الأول مباشرة ---
-    first_qid = selected_qids[0]
-    q = get_question_by_id(first_qid)
-    if q:
-        time_left = minutes * 60
-        header_text = format_question_header(q, 0, len(selected_qids), time_left)
-        option_keyboard = build_option_buttons(q, state)
-        nav_keyboard = build_question_keyboard(first_qid, 0, len(selected_qids), state, time_left)
-        combined_keyboard = InlineKeyboardMarkup(
-            option_keyboard.inline_keyboard + nav_keyboard.inline_keyboard
-        )
-        await context.bot.send_message(
-            chat_id=user_id,
-            text=header_text,
-            parse_mode=ParseMode.HTML,
-            reply_markup=combined_keyboard
-        )
-    else:
-        await update.message.reply_text("⚠️ حدث خطأ في تحميل السؤال الأول.")
-
+    # عرض السؤال الأول باستخدام update.message.reply_text (نفس السياق)
+    # نمرر user_id إلى show_current_question التي ستتعامل مع update المناسب
+    await show_current_question(update, context, user_id)
+    
 # ======================== وظائف الاختبار ========================
 async def start_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE, mode='normal'):
     query = update.callback_query
@@ -523,6 +510,7 @@ async def start_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE, mode='n
     await show_current_question(update, context, user_id)
 
 async def show_current_question(update: Update, context: ContextTypes.DEFAULT_TYPE, user_id=None):
+    """عرض السؤال الحالي مع دعم كل من callback_query والرسائل النصية"""
     if not user_id:
         if update.callback_query:
             user_id = update.callback_query.from_user.id
@@ -575,12 +563,14 @@ async def show_current_question(update: Update, context: ContextTypes.DEFAULT_TY
     
     try:
         if update.callback_query:
+            # تعديل الرسالة الحالية (من زر)
             await update.callback_query.edit_message_text(
                 header_text,
                 parse_mode=ParseMode.HTML,
                 reply_markup=combined_keyboard
             )
         else:
+            # إرسال رسالة جديدة (من أمر /start أو اختبار مخصص)
             await update.message.reply_text(
                 header_text,
                 parse_mode=ParseMode.HTML,
@@ -588,6 +578,7 @@ async def show_current_question(update: Update, context: ContextTypes.DEFAULT_TY
             )
     except Exception as e:
         logger.error(f"خطأ في عرض السؤال: {e}")
+        # محاولة إرسال رسالة جديدة إذا فشل التحرير
         if update.callback_query:
             await update.callback_query.message.reply_text(
                 header_text,
@@ -601,6 +592,14 @@ async def show_current_question(update: Update, context: ContextTypes.DEFAULT_TY
                 reply_markup=combined_keyboard
             )
 
+async def back_from_explain(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """العودة من عرض الشرح إلى السؤال"""
+    query = update.callback_query
+    await query.answer()
+    user_id = query.from_user.id
+    # نمرر نفس update (وهو callback_query) إلى show_current_question
+    await show_current_question(update, context, user_id)
+    
 async def send_quiz_complete(update, context, user_id):
     state = get_user_state(user_id)
     total = len(state['current_ids'])
