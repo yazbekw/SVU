@@ -579,18 +579,18 @@
         "explanation": "🔍 نحتاج حال (adverb) لوصف الفعل 'changed'. 'Unexpectedly' هي الحال الصحيح بمعنى 'بشكل غير متوقع'. 'Unexpected' صفة، و'Expectedly' تعني 'بشكل متوقع' (عكس المعنى)."
       },
       {
-        "id": 45,
-        "category": "Vocabulary",
-        "question": "I do not know how we are going to get to the airport. We will have to ______ for a taxi to come.",
-        "options": [
-          "Arrange",
-          "Plan",
-          "Hire",
-          "Book"
-        ],
-        "answer": 3,
-        "explanation": "🔍 'Book a taxi' تعني 'يحجز سيارة أجرة'، وهي العبارة الأكثر شيوعاً. 'Arrange' تعني 'يرتب'، و'Plan' تعني 'يخطط'، و'Hire' تعني 'يستأجر' (ولكن ليس مع 'for')."
-      },
+      "id": 45,
+      "category": "Vocabulary",
+      "question": "I do not know how we are going to get to the airport. We will have to ______ for a taxi to come.",
+      "options": [
+        "Arrange",
+        "Plan",
+        "Hire",
+        "Book"
+      ],
+      "answer": 0,
+      "explanation": "🔍 'Arrange for a taxi' تعني 'يرتب لسيارة أجرة'، وهي العبارة الصحيحة نحويًا لأن الفعل 'Arrange' يأتي مع حرف الجر 'for' في هذا السياق. 'Book' تعني 'يحجز' ولكنها تأتي مع مفعول به مباشر (book a taxi) بدون 'for'، و'Plan' تعني 'يخطط' وهي أقل دقة، و'Hire' تعني 'يستأجر' ولا تستخدم مع 'for' بهذا المعنى."
+    },
       {
         "id": 46,
         "category": "Vocabulary",
