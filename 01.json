@@ -746,18 +746,18 @@
         "explanation": "🔍 'No concern of theirs' تعني 'لا شأن لهم به' أو 'لا يعنيهم'. 'Relation' تعني 'علاقة'، و'Relevance' تعني 'صلة'، و'Influence' تعني 'تأثير'."
       },
       {
-        "id": 58,
-        "category": "Grammar - Tenses",
-        "question": "I ______ eat all this food.",
-        "options": [
-          "would not better",
-          "Would better not",
-          "Better not to",
-          "Would better not to"
-        ],
-        "answer": 1,
-        "explanation": "🔍 التعبير الصحيح هو 'had better not'، ولكن الخيار الأقرب هنا هو 'Would better not'. 'had better' يستخدم للنصيحة القوية: had better + V1."
-      },
+      "id": 58,
+      "category": "Grammar - Tenses",
+      "question": "I ______ eat all this food.",
+      "options": [
+        "would not better",
+        "had better not",
+        "Better not to",
+        "Would better not to"
+      ],
+      "answer": 1,
+      "explanation": "🔍 التعبير الصحيح هو 'had better not' للنصيحة القوية في النفي. القاعدة: had better + V1. 'would better' غير صحيحة نحويًا."
+    },
       {
         "id": 59,
         "category": "Vocabulary",
@@ -1088,7 +1088,7 @@
         "question": "A: Who told you they were moving? B: They told me ______.",
         "options": [
           "By themselves",
-          "On their ow",
+          "On their own",
           "Themselves",
           "himself"
         ],
