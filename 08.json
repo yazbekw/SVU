@@ -1130,18 +1130,18 @@
         "explanation": "🔍 'Complain to' = يشتكي لـ. الشكوى للنادل. 'Protest' و'Criticise' و'Consult' لا تناسب."
       },
       {
-        "id": 787,
-        "category": "Grammar - Tenses",
-        "question": "I do not know how we are going to get to the airport. We will have to ______ for a taxi.",
-        "options": [
-          "arrange",
-          "plan",
-          "hire",
-          "book"
-        ],
-        "answer": 3,
-        "explanation": "🔍 'Book a taxi' = يحجز سيارة أجرة. 'Arrange' و'Plan' و'Hire' (مع 'for') لا تستخدم بهذا المعنى."
-      },
+      "id": 787,
+      "category": "Grammar - Tenses",
+      "question": "I do not know how we are going to get to the airport. We will have to ______ for a taxi.",
+      "options": [
+        "arrange",
+        "plan",
+        "hire",
+        "book"
+      ],
+      "answer": 0,
+      "explanation": "🔍 'Arrange for a taxi' تعني 'يرتب لسيارة أجرة'، وهي العبارة الصحيحة نحويًا لأن الفعل 'Arrange' يأتي مع حرف الجر 'for' في هذا السياق. 'Book' تعني 'يحجز' ولكنها تأتي مع مفعول به مباشر (book a taxi) بدون 'for'، و'Plan' تعني 'يخطط' وهي أقل دقة، و'Hire' تعني 'يستأجر' ولا تستخدم مع 'for' بهذا المعنى."
+    },
       {
         "id": 788,
         "category": "Grammar - Tenses",
